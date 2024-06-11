@@ -1,0 +1,697 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FinalProject.bundle.scp.css",
+      "PackagePath": "staticwebassets\\FinalProject.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\css\\animate.css",
+      "PackagePath": "staticwebassets\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\css\\animation.css",
+      "PackagePath": "staticwebassets\\css\\animation.css"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\css\\custom-animate.css",
+      "PackagePath": "staticwebassets\\css\\custom-animate.css"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\css\\flaticon.css",
+      "PackagePath": "staticwebassets\\css\\flaticon.css"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\css\\images\\ui-icons_444444_256x240.html",
+      "PackagePath": "staticwebassets\\css\\images\\ui-icons_444444_256x240.html"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\css\\images\\ui-icons_777620_256x240.html",
+      "PackagePath": "staticwebassets\\css\\images\\ui-icons_777620_256x240.html"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\css\\images\\ui-icons_777777_256x240.html",
+      "PackagePath": "staticwebassets\\css\\images\\ui-icons_777777_256x240.html"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\css\\images\\ui-icons_cc0000_256x240.html",
+      "PackagePath": "staticwebassets\\css\\images\\ui-icons_cc0000_256x240.html"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\css\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\css\\jquery-ui.css"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\css\\jquery.fancybox.min.css",
+      "PackagePath": "staticwebassets\\css\\jquery.fancybox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\css\\jquery.mCustomScrollbar.min.css",
+      "PackagePath": "staticwebassets\\css\\jquery.mCustomScrollbar.min.css"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\css\\mCSB_buttons.html",
+      "PackagePath": "staticwebassets\\css\\mCSB_buttons.html"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\css\\owl.css",
+      "PackagePath": "staticwebassets\\css\\owl.css"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\css\\owl.video.play.html",
+      "PackagePath": "staticwebassets\\css\\owl.video.play.html"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\css\\timepicker.css",
+      "PackagePath": "staticwebassets\\css\\timepicker.css"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\fonts\\flaticon.eot",
+      "PackagePath": "staticwebassets\\fonts\\flaticon.eot"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\fonts\\flaticon.svg",
+      "PackagePath": "staticwebassets\\fonts\\flaticon.svg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\fonts\\flaticon.ttf",
+      "PackagePath": "staticwebassets\\fonts\\flaticon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\fonts\\flaticon.woff",
+      "PackagePath": "staticwebassets\\fonts\\flaticon.woff"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\fonts\\flaticond41d.eot",
+      "PackagePath": "staticwebassets\\fonts\\flaticond41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\fonts\\fontawesome-webfontd41d.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfontd41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\fonts\\fontawesome-webfonte0a5.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfonte0a5.eot"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\fonts\\fontawesome-webfonte0a5.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfonte0a5.svg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\fonts\\fontawesome-webfonte0a5.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfonte0a5.ttf"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\fonts\\fontawesome-webfonte0a5.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfonte0a5.woff"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\fonts\\fontawesome-webfonte0a5.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfonte0a5.woff2"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\background\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\background\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\background\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\background\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\background\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\background\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\background\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\background\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\background\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\background\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\background\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\background\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\background\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\background\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\background\\8.jpg",
+      "PackagePath": "staticwebassets\\images\\background\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\background\\pattern-1.png",
+      "PackagePath": "staticwebassets\\images\\background\\pattern-1.png"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\background\\pattern-2.png",
+      "PackagePath": "staticwebassets\\images\\background\\pattern-2.png"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\background\\pattern-3.png",
+      "PackagePath": "staticwebassets\\images\\background\\pattern-3.png"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\background\\pattern-4.png",
+      "PackagePath": "staticwebassets\\images\\background\\pattern-4.png"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\background\\pattern-5.png",
+      "PackagePath": "staticwebassets\\images\\background\\pattern-5.png"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\background\\pattern-6.png",
+      "PackagePath": "staticwebassets\\images\\background\\pattern-6.png"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\background\\pattern-7.png",
+      "PackagePath": "staticwebassets\\images\\background\\pattern-7.png"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\background\\pattern-8.png",
+      "PackagePath": "staticwebassets\\images\\background\\pattern-8.png"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\background\\service-pattern-1.png",
+      "PackagePath": "staticwebassets\\images\\background\\service-pattern-1.png"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\background\\service-pattern-2.png",
+      "PackagePath": "staticwebassets\\images\\background\\service-pattern-2.png"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\background\\service-pattern-3.png",
+      "PackagePath": "staticwebassets\\images\\background\\service-pattern-3.png"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\clients\\1.png",
+      "PackagePath": "staticwebassets\\images\\clients\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\clients\\2.png",
+      "PackagePath": "staticwebassets\\images\\clients\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\clients\\3.png",
+      "PackagePath": "staticwebassets\\images\\clients\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\clients\\4.png",
+      "PackagePath": "staticwebassets\\images\\clients\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\cross-out.png",
+      "PackagePath": "staticwebassets\\images\\cross-out.png"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\footer-big-logo.png",
+      "PackagePath": "staticwebassets\\images\\footer-big-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\footer-logo.png",
+      "PackagePath": "staticwebassets\\images\\footer-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\gallery\\1.html",
+      "PackagePath": "staticwebassets\\images\\gallery\\1.html"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\gallery\\2.html",
+      "PackagePath": "staticwebassets\\images\\gallery\\2.html"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\gallery\\3.html",
+      "PackagePath": "staticwebassets\\images\\gallery\\3.html"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\gallery\\4.html",
+      "PackagePath": "staticwebassets\\images\\gallery\\4.html"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\gallery\\footer-gallery-thumb-1.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\footer-gallery-thumb-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\gallery\\footer-gallery-thumb-2.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\footer-gallery-thumb-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\gallery\\footer-gallery-thumb-3.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\footer-gallery-thumb-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\gallery\\footer-gallery-thumb-4.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\footer-gallery-thumb-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\gallery\\footer-gallery-thumb-5.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\footer-gallery-thumb-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\gallery\\footer-gallery-thumb-6.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\footer-gallery-thumb-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\icons\\arrow-right.jpg",
+      "PackagePath": "staticwebassets\\images\\icons\\arrow-right.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\icons\\arrow.png",
+      "PackagePath": "staticwebassets\\images\\icons\\arrow.png"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\icons\\cards.png",
+      "PackagePath": "staticwebassets\\images\\icons\\cards.png"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\icons\\experiance-icon.png",
+      "PackagePath": "staticwebassets\\images\\icons\\experiance-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\icons\\hot.png",
+      "PackagePath": "staticwebassets\\images\\icons\\hot.png"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\icons\\list-icon.png",
+      "PackagePath": "staticwebassets\\images\\icons\\list-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\icons\\nba-arrow.png",
+      "PackagePath": "staticwebassets\\images\\icons\\nba-arrow.png"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\icons\\next-icon.png",
+      "PackagePath": "staticwebassets\\images\\icons\\next-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\icons\\pattern-1.png",
+      "PackagePath": "staticwebassets\\images\\icons\\pattern-1.png"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\icons\\pattern-2.png",
+      "PackagePath": "staticwebassets\\images\\icons\\pattern-2.png"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\icons\\preloader.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\preloader.svg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\icons\\prev-icon.png",
+      "PackagePath": "staticwebassets\\images\\icons\\prev-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\icons\\waves-shape.png",
+      "PackagePath": "staticwebassets\\images\\icons\\waves-shape.png"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\logo-small.png",
+      "PackagePath": "staticwebassets\\images\\logo-small.png"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\main-slider\\content-image-1.png",
+      "PackagePath": "staticwebassets\\images\\main-slider\\content-image-1.png"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\main-slider\\content-image-2.png",
+      "PackagePath": "staticwebassets\\images\\main-slider\\content-image-2.png"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\main-slider\\image-1.jpg",
+      "PackagePath": "staticwebassets\\images\\main-slider\\image-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\about-1.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\about-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\about-2.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\about-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\author-1.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\author-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\author-2.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\author-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\author-3.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\author-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\author-4.png",
+      "PackagePath": "staticwebassets\\images\\resource\\author-4.png"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\author-5.png",
+      "PackagePath": "staticwebassets\\images\\resource\\author-5.png"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\author-6.png",
+      "PackagePath": "staticwebassets\\images\\resource\\author-6.png"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\footer.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\footer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\menu-1.png",
+      "PackagePath": "staticwebassets\\images\\resource\\menu-1.png"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\menu-10.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\menu-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\menu-11.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\menu-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\menu-12.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\menu-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\menu-13.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\menu-13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\menu-14.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\menu-14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\menu-15.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\menu-15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\menu-16.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\menu-16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\menu-17.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\menu-17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\menu-18.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\menu-18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\menu-19.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\menu-19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\menu-2.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\menu-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\menu-20.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\menu-20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\menu-21.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\menu-21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\menu-22.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\menu-22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\menu-23.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\menu-23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\menu-24.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\menu-24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\menu-25.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\menu-25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\menu-26.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\menu-26.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\menu-27.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\menu-27.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\menu-28.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\menu-28.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\menu-29.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\menu-29.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\menu-3.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\menu-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\menu-30.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\menu-30.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\menu-4.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\menu-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\menu-5.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\menu-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\menu-6.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\menu-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\menu-7.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\menu-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\menu-8.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\menu-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\menu-9.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\menu-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\menu-bg.png",
+      "PackagePath": "staticwebassets\\images\\resource\\menu-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\menu-icon-1.png",
+      "PackagePath": "staticwebassets\\images\\resource\\menu-icon-1.png"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\menu-icon-2.png",
+      "PackagePath": "staticwebassets\\images\\resource\\menu-icon-2.png"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\news-1.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\news-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\news-2.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\news-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\news-3.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\news-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\news-4.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\news-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\news-5.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\news-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\news-6.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\news-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\news-7.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\news-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\news-8.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\news-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\news-9.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\news-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\pack.png",
+      "PackagePath": "staticwebassets\\images\\resource\\pack.png"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\post-thumb-1.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\post-thumb-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\post-thumb-2.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\post-thumb-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\products\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\products\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\products\\post-thumb-1.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\products\\post-thumb-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\products\\post-thumb-2.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\products\\post-thumb-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\products\\post-thumb-3.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\products\\post-thumb-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\reservation.png",
+      "PackagePath": "staticwebassets\\images\\resource\\reservation.png"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\team-1.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\team-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\team-2.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\team-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\team-3.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\team-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\team-4.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\team-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\team-5.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\team-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\team-6.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\team-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\team-7.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\team-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\resource\\team-8.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\team-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\js\\appear.js",
+      "PackagePath": "staticwebassets\\js\\appear.js"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\js\\jquery-ui.js",
+      "PackagePath": "staticwebassets\\js\\jquery-ui.js"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\js\\jquery.fancybox.js",
+      "PackagePath": "staticwebassets\\js\\jquery.fancybox.js"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\js\\jquery.js",
+      "PackagePath": "staticwebassets\\js\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\js\\jquery.mCustomScrollbar.concat.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.mCustomScrollbar.concat.min.js"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\js\\jquery.paroller.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.paroller.min.js"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\js\\nav-tool.js",
+      "PackagePath": "staticwebassets\\js\\nav-tool.js"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\js\\owl.js",
+      "PackagePath": "staticwebassets\\js\\owl.js"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\js\\parallax.min.js",
+      "PackagePath": "staticwebassets\\js\\parallax.min.js"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\js\\tilt.jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\tilt.jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\js\\timepicker.js",
+      "PackagePath": "staticwebassets\\js\\timepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\js\\validate.js",
+      "PackagePath": "staticwebassets\\js\\validate.js"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\js\\wow.js",
+      "PackagePath": "staticwebassets\\js\\wow.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FinalProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.FinalProject.props",
+      "PackagePath": "build\\FinalProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.FinalProject.props",
+      "PackagePath": "buildMultiTargeting\\FinalProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.FinalProject.props",
+      "PackagePath": "buildTransitive\\FinalProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,11 @@
+C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject.Business\bin\Debug\net8.0\FinalProject.Business.deps.json
+C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject.Business\bin\Debug\net8.0\FinalProject.Business.dll
+C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject.Business\bin\Debug\net8.0\FinalProject.Business.pdb
+C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject.Business\obj\Debug\net8.0\FinalProject.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject.Business\obj\Debug\net8.0\FinalProject.Business.AssemblyInfoInputs.cache
+C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject.Business\obj\Debug\net8.0\FinalProject.Business.AssemblyInfo.cs
+C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject.Business\obj\Debug\net8.0\FinalProject.Business.csproj.CoreCompileInputs.cache
+C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject.Business\obj\Debug\net8.0\FinalProject.Business.dll
+C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject.Business\obj\Debug\net8.0\refint\FinalProject.Business.dll
+C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject.Business\obj\Debug\net8.0\FinalProject.Business.pdb
+C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject.Business\obj\Debug\net8.0\ref\FinalProject.Business.dll
