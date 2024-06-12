@@ -9,3 +9,10 @@ C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject.Business\obj\Debug\ne
 C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject.Business\obj\Debug\net8.0\refint\FinalProject.Business.dll
 C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject.Business\obj\Debug\net8.0\FinalProject.Business.pdb
 C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject.Business\obj\Debug\net8.0\ref\FinalProject.Business.dll
+C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject.Business\bin\Debug\net8.0\FinalProject.Core.dll
+C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject.Business\bin\Debug\net8.0\FinalProject.Data.dll
+C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject.Business\bin\Debug\net8.0\FinalProject.Data.pdb
+C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject.Business\bin\Debug\net8.0\FinalProject.Core.pdb
+C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject.Business\obj\Debug\net8.0\FinalProject.Business.csproj.AssemblyReference.cache
+C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject.Business\obj\Debug\net8.0\FinalProject.Business.sourcelink.json
+C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject.Business\obj\Debug\net8.0\FinalPro.CC261FA2.Up2Date

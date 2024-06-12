@@ -9,3 +9,4 @@ C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject.Core\obj\Debug\net8.0
 C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject.Core\obj\Debug\net8.0\refint\FinalProject.Core.dll
 C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject.Core\obj\Debug\net8.0\FinalProject.Core.pdb
 C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject.Core\obj\Debug\net8.0\ref\FinalProject.Core.dll
+C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject.Core\obj\Debug\net8.0\FinalProject.Core.sourcelink.json
