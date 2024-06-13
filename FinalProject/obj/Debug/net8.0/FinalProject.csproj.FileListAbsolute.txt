@@ -263,3 +263,5 @@ C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject\bin\Debug\net8.0\Micr
 C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
 C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject\obj\Debug\net8.0\FinalProject.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

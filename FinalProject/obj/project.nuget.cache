@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "e4r+DLRCa9k=",
+  "dgSpecHash": "eiXvNtC2/pY=",
   "success": true,
   "projectFilePath": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\FinalProject.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\V&V\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\V&V\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\V&V\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\V&V\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\V&V\\.nuget\\packages\\fluentvalidation\\8.0.0\\fluentvalidation.8.0.0.nupkg.sha512",
@@ -112,7 +114,7 @@
     "C:\\Users\\V&V\\.nuget\\packages\\microsoft.codeanalysis.razor\\6.0.24\\microsoft.codeanalysis.razor.6.0.24.nupkg.sha512",
     "C:\\Users\\V&V\\.nuget\\packages\\microsoft.codeanalysis.scripting.common\\4.8.0\\microsoft.codeanalysis.scripting.common.4.8.0.nupkg.sha512",
     "C:\\Users\\V&V\\.nuget\\packages\\microsoft.codeanalysis.workspaces.common\\4.8.0\\microsoft.codeanalysis.workspaces.common.4.8.0.nupkg.sha512",
-    "C:\\Users\\V&V\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\V&V\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\V&V\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.1\\microsoft.data.sqlclient.5.1.1.nupkg.sha512",
     "C:\\Users\\V&V\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\5.1.0\\microsoft.data.sqlclient.sni.runtime.5.1.0.nupkg.sha512",
     "C:\\Users\\V&V\\.nuget\\packages\\microsoft.diasymreader\\2.0.0\\microsoft.diasymreader.2.0.0.nupkg.sha512",
