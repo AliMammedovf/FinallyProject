@@ -13,7 +13,7 @@ public class SizeConfugration : IEntityTypeConfiguration<Size>
 {
     public void Configure(EntityTypeBuilder<Size> builder)
     {
-        builder.Property(x=>x.Name).IsRequired().HasMaxLength(6);
+        builder.Property(x=>x.Name).IsRequired().HasMaxLength(10);
         builder.Property(x=>x.CreatedDate).HasDefaultValue(DateTime.UtcNow.AddHours(4));
     }
 }

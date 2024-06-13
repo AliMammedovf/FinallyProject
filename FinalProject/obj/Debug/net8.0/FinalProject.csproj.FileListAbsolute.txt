@@ -257,3 +257,9 @@ C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject\bin\Debug\net8.0\Fina
 C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject\bin\Debug\net8.0\FinalProject.Business.pdb
 C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject\bin\Debug\net8.0\FinalProject.Core.pdb
 C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject\bin\Debug\net8.0\FinalProject.Data.pdb
+C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject\obj\Debug\net8.0\FinalProject.MvcApplicationPartsAssemblyInfo.cs

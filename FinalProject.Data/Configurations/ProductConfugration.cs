@@ -13,8 +13,9 @@ public class ProductConfugration : IEntityTypeConfiguration<Product>
 {
     public void Configure(EntityTypeBuilder<Product> builder)
     {
-        builder.Property(x => x.Title).IsRequired().HasMaxLength(30);
-        builder.Property(x=>x.Description).IsRequired().HasMaxLength(100);
+        builder.Property(x => x.Title).IsRequired().HasMaxLength(50);
+        builder.Property(x=>x.Description).IsRequired().HasMaxLength(200);
+        builder.Property(x=>x.AdditionalInfo).IsRequired().HasMaxLength(100);
         builder.Property(x => x.CreatedDate).HasDefaultValue(DateTime.UtcNow.AddHours(4));
     }
 }

@@ -13,7 +13,7 @@ public class FlavourConfugration : IEntityTypeConfiguration<Flavour>
 {
     public void Configure(EntityTypeBuilder<Flavour> builder)
     {
-        builder.Property(x => x.Name).IsRequired().HasMaxLength(10);
+        builder.Property(x => x.Name).IsRequired().HasMaxLength(20);
         builder.Property(x => x.CreatedDate).HasDefaultValue(DateTime.UtcNow.AddHours(4));
     }
 }

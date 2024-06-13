@@ -12,3 +12,5 @@ public class Size:BaseEntity
 
     public List<ProductSize> ProductSizes { get; set; }
 }
+
+
