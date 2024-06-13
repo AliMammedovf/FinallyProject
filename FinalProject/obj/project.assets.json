@@ -4905,7 +4905,10 @@
         },
         "runtime": {
           "bin/placeholder/FinalProject.Business.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "FinalProject.Core/1.0.0": {
         "type": "project",

@@ -11,11 +11,11 @@ namespace FinalProject.Business.Services.Abstarct;
 
 public  interface ICategoryService
 {
-    public Task AddAsyncCategory(CategoryCreateDTO categoryCreateDTO);
+     Task AddAsyncCategory(CategoryCreateDTO categoryCreateDTO);
 
-    public void DeleteCategory(int id); 
+     void DeleteCategory(int id); 
 
-    public void UpdateCategory(CategoryUpdateDTO categoryUpdateDTO);
+     void UpdateCategory(CategoryUpdateDTO categoryUpdateDTO);
 
     CategoryGetDTO GetCategory(Func<Category, bool>? func=null);
 

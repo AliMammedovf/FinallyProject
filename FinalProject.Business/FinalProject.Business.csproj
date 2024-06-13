@@ -8,10 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\FinalProject.Data\FinalProject.Data.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Extensions\" />
+	  <FrameworkReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>
 
   <ItemGroup>
