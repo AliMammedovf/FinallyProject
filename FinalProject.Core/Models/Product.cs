@@ -27,6 +27,8 @@ public class Product: BaseEntity
 
     public List<ProductSize> ProductSizes { get; set; }
 
+    public List<ProductImage> ProductImages { get; set; }
+
     
     
 

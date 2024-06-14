@@ -33,7 +33,7 @@ namespace FinalProject.Data.Migrations
                     b.Property<DateTime>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 6, 13, 14, 17, 18, 32, DateTimeKind.Utc).AddTicks(8365));
+                        .HasDefaultValue(new DateTime(2024, 6, 14, 14, 46, 56, 992, DateTimeKind.Utc).AddTicks(319));
 
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("datetime2");
@@ -59,7 +59,7 @@ namespace FinalProject.Data.Migrations
                     b.Property<DateTime>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 6, 13, 14, 17, 18, 32, DateTimeKind.Utc).AddTicks(8582));
+                        .HasDefaultValue(new DateTime(2024, 6, 14, 14, 46, 56, 992, DateTimeKind.Utc).AddTicks(490));
 
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("datetime2");
@@ -93,7 +93,7 @@ namespace FinalProject.Data.Migrations
                     b.Property<DateTime>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 6, 13, 14, 17, 18, 32, DateTimeKind.Utc).AddTicks(8866));
+                        .HasDefaultValue(new DateTime(2024, 6, 14, 14, 46, 56, 992, DateTimeKind.Utc).AddTicks(766));
 
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("datetime2");
@@ -128,6 +128,34 @@ namespace FinalProject.Data.Migrations
                     b.HasIndex("FlavourId");
 
                     b.ToTable("Products");
+                });
+
+            modelBuilder.Entity("FinalProject.Core.Models.ProductImage", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("DeletedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("ProductImages");
                 });
 
             modelBuilder.Entity("FinalProject.Core.Models.ProductSize", b =>
@@ -170,7 +198,7 @@ namespace FinalProject.Data.Migrations
                     b.Property<DateTime>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 6, 13, 14, 17, 18, 32, DateTimeKind.Utc).AddTicks(9133));
+                        .HasDefaultValue(new DateTime(2024, 6, 14, 14, 46, 56, 992, DateTimeKind.Utc).AddTicks(981));
 
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("datetime2");
@@ -204,6 +232,17 @@ namespace FinalProject.Data.Migrations
                     b.Navigation("Flavour");
                 });
 
+            modelBuilder.Entity("FinalProject.Core.Models.ProductImage", b =>
+                {
+                    b.HasOne("FinalProject.Core.Models.Product", "Product")
+                        .WithMany("ProductImages")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+                });
+
             modelBuilder.Entity("FinalProject.Core.Models.ProductSize", b =>
                 {
                     b.HasOne("FinalProject.Core.Models.Product", "Product")
@@ -235,6 +274,8 @@ namespace FinalProject.Data.Migrations
 
             modelBuilder.Entity("FinalProject.Core.Models.Product", b =>
                 {
+                    b.Navigation("ProductImages");
+
                     b.Navigation("ProductSizes");
                 });
 

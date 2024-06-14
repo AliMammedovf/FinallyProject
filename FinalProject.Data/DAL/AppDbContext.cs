@@ -26,6 +26,8 @@ public class AppDbContext:DbContext
 
     public DbSet<Flavour> Flavours { get; set; }
 
+    public DbSet<ProductImage> ProductImages { get; set; }
+
 
 
     protected override void OnModelCreating(ModelBuilder builder)
