@@ -21,13 +21,17 @@ public class ProductService : IProductService
     private readonly IWebHostEnvironment _env;
     private readonly ICategoryRepository _categoryRepository;
     private readonly IFlavourRepository _flavourRepository;
-    public ProductService(IProductRepository productRepository, IMapper mapper, IWebHostEnvironment env, ICategoryRepository categoryRepository, IFlavourRepository flavourRepository)
+    private readonly ISizeRepository _sizeRepository;
+    private readonly IProductSizeRepository _productSizeRepository;
+    public ProductService(IProductRepository productRepository, IMapper mapper, IWebHostEnvironment env, ICategoryRepository categoryRepository, IFlavourRepository flavourRepository, ISizeRepository sizeRepository, IProductSizeRepository productSizeRepository)
     {
         _productRepository = productRepository;
         _mapper = mapper;
         _env = env;
         _categoryRepository = categoryRepository;
         _flavourRepository = flavourRepository;
+        _sizeRepository = sizeRepository;
+        _productSizeRepository = productSizeRepository;
     }
 
     public async Task AddAsyncProduct(ProductCreateDTO productCreateDTO)
@@ -43,7 +47,37 @@ public class ProductService : IProductService
 
         if(exsistFlavour == null) throw new EntityNotFoundException("Flavour not found!");
 
-        Product product= _mapper.Map<Product>(productCreateDTO);
+        Product product = _mapper.Map<Product>(productCreateDTO);
+
+        if (productCreateDTO.SizeIds != null)
+        {
+            foreach(var sizeId in productCreateDTO.SizeIds)
+            {
+                if(_sizeRepository.GetAll().Any(x=>x.Id == sizeId))
+                {
+                    throw new EntityNotFoundException("Size not found!");
+                }
+            }
+
+            foreach (var sizeId in productCreateDTO.SizeIds)
+            {
+                ProductSize productSize = new ProductSize()
+                {
+                    SizeId = sizeId,
+                    Product= product,
+                    CreatedDate = DateTime.UtcNow.AddHours(4),
+                    DeletedDate = DateTime.UtcNow.AddHours(4)
+
+                };
+
+                await _productSizeRepository.AddAsync(productSize);
+                
+        }
+        }
+
+       
+
+        
 
         product.ImageUrl = Helper.SaveFile(_env.WebRootPath, @"uploads/products", productCreateDTO.ImageFile);
 
@@ -67,7 +101,7 @@ public class ProductService : IProductService
 
     public IEnumerable<ProductGetDTO> GetAllProducts(Func<Product, bool>? func = null)
     {
-        var products = _productRepository.GetAll(func, "Category", "Flavour");
+        var products = _productRepository.GetAll(func, "Category", "Flavour","Sizes");
 
         IEnumerable<ProductGetDTO> productsDTO= _mapper.Map<IEnumerable<ProductGetDTO>>(products);
 
@@ -76,7 +110,7 @@ public class ProductService : IProductService
 
     public ProductGetDTO GetProduct(Func<Product, bool>? func = null)
     {
-        var product= _productRepository.Get(func, "Category", "Flavour");
+        var product= _productRepository.Get(func, "Category", "Flavour","Sizes");
 
         ProductGetDTO productDTO= _mapper.Map<ProductGetDTO>(product);
 
@@ -102,6 +136,7 @@ public class ProductService : IProductService
         oldProduct.AdditionalInfo = productUpdateDTO.AdditionalInfo;
         oldProduct.CategoryId = productUpdateDTO.CategoryId;
         oldProduct.FlavourId = productUpdateDTO.FlavourId;
+        //oldProduct.
 
         _productRepository.Commit();
     }

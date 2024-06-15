@@ -52,10 +52,7 @@ namespace FinalProject.Areas.Admin.Controllers
             _categoryService.DeleteCategory(id);
 
             return Ok(exsist);
-            
-
-            
-
+          
            
         }
 

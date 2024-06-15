@@ -18,6 +18,7 @@ public class ProductGetDTO
 
     public string ImageUrl { get; set; } = null!;
 
-    public Flavour Flavour { get; set; }
-    public Category Category { get; set; }
+    public List<Size>? Sizes { get; set; }
+    public Flavour? Flavour { get; set; }
+    public Category? Category { get; set; }
 }

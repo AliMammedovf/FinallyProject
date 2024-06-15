@@ -21,6 +21,7 @@ public class Product: BaseEntity
     public int FlavourId { get; set; }
 
     public string ImageUrl { get; set; } = null!;
+    public List<int> SizeIds { get; set; }
 
     public Flavour Flavour { get; set; }
     public Category Category { get; set; }
