@@ -1,4 +1,5 @@
-﻿using FluentValidation;
+﻿using FinalProject.Core.Models;
+using FluentValidation;
 using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
@@ -20,12 +21,16 @@ public class ProductCreateDTO
 
     public int FlavourId { get; set; }
 
-    public List<int> SizeIds { get; set; }
+    public List<ProductImage>? ProductImages { get; set; }
+    public List<ProductSize>? ProductSizes { get; set; }
 
-    public List<IFormFile>? ImageFiles { get; set; }
+    public List<int>? SizeIds { get; set; }
+
     public IFormFile? PosterImage { get; set; }
 
-    
+    public List<IFormFile>? ImageFiles { get; set; }
+
+
 }
 
 public class ProductCreateDTOValidator: AbstractValidator<ProductCreateDTO>

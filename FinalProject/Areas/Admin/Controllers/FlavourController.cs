@@ -69,6 +69,7 @@ namespace FinalProject.Areas.Admin.Controllers
             if (!ModelState.IsValid)
                 return View();
 
+
             _flavourService.UpdateFlavour(flavourUpdateDTO);
             return RedirectToAction("Index");
         }

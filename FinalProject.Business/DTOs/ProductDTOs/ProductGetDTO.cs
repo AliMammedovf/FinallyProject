@@ -17,6 +17,8 @@ public class ProductGetDTO
     public bool IsAvialable { get; set; }
     public double Price { get; set; }
     public IFormFile? PosterImage { get; set; }
+    public List<ProductImage>? ProductImages { get; set; }
+    public List<ProductSize>? ProductSizes { get; set; }
 
     public List<Size>? Sizes { get; set; }
     public Flavour? Flavour { get; set; }

@@ -94,11 +94,6 @@ public class ProductService : IProductService
             
         }
 
-
-        
-
-        
-
         if(productCreateDTO.ImageFiles != null)
         {
             foreach(var ImageFile in productCreateDTO.ImageFiles)
@@ -136,7 +131,7 @@ public class ProductService : IProductService
 
     public IEnumerable<ProductGetDTO> GetAllProducts(Func<Product, bool>? func = null)
     {
-        var products = _productRepository.GetAll(func, "Category", "Flavour");
+        var products = _productRepository.GetAll(func, "Category", "Flavour","ProductSizes.Size","ProductImages");
 
         IEnumerable<ProductGetDTO> productsDTO= _mapper.Map<IEnumerable<ProductGetDTO>>(products);
 
@@ -145,7 +140,7 @@ public class ProductService : IProductService
 
     public ProductGetDTO GetProduct(Func<Product, bool>? func = null)
     {
-        var product= _productRepository.Get(func, "Category", "Flavour");
+        var product= _productRepository.Get(func, "Category", "Flavour", "ProductSizes.Size", "ProductImages");
 
         ProductGetDTO productDTO= _mapper.Map<ProductGetDTO>(product);
 
@@ -165,6 +160,8 @@ public class ProductService : IProductService
         var exsistFlavour = _flavourRepository.Get(x => x.Id == productUpdateDTO.FlavourId);
 
         if (exsistFlavour == null) throw new EntityNotFoundException("Flavour not found!");
+
+       
 
        
 
@@ -208,6 +205,7 @@ public class ProductService : IProductService
         oldProduct.CategoryId = productUpdateDTO.CategoryId;
         oldProduct.FlavourId = productUpdateDTO.FlavourId;
         oldProduct.IsAvialable = productUpdateDTO.IsAvialable;
+       
        
         
        

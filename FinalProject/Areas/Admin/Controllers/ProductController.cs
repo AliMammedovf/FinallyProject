@@ -80,12 +80,12 @@ namespace FinalProject.Areas.Admin.Controllers
 
         public IActionResult Update(int id)
         {
-            ProductUpdateDTO productUpdateDTO = new ProductUpdateDTO();
+            //ProductUpdateDTO productUpdateDTO = new ProductUpdateDTO();
 
             ViewBag.Category = _categoryService.GetAllCategories();
             ViewBag.Size = _sizeService.GetAllSizes();
             ViewBag.Flavour = _flavourService.GetAllFlavours();
-            
+            ViewBag.Size = _productSizeRepository.GetAll();
 
             var exsistProduct= _productService.GetProduct(x=>x.Id == id);
 
@@ -98,18 +98,19 @@ namespace FinalProject.Areas.Admin.Controllers
                 return NotFound();
             }
 
-            productUpdateDTO.Title = exsistProduct.Title;
-            productUpdateDTO.Description = exsistProduct.Description;
-            productUpdateDTO.AdditionalInfo = exsistProduct.AdditionalInfo;
-            productUpdateDTO.Price = exsistProduct.Price;
-            productUpdateDTO.IsAvialable = exsistProduct.IsAvialable;
-            productUpdateDTO.CategoryId = exsistProduct.Category.Id;
-            productUpdateDTO.FlavourId = exsistProduct.Flavour.Id;
+            //productUpdateDTO.Title = exsistProduct.Title;
+            //productUpdateDTO.Description = exsistProduct.Description;
+            //productUpdateDTO.AdditionalInfo = exsistProduct.AdditionalInfo;
+            //productUpdateDTO.Price = exsistProduct.Price;
+            //productUpdateDTO.IsAvialable = exsistProduct.IsAvialable;
+            //productUpdateDTO.CategoryId = exsistProduct.Category.Id;
+            //productUpdateDTO.FlavourId = exsistProduct.Flavour.Id;
+            
             
             
            
 
-            return View(productUpdateDTO);
+            return View(exsistProduct);
         }
 
         [HttpPost]

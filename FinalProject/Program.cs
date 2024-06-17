@@ -43,6 +43,7 @@ namespace FinalProject
             builder.Services.AddScoped<ISizeRepository, SizeRepository>();
             builder.Services.AddScoped<ISizeService, SizeService>();
             builder.Services.AddScoped<IProductSizeRepository, ProductSizeRepository>();
+            builder.Services.AddScoped<IProductImageRepository, ProductImageRepository>();
 
             var app = builder.Build();
 

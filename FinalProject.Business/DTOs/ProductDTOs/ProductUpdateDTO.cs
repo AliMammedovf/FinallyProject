@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using FinalProject.Core.Models;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,6 +20,9 @@ public class ProductUpdateDTO
     public int CategoryId { get; set; }
 
     public int FlavourId { get; set; }
+
+    public List<ProductImage>? ProductImages { get; set; }
+    public List<ProductSize>? ProductSizes { get; set; }
 
     public List<int>? SizeIds { get; set; }
 

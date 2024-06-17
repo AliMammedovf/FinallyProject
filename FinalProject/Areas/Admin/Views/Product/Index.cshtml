@@ -22,6 +22,7 @@
                         <th scope="col">CategoryName</th>
                         <th scope="col">FlavourName</th>
                         <th scope="col">IsStock</th>
+                        <th scope="col">Sizes</th>
                         <th scope="col">Image</th>
                         <th scope="col">Action</th>
                     </tr>
@@ -39,7 +40,8 @@
                             <td>@item.Category.Name</td>
                             <td>@item.Flavour.Name</td>
                             <td>@item.IsAvialable</td>
-                            <td>@item.PosterImage</td>
+                            <td>@item.ProductSizes.Count</td>
+                            <td>@item.ProductImages.FirstOrDefault(x=>x.IsPoster==true)</td>
                             <td>
                                 <a asp-action="Delete" asp-controller="Product" asp-route-id="@item.Id" class="delete-btn  btn btn-outline-danger ">Delete</a>
                                 <a asp-action="Update" asp-controller="Product" asp-route-id="@item.Id" class="btn btn-outline-primary">Update</a>
