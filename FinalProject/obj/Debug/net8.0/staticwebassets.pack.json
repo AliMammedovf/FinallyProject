@@ -8097,6 +8097,14 @@
       "PackagePath": "staticwebassets\\js\\wow.js"
     },
     {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\uploads\\products\\3daf1aea-25f0-4931-87fe-b20ba02e3661.JPG",
+      "PackagePath": "staticwebassets\\uploads\\products\\3daf1aea-25f0-4931-87fe-b20ba02e3661.JPG"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\uploads\\products\\7b77841f-b389-4221-b0da-86f640741a49.jpg",
+      "PackagePath": "staticwebassets\\uploads\\products\\7b77841f-b389-4221-b0da-86f640741a49.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FinalProject.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

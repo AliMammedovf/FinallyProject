@@ -23,7 +23,8 @@ public class ProductService : IProductService
     private readonly IFlavourRepository _flavourRepository;
     private readonly ISizeRepository _sizeRepository;
     private readonly IProductSizeRepository _productSizeRepository;
-    public ProductService(IProductRepository productRepository, IMapper mapper, IWebHostEnvironment env, ICategoryRepository categoryRepository, IFlavourRepository flavourRepository, ISizeRepository sizeRepository, IProductSizeRepository productSizeRepository)
+    private readonly IProductImageRepository _productImageRepository;
+    public ProductService(IProductRepository productRepository, IMapper mapper, IWebHostEnvironment env, ICategoryRepository categoryRepository, IFlavourRepository flavourRepository, ISizeRepository sizeRepository, IProductSizeRepository productSizeRepository, IProductImageRepository productImageRepository)
     {
         _productRepository = productRepository;
         _mapper = mapper;
@@ -32,11 +33,12 @@ public class ProductService : IProductService
         _flavourRepository = flavourRepository;
         _sizeRepository = sizeRepository;
         _productSizeRepository = productSizeRepository;
+        _productImageRepository = productImageRepository;
     }
 
     public async Task AddAsyncProduct(ProductCreateDTO productCreateDTO)
     {
-        if (productCreateDTO.ImageFile == null)
+        if (productCreateDTO.PosterImage == null)
             throw new Exceptions.FileNotFoundException("File not found!");
 
         var exsistCategory= _categoryRepository.Get(x=>x.Id== productCreateDTO.CategoryId);
@@ -47,13 +49,17 @@ public class ProductService : IProductService
 
         if(exsistFlavour == null) throw new EntityNotFoundException("Flavour not found!");
 
+        var exsistSize= _sizeRepository.Get(x=>x.Id==productCreateDTO.SizeIds.Count);
+
+        if (exsistSize == null) throw new EntityNotFoundException("Size not found!");
+
         Product product = _mapper.Map<Product>(productCreateDTO);
 
         if (productCreateDTO.SizeIds != null)
         {
             foreach(var sizeId in productCreateDTO.SizeIds)
             {
-                if(_sizeRepository.GetAll().Any(x=>x.Id == sizeId))
+                if(!_sizeRepository.GetAll().Any(x=>x.Id == sizeId))
                 {
                     throw new EntityNotFoundException("Size not found!");
                 }
@@ -75,11 +81,40 @@ public class ProductService : IProductService
         }
         }
 
-       
+       if(productCreateDTO.PosterImage != null)
+        {
+            ProductImage poster = new ProductImage()
+            {
+                Product = product,
+                ImageUrl = Helper.SaveFile(_env.WebRootPath, @"uploads/products", productCreateDTO.PosterImage),
+                IsPoster = true,
+            };
+
+           await  _productImageRepository.AddAsync(poster);
+            
+        }
+
 
         
 
-        product.ImageUrl = Helper.SaveFile(_env.WebRootPath, @"uploads/products", productCreateDTO.ImageFile);
+        
+
+        if(productCreateDTO.ImageFiles != null)
+        {
+            foreach(var ImageFile in productCreateDTO.ImageFiles)
+            {
+
+
+                ProductImage productImage = new ProductImage
+                {
+                    Product = product,
+                    ImageUrl = Helper.SaveFile(_env.WebRootPath, @"uploads/products", ImageFile),
+                    IsPoster = null
+                };
+
+               await  _productImageRepository.AddAsync(productImage);
+            }
+        }
 
         await _productRepository.AddAsync(product);
         product.CreatedDate = DateTime.UtcNow.AddHours(4);
@@ -101,7 +136,7 @@ public class ProductService : IProductService
 
     public IEnumerable<ProductGetDTO> GetAllProducts(Func<Product, bool>? func = null)
     {
-        var products = _productRepository.GetAll(func, "Category", "Flavour","Sizes");
+        var products = _productRepository.GetAll(func, "Category", "Flavour");
 
         IEnumerable<ProductGetDTO> productsDTO= _mapper.Map<IEnumerable<ProductGetDTO>>(products);
 
@@ -110,25 +145,61 @@ public class ProductService : IProductService
 
     public ProductGetDTO GetProduct(Func<Product, bool>? func = null)
     {
-        var product= _productRepository.Get(func, "Category", "Flavour","Sizes");
+        var product= _productRepository.Get(func, "Category", "Flavour");
 
         ProductGetDTO productDTO= _mapper.Map<ProductGetDTO>(product);
 
         return productDTO;
     }
 
-    public void UpdaterProduct(ProductUpdateDTO productUpdateDTO)
+    public void UpdateProduct(ProductUpdateDTO productUpdateDTO)
     {
         var oldProduct= _productRepository.Get(x=> x.Id== productUpdateDTO.Id);
 
         if (oldProduct == null) throw new EntityNotFoundException("Product not found!");
 
-        if(productUpdateDTO.ImageFile != null)
+        var exsistCategory = _categoryRepository.Get(x => x.Id == productUpdateDTO.CategoryId);
+
+        if (exsistCategory == null) throw new EntityNotFoundException("Category not found!");
+
+        var exsistFlavour = _flavourRepository.Get(x => x.Id == productUpdateDTO.FlavourId);
+
+        if (exsistFlavour == null) throw new EntityNotFoundException("Flavour not found!");
+
+       
+
+        if(productUpdateDTO.SizeIds != null)
         {
-            oldProduct.ImageUrl= Helper.SaveFile(_env.WebRootPath, @"uploads/products", productUpdateDTO.ImageFile);
+            oldProduct.ProductSizes.RemoveAll(bt => !productUpdateDTO.SizeIds.Contains(bt.SizeId));
+
+            foreach (var sizeId in productUpdateDTO.SizeIds.Where(x => !oldProduct.ProductSizes.Any(bt => bt.SizeId == x)))
+            {
+                ProductSize productSize = new ProductSize()
+                {
+                    SizeId = sizeId,
+                };
+                oldProduct.ProductSizes.Add(productSize);
+            }
+        }
+
+        if (productUpdateDTO.PosterImage != null)
+        {
+
+            oldProduct.ImageUrl = Helper.SaveFile(_env.WebRootPath, @"uploads/products", productUpdateDTO.PosterImage);
 
             Helper.DeleteFile(_env.WebRootPath, @"uploads/products", oldProduct.ImageUrl);
         }
+
+        if(productUpdateDTO.ImageFiles != null)
+        {
+            foreach(var ImageFile in productUpdateDTO.ImageFiles)
+            {
+                oldProduct.ImageUrl = Helper.SaveFile(_env.WebRootPath, @"uploads/products", ImageFile);
+
+                Helper.DeleteFile(_env.WebRootPath, @"uploads/products", oldProduct.ImageUrl);
+            }
+        }
+
 
         oldProduct.Title = productUpdateDTO.Title;
         oldProduct.Description = productUpdateDTO.Description;
@@ -136,7 +207,10 @@ public class ProductService : IProductService
         oldProduct.AdditionalInfo = productUpdateDTO.AdditionalInfo;
         oldProduct.CategoryId = productUpdateDTO.CategoryId;
         oldProduct.FlavourId = productUpdateDTO.FlavourId;
-        //oldProduct.
+        oldProduct.IsAvialable = productUpdateDTO.IsAvialable;
+       
+        
+       
 
         _productRepository.Commit();
     }

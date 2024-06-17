@@ -1,0 +1,66 @@
+﻿@model ProductCreateDTO
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <form asp-action="Create" method="post" enctype="multipart/form-data">
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Title</label>
+                    <input asp-for="Title" class="form-control" id="exampleInputEmail1" placeholder="Enter to Title">
+                    <span asp-validation-for="Title" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Description</label>
+                    <input asp-for="Description" class="form-control" id="exampleInputEmail1" placeholder="Enter to Description">
+                    <span asp-validation-for="Price" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Info</label>
+                    <input asp-for="AdditionalInfo" class="form-control" id="exampleInputEmail1" placeholder="Enter to Info">
+                    <span asp-validation-for="AdditionalInfo" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Price</label>
+                    <input asp-for="Price" class="form-control" id="exampleInputEmail1" placeholder="Enter to Price">
+                    <span asp-validation-for="Price" class="text-danger"></span>
+                </div>
+              
+               
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Category</label>
+                    <select asp-for="CategoryId" class="form-control" asp-items="@(new SelectList(ViewBag.Category,"Id","Name"))"></select>
+                    <span asp-validation-for="CategoryId" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Flavour</label>
+                    <select asp-for="FlavourId" class="form-control"  asp-items="@(new SelectList(ViewBag.Flavour,"Id","Name"))"></select>
+                    <span asp-validation-for="FlavourId" class="text-danger" ></span>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Size</label>
+                    <select asp-for="SizeIds" class="form-control" asp-items="@(new SelectList(ViewBag.Size,"Id","Name"))"></select>
+                    <span asp-validation-for="SizeIds" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">PosterImage</label>
+                    <input asp-for="PosterImage" class="form-control" id="exampleInputEmail1" placeholder="PosterImage">
+                    <img src="#" alt="Alternate Text" />
+                    <span asp-validation-for="PosterImage" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">ImageFile</label>
+                    <input asp-for="ImageFiles" class="form-control" id="exampleInputEmail1" placeholder="ImageFiles">
+                    <span asp-validation-for="ImageFiles" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input" asp-for="IsAvialable" />
+                        <label class="form-check-label" asp-for="IsAvialable">
+                            IsAvialable
+                        </label>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>

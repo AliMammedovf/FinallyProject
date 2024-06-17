@@ -20,11 +20,12 @@ public class ProductCreateDTO
 
     public int FlavourId { get; set; }
 
-    public List<int>? SizeIds { get; set; }
-
-    public IFormFile ImageFile { get; set; }= null!;
+    public List<int> SizeIds { get; set; }
 
     public List<IFormFile>? ImageFiles { get; set; }
+    public IFormFile? PosterImage { get; set; }
+
+    
 }
 
 public class ProductCreateDTOValidator: AbstractValidator<ProductCreateDTO>

@@ -32,7 +32,7 @@ public class FlavourService : IFlavourService
 
         Flavour flavour= _mapper.Map<Flavour>(flavourCreateDTO);
 
-        if( _favourRepository.GetAll().Any(x=>x.Name== flavourCreateDTO.Name))
+        if( !_favourRepository.GetAll().Any(x=>x.Name== flavourCreateDTO.Name))
         {
            await  _favourRepository.AddAsync(flavour);
            await  _favourRepository.CommitAsync();

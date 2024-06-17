@@ -24,7 +24,7 @@ public class SizeService : ISizeService
             throw new EntityNotFoundException("Size not found!");
         Size size = _mapper.Map<Size>(sizeCreateDTO);
 
-        if (_sizeRepository.GetAll().Any(x => x.Name == sizeCreateDTO.Name))
+        if (!_sizeRepository.GetAll().Any(x => x.Name == sizeCreateDTO.Name))
         {
             await _sizeRepository.AddAsync(size);
             await _sizeRepository.CommitAsync();

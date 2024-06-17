@@ -14,7 +14,7 @@ public interface IProductService
 
     void DeleteProduct(int id);
 
-    void UpdaterProduct(ProductUpdateDTO productUpdateDTO);
+    void UpdateProduct(ProductUpdateDTO productUpdateDTO);
 
     ProductGetDTO GetProduct(Func<Product, bool>? func=null);
 

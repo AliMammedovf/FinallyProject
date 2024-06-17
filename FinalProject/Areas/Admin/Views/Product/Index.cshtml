@@ -1,0 +1,54 @@
+﻿@model IEnumerable<ProductGetDTO>
+@{
+    int counter = 1;
+}
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <a asp-action="Create" asp-controller="Product" class="btn btn-outline-info">Create</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">No</th>
+                        <th scope="col">Title</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Info</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">CategoryName</th>
+                        <th scope="col">FlavourName</th>
+                        <th scope="col">IsStock</th>
+                        <th scope="col">Image</th>
+                        <th scope="col">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <th scope="row">@(counter++)</th>
+                            <td>@item.Id</td>
+                            <td>@item.Title</td>
+                            <td>@item.Description</td>
+                            <td>@item.AdditionalInfo</td>
+                            <td>@item.Price</td>
+                            <td>@item.Category.Name</td>
+                            <td>@item.Flavour.Name</td>
+                            <td>@item.IsAvialable</td>
+                            <td>@item.PosterImage</td>
+                            <td>
+                                <a asp-action="Delete" asp-controller="Product" asp-route-id="@item.Id" class="delete-btn  btn btn-outline-danger ">Delete</a>
+                                <a asp-action="Update" asp-controller="Product" asp-route-id="@item.Id" class="btn btn-outline-primary">Update</a>
+                            </td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

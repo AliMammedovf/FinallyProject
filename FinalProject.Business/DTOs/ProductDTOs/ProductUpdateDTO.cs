@@ -22,5 +22,7 @@ public class ProductUpdateDTO
 
     public List<int>? SizeIds { get; set; }
 
-    public IFormFile ImageFile { get; set; } = null!;
+    public IFormFile? PosterImage { get; set; }
+
+    public List<IFormFile>? ImageFiles { get; set; }
 }

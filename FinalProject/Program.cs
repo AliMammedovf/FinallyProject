@@ -42,6 +42,7 @@ namespace FinalProject
             builder.Services.AddScoped<IFlavourService, FlavourService>();
             builder.Services.AddScoped<ISizeRepository, SizeRepository>();
             builder.Services.AddScoped<ISizeService, SizeService>();
+            builder.Services.AddScoped<IProductSizeRepository, ProductSizeRepository>();
 
             var app = builder.Build();
 

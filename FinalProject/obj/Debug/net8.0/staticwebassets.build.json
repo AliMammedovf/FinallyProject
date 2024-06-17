@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uWfwyt7VdzXQKZWUgbgo7dyWFoE5MRjKcvgUkC1+y+0=",
+  "Hash": "AInT03uUB/fNDKl1pk9w5l0ZNrxxgBTNxzI488ly6Yg=",
   "Source": "FinalProject",
   "BasePath": "_content/FinalProject",
   "Mode": "Default",
@@ -38490,6 +38490,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\wow.js"
+    },
+    {
+      "Identity": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\uploads\\products\\3daf1aea-25f0-4931-87fe-b20ba02e3661.JPG",
+      "SourceId": "FinalProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\",
+      "BasePath": "_content/FinalProject",
+      "RelativePath": "uploads/products/3daf1aea-25f0-4931-87fe-b20ba02e3661.JPG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\products\\3daf1aea-25f0-4931-87fe-b20ba02e3661.JPG"
+    },
+    {
+      "Identity": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\uploads\\products\\7b77841f-b389-4221-b0da-86f640741a49.jpg",
+      "SourceId": "FinalProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\",
+      "BasePath": "_content/FinalProject",
+      "RelativePath": "uploads/products/7b77841f-b389-4221-b0da-86f640741a49.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\products\\7b77841f-b389-4221-b0da-86f640741a49.jpg"
     }
   ]
 }
