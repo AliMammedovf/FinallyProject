@@ -16,15 +16,17 @@ namespace FinalProject.Areas.Admin.Controllers
         private readonly IFlavourService _flavourService;
         private readonly ISizeService _sizeService;
         private readonly IProductSizeRepository _productSizeRepository;
+        private readonly IProductImageRepository _productImageRepository;
 
 
-        public ProductController(IProductService productService, ICategoryService categoryService, IFlavourService flavourService, ISizeService sizeService, IProductSizeRepository productSizeRepository)
+        public ProductController(IProductService productService, ICategoryService categoryService, IFlavourService flavourService, ISizeService sizeService, IProductSizeRepository productSizeRepository, IProductImageRepository productImageRepository)
         {
             _productService = productService;
             _categoryService = categoryService;
             _flavourService = flavourService;
             _sizeService = sizeService;
             _productSizeRepository = productSizeRepository;
+            _productImageRepository = productImageRepository;
         }
 
 
@@ -40,6 +42,8 @@ namespace FinalProject.Areas.Admin.Controllers
             ViewBag.Size= _sizeService.GetAllSizes();
             ViewBag.Flavour= _flavourService.GetAllFlavours();
             ViewBag.ProductSize = _productSizeRepository.GetAll();
+            ViewBag.ProductImage = _productImageRepository.GetAll();
+             
             return View();
         }
 
@@ -50,11 +54,13 @@ namespace FinalProject.Areas.Admin.Controllers
             ViewBag.Size = _sizeService.GetAllSizes();
             ViewBag.Flavour = _flavourService.GetAllFlavours();
             ViewBag.ProductSize = _productSizeRepository.GetAll();
+            ViewBag.ProductImage = _productImageRepository.GetAll();
+
 
             if (!ModelState.IsValid)
                 return View();
 
-           await  _productService.AddAsyncProduct(productCreateDTO);
+            await  _productService.AddAsyncProduct(productCreateDTO);
             return RedirectToAction("Index");
         }
 
@@ -64,9 +70,10 @@ namespace FinalProject.Areas.Admin.Controllers
             ViewBag.Category = _categoryService.GetAllCategories();
             ViewBag.Size = _sizeService.GetAllSizes();
             ViewBag.Flavour = _flavourService.GetAllFlavours();
-            ViewBag.ProductSize = _productSizeRepository.GetAll();
+            ViewBag.Size = _sizeService.GetAllSizes();
+            ViewBag.ProductImage = _productImageRepository.GetAll();
 
-            var exsist = _productService.GetProduct(x => x.Id == id);
+            var exsist = _productService.GetProduct(x=>x.Id==id);
 
             if (exsist == null)
             {
@@ -80,35 +87,30 @@ namespace FinalProject.Areas.Admin.Controllers
 
         public IActionResult Update(int id)
         {
-            //ProductUpdateDTO productUpdateDTO = new ProductUpdateDTO();
+            ProductUpdateDTO productUpdateDTO = new ProductUpdateDTO();
 
             ViewBag.Category = _categoryService.GetAllCategories();
             ViewBag.Size = _sizeService.GetAllSizes();
             ViewBag.Flavour = _flavourService.GetAllFlavours();
-            ViewBag.Size = _productSizeRepository.GetAll();
+            ViewBag.Size = _sizeService.GetAllSizes();
+            ViewBag.ProductImage = _productImageRepository.GetAll();
 
             var exsistProduct= _productService.GetProduct(x=>x.Id == id);
 
-            
-
-            
 
             if (exsistProduct == null)
             {
                 return NotFound();
             }
 
-            //productUpdateDTO.Title = exsistProduct.Title;
-            //productUpdateDTO.Description = exsistProduct.Description;
-            //productUpdateDTO.AdditionalInfo = exsistProduct.AdditionalInfo;
-            //productUpdateDTO.Price = exsistProduct.Price;
-            //productUpdateDTO.IsAvialable = exsistProduct.IsAvialable;
-            //productUpdateDTO.CategoryId = exsistProduct.Category.Id;
-            //productUpdateDTO.FlavourId = exsistProduct.Flavour.Id;
-            
-            
-            
-           
+            productUpdateDTO.Title = exsistProduct.Title;
+            productUpdateDTO.Description = exsistProduct.Description;
+            productUpdateDTO.AdditionalInfo = exsistProduct.AdditionalInfo;
+            productUpdateDTO.Price = exsistProduct.Price;
+            productUpdateDTO.IsAvialable = exsistProduct.IsAvialable;
+            productUpdateDTO.CategoryId = exsistProduct.Category.Id;
+            productUpdateDTO.FlavourId = exsistProduct.Flavour.Id;
+
 
             return View(exsistProduct);
         }
@@ -120,6 +122,7 @@ namespace FinalProject.Areas.Admin.Controllers
             ViewBag.Size = _sizeService.GetAllSizes();
             ViewBag.Flavour = _flavourService.GetAllFlavours();
             ViewBag.ProductSize = _productSizeRepository.GetAll();
+            ViewBag.ProductImage = _productImageRepository.GetAll();
 
             if (!ModelState.IsValid)
                 return View();

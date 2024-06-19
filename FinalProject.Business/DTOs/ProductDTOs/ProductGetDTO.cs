@@ -16,11 +16,28 @@ public class ProductGetDTO
     public string AdditionalInfo { get; set; } = null!;
     public bool IsAvialable { get; set; }
     public double Price { get; set; }
-    public IFormFile? PosterImage { get; set; }
+
+    public int CategoryId { get; set; }
+
+    public int FlavourId { get; set; }
+
+    public Category? Category { get; set; }
+
+    public Flavour? Flavour { get; set; }
+
+    public Size? Size { get; set; }
+
+    public string? ImageUrl { get; set; }
+
     public List<ProductImage>? ProductImages { get; set; }
     public List<ProductSize>? ProductSizes { get; set; }
 
-    public List<Size>? Sizes { get; set; }
-    public Flavour? Flavour { get; set; }
-    public Category? Category { get; set; }
+    public List<int>? SizeIds { get; set; }
+
+    public List<int>? ProductImageIds { get; set; }
+
+
+    public IFormFile? PosterImage { get; set; }
+
+    public List<IFormFile>? ImageFiles { get; set; }
 }

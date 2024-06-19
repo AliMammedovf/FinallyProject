@@ -33,7 +33,7 @@ namespace FinalProject.Data.Migrations
                     b.Property<DateTime>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 6, 17, 3, 29, 55, 807, DateTimeKind.Utc).AddTicks(420));
+                        .HasDefaultValue(new DateTime(2024, 6, 19, 1, 10, 12, 140, DateTimeKind.Utc).AddTicks(8760));
 
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("datetime2");
@@ -59,7 +59,7 @@ namespace FinalProject.Data.Migrations
                     b.Property<DateTime>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 6, 17, 3, 29, 55, 807, DateTimeKind.Utc).AddTicks(612));
+                        .HasDefaultValue(new DateTime(2024, 6, 19, 1, 10, 12, 140, DateTimeKind.Utc).AddTicks(9075));
 
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("datetime2");
@@ -93,7 +93,7 @@ namespace FinalProject.Data.Migrations
                     b.Property<DateTime>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 6, 17, 3, 29, 55, 807, DateTimeKind.Utc).AddTicks(828));
+                        .HasDefaultValue(new DateTime(2024, 6, 19, 1, 10, 12, 140, DateTimeKind.Utc).AddTicks(9294));
 
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("datetime2");
@@ -107,7 +107,6 @@ namespace FinalProject.Data.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("ImageUrl")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsAvialable")
@@ -149,7 +148,6 @@ namespace FinalProject.Data.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("ImageUrl")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool?>("IsPoster")
@@ -205,7 +203,7 @@ namespace FinalProject.Data.Migrations
                     b.Property<DateTime>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 6, 17, 3, 29, 55, 807, DateTimeKind.Utc).AddTicks(1026));
+                        .HasDefaultValue(new DateTime(2024, 6, 19, 1, 10, 12, 140, DateTimeKind.Utc).AddTicks(9516));
 
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("datetime2");

@@ -20,6 +20,9 @@ public class ProductUpdateDTO
     public int CategoryId { get; set; }
 
     public int FlavourId { get; set; }
+    public string? ImageUrl { get; set; }
+
+    public List<int>? ProductImageIds { get; set; }
 
     public List<ProductImage>? ProductImages { get; set; }
     public List<ProductSize>? ProductSizes { get; set; }

@@ -1,8 +1,8 @@
-﻿@model ProductUpdateDTO
+﻿@model ProductGetDTO
 <div class="container">
     <div class="row">
-        <div class="col-6">
-            <form asp-action="Update" method="post" enctype="multipart/form-data">
+        <div class="col-12">
+            <form asp-action="Update" asp-controller="Product" method="post" enctype="multipart/form-data">
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Title</label>
                     <input asp-for="Title" class="form-control" id="exampleInputEmail1" placeholder="Enter to Title">
@@ -11,7 +11,7 @@
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Description</label>
                     <input asp-for="Description" class="form-control" id="exampleInputEmail1" placeholder="Enter to Description">
-                    <span asp-validation-for="Price" class="text-danger"></span>
+                    <span asp-validation-for="Description" class="text-danger"></span>
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Info</label>
@@ -44,7 +44,9 @@
                     <label for="exampleInputEmail1" class="form-label">PosterImage</label>
                     <input asp-for="PosterImage" class="form-control" id="exampleInputEmail1" placeholder="PosterImage">
                     <span asp-validation-for="PosterImage" class="text-danger"></span>
-                    <img src="~/uploads/products/@Model.ProductImages?.Where(x=>x.IsPoster==true).FirstOrDefault()?.ImageUrl" width="100" height="100" />
+                    <div style="width:150px; margin:0 20px; margin-top:20px">
+                        <img src="~/uploads/products/@Model.ProductImages?.Where(x=>x.IsPoster==true).FirstOrDefault()?.ImageUrl" width="150" height="150" />
+                   </div>
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">ImageFile</label>
@@ -53,8 +55,10 @@
                     <div style="display:flex">
                         @foreach (var productImg in Model.ProductImages.Where(x => x.IsPoster == null))
                         {
-                           <div style="width:150px; margin:0 20px">
-                                <img src="~/uploads/products/@productImg?.ImageUrl" />
+                           <div style="width:150px; margin:0 20px; margin-top:20px; position:relative;" >
+                                <span class="delete-img-btn position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger fs-1 text-white" style="right:-10px; font-size:15px; top:-18px !important; cursor:pointer">X</span>
+                                <img src="~/uploads/products/@productImg?.ImageUrl" width="150" height="150" />
+                                <input  name="ProductImageIds" value="@productImg.Id" hidden />
                            </div>
                         }
                     </div>
@@ -72,3 +76,13 @@
         </div>
     </div>
 </div>
+
+                <script>
+                    var btns = document.querySelectorAll(".delete-img-btn");
+
+                    btns.forEach(btn=>{
+                        btn.addEventListener("click", function () {
+                            btn.parentElement.remove()
+                        })
+                    })
+                </script>

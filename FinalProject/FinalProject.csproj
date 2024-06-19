@@ -23,15 +23,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\uploads\products\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Include="wwwroot\admin\js\main.js" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\FinalProject.Business\FinalProject.Business.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\uploads\products\" />
   </ItemGroup>
 
 </Project>

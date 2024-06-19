@@ -8,7 +8,7 @@ namespace FinalProject.Core.Models;
 
 public class ProductImage: BaseEntity
 {
-    public string ImageUrl { get; set; }
+    public string? ImageUrl { get; set; }
 
     public bool? IsPoster { get; set; }
 
