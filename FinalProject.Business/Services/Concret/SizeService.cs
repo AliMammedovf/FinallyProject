@@ -21,7 +21,7 @@ public class SizeService : ISizeService
     public async Task AddAsyncSize(SizeCreateDTO sizeCreateDTO)
     {
         if (sizeCreateDTO == null)
-            throw new EntityNotFoundException("Size not found!");
+            throw new SizeNotFoundException("Size not found!");
         Size size = _mapper.Map<Size>(sizeCreateDTO);
 
         if (!_sizeRepository.GetAll().Any(x => x.Name == sizeCreateDTO.Name))
@@ -40,7 +40,7 @@ public class SizeService : ISizeService
         var exsist = _sizeRepository.Get(x => x.Id == id);
 
         if (exsist == null)
-            throw new EntityNotFoundException("Id cannot be empty!");
+            throw new SizeNotFoundException("Id cannot be empty!");
 
         _sizeRepository.Delete(exsist);
         _sizeRepository.Commit();
@@ -69,7 +69,7 @@ public class SizeService : ISizeService
         var oldSize = _sizeRepository.Get(x => x.Id == sizeUpdateDTO.Id);
 
         if (oldSize == null)
-            throw new EntityNotFoundException("Size not found!");
+            throw new SizeNotFoundException("Size not found!");
 
 
 

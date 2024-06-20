@@ -1,10 +1,12 @@
 ﻿using FinalProject.Business.DTOs.ProductDTOs;
+using FinalProject.Business.Exceptions;
 using FinalProject.Business.Services.Abstarct;
 using FinalProject.Business.Services.Concret;
 using FinalProject.Core.Models;
 using FinalProject.Core.RepositoryAbstract;
 using FinalProject.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using System;
 
 namespace FinalProject.Areas.Admin.Controllers
 {
@@ -60,8 +62,46 @@ namespace FinalProject.Areas.Admin.Controllers
             if (!ModelState.IsValid)
                 return View();
 
-            await  _productService.AddAsyncProduct(productCreateDTO);
-            return RedirectToAction("Index");
+            try
+            {
+				await _productService.AddAsyncProduct(productCreateDTO);
+			}
+            catch(CategoryNotFoundException ex)
+            {
+                ModelState.AddModelError("Category",ex.Message);
+                return View();
+            }
+			catch (FlavourNotFoundException ex)
+			{
+				ModelState.AddModelError("Flavour", ex.Message);
+				return View();
+			}
+			catch (SizeNotFoundException ex)
+			{
+				ModelState.AddModelError("Size", ex.Message);
+				return View();
+			}
+			catch (ImageContentTypeException ex)
+			{
+				ModelState.AddModelError("PosterImage", ex.Message);
+				return View();
+			}
+			catch (ImageSizeException ex)
+			{
+				ModelState.AddModelError("PosterImage", ex.Message);
+				return View();
+			}
+			catch (FileNotNullException ex)
+			{
+				ModelState.AddModelError("PosterImage", ex.Message);
+				return View();
+			}
+            catch(Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+
+			return RedirectToAction("Index");
         }
 
         [HttpGet]
@@ -127,8 +167,45 @@ namespace FinalProject.Areas.Admin.Controllers
             if (!ModelState.IsValid)
                 return View();
 
-            _productService.UpdateProduct(productUpdateDTO);
-            return RedirectToAction("Index");
+            try
+            {
+				_productService.UpdateProduct(productUpdateDTO);
+			}
+			catch (ProductNotFoundException ex)
+			{
+				ModelState.AddModelError("ImageFiles", ex.Message);
+				return View();
+			}
+			catch (CategoryNotFoundException ex)
+			{
+				ModelState.AddModelError("Category", ex.Message);
+				return View();
+			}
+			catch (FlavourNotFoundException ex)
+			{
+				ModelState.AddModelError("Flavour", ex.Message);
+				return View();
+			}
+			catch (ImageContentTypeException ex)
+			{
+				ModelState.AddModelError("PosterImage", ex.Message);
+				return View();
+			}
+			catch (ImageSizeException ex)
+			{
+				ModelState.AddModelError("PosterImage", ex.Message);
+				return View();
+			}
+			catch (FileNotNullException ex)
+			{
+				ModelState.AddModelError("PosterImage", ex.Message);
+				return View();
+			}
+			catch (Exception ex)
+			{
+				return BadRequest(ex.Message);
+			}
+			return RedirectToAction("Index");
         }
     }
 }

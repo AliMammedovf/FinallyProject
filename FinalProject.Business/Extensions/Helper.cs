@@ -38,7 +38,7 @@ public static class Helper
         string path = rootPath + $@"\{folder}\" + fileName;
 
         if (!File.Exists(path))
-            throw new Exceptions.FileNotFoundException("File not found!");
+            throw new FileNotNullException("File not found!");
 
         File.Delete(path);
     }

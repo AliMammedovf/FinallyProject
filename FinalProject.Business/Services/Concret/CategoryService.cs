@@ -26,7 +26,7 @@ public class CategoryService : ICategoryService
     public async Task AddAsyncCategory(CategoryCreateDTO categoryCreateDTO)
     {
         if (categoryCreateDTO == null)
-            throw new EntityNotFoundException("Category not found!");
+            throw new CategoryNotFoundException("Category not found!");
 
         Category category= _mapper.Map<Category>(categoryCreateDTO);
 
@@ -48,7 +48,7 @@ public class CategoryService : ICategoryService
         var exsist= _categoryRepository.Get(x=>x.Id==id);
 
         if (exsist == null)
-            throw new EntityNotFoundException("Id cannot be empty!");
+            throw new CategoryNotFoundException("Id cannot be empty!");
 
         _categoryRepository.Delete(exsist);
         _categoryRepository.Commit();
@@ -77,7 +77,7 @@ public class CategoryService : ICategoryService
         var oldCategory= _categoryRepository.Get(x=> x.Id==categoryUpdateDTO.Id);
 
         if (oldCategory == null)
-            throw new EntityNotFoundException("Category not found!");
+            throw new CategoryNotFoundException("Category not found!");
 
 
 

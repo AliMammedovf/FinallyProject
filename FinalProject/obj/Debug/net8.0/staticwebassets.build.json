@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "o7uEQ0dpQ4yv93fAaMQ28reaby+jqRjXTXmqihEEGX4=",
+  "Hash": "4pV1MiSSFwlEJIScwUqUFwj1yTBxIDz4gdQVfUzbC/o=",
   "Source": "FinalProject",
   "BasePath": "_content/FinalProject",
   "Mode": "Default",
@@ -38492,12 +38492,12 @@
       "OriginalItemSpec": "wwwroot\\js\\wow.js"
     },
     {
-      "Identity": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\uploads\\products\\0f3fce18-0c19-4d43-94ae-f7075144fdd9.JPG",
+      "Identity": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\uploads\\products\\0602afe3-8d26-45f6-98bb-e1b59b7e9fb9.jpg",
       "SourceId": "FinalProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\",
       "BasePath": "_content/FinalProject",
-      "RelativePath": "uploads/products/0f3fce18-0c19-4d43-94ae-f7075144fdd9.JPG",
+      "RelativePath": "uploads/products/0602afe3-8d26-45f6-98bb-e1b59b7e9fb9.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -38508,15 +38508,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\products\\0f3fce18-0c19-4d43-94ae-f7075144fdd9.JPG"
+      "OriginalItemSpec": "wwwroot\\uploads\\products\\0602afe3-8d26-45f6-98bb-e1b59b7e9fb9.jpg"
     },
     {
-      "Identity": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\uploads\\products\\35090b1e-2a9a-4d53-a07d-2e3e10243b0a.jpg",
+      "Identity": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\uploads\\products\\11298b72-83dd-430e-9d9e-51504341ee00.jpg",
       "SourceId": "FinalProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\",
       "BasePath": "_content/FinalProject",
-      "RelativePath": "uploads/products/35090b1e-2a9a-4d53-a07d-2e3e10243b0a.jpg",
+      "RelativePath": "uploads/products/11298b72-83dd-430e-9d9e-51504341ee00.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -38527,15 +38527,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\products\\35090b1e-2a9a-4d53-a07d-2e3e10243b0a.jpg"
+      "OriginalItemSpec": "wwwroot\\uploads\\products\\11298b72-83dd-430e-9d9e-51504341ee00.jpg"
     },
     {
-      "Identity": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\uploads\\products\\70b68383-bde2-4e67-b567-e6d87c61866a.png",
+      "Identity": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\uploads\\products\\4bcd94a5-40e7-46a4-961f-a3fed4e26b6f.jpg",
       "SourceId": "FinalProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\",
       "BasePath": "_content/FinalProject",
-      "RelativePath": "uploads/products/70b68383-bde2-4e67-b567-e6d87c61866a.png",
+      "RelativePath": "uploads/products/4bcd94a5-40e7-46a4-961f-a3fed4e26b6f.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -38546,15 +38546,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\products\\70b68383-bde2-4e67-b567-e6d87c61866a.png"
+      "OriginalItemSpec": "wwwroot\\uploads\\products\\4bcd94a5-40e7-46a4-961f-a3fed4e26b6f.jpg"
     },
     {
-      "Identity": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\uploads\\products\\8a023f0b-818a-407d-852b-2584e5073ccb.png",
+      "Identity": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\uploads\\products\\68158eb0-fa49-4404-9c6c-c3d1525cc869.jpg",
       "SourceId": "FinalProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\",
       "BasePath": "_content/FinalProject",
-      "RelativePath": "uploads/products/8a023f0b-818a-407d-852b-2584e5073ccb.png",
+      "RelativePath": "uploads/products/68158eb0-fa49-4404-9c6c-c3d1525cc869.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -38565,15 +38565,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\products\\8a023f0b-818a-407d-852b-2584e5073ccb.png"
+      "OriginalItemSpec": "wwwroot\\uploads\\products\\68158eb0-fa49-4404-9c6c-c3d1525cc869.jpg"
     },
     {
-      "Identity": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\uploads\\products\\ac655320-b917-4a92-9425-f4b9596e1314.jpg",
+      "Identity": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\uploads\\products\\6e407673-06c9-41d8-af52-ff19441f1c0b.jpg",
       "SourceId": "FinalProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\",
       "BasePath": "_content/FinalProject",
-      "RelativePath": "uploads/products/ac655320-b917-4a92-9425-f4b9596e1314.jpg",
+      "RelativePath": "uploads/products/6e407673-06c9-41d8-af52-ff19441f1c0b.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -38584,15 +38584,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\products\\ac655320-b917-4a92-9425-f4b9596e1314.jpg"
+      "OriginalItemSpec": "wwwroot\\uploads\\products\\6e407673-06c9-41d8-af52-ff19441f1c0b.jpg"
     },
     {
-      "Identity": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\uploads\\products\\c9d68a7f-865c-4964-a892-80408cab1d2b.JPG",
+      "Identity": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\uploads\\products\\7a4cf087-5d58-4b56-894f-0a5c709bc725.jpg",
       "SourceId": "FinalProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\",
       "BasePath": "_content/FinalProject",
-      "RelativePath": "uploads/products/c9d68a7f-865c-4964-a892-80408cab1d2b.JPG",
+      "RelativePath": "uploads/products/7a4cf087-5d58-4b56-894f-0a5c709bc725.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -38603,15 +38603,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\products\\c9d68a7f-865c-4964-a892-80408cab1d2b.JPG"
+      "OriginalItemSpec": "wwwroot\\uploads\\products\\7a4cf087-5d58-4b56-894f-0a5c709bc725.jpg"
     },
     {
-      "Identity": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\uploads\\products\\d1dac71e-4067-4525-bfa1-8badaf22e448.png",
+      "Identity": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\uploads\\products\\a468b2c5-4b2e-47a0-903b-6192e4389885.jpg",
       "SourceId": "FinalProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\",
       "BasePath": "_content/FinalProject",
-      "RelativePath": "uploads/products/d1dac71e-4067-4525-bfa1-8badaf22e448.png",
+      "RelativePath": "uploads/products/a468b2c5-4b2e-47a0-903b-6192e4389885.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -38622,7 +38622,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\products\\d1dac71e-4067-4525-bfa1-8badaf22e448.png"
+      "OriginalItemSpec": "wwwroot\\uploads\\products\\a468b2c5-4b2e-47a0-903b-6192e4389885.jpg"
     }
   ]
 }

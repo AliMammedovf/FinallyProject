@@ -1,4 +1,5 @@
-﻿	<!-- Banner Section -->
+﻿@model HomeVM
+<!-- Banner Section -->
 <section class="banner-section">
 	<div class="main-slider-carousel owl-carousel owl-theme">
 
@@ -215,108 +216,32 @@
 		<div class="row clearfix">
 
 			<!-- Menu Block -->
-			<div class="menu-block col-xl-3 col-lg-6 col-md-6 col-sm-12">
-				<div class="inner-box">
-					<div class="image">
-						<a href="shop-detail.html"><img src="~/images/resource/menu-5.jpg" alt="" /></a>
-						<div class="overlay-box">
-							<ul class="btns-list">
-								<li><a href="shop-detail.html">Add To Cart</a></li>
-								<li><a href="shop-detail.html">View Product</a></li>
-							</ul>
+			@foreach(var item in Model.Products)
+			{
+				<div class="menu-block col-xl-3 col-lg-6 col-md-6 col-sm-12">
+					<div class="inner-box">
+						<div class="image" style="width:350px; height:300px">
+							<a asp-action="Index" asp-controller="Shop" asp-route-id="@item.Id"><img src="~/uploads/products/@item.ProductImages?.Where(x=>x.IsPoster==true).FirstOrDefault()?.ImageUrl" /></a>
+							<div class="overlay-box">
+								<ul class="btns-list">
+									<li><a asp-action="Index" asp-controller="Shop" asp-route-id="@item.Id">Add To Cart</a></li>
+									<li><a asp-action="Index" asp-controller="Shop" asp-route-id="@item.Id">View Product</a></li>
+								</ul>
+							</div>
 						</div>
-					</div>
-					<div class="lower-content">
-						<h4><a href="shop-detail.html">Contadina</a></h4>
-						<div class="rating">
-							<span class="fa fa-star"></span>
-							<span class="fa fa-star"></span>
-							<span class="fa fa-star"></span>
-							<span class="fa fa-star"></span>
-							<span class="fa fa-star"></span>
+						<div class="lower-content" style="width:350px; height:150px">
+							<h4><a asp-action="Index" asp-controller="Shop" asp-route-id="@item.Id">@item.Title</a></h4>
+							<div class="Category">
+								<p>@item.Category.Name</p>
+							</div>
+							<div class="price">$@item.Price</div>
 						</div>
-						<div class="price">$15</div>
 					</div>
 				</div>
-			</div>
+			}
 
 			<!-- Menu Block -->
-			<div class="menu-block col-xl-3 col-lg-6 col-md-6 col-sm-12">
-				<div class="inner-box">
-					<div class="image">
-						<a href="shop-detail.html"><img src="~/images/resource/menu-6.jpg" alt="" /></a>
-						<div class="overlay-box">
-							<ul class="btns-list">
-								<li><a href="shop-detail.html">Add To Cart</a></li>
-								<li><a href="shop-detail.html">View Product</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="lower-content">
-						<h4><a href="shop-detail.html">Margherita Pizza</a></h4>
-						<div class="rating">
-							<span class="fa fa-star"></span>
-							<span class="fa fa-star"></span>
-							<span class="fa fa-star"></span>
-							<span class="fa fa-star"></span>
-							<span class="fa fa-star"></span>
-						</div>
-						<div class="price">$15</div>
-					</div>
-				</div>
-			</div>
-
-			<!-- Menu Block -->
-			<div class="menu-block col-xl-3 col-lg-6 col-md-6 col-sm-12">
-				<div class="inner-box">
-					<div class="image">
-						<a href="shop-detail.html"><img src="~/images/resource/menu-7.jpg" alt="" /></a>
-						<div class="overlay-box">
-							<ul class="btns-list">
-								<li><a href="shop-detail.html">Add To Cart</a></li>
-								<li><a href="shop-detail.html">View Product</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="lower-content">
-						<h4><a href="shop-detail.html">Stuffed Pizza</a></h4>
-						<div class="rating">
-							<span class="fa fa-star"></span>
-							<span class="fa fa-star"></span>
-							<span class="fa fa-star"></span>
-							<span class="fa fa-star"></span>
-							<span class="fa fa-star"></span>
-						</div>
-						<div class="price">$15</div>
-					</div>
-				</div>
-			</div>
-
-			<!-- Menu Block -->
-			<div class="menu-block col-xl-3 col-lg-6 col-md-6 col-sm-12">
-				<div class="inner-box">
-					<div class="image">
-						<a href="shop-detail.html"><img src="~/images/resource/menu-8.jpg" alt="" /></a>
-						<div class="overlay-box">
-							<ul class="btns-list">
-								<li><a href="shop-detail.html">Add To Cart</a></li>
-								<li><a href="shop-detail.html">View Product</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="lower-content">
-						<h4><a href="shop-detail.html">Hawaiian Pizza</a></h4>
-						<div class="rating">
-							<span class="fa fa-star"></span>
-							<span class="fa fa-star"></span>
-							<span class="fa fa-star"></span>
-							<span class="fa fa-star"></span>
-							<span class="fa fa-star"></span>
-						</div>
-						<div class="price">$15</div>
-					</div>
-				</div>
-			</div>
+			
 
 		</div>
 	</div>

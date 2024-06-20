@@ -1,4 +1,5 @@
 ﻿using FinalProject.Business.DTOs.CategoryDTOs;
+using FinalProject.Business.Exceptions;
 using FinalProject.Business.Services.Abstarct;
 using FinalProject.Data.DAL;
 using Microsoft.AspNetCore.Mvc;
@@ -34,8 +35,27 @@ namespace FinalProject.Areas.Admin.Controllers
             if (!ModelState.IsValid)
                 return View();
 
-            await _categoryService.AddAsyncCategory(categoryCreateDTO);
-            return RedirectToAction("Index");
+            try
+            {
+
+				await _categoryService.AddAsyncCategory(categoryCreateDTO);
+			}
+			catch (CategoryNotFoundException ex)
+			{
+				ModelState.AddModelError("Name", ex.Message);
+				return View();
+			}
+			catch (DuplicateEntityException ex)
+			{
+				ModelState.AddModelError("Name", ex.Message);
+				return View();
+			}
+			catch (Exception ex)
+			{
+				return BadRequest(ex.Message);
+			}
+
+			return RedirectToAction("Index");
         }
 
 
@@ -85,8 +105,26 @@ namespace FinalProject.Areas.Admin.Controllers
             if (!ModelState.IsValid)
                 return View();
 
-            _categoryService.UpdateCategory(categoryUpdateDTO);
-            return RedirectToAction("Index");
+            try
+            {
+				_categoryService.UpdateCategory(categoryUpdateDTO);
+			}
+			catch (CategoryNotFoundException ex)
+			{
+				ModelState.AddModelError("Name", ex.Message);
+				return View();
+			}
+			catch (DuplicateEntityException ex)
+			{
+				ModelState.AddModelError("Name", ex.Message);
+				return View();
+			}
+			catch (Exception ex)
+			{
+				return BadRequest(ex.Message);
+			}
+
+			return RedirectToAction("Index");
         }
     }
 }

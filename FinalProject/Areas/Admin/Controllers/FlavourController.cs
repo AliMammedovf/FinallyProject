@@ -1,4 +1,5 @@
 ﻿using FinalProject.Business.DTOs.FlavourDTOs;
+using FinalProject.Business.Exceptions;
 using FinalProject.Business.Services.Abstarct;
 using FinalProject.Business.Services.Concret;
 using Microsoft.AspNetCore.Mvc;
@@ -32,8 +33,25 @@ namespace FinalProject.Areas.Admin.Controllers
             if (!ModelState.IsValid)
                 return View();
 
-           await  _flavourService.AddAsyncFlavour(flavourCreateDTO);
-            return RedirectToAction("Index");
+            try
+            {
+				await _flavourService.AddAsyncFlavour(flavourCreateDTO);
+			}
+			catch (FlavourNotFoundException ex)
+			{
+				ModelState.AddModelError("Name", ex.Message);
+				return View();
+			}
+			catch (DuplicateEntityException ex)
+			{
+				ModelState.AddModelError("Name", ex.Message);
+				return View();
+			}
+			catch (Exception ex)
+			{
+				return BadRequest(ex.Message);
+			}
+			return RedirectToAction("Index");
         }
 
         [HttpGet]
@@ -70,8 +88,26 @@ namespace FinalProject.Areas.Admin.Controllers
                 return View();
 
 
-            _flavourService.UpdateFlavour(flavourUpdateDTO);
-            return RedirectToAction("Index");
+            try
+            {
+				_flavourService.UpdateFlavour(flavourUpdateDTO);
+			}
+			catch (FlavourNotFoundException ex)
+			{
+				ModelState.AddModelError("Name", ex.Message);
+				return View();
+			}
+			catch (DuplicateEntityException ex)
+			{
+				ModelState.AddModelError("Name", ex.Message);
+				return View();
+			}
+			catch (Exception ex)
+			{
+				return BadRequest(ex.Message);
+			}
+
+			return RedirectToAction("Index");
         }
     }
 }

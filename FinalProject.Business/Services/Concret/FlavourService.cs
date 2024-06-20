@@ -28,7 +28,7 @@ public class FlavourService : IFlavourService
     public async Task AddAsyncFlavour(FlavourCreateDTO flavourCreateDTO)
     {
         if(flavourCreateDTO == null)
-            throw new EntityNotFoundException("Flavour not found!");
+            throw new FlavourNotFoundException("Flavour not found!");
 
         Flavour flavour= _mapper.Map<Flavour>(flavourCreateDTO);
 
@@ -49,7 +49,7 @@ public class FlavourService : IFlavourService
         var exsist = _favourRepository.Get(x => x.Id == id);
 
         if (exsist == null)
-            throw new EntityNotFoundException("Id cannot be empty!");
+            throw new FlavourNotFoundException("Id cannot be empty!");
 
         _favourRepository.Delete(exsist);
         _favourRepository.Commit();
@@ -78,7 +78,7 @@ public class FlavourService : IFlavourService
         var oldFlavour = _favourRepository.Get(x => x.Id == flavourUpdateDTO.Id);
 
         if (oldFlavour == null)
-            throw new EntityNotFoundException("Flavour not found!");
+            throw new FlavourNotFoundException("Flavour not found!");
 
 
 

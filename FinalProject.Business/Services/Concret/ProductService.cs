@@ -42,11 +42,11 @@ public class ProductService : IProductService
 
         var exsistCategory= _categoryRepository.Get(x=>x.Id== productCreateDTO.CategoryId);
 
-        if (exsistCategory == null) throw new EntityNotFoundException("Category not found!");
+        if (exsistCategory == null) throw new CategoryNotFoundException("Category not found!");
 
         var exsistFlavour= _flavourRepository.Get(x=>x.Id == productCreateDTO.FlavourId);
 
-        if(exsistFlavour == null) throw new EntityNotFoundException("Flavour not found!");
+        if(exsistFlavour == null) throw new FlavourNotFoundException("Flavour not found!");
 
         
 
@@ -58,7 +58,7 @@ public class ProductService : IProductService
             {
                 if(!_sizeRepository.GetAll().Any(x=>x.Id == sizeId))
                 {
-                    throw new EntityNotFoundException("Size not found!");
+                    throw new SizeNotFoundException("Size not found!");
                 }
             }
 
@@ -93,7 +93,7 @@ public class ProductService : IProductService
         }
         else
         {
-            throw new EntityNotFoundException("File cannot null!");
+            throw new FileNotNullException("File cannot null!");
         }
 
         if(productCreateDTO.ImageFiles != null)
@@ -114,7 +114,7 @@ public class ProductService : IProductService
         }
         else
         {
-            throw new EntityNotFoundException("File cannot null!");
+            throw new FileNotNullException("File cannot null!");
         }
 
         await _productRepository.AddAsync(product);
@@ -126,7 +126,7 @@ public class ProductService : IProductService
     public void DeleteProduct(int id)
     {
        var exsistProduct = _productRepository.Get(x=>x.Id== id);
-        if (exsistProduct == null) throw new EntityNotFoundException("Id cannot be empty!");
+        if (exsistProduct == null) throw new CategoryNotFoundException("Id cannot be empty!");
 
         Helper.DeleteFile(_env.WebRootPath, @"uploads/products", exsistProduct.ImageUrl);
 
@@ -157,15 +157,15 @@ public class ProductService : IProductService
     {
         var oldProduct= _productRepository.Get(x=>x.Id==productUpdateDTO.Id);
 
-        if (oldProduct == null) throw new EntityNotFoundException("Product not found!");
+        if (oldProduct == null) throw new ProductNotFoundException("Product not found!");
 
         var exsistCategory = _categoryRepository.Get(x => x.Id == productUpdateDTO.CategoryId);
 
-        if (exsistCategory == null) throw new EntityNotFoundException("Category not found!");
+        if (exsistCategory == null) throw new CategoryNotFoundException("Category not found!");
 
         var exsistFlavour = _flavourRepository.Get(x => x.Id == productUpdateDTO.FlavourId);
 
-        if (exsistFlavour == null) throw new EntityNotFoundException("Flavour not found!");
+        if (exsistFlavour == null) throw new FlavourNotFoundException("Flavour not found!");
 
        
 

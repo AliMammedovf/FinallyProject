@@ -1,4 +1,5 @@
 ﻿using FinalProject.Business.DTOs.SizeDTOs;
+using FinalProject.Business.Exceptions;
 using FinalProject.Business.Services.Abstarct;
 using FinalProject.Business.Services.Concret;
 using Microsoft.AspNetCore.Mvc;
@@ -32,8 +33,25 @@ namespace FinalProject.Areas.Admin.Controllers
             if (!ModelState.IsValid)
                 return View();
 
-            await _sizeService.AddAsyncSize(sizeCreateDTO);
-            return RedirectToAction("Index");
+            try
+            {
+				await _sizeService.AddAsyncSize(sizeCreateDTO);
+			}
+            catch (SizeNotFoundException ex)
+            {
+                ModelState.AddModelError("Name",ex.Message);
+                return View();
+            }
+			catch (DuplicateEntityException ex)
+			{
+				ModelState.AddModelError("Name", ex.Message);
+				return View();
+			}
+            catch(Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+			return RedirectToAction("Index");
         }
 
         [HttpGet]
@@ -69,8 +87,26 @@ namespace FinalProject.Areas.Admin.Controllers
             if (!ModelState.IsValid)
                 return View();
 
-            _sizeService.UpdateSize(sizeUpdateDTO);
-            return RedirectToAction("Index");
+            try
+            {
+				_sizeService.UpdateSize(sizeUpdateDTO);
+			}
+			catch (SizeNotFoundException ex)
+			{
+				ModelState.AddModelError("Name", ex.Message);
+				return View();
+			}
+			catch (DuplicateEntityException ex)
+			{
+				ModelState.AddModelError("Name", ex.Message);
+				return View();
+			}
+			catch (Exception ex)
+			{
+				return BadRequest(ex.Message);
+			}
+
+			return RedirectToAction("Index");
         }
 
 
