@@ -30,10 +30,10 @@ namespace FinalProject.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<DateTime>("CreatedDate")
+                    b.Property<DateTime?>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 6, 19, 1, 10, 12, 140, DateTimeKind.Utc).AddTicks(8760));
+                        .HasDefaultValue(new DateTime(2024, 6, 22, 17, 40, 6, 633, DateTimeKind.Utc).AddTicks(381));
 
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("datetime2");
@@ -56,10 +56,10 @@ namespace FinalProject.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<DateTime>("CreatedDate")
+                    b.Property<DateTime?>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 6, 19, 1, 10, 12, 140, DateTimeKind.Utc).AddTicks(9075));
+                        .HasDefaultValue(new DateTime(2024, 6, 22, 17, 40, 6, 633, DateTimeKind.Utc).AddTicks(553));
 
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("datetime2");
@@ -90,10 +90,10 @@ namespace FinalProject.Data.Migrations
                     b.Property<int>("CategoryId")
                         .HasColumnType("int");
 
-                    b.Property<DateTime>("CreatedDate")
+                    b.Property<DateTime?>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 6, 19, 1, 10, 12, 140, DateTimeKind.Utc).AddTicks(9294));
+                        .HasDefaultValue(new DateTime(2024, 6, 22, 17, 40, 6, 633, DateTimeKind.Utc).AddTicks(762));
 
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("datetime2");
@@ -141,7 +141,7 @@ namespace FinalProject.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<DateTime>("CreatedDate")
+                    b.Property<DateTime?>("CreatedDate")
                         .HasColumnType("datetime2");
 
                     b.Property<DateTime?>("DeletedDate")
@@ -171,7 +171,7 @@ namespace FinalProject.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<DateTime>("CreatedDate")
+                    b.Property<DateTime?>("CreatedDate")
                         .HasColumnType("datetime2");
 
                     b.Property<DateTime?>("DeletedDate")
@@ -200,10 +200,10 @@ namespace FinalProject.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<DateTime>("CreatedDate")
+                    b.Property<DateTime?>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 6, 19, 1, 10, 12, 140, DateTimeKind.Utc).AddTicks(9516));
+                        .HasDefaultValue(new DateTime(2024, 6, 22, 17, 40, 6, 633, DateTimeKind.Utc).AddTicks(929));
 
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("datetime2");

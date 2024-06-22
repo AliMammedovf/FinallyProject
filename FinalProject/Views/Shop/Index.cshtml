@@ -1,281 +1,93 @@
-﻿@{
-	Layout = null;
-}
-<!DOCTYPE html>
-<html>
+﻿@model HomeVM
 
-<!-- Mirrored from gico.io/cyyo/05_Pizza/shop-detail.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 10 Jun 2024 14:11:17 GMT -->
-<head>
-	<meta charset="utf-8">
-	<title>Cyyo Pizza HTML-5 Template | Shop Detail</title>
-	<!-- Stylesheets -->
-	<link href="~/css/bootstrap.css" rel="stylesheet">
-	<link href="~/css/style.css" rel="stylesheet">
-	<link href="~/css/responsive.css" rel="stylesheet">
+	<!-- Page Title Section -->
+<section class="page-title-section" style="background-image: url(images/background/8.jpg)">
+	<div class="auto-container">
+		<h1>Testing Pizza</h1>
+		<div class="content">
+			<h3>Shop List</h3>
+			<ul class="bread-crumbs">
+				<li><a href="index-2.html">Home</a></li>
+				<li>Shop List</li>
+			</ul>
+		</div>
+	</div>
+</section>
+<!-- End Page Title Section -->
+<!-- Sidebar Page Container -->
+<div class="sidebar-page-container">
+	<div class="pattern-layer-one" style="background-image: url(images/background/pattern-4.png)"></div>
+	<div class="pattern-layer-two" style="background-image: url(images/background/pattern-5.png)"></div>
+	<div class="auto-container">
+		<div class="row clearfix">
 
-	<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&amp;family=Overpass:wght@100;200;300;400;600;700;800;900&amp;family=Playfair+Display:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+			<!-- Sidebar Side -->
+			<div class="sidebar-side left-sidebar col-lg-3 col-md-12 col-sm-12">
+				<aside class="sidebar sticky-top">
 
-	<link rel="shortcut icon" href="~/images/favicon.png" type="~/image/x-icon">
-	<link rel="icon" href="~/images/favicon.png" type="~/image/x-icon">
 
-	<!-- Responsive -->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-
-	<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
-	<!--[if lt IE 9]><script src="~/js/respond.js"></script><![endif]-->
-</head>
-
-<body>
-
-	<div class="page-wrapper">
-
-		<!-- Preloader -->
-		<div class="preloader"></div>
-
-		<!-- Main Header -->
-		<header class="main-header">
-
-			<!-- Header Upper -->
-			<div class="header-upper">
-				<div class="auto-container">
-					<div class="clearfix">
-
-						<div class="pull-left logo-box">
-							<div class="logo"><a href="index-2.html"><img src="~/images/logo.png" alt="" title=""></a></div>
-						</div>
-
-						<div class="nav-outer clearfix">
-							<!-- Mobile Navigation Toggler -->
-							<div class="mobile-nav-toggler"><span class="icon flaticon-menu"></span></div>
-							<!-- Main Menu -->
-							<nav class="main-menu navbar-expand-md">
-								<div class="navbar-header">
-									<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-										<span class="icon-bar"></span>
-										<span class="icon-bar"></span>
-										<span class="icon-bar"></span>
-									</button>
-								</div>
-
-								<div class="navbar-collapse show collapse clearfix" id="navbarSupportedContent">
-									<ul class="navigation left-nav clearfix">
-										<li><a href="index-2.html">Home</a></li>
-										<li class="dropdown">
-											<a href="#">About</a>
-											<ul>
-												<li><a href="about.html">About Us</a></li>
-												<li><a href="team.html">Team</a></li>
-											</ul>
-										</li>
-										<li><a href="reservation.html">Reservation</a></li>
-									</ul>
-
-									<ul class="navigation right-nav clearfix">
-										<li class="current dropdown">
-											<a href="#">Shop</a>
-											<ul>
-												<li><a href="shop.html">Shop</a></li>
-												<li><a href="shop-2.html">Shop LeftSidebar</a></li>
-												<li><a href="shop-3.html">Shop RightSidebar</a></li>
-												<li><a href="shop-detail.html">Shop Detail</a></li>
-											</ul>
-										</li>
-										<li class="dropdown">
-											<a href="#">Blog</a>
-											<ul>
-												<li><a href="blog.html">Our Blog</a></li>
-												<li><a href="blog-detail.html">Blog Detail</a></li>
-												<li><a href="not-found.html">Not Found</a></li>
-											</ul>
-										</li>
-										<li><a href="contact.html">Contact us</a></li>
-									</ul>
-
-								</div>
-
-							</nav>
-
-							<!-- Main Menu End-->
-							<div class="outer-box clearfix">
-
-								<!-- Cart Box -->
-								<div class="cart-box">
-									<div class="dropdown">
-										<button class="cart-box-btn dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flaticon-shopping-cart"></span><span class="total-cart">2</span></button>
-										<div class="dropdown-menu pull-right cart-panel" aria-labelledby="dropdownMenu1">
-
-											<div class="cart-product">
-												<div class="inner">
-													<div class="cross-icon"><span class="icon fa fa-remove"></span></div>
-													<div class="image"><img src="~/images/resource/post-thumb-1.jpg" alt="" /></div>
-													<h3><a href="#">Flying Ninja</a></h3>
-													<div class="quantity-text">Quantity 1</div>
-													<div class="price">$99.00</div>
-												</div>
-											</div>
-											<div class="cart-product">
-												<div class="inner">
-													<div class="cross-icon"><span class="icon fa fa-remove"></span></div>
-													<div class="image"><img src="~/images/resource/post-thumb-2.jpg" alt="" /></div>
-													<h3><a href="#">Patient Ninja</a></h3>
-													<div class="quantity-text">Quantity 1</div>
-													<div class="price">$99.00</div>
-												</div>
-											</div>
-											<div class="cart-total">Sub Total: <span>$198</span></div>
-											<ul class="btns-boxed">
-												<li><a href="#">View Cart</a></li>
-												<li><a href="#">CheckOut</a></li>
-											</ul>
-
-										</div>
-									</div>
-								</div>
-
+					<!-- Shop Info Box -->
+					<div class="shop-info-box">
+						<div class="clearfix">
+							<div class="pull-left">
+								<div class="total-post">Showing 1–9 of 12 results</div>
 							</div>
-
-						</div>
-
-					</div>
-				</div>
-			</div>
-			<!-- End Header Upper -->
-			<!-- Sticky Header  -->
-			<div class="sticky-header">
-				<div class="auto-container clearfix">
-					<!--Logo-->
-					<div class="logo pull-left">
-						<a href="index-2.html" title=""><img src="~/images/logo-small.png" alt="" title=""></a>
-					</div>
-					<!--Right Col-->
-					<div class="pull-right">
-						<!-- Main Menu -->
-						<nav class="main-menu">
-							<!--Keep This Empty / Menu will come through Javascript-->
-						</nav><!-- Main Menu End-->
-						<!-- Main Menu End-->
-						<div class="outer-box clearfix">
-
-							<!-- Search Btn -->
-							<div class="search-box-btn search-box-outer"><span class="icon fa fa-search"></span></div>
-
-							<!-- Cart Box -->
-							<div class="cart-box">
-								<div class="dropdown">
-									<button class="cart-box-btn dropdown-toggle" type="button" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flaticon-shopping-bag-1"></span><span class="total-cart">2</span></button>
-									<div class="dropdown-menu pull-right cart-panel" aria-labelledby="dropdownMenu">
-
-										<div class="cart-product">
-											<div class="inner">
-												<div class="cross-icon"><span class="icon fa fa-remove"></span></div>
-												<div class="image"><img src="~/images/resource/post-thumb-1.jpg" alt="" /></div>
-												<h3><a href="#">Flying Ninja</a></h3>
-												<div class="quantity-text">Quantity 1</div>
-												<div class="price">$99.00</div>
-											</div>
-										</div>
-										<div class="cart-product">
-											<div class="inner">
-												<div class="cross-icon"><span class="icon fa fa-remove"></span></div>
-												<div class="image"><img src="~/images/resource/post-thumb-2.jpg" alt="" /></div>
-												<h3><a href="#">Patient Ninja</a></h3>
-												<div class="quantity-text">Quantity 1</div>
-												<div class="price">$99.00</div>
-											</div>
-										</div>
-										<div class="cart-total">Sub Total: <span>$198</span></div>
-										<ul class="btns-boxed">
-											<li><a href="#">View Cart</a></li>
-											<li><a href="#">CheckOut</a></li>
-										</ul>
-
-									</div>
+							<div class="pull-right clearfix">
+								<ul class="view-list">
+									<li><a href="#" class="flaticon-squares"></a></li>
+									<li><a href="#" class="fa fa-list-ul"></a></li>
+								</ul>
+								<div class="select-box">
+									<select name="country">
+										<option>Default Short by</option>
+										<option>Accending</option>
+										<option>decending</option>
+									</select>
 								</div>
 							</div>
-
 						</div>
-
 					</div>
-				</div>
-			</div><!-- End Sticky Menu -->
-			<!-- Mobile Menu  -->
-			<div class="mobile-menu">
-				<div class="menu-backdrop"></div>
-				<div class="close-btn"><span class="icon flaticon-multiply"></span></div>
 
-				<nav class="menu-box">
-					<div class="nav-logo"><a href="index-2.html"><img src="~/images/logo-small.png" alt="" title=""></a></div>
-					<div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
-				</nav>
-			</div><!-- End Mobile Menu -->
+					<!-- Category Widget -->
+					<div class="sidebar-widget category-widget">
+						<div class="widget-content">
+							<h4>Categories</h4>
+							<ul class="cate-list">
+								@foreach(var category in Model.Categories)
+								{
+									<li><a href="#">@category.Name</a></li>
+								}
 
-		</header>
-		<!-- End Main Header -->
-		<!-- Page Title Section -->
-		<section class="page-title-section" style="background-image: url(images/background/8.jpg)">
-			<div class="auto-container">
-				<h1>Testing Pizza</h1>
-				<div class="content">
-					<h3>Shop Detial</h3>
-					<ul class="bread-crumbs">
-						<li><a href="index-2.html">Home</a></li>
-						<li>Shop Detial</li>
-					</ul>
-				</div>
+							</ul>
+						</div>
+					</div>
+
+				</aside>
 			</div>
-		</section>
-		<!-- End Page Title Section -->
-		<!-- Shop Detail Section -->
-		<div class="shop-detail-section">
-			<div class="auto-container">
+
+			<!-- Content Side -->
+			<div class="content-side right-sidebar col-lg-9 col-md-12 col-sm-12">
 				<div class="row clearfix">
-					<!-- Carousel Column -->
-					<div class="carousel-column col-lg-6 col-md-12 col-sm-12">
-						<div class="inner-column">
 
-							<!-- Carousel Boxed -->
-							<div class="menu-carousel-box">
-								<div class="image-column">
-									<div class="carousel-outer">
-
-										<ul class="image-carousel owl-carousel owl-theme">
-											<li><a href="~/images/resource/products/1.jpg" class="lightbox-image" title="Image Caption Here"><img src="~/images/resource/products/1.jpg" alt=""></a></li>
-											<li><a href="~/images/resource/products/1.jpg" class="lightbox-image" title="Image Caption Here"><img src="~/images/resource/products/1.jpg" alt=""></a></li>
-											<li><a href="~/images/resource/products/1.jpg" class="lightbox-image" title="Image Caption Here"><img src="~/images/resource/products/1.jpg" alt=""></a></li>
-											<li><a href="~/images/resource/products/1.jpg" class="lightbox-image" title="Image Caption Here"><img src="~/images/resource/products/1.jpg" alt=""></a></li>
-											<li><a href="~/images/resource/products/1.jpg" class="lightbox-image" title="Image Caption Here"><img src="~/images/resource/products/1.jpg" alt=""></a></li>
-											<li><a href="~/images/resource/products/1.jpg" class="lightbox-image" title="Image Caption Here"><img src="~/images/resource/products/1.jpg" alt=""></a></li>
-											<li><a href="~/images/resource/products/1.jpg" class="lightbox-image" title="Image Caption Here"><img src="~/images/resource/products/1.jpg" alt=""></a></li>
-											<li><a href="~/images/resource/products/1.jpg" class="lightbox-image" title="Image Caption Here"><img src="~/images/resource/products/1.jpg" alt=""></a></li>
-											<li><a href="~/images/resource/products/1.jpg" class="lightbox-image" title="Image Caption Here"><img src="~/images/resource/products/1.jpg" alt=""></a></li>
-											<li><a href="~/images/resource/products/1.jpg" class="lightbox-image" title="Image Caption Here"><img src="~/images/resource/products/1.jpg" alt=""></a></li>
+					<!-- Menu Block -->
+					<div class="menu-block-two col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="image">
+								<a href="shop-detail.html"><img src="images/resource/menu-9.jpg" alt="" /></a>
+								<div class="overlay-box">
+									<div class="content">
+										<div class="btn-box">
+											<a class="theme-btn btn-style-two" href="shop-detail.html"><span class="txt">Add To Cart</span></a>
+										</div>
+										<ul class="btns-list">
+											<li><a href="shop-detail.html" class="fa fa-heart"></a></li>
+											<li><a href="shop-detail.html" class="fa fa-eye"></a></li>
 										</ul>
-
-										<ul class="thumbs-carousel owl-carousel owl-theme">
-											<li><img src="~/images/resource/products/post-thumb-1.jpg" alt=""></li>
-											<li><img src="~/images/resource/products/post-thumb-2.jpg" alt=""></li>
-											<li><img src="~/images/resource/products/post-thumb-3.jpg" alt=""></li>
-											<li><img src="~/images/resource/products/post-thumb-1.jpg" alt=""></li>
-											<li><img src="~/images/resource/products/post-thumb-2.jpg" alt=""></li>
-											<li><img src="~/images/resource/products/post-thumb-3.jpg" alt=""></li>
-											<li><img src="~/images/resource/products/post-thumb-1.jpg" alt=""></li>
-											<li><img src="~/images/resource/products/post-thumb-2.jpg" alt=""></li>
-										</ul>
-
 									</div>
 								</div>
 							</div>
-
-						</div>
-					</div>
-					<!-- Content Column -->
-					<div class="content-column col-lg-6 col-md-12 col-sm-12">
-						<div class="inner-column">
-							<div class="title">In Stock</div>
-							<h3>Thin Crust + Deep Dish Combo</h3>
-							<div class="rating-outer">
-								From Yeati hebo
+							<div class="lower-content">
+								<h4><a href="shop-detail.html">Contadina</a></h4>
 								<div class="rating">
 									<span class="fa fa-star"></span>
 									<span class="fa fa-star"></span>
@@ -283,504 +95,318 @@
 									<span class="fa fa-star"></span>
 									<span class="fa fa-star"></span>
 								</div>
-								<span class="review">(5 customer reviews)</span>
+								<div class="price">$15</div>
 							</div>
-							<div class="clearfix">
-								<div class="pull-left">
-									<div class="price">$149 <span>+ FREE SHIPPING</span></div>
-								</div>
-								<div class="pull-right">
-									<!-- Quantity Box -->
-									<div class="quantity-box">
-										<!-- Form Group -->
-										<div class="form-group">
-											<label>Quantity :</label>
-											<select class="custom-select-box">
-												<option>1</option>
-												<option>2</option>
-												<option>3</option>
-												<option>4</option>
-												<option>5</option>
-											</select>
-										</div>
-									</div>
-									<!-- End Quantity Box -->
-								</div>
-							</div>
-							<div class="categories">
-								<strong>CATEGORIES: </strong><a href="#">FRIES,</a><a href="#">PIZZA,</a><a href="#">SANDWICH,</a><a href="#">SPAGHETTI,</a><a href="#">UNCATEGORIZED</a>
-							</div>
-							<div class="clearfix">
-								<!-- Flavour Box -->
-								<div class="flavour-box pull-left">
-									<!-- Form Group -->
-									<div class="form-group">
-										<label>Flavour :</label>
-										<select class="custom-select-box">
-											<option>Cheese</option>
-											<option>Cheese 01</option>
-											<option>Cheese 02</option>
-											<option>Cheese 03</option>
-											<option>Cheese 04</option>
-											<option>Cheese 05</option>
-										</select>
-									</div>
-								</div>
-								<!-- End Flavour Box -->
-								<!-- Button Box -->
-								<div class="button-box pull-left">
-									<a href="#" class="theme-btn btn-style-four"><span class="txt">Add To Cart</span></a>
-								</div>
-							</div>
-							<div class="sku">SKU: <span>032</span></div>
-							<ul class="values-list">
-								<li><strong>NUTRITIONAL VALUE :</strong></li>
-								<li><span>Calories:</span> 600 kcal</li>
-								<li><span>Squirrels:</span>20 g</li>
-								<li><span>Fats:</span>50 g</li>
-							</ul>
-							<!-- Social Box -->
-							<ul class="social-box">
-								<span>SHARE:</span>
-								<li><a href="#" class="fa fa-facebook-f"></a></li>
-								<li><a href="#" class="fa fa-linkedin"></a></li>
-								<li><a href="#" class="fa fa-instagram"></a></li>
-								<li><a href="#" class="fa fa-twitter"></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-
-				<!-- Menu Info Tabs -->
-				<div class="menu-info-tabs">
-					<div class="menu-tabs tabs-box">
-
-						<!-- Tab Btns -->
-						<ul class="tab-btns tab-buttons clearfix">
-							<li data-tab="#prod-details" class="tab-btn active-btn">Description</li>
-							<li data-tab="#prod-info" class="tab-btn">Additional Information</li>
-							<li data-tab="#prod-reviews" class="tab-btn">Reviews (2)</li>
-						</ul>
-
-						<!-- Tabs Container -->
-						<div class="tabs-content">
-
-							<!-- Tab / Active Tab -->
-							<div class="tab active-tab" id="prod-details">
-								<div class="content">
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Vestibulum ultricies aliquam convallis. Maecenas ut tellus mi. Proin tincidunt, lectus eu volutpat mattis, ante metus lacinia tellus, vitae condimentum nulla enim bibendum nibh. Praesent turpis risus, interdum nec venenatis id, pretium sit amet purus et malesuada fames ac ante ipsum primis in faucibus. Aliquam eu lorem nibh.</p>
-									<p>Maecenas ut tellus mi. Proin tincidunt, lectus eu volutpat mattis, ante metus lacinia tellus, vitae condimentum nulla enim bibendum nibh. Praesent turpis risus, interdum nec venenatis id, pretium sit amet purus et malesuada fames </p>
-									<div class="row clearfix">
-										<div class="col-lg-6 col-md-6 col-sm-12">
-											<div class="image">
-												<img src="~/images/resource/menu-30.jpg" alt="" />
-											</div>
-										</div>
-										<div class="col-lg-6 col-md-6 col-sm-12">
-											<p>Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Vestibulum ultricies aliquam convallis. Maecenas ut tellus mi. Proin tincidunt, lectus eu volutpat mattis, </p>
-											<p>ante metus lacinia tellus, vitae condimentum nulla enim bibendum nibh. Praesent turpis risus, interdum nec </p>
-											<ul class="list-style-one">
-												<li>Cum sociis natoque penatibus et magnis dis parturient</li>
-												<li>Ex eius quo recusandae quia voluptatem eius tempore</li>
-												<li>Nihil id assumenda aut harum quasi id. Iusto animi aspernatur</li>
-												<li>Aut similique non qui est. Et fuga doloremque harum consequatur illo facere. Molestiae voluptatem repudiandae</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<!-- Tab / Active Tab -->
-							<div class="tab" id="prod-info">
-								<div class="content">
-									<p>Lopsidedly wow fastidious before rhinoceros gosh from more unobtrusive since this unlike falsely far mundanely lethargically camel groomed save antelop thus inconspicuously since jay that for ouch far a one dog save gosh more ouch wherever that depending darn much daintily wiped hello jeez thus adversely man of war that unicorn thanks richly mannish less save like and dog from bore extensive. Supreme alas hellish.</p>
-								</div>
-							</div>
-
-							<!--Tab-->
-							<div class="tab" id="prod-reviews">
-								<!-- Reviews Container -->
-								<div class="reviews-container">
-
-									<!-- Review -->
-									<div class="review-box clearfix">
-										<figure class="rev-thumb"><img src="~/images/resource/author-1.jpg" alt=""></figure>
-										<div class="rev-content">
-											<div class="rev-header clearfix">
-												<h4>Michel Britney</h4>
-												<div class="rating"><span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star-o"></span> <span class="fa fa-star-o"></span></div>
-												<div class="time">18 Hours Ago</div>
-											</div>
-											<div class="rev-text">The mad lightning no one you beat of just one drum they call him Flipper Flipper faster than lightning no one you see is smarter each week my friends you are sure to get a smile from seven stranded cast aways here on Gilligans Isle they call him Flipper Flipper faster.</div>
-										</div>
-									</div>
-
-									<!--Review-->
-									<div class="review-box clearfix">
-										<figure class="rev-thumb"><img src="~/images/resource/author-2.jpg" alt=""></figure>
-										<div class="rev-content">
-											<div class="rev-header clearfix">
-												<h4>Denny</h4>
-												<div class="rating"><span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star-o"></span> <span class="fa fa-star-o"></span></div>
-												<div class="time">18 Hours Ago</div>
-											</div>
-											<div class="rev-text">The mad lightning no one you beat of just one drum they call him Flipper Flipper faster than lightning no one you see is smarter each week my friends you are sure to get a smile from seven stranded cast aways here on Gilligans Isle they call him Flipper Flipper faster than lightning no one you see is smarter than he loveable space that needs your face threes company too.</div>
-										</div>
-									</div>
-
-									<!-- Add Review -->
-									<div class="add-review">
-										<h2>Add a Review</h2>
-
-										<form method="post" action="https://gico.io/cyyo/05_Pizza/shop-single.html">
-											<div class="row clearfix">
-												<div class="form-group col-md-6 col-sm-12 col-xs-12">
-													<label>Name *</label>
-													<input type="text" name="name" value="" placeholder="" required>
-												</div>
-												<div class="form-group col-md-6 col-sm-12 col-xs-12">
-													<label>Email *</label>
-													<input type="email" name="email" value="" placeholder="" required>
-												</div>
-												<div class="form-group col-md-6 col-sm-12 col-xs-12">
-													<label>Website *</label>
-													<input type="text" name="website" value="" placeholder="" required>
-												</div>
-												<div class="form-group col-md-6 col-sm-12 col-xs-12">
-													<label>Rating </label>
-													<div class="rating">
-														<a href="#" class="rate-box" title="1 Out of 5"><span class="fa fa-star"></span></a>
-														<a href="#" class="rate-box" title="2 Out of 5"><span class="fa fa-star"></span> <span class="fa fa-star"></span></a>
-														<a href="#" class="rate-box" title="3 Out of 5"><span class="fa fa-star"></span> <span class="fa fa-star"> </span> <span class="fa fa-star"></span></a>
-														<a href="#" class="rate-box" title="4 Out of 5"><span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span></a>
-														<a href="#" class="rate-box" title="5 Out of 5"><span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span></a>
-													</div>
-												</div>
-												<div class="form-group col-md-12 col-sm-12 col-xs-12">
-													<label>Your Review</label>
-													<textarea name="review-message"></textarea>
-												</div>
-												<div class="form-group text-right col-md-12 col-sm-12 col-xs-12">
-													<button type="button" class="theme-btn btn-style-one"><span class="txt">Add Review</span></button>
-												</div>
-											</div>
-										</form>
-									</div>
-
-								</div>
-							</div>
-							<!-- End Tab -->
-
 						</div>
 					</div>
 
-				</div>
-				<!-- End Product Info Tabs -->
-				<!-- Shop Related Products -->
-				<div class="shop-related-products">
-					<!-- Sec Title -->
-					<div class="sec-title centered">
-						<h3>More Products</h3>
+					<!-- Menu Block -->
+					<div class="menu-block-two col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="image">
+								<a href="shop-detail.html"><img src="images/resource/menu-10.jpg" alt="" /></a>
+								<div class="overlay-box">
+									<div class="content">
+										<div class="btn-box">
+											<a class="theme-btn btn-style-two" href="shop-detail.html"><span class="txt">Add To Cart</span></a>
+										</div>
+										<ul class="btns-list">
+											<li><a href="shop-detail.html" class="fa fa-heart"></a></li>
+											<li><a href="shop-detail.html" class="fa fa-eye"></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="lower-content">
+								<h4><a href="shop-detail.html">Pepperoni Pizza</a></h4>
+								<div class="rating">
+									<span class="fa fa-star"></span>
+									<span class="fa fa-star"></span>
+									<span class="fa fa-star"></span>
+									<span class="fa fa-star"></span>
+									<span class="fa fa-star"></span>
+								</div>
+								<div class="price">$15</div>
+							</div>
+						</div>
 					</div>
 
-					<div class="row clearfix">
 
-						<!-- Menu Block -->
-						<div class="menu-block-two col-lg-3 col-md-6 col-sm-12">
-							<div class="inner-box">
-								<div class="image">
-									<a href="shop-detail.html"><img src="~/images/resource/menu-18.jpg" alt="" /></a>
-									<div class="overlay-box">
-										<div class="content">
-											<div class="btn-box">
-												<a class="theme-btn btn-style-two" href="shop-detail.html"><span class="txt">Add To Cart</span></a>
-											</div>
-											<ul class="btns-list">
-												<li><a href="shop-detail.html" class="fa fa-heart"></a></li>
-												<li><a href="shop-detail.html" class="fa fa-eye"></a></li>
-											</ul>
+					<!-- Menu Block -->
+					<div class="menu-block-two col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="image">
+								<a href="shop-detail.html"><img src="images/resource/menu-11.jpg" alt="" /></a>
+								<div class="overlay-box">
+									<div class="content">
+										<div class="btn-box">
+											<a class="theme-btn btn-style-two" href="shop-detail.html"><span class="txt">Add To Cart</span></a>
 										</div>
+										<ul class="btns-list">
+											<li><a href="shop-detail.html" class="fa fa-heart"></a></li>
+											<li><a href="shop-detail.html" class="fa fa-eye"></a></li>
+										</ul>
 									</div>
-								</div>
-								<div class="lower-content">
-									<h4><a href="shop-detail.html">Cheese Pizza</a></h4>
-									<div class="rating">
-										<span class="fa fa-star"></span>
-										<span class="fa fa-star"></span>
-										<span class="fa fa-star"></span>
-										<span class="fa fa-star"></span>
-										<span class="fa fa-star"></span>
-									</div>
-									<div class="price">$15</div>
 								</div>
 							</div>
-						</div>
-
-						<!-- Menu Block -->
-						<div class="menu-block-two col-lg-3 col-md-6 col-sm-12">
-							<div class="inner-box">
-								<div class="image">
-									<a href="shop-detail.html"><img src="~/images/resource/menu-19.jpg" alt="" /></a>
-									<div class="overlay-box">
-										<div class="content">
-											<div class="btn-box">
-												<a class="theme-btn btn-style-two" href="shop-detail.html"><span class="txt">Add To Cart</span></a>
-											</div>
-											<ul class="btns-list">
-												<li><a href="shop-detail.html" class="fa fa-heart"></a></li>
-												<li><a href="shop-detail.html" class="fa fa-eye"></a></li>
-											</ul>
-										</div>
-									</div>
+							<div class="lower-content">
+								<h4><a href="shop-detail.html">Cheese Pizza</a></h4>
+								<div class="rating">
+									<span class="fa fa-star"></span>
+									<span class="fa fa-star"></span>
+									<span class="fa fa-star"></span>
+									<span class="fa fa-star"></span>
+									<span class="fa fa-star"></span>
 								</div>
-								<div class="lower-content">
-									<h4><a href="shop-detail.html">Contadina</a></h4>
-									<div class="rating">
-										<span class="fa fa-star"></span>
-										<span class="fa fa-star"></span>
-										<span class="fa fa-star"></span>
-										<span class="fa fa-star"></span>
-										<span class="fa fa-star"></span>
-									</div>
-									<div class="price">$15</div>
-								</div>
+								<div class="price">$15</div>
 							</div>
 						</div>
+					</div>
 
-						<!-- Menu Block -->
-						<div class="menu-block-two col-lg-3 col-md-6 col-sm-12">
-							<div class="inner-box">
-								<div class="image">
-									<a href="shop-detail.html"><img src="~/images/resource/menu-20.jpg" alt="" /></a>
-									<div class="overlay-box">
-										<div class="content">
-											<div class="btn-box">
-												<a class="theme-btn btn-style-two" href="shop-detail.html"><span class="txt">Add To Cart</span></a>
-											</div>
-											<ul class="btns-list">
-												<li><a href="shop-detail.html" class="fa fa-heart"></a></li>
-												<li><a href="shop-detail.html" class="fa fa-eye"></a></li>
-											</ul>
+					<!-- Menu Block -->
+					<div class="menu-block-two col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="image">
+								<a href="shop-detail.html"><img src="images/resource/menu-12.jpg" alt="" /></a>
+								<div class="overlay-box">
+									<div class="content">
+										<div class="btn-box">
+											<a class="theme-btn btn-style-two" href="shop-detail.html"><span class="txt">Add To Cart</span></a>
 										</div>
+										<ul class="btns-list">
+											<li><a href="shop-detail.html" class="fa fa-heart"></a></li>
+											<li><a href="shop-detail.html" class="fa fa-eye"></a></li>
+										</ul>
 									</div>
-								</div>
-								<div class="lower-content">
-									<h4><a href="shop-detail.html">Pepperoni Pizza</a></h4>
-									<div class="rating">
-										<span class="fa fa-star"></span>
-										<span class="fa fa-star"></span>
-										<span class="fa fa-star"></span>
-										<span class="fa fa-star"></span>
-										<span class="fa fa-star"></span>
-									</div>
-									<div class="price">$15</div>
 								</div>
 							</div>
-						</div>
-
-						<!-- Menu Block -->
-						<div class="menu-block-two col-lg-3 col-md-6 col-sm-12">
-							<div class="inner-box">
-								<div class="image">
-									<a href="shop-detail.html"><img src="~/images/resource/menu-21.jpg" alt="" /></a>
-									<div class="overlay-box">
-										<div class="content">
-											<div class="btn-box">
-												<a class="theme-btn btn-style-two" href="shop-detail.html"><span class="txt">Add To Cart</span></a>
-											</div>
-											<ul class="btns-list">
-												<li><a href="shop-detail.html" class="fa fa-heart"></a></li>
-												<li><a href="shop-detail.html" class="fa fa-eye"></a></li>
-											</ul>
-										</div>
-									</div>
+							<div class="lower-content">
+								<h4><a href="shop-detail.html">The Veggie Sample</a></h4>
+								<div class="rating">
+									<span class="fa fa-star"></span>
+									<span class="fa fa-star"></span>
+									<span class="fa fa-star"></span>
+									<span class="fa fa-star"></span>
+									<span class="fa fa-star"></span>
 								</div>
-								<div class="lower-content">
-									<h4><a href="shop-detail.html">Cheese Pizza</a></h4>
-									<div class="rating">
-										<span class="fa fa-star"></span>
-										<span class="fa fa-star"></span>
-										<span class="fa fa-star"></span>
-										<span class="fa fa-star"></span>
-										<span class="fa fa-star"></span>
-									</div>
-									<div class="price">$10</div>
-								</div>
+								<div class="price">$10</div>
 							</div>
 						</div>
+					</div>
 
+					<!-- Menu Block -->
+					<div class="menu-block-two col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="image">
+								<a href="shop-detail.html"><img src="images/resource/menu-13.jpg" alt="" /></a>
+								<div class="overlay-box">
+									<div class="content">
+										<div class="btn-box">
+											<a class="theme-btn btn-style-two" href="shop-detail.html"><span class="txt">Add To Cart</span></a>
+										</div>
+										<ul class="btns-list">
+											<li><a href="shop-detail.html" class="fa fa-heart"></a></li>
+											<li><a href="shop-detail.html" class="fa fa-eye"></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="lower-content">
+								<h4><a href="shop-detail.html">Chicken Florentine</a></h4>
+								<div class="rating">
+									<span class="fa fa-star"></span>
+									<span class="fa fa-star"></span>
+									<span class="fa fa-star"></span>
+									<span class="fa fa-star"></span>
+									<span class="fa fa-star"></span>
+								</div>
+								<div class="price">$30</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Menu Block -->
+					<div class="menu-block-two col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="image">
+								<a href="shop-detail.html"><img src="images/resource/menu-14.jpg" alt="" /></a>
+								<div class="overlay-box">
+									<div class="content">
+										<div class="btn-box">
+											<a class="theme-btn btn-style-two" href="shop-detail.html"><span class="txt">Add To Cart</span></a>
+										</div>
+										<ul class="btns-list">
+											<li><a href="shop-detail.html" class="fa fa-heart"></a></li>
+											<li><a href="shop-detail.html" class="fa fa-eye"></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="lower-content">
+								<h4><a href="shop-detail.html">Labriola Chicago</a></h4>
+								<div class="rating">
+									<span class="fa fa-star"></span>
+									<span class="fa fa-star"></span>
+									<span class="fa fa-star"></span>
+									<span class="fa fa-star"></span>
+									<span class="fa fa-star"></span>
+								</div>
+								<div class="price">$61</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Menu Block -->
+					<div class="menu-block-two col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="image">
+								<a href="shop-detail.html"><img src="images/resource/menu-15.jpg" alt="" /></a>
+								<div class="overlay-box">
+									<div class="content">
+										<div class="btn-box">
+											<a class="theme-btn btn-style-two" href="shop-detail.html"><span class="txt">Add To Cart</span></a>
+										</div>
+										<ul class="btns-list">
+											<li><a href="shop-detail.html" class="fa fa-heart"></a></li>
+											<li><a href="shop-detail.html" class="fa fa-eye"></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="lower-content">
+								<h4><a href="shop-detail.html">Neapolitan Pizza</a></h4>
+								<div class="rating">
+									<span class="fa fa-star"></span>
+									<span class="fa fa-star"></span>
+									<span class="fa fa-star"></span>
+									<span class="fa fa-star"></span>
+									<span class="fa fa-star"></span>
+								</div>
+								<div class="price">$17</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Menu Block -->
+					<div class="menu-block-two col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="image">
+								<a href="shop-detail.html"><img src="images/resource/menu-16.jpg" alt="" /></a>
+								<div class="overlay-box">
+									<div class="content">
+										<div class="btn-box">
+											<a class="theme-btn btn-style-two" href="shop-detail.html"><span class="txt">Add To Cart</span></a>
+										</div>
+										<ul class="btns-list">
+											<li><a href="shop-detail.html" class="fa fa-heart"></a></li>
+											<li><a href="shop-detail.html" class="fa fa-eye"></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="lower-content">
+								<h4><a href="shop-detail.html">Buffalo Style </a></h4>
+								<div class="rating">
+									<span class="fa fa-star"></span>
+									<span class="fa fa-star"></span>
+									<span class="fa fa-star"></span>
+									<span class="fa fa-star"></span>
+									<span class="fa fa-star"></span>
+								</div>
+								<div class="price">$20</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Menu Block -->
+					<div class="menu-block-two col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="image">
+								<a href="shop-detail.html"><img src="images/resource/menu-17.jpg" alt="" /></a>
+								<div class="overlay-box">
+									<div class="content">
+										<div class="btn-box">
+											<a class="theme-btn btn-style-two" href="shop-detail.html"><span class="txt">Add To Cart</span></a>
+										</div>
+										<ul class="btns-list">
+											<li><a href="shop-detail.html" class="fa fa-heart"></a></li>
+											<li><a href="shop-detail.html" class="fa fa-eye"></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="lower-content">
+								<h4><a href="shop-detail.html">Wood Fired Pizza</a></h4>
+								<div class="rating">
+									<span class="fa fa-star"></span>
+									<span class="fa fa-star"></span>
+									<span class="fa fa-star"></span>
+									<span class="fa fa-star"></span>
+									<span class="fa fa-star"></span>
+								</div>
+								<div class="price">$22</div>
+							</div>
+						</div>
 					</div>
 
 				</div>
-				<!-- End Shop Related Products -->
 
+				<!-- Post Share Options -->
+				<div class="styled-pagination">
+					<ul class="clearfix">
+						<li class="share">Showing 1–9of 12 results</li>
+						<li class="active"><a href="#">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li class="next"><a href="#"><span class="fa fa-angle-right"></span> </a></li>
+					</ul>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<!-- Clients Section -->
+<section class="clients-section" style="background-image: url(images/background/pattern-7.png)">
+	<div class="auto-container">
+		<div class="inner-container">
+			<div class="sponsors-outer">
+				<!--Sponsors Carousel-->
+				<ul class="sponsors-carousel owl-carousel owl-theme">
+					<li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/1.png" alt=""></a></figure></li>
+					<li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/2.png" alt=""></a></figure></li>
+					<li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/3.png" alt=""></a></figure></li>
+					<li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/4.png" alt=""></a></figure></li>
+					<li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/1.png" alt=""></a></figure></li>
+					<li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/2.png" alt=""></a></figure></li>
+					<li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/3.png" alt=""></a></figure></li>
+				</ul>
 			</div>
 		</div>
-		<!-- End Shop Services Section -->
-		<!-- Clients Section -->
-		<section class="clients-section" style="background-image: url(images/background/pattern-7.png)">
-			<div class="auto-container">
-				<div class="inner-container">
-					<div class="sponsors-outer">
-						<!--Sponsors Carousel-->
-						<ul class="sponsors-carousel owl-carousel owl-theme">
-							<li class="slide-item"><figure class="image-box"><a href="#"><img src="~/images/clients/1.png" alt=""></a></figure></li>
-							<li class="slide-item"><figure class="image-box"><a href="#"><img src="~/images/clients/2.png" alt=""></a></figure></li>
-							<li class="slide-item"><figure class="image-box"><a href="#"><img src="~/images/clients/3.png" alt=""></a></figure></li>
-							<li class="slide-item"><figure class="image-box"><a href="#"><img src="~/images/clients/4.png" alt=""></a></figure></li>
-							<li class="slide-item"><figure class="image-box"><a href="#"><img src="~/images/clients/1.png" alt=""></a></figure></li>
-							<li class="slide-item"><figure class="image-box"><a href="#"><img src="~/images/clients/2.png" alt=""></a></figure></li>
-							<li class="slide-item"><figure class="image-box"><a href="#"><img src="~/images/clients/3.png" alt=""></a></figure></li>
-						</ul>
-					</div>
+	</div>
+</section>
+<!-- End Clients Section -->
+<!-- Subscribe Section -->
+<section class="subscribe-section" style="background-image: url(images/background/4.jpg)">
+	<div class="auto-container">
+		<!-- Sec Title -->
+		<div class="sec-title centered">
+			<h3>You've Got Pizza</h3>
+			<div class="text">Sign up for hot slices of pizza news and special offers! Don’t worry, we won’t clog <br> your inbox or your arteries.</div>
+		</div>
+
+		<!-- NewsLetter Form -->
+		<div class="newsletter-form">
+			<form method="post" action="https://gico.io/cyyo/05_Pizza/contact.html">
+				<div class="form-group">
+					<input type="email" name="email" value="" placeholder="Email address" required="">
+					<button type="submit" class="theme-btn"><span class="txt">Sign up For Subscribe</span></button>
 				</div>
-			</div>
-		</section>
-		<!-- End Clients Section -->
-		<!-- Subscribe Section -->
-		<section class="subscribe-section" style="background-image: url(images/background/4.jpg)">
-			<div class="auto-container">
-				<!-- Sec Title -->
-				<div class="sec-title centered">
-					<h3>You've Got Pizza</h3>
-					<div class="text">Sign up for hot slices of pizza news and special offers! Don’t worry, we won’t clog <br> your inbox or your arteries.</div>
-				</div>
-
-				<!-- NewsLetter Form -->
-				<div class="newsletter-form">
-					<form method="post" action="https://gico.io/cyyo/05_Pizza/contact.html">
-						<div class="form-group">
-							<input type="email" name="email" value="" placeholder="Email address" required="">
-							<button type="submit" class="theme-btn"><span class="txt">Sign up For Subscribe</span></button>
-						</div>
-					</form>
-				</div>
-
-			</div>
-		</section>
-		<!-- End Subscribe Section -->
-		<!-- Main Footer -->
-		<footer class="main-footer">
-			<div class="pattern-layer-one" style="background-image: url(images/resource/footer.jpg)"></div>
-			<div class="big-logo">
-				<img src="~/images/footer-big-logo.png" alt="" />
-			</div>
-			<div class="auto-container">
-				<div class="inner-container">
-					<div class="row clearfix">
-
-						<!-- Footer Column -->
-						<div class="footer-column col-lg-6 col-md-6 col-sm-12">
-							<div class="footer-widget logo-widget">
-								<div class="logo">
-									<a href="index-2.html"><img src="~/images/footer-logo.png" alt="" /></a>
-								</div>
-								<div class="text">Sebastian and Tony Lazzara221 <br> W 38th St New York, NY 10018</div>
-								<a class="phone-number" href="tel:+212-924-7778">+(212) 924-7778</a>
-								<!-- Timing -->
-								<ul class="timing">
-									<span>Opening Hours</span>
-									<li>Friday:    09:00 – 23:00h</li>
-									<li>Saturday:    09:00 – 16:00h</li>
-									<li>Sunday:    12:00 – 18:00h</li>
-								</ul>
-
-								<!-- Social Box -->
-								<ul class="social-box">
-									<li><a href="#" class="fa fa-facebook-f"></a></li>
-									<li><a href="#" class="fa fa-twitter"></a></li>
-									<li><a href="#" class="fa fa-instagram"></a></li>
-									<li><a href="#" class="fa fa-pinterest-p"></a></li>
-								</ul>
-
-							</div>
-						</div>
-
-						<!-- Footer Column -->
-						<div class="footer-column col-lg-6 col-md-6 col-sm-12">
-							<h5>Useful Link</h5>
-							<ul class="footer-list">
-								<li><a href="#">About us</a></li>
-								<li><a href="#">Membership</a></li>
-								<li><a href="#">Item</a></li>
-								<li><a href="#">Refund Policy</a></li>
-								<li><a href="#">Contact us</a></li>
-							</ul>
-
-							<div class="footer-widget gallery-widget">
-								<h5>Instagram feed</h5>
-								<div class="widget-content">
-									<div class="images-outer clearfix">
-										<!--Image Box-->
-										<figure class="image-box"><a href="~/images/gallery/1.html" class="lightbox-image" data-fancybox="footer-gallery" title="Image Title Here" data-fancybox-group="footer-gallery"><img src="~/images/gallery/footer-gallery-thumb-1.jpg" alt=""></a></figure>
-										<!--Image Box-->
-										<figure class="image-box"><a href="~/images/gallery/2.html" class="lightbox-image" data-fancybox="footer-gallery" title="Image Title Here" data-fancybox-group="footer-gallery"><img src="~/images/gallery/footer-gallery-thumb-2.jpg" alt=""></a></figure>
-										<!--Image Box-->
-										<figure class="image-box"><a href="~/images/gallery/3.html" class="lightbox-image" data-fancybox="footer-gallery" title="Image Title Here" data-fancybox-group="footer-gallery"><img src="~/images/gallery/footer-gallery-thumb-3.jpg" alt=""></a></figure>
-										<!--Image Box-->
-										<figure class="image-box"><a href="~/images/gallery/4.html" class="lightbox-image" data-fancybox="footer-gallery" title="Image Title Here" data-fancybox-group="footer-gallery"><img src="~/images/gallery/footer-gallery-thumb-4.jpg" alt=""></a></figure>
-										<!--Image Box-->
-										<figure class="image-box"><a href="~/images/gallery/1.html" class="lightbox-image" data-fancybox="footer-gallery" title="Image Title Here" data-fancybox-group="footer-gallery"><img src="~/images/gallery/footer-gallery-thumb-5.jpg" alt=""></a></figure>
-										<!--Image Box-->
-										<figure class="image-box"><a href="~/images/gallery/2.html" class="lightbox-image" data-fancybox="footer-gallery" title="Image Title Here" data-fancybox-group="footer-gallery"><img src="~/images/gallery/footer-gallery-thumb-6.jpg" alt=""></a></figure>
-									</div>
-								</div>
-							</div>
-						</div>
-
-					</div>
-
-					<!-- Footer Bottom -->
-					<div class="footer-bottom">
-						<div class="clearfix">
-							<div class="pull-left">
-								<div class="copyright">Copyright &copy;2020 <a href="#">All rights reserved</a></div>
-							</div>
-							<div class="pull-right">
-								<div class="cards"><img src="~/images/icons/cards.png" alt="" /></div>
-							</div>
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</footer>
-		<!-- End Main Footer -->
+			</form>
+		</div>
 
 	</div>
-	<!--End pagewrapper-->
-	<!-- Search Popup -->
-	<div class="search-popup">
-		<button class="close-search style-two"><span class="flaticon-multiply"></span></button>
-		<button class="close-search"><span class="flaticon-multiply"></span></button>
-		<form method="post" action="https://gico.io/cyyo/05_Pizza/blog.html">
-			<div class="form-group">
-				<input type="search" name="search-field" value="" placeholder="Search Here" required="">
-				<button type="submit"><i class="fa fa-search"></i></button>
-			</div>
-		</form>
-	</div>
-	<!-- End Header Search -->
-	<!--Scroll to top-->
-	<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-arrow-up"></span></div>
-
-	<script src="~/js/jquery.js"></script>
-	<script src="~/js/popper.min.js"></script>
-	<script src="~/js/bootstrap.min.js"></script>
-	<script src="~/js/jquery.mCustomScrollbar.concat.min.js"></script>
-	<script src="~/js/jquery.fancybox.js"></script>
-	<script src="~/js/appear.js"></script>
-	<script src="~/js/parallax.min.js"></script>
-	<script src="~/js/tilt.jquery.min.js"></script>
-	<script src="~/js/jquery.paroller.min.js"></script>
-	<script src="~/js/owl.js"></script>
-	<script src="~/js/wow.js"></script>
-	<script src="~/js/timepicker.js"></script>
-	<script src="~/js/nav-tool.js"></script>
-	<script src="~/js/jquery-ui.js"></script>
-	<script src="~/js/script.js"></script>
-
-</body>
-
-<!-- Mirrored from gico.io/cyyo/05_Pizza/shop-detail.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 10 Jun 2024 14:11:18 GMT -->
-</html>
+</section>
+<!-- End Subscribe Section -->

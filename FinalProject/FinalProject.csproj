@@ -24,6 +24,26 @@
 
   <ItemGroup>
     <None Include="wwwroot\admin\js\main.js" />
+    <None Include="wwwroot\fonts\flaticon.svg" />
+    <None Include="wwwroot\fonts\fontawesome-webfonte0a5.svg" />
+    <None Include="wwwroot\fonts\fontawesome-webfonte0a5.woff2" />
+    <None Include="wwwroot\images\icons\preloader.svg" />
+    <None Include="wwwroot\js\appear.js" />
+    <None Include="wwwroot\js\bootstrap.min.js" />
+    <None Include="wwwroot\js\jquery-ui.js" />
+    <None Include="wwwroot\js\jquery.fancybox.js" />
+    <None Include="wwwroot\js\jquery.js" />
+    <None Include="wwwroot\js\jquery.mCustomScrollbar.concat.min.js" />
+    <None Include="wwwroot\js\jquery.paroller.min.js" />
+    <None Include="wwwroot\js\nav-tool.js" />
+    <None Include="wwwroot\js\owl.js" />
+    <None Include="wwwroot\js\parallax.min.js" />
+    <None Include="wwwroot\js\popper.min.js" />
+    <None Include="wwwroot\js\script.js" />
+    <None Include="wwwroot\js\tilt.jquery.min.js" />
+    <None Include="wwwroot\js\timepicker.js" />
+    <None Include="wwwroot\js\validate.js" />
+    <None Include="wwwroot\js\wow.js" />
   </ItemGroup>
 
   <ItemGroup>

@@ -85,8 +85,10 @@ body {
 	-moz-font-smoothing: antialiased;
 }
 
-.bordered-layout .page-wrapper{
-	padding:0px 50px 0px;
+
+
+.bordered-layout .page-wrapper {
+	padding: 0px 50px 0px;
 }
 
 a{

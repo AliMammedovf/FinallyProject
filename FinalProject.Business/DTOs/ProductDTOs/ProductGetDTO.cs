@@ -25,6 +25,8 @@ public class ProductGetDTO
 
     public Flavour? Flavour { get; set; }
 
+    public Product? Product { get; set; }
+
     public Size? Size { get; set; }
 
     public string? ImageUrl { get; set; }

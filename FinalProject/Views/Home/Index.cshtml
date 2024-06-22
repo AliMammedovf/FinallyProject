@@ -224,13 +224,13 @@
 							<a asp-action="Index" asp-controller="Shop" asp-route-id="@item.Id"><img src="~/uploads/products/@item.ProductImages?.Where(x=>x.IsPoster==true).FirstOrDefault()?.ImageUrl" /></a>
 							<div class="overlay-box">
 								<ul class="btns-list">
-									<li><a asp-action="Index" asp-controller="Shop" asp-route-id="@item.Id">Add To Cart</a></li>
-									<li><a asp-action="Index" asp-controller="Shop" asp-route-id="@item.Id">View Product</a></li>
+									<li><a asp-action="Detail" asp-controller="Home" asp-route-id="@item.Id">Add To Cart</a></li>
+									<li><a asp-action="Detail" asp-controller="Home" asp-route-id="@item.Id">View Product</a></li>
 								</ul>
 							</div>
 						</div>
 						<div class="lower-content" style="width:350px; height:150px">
-							<h4><a asp-action="Index" asp-controller="Shop" asp-route-id="@item.Id">@item.Title</a></h4>
+							<h4><a asp-action="Detail" asp-controller="Home" asp-route-id="@item.Id">@item.Title</a></h4>
 							<div class="Category">
 								<p>@item.Category.Name</p>
 							</div>
