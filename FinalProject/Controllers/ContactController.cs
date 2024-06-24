@@ -1,11 +1,16 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using FinalProject.Business.Services.Abstarct;
+using Microsoft.AspNetCore.Mvc;
 
 namespace FinalProject.Controllers
 {
 	public class ContactController : Controller
 	{
-		public IActionResult Index()
+
+
+        public IActionResult Index()
 		{
+
+          
 			return View();
 		}
 	}

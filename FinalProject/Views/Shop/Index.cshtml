@@ -1,7 +1,7 @@
 ﻿@model HomeVM
 
 	<!-- Page Title Section -->
-<section class="page-title-section" style="background-image: url(images/background/8.jpg)">
+<section class="page-title-section" style="background-image: url(/images/background/8.jpg)">
 	<div class="auto-container">
 		<h1>Testing Pizza</h1>
 		<div class="content">
@@ -16,8 +16,8 @@
 <!-- End Page Title Section -->
 <!-- Sidebar Page Container -->
 <div class="sidebar-page-container">
-	<div class="pattern-layer-one" style="background-image: url(images/background/pattern-4.png)"></div>
-	<div class="pattern-layer-two" style="background-image: url(images/background/pattern-5.png)"></div>
+	<div class="pattern-layer-one" style="background-image: url(/images/background/pattern-4.png)"></div>
+	<div class="pattern-layer-two" style="background-image: url(/images/background/pattern-5.png)"></div>
 	<div class="auto-container">
 		<div class="row clearfix">
 
@@ -38,11 +38,12 @@
 									<li><a href="#" class="fa fa-list-ul"></a></li>
 								</ul>
 								<div class="select-box">
-									<select name="country">
-										<option>Default Short by</option>
-										<option>Accending</option>
-										<option>decending</option>
+									<select name="sort-by" id="sort-by">
+										<option value="default">Default Short by</option>
+										<option value="asc">Ascending</option>
+										<option value="desc">Descending</option>
 									</select>
+
 								</div>
 							</div>
 						</div>
@@ -121,19 +122,19 @@
 </div>
 
 <!-- Clients Section -->
-<section class="clients-section" style="background-image: url(images/background/pattern-7.png)">
+<section class="clients-section" style="background-image: url(/images/background/pattern-7.png)">
 	<div class="auto-container">
 		<div class="inner-container">
 			<div class="sponsors-outer">
 				<!--Sponsors Carousel-->
 				<ul class="sponsors-carousel owl-carousel owl-theme">
-					<li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/1.png" alt=""></a></figure></li>
-					<li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/2.png" alt=""></a></figure></li>
-					<li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/3.png" alt=""></a></figure></li>
-					<li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/4.png" alt=""></a></figure></li>
-					<li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/1.png" alt=""></a></figure></li>
-					<li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/2.png" alt=""></a></figure></li>
-					<li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/3.png" alt=""></a></figure></li>
+					<li class="slide-item"><figure class="image-box"><a href="#"><img src="/images/clients/1.png" alt=""></a></figure></li>
+					<li class="slide-item"><figure class="image-box"><a href="#"><img src="/images/clients/2.png" alt=""></a></figure></li>
+					<li class="slide-item"><figure class="image-box"><a href="#"><img src="/images/clients/3.png" alt=""></a></figure></li>
+					<li class="slide-item"><figure class="image-box"><a href="#"><img src="/images/clients/4.png" alt=""></a></figure></li>
+					<li class="slide-item"><figure class="image-box"><a href="#"><img src="/images/clients/1.png" alt=""></a></figure></li>
+					<li class="slide-item"><figure class="image-box"><a href="#"><img src="/images/clients/2.png" alt=""></a></figure></li>
+					<li class="slide-item"><figure class="image-box"><a href="#"><img src="/images/clients/3.png" alt=""></a></figure></li>
 				</ul>
 			</div>
 		</div>
@@ -141,7 +142,7 @@
 </section>
 <!-- End Clients Section -->
 <!-- Subscribe Section -->
-<section class="subscribe-section" style="background-image: url(images/background/4.jpg)">
+<section class="subscribe-section" style="background-image: url(/images/background/4.jpg)">
 	<div class="auto-container">
 		<!-- Sec Title -->
 		<div class="sec-title centered">
@@ -162,3 +163,62 @@
 	</div>
 </section>
 <!-- End Subscribe Section -->
+<script>
+	document.addEventListener('DOMContentLoaded', function () {
+		var products = @Html.Raw(Json.Serialize(Model.Products)); // Serialize Products from server-side model
+
+		function sortByPrice(order) {
+			if (order === 'asc') {
+				products.sort((a, b) => a.Price - b.Price);
+			} else if (order === 'desc') {
+				products.sort((a, b) => b.Price - a.Price);
+			}
+			displayProducts(products);
+		}
+
+		function displayProducts(products) {
+			var productsContainer = document.querySelector('.content-side .row');
+			productsContainer.innerHTML = ''; // Clear existing products
+
+			products.forEach(function (product) {
+				var productHtml = `
+						<div class="menu-block-two col-lg-4 col-md-6 col-sm-12">
+							<div class="inner-box">
+								<div class="image" style="width:250px; height:300px">
+									<a href="/Home/Detail/${product.Id}"><img src="${product.ImageUrl}" alt="${product.Title}" /></a>
+									<div class="overlay-box">
+										<div class="content">
+											<div class="btn-box">
+												<a class="theme-btn btn-style-two" href="#"><span class="txt">Add To Cart</span></a>
+											</div>
+											<ul class="btns-list">
+												<li><a href="/Home/Detail/${product.Id}" class="fa fa-eye"></a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="lower-content" style="width:250px; height:150px">
+									<h4><a href="/Home/Detail/${product.Id}">${product.Title}</a></h4>
+									<p>${product.Category.Name}</p>
+									<div class="price">$${product.Price}</div>
+								</div>
+							</div>
+						</div>`;
+				productsContainer.innerHTML += productHtml;
+			});
+		}
+
+		// Initial display
+		displayProducts(products);
+
+		// Event listener for select change
+		document.getElementById('sort-by').addEventListener('change', function () {
+			var selectedOption = this.value;
+			if (selectedOption === 'asc' || selectedOption === 'desc') {
+				sortByPrice(selectedOption);
+			} else {
+				// Handle default or other cases here
+			}
+		});
+	});
+</script>

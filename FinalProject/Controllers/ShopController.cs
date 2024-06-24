@@ -1,4 +1,6 @@
-﻿using FinalProject.Business.Services.Abstarct;
+﻿using FinalProject.Business.DTOs.ProductDTOs;
+using FinalProject.Business.Services.Abstarct;
+using FinalProject.Core.Models;
 using FinalProject.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
@@ -15,11 +17,14 @@ namespace FinalProject.Controllers
 			_productService = productService;
 		}
 
-		public IActionResult Index()
+		public IActionResult Index(int? categoryId)
         {
             var category= _categoryService.GetAllCategories();
-            
-            var products= _productService.GetAllProducts();
+            IEnumerable<ProductGetDTO> products = new List<ProductGetDTO>();
+            if (categoryId != null)
+                products = _productService.GetAllProducts(x=>x.CategoryId == categoryId);
+            else
+                products = _productService.GetAllProducts();
 
             HomeVM vm = new HomeVM()
             {

@@ -33,7 +33,7 @@ namespace FinalProject.Data.Migrations
                     b.Property<DateTime?>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 6, 24, 4, 25, 11, 354, DateTimeKind.Utc).AddTicks(7294));
+                        .HasDefaultValue(new DateTime(2024, 6, 24, 19, 10, 16, 285, DateTimeKind.Utc).AddTicks(7678));
 
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("datetime2");
@@ -59,7 +59,7 @@ namespace FinalProject.Data.Migrations
                     b.Property<DateTime?>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 6, 24, 4, 25, 11, 354, DateTimeKind.Utc).AddTicks(7523));
+                        .HasDefaultValue(new DateTime(2024, 6, 24, 19, 10, 16, 285, DateTimeKind.Utc).AddTicks(7886));
 
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("datetime2");
@@ -93,7 +93,7 @@ namespace FinalProject.Data.Migrations
                     b.Property<DateTime?>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 6, 24, 4, 25, 11, 354, DateTimeKind.Utc).AddTicks(7794));
+                        .HasDefaultValue(new DateTime(2024, 6, 24, 19, 10, 16, 285, DateTimeKind.Utc).AddTicks(8091));
 
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("datetime2");
@@ -203,7 +203,7 @@ namespace FinalProject.Data.Migrations
                     b.Property<DateTime?>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 6, 24, 4, 25, 11, 354, DateTimeKind.Utc).AddTicks(7983));
+                        .HasDefaultValue(new DateTime(2024, 6, 24, 19, 10, 16, 285, DateTimeKind.Utc).AddTicks(8326));
 
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("datetime2");
