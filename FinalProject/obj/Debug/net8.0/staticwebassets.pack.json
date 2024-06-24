@@ -7745,6 +7745,10 @@
       "PackagePath": "staticwebassets\\images\\icons\\waves-shape.png"
     },
     {
+      "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\loginimg.jpg",
+      "PackagePath": "staticwebassets\\images\\loginimg.jpg"
+    },
+    {
       "Id": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\logo-small.png",
       "PackagePath": "staticwebassets\\images\\logo-small.png"
     },

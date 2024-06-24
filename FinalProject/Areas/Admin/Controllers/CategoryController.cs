@@ -2,11 +2,13 @@
 using FinalProject.Business.Exceptions;
 using FinalProject.Business.Services.Abstarct;
 using FinalProject.Data.DAL;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FinalProject.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "SuperAdmin")]
     public class CategoryController : Controller
     {
         private readonly ICategoryService _categoryService;

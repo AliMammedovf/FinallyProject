@@ -78,17 +78,17 @@
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
                    aria-expanded="true" aria-controls="collapseUtilities">
-                    <i class="fas fa-fw fa-wrench"></i>
-                    <span>Utilities</span>
+                    <i class="fa fa-shopping-basket"></i>
+                    <span>ProductDetail</span>
                 </a>
                 <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
                      data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Custom Utilities:</h6>
-                        <a class="collapse-item" href="utilities-color.html">Colors</a>
-                        <a class="collapse-item" href="utilities-border.html">Borders</a>
-                        <a class="collapse-item" href="utilities-animation.html">Animations</a>
-                        <a class="collapse-item" href="utilities-other.html">Other</a>
+                        <h6 class="collapse-header">Models:</h6>
+                        <a class="collapse-item" asp-action="Index" asp-controller="Category">Categories</a>
+                        <a class="collapse-item" asp-action="Index" asp-controller="Flavour">Flavours</a>
+                        <a class="collapse-item" asp-action="Index" asp-controller="Size">Sizes</a>
+                        <a class="collapse-item" asp-action="Index" asp-controller="Product">Products</a>
                     </div>
                 </div>
             </li>
@@ -132,7 +132,7 @@
 
             <!-- Nav Item - Tables -->
             <li class="nav-item">
-                <a class="nav-link" href="tables.html">
+                <a class="nav-link" asp-action="Index" asp-controller="Product">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Tables</span>
                 </a>
@@ -340,7 +340,7 @@
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">@@@@@@</span>
                                 <img class="img-profile rounded-circle"
                                      src="~/admin/img/undraw_profile.svg">
                             </a>
@@ -360,10 +360,12 @@
                                     Activity Log
                                 </a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                        
+                            <a class="nav-link" asp-action="SignOut" asp-controller="Account">
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
-                                    Logout
-                                </a>
+                                 SignOut
+                            </a>
+                        
                             </div>
                         </li>
 

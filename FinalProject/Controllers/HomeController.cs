@@ -33,13 +33,13 @@ namespace FinalProject.Controllers
 
         public IActionResult Detail(int id)
         {
-            ViewBag.Sizes= _sizeService.GetAllSizes();
-            ViewBag.Flavours= _favourService.GetAllFlavours();
-            var product= _productService.GetProduct(x=>x.Id==id);
+            ViewBag.Sizes = _sizeService.GetAllSizes();
+            ViewBag.Flavours = _favourService.GetAllFlavours();
+            var product = _productService.GetProduct(x => x.Id == id);
             var products = _productService.GetAllProducts();
 
 
-            if (product==null) return View("Error");
+            if (product == null) return RedirectToAction("Error");
 
             HomeVM vm = new HomeVM()
             {
@@ -50,6 +50,13 @@ namespace FinalProject.Controllers
             return View(vm);
         }
 
-       
-    }
+        public IActionResult Error()
+        {
+
+           return View(); 
+        }
+
+
+
+	}
 }

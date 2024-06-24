@@ -2,11 +2,13 @@
 using FinalProject.Business.Exceptions;
 using FinalProject.Business.Services.Abstarct;
 using FinalProject.Business.Services.Concret;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FinalProject.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "SuperAdmin")]
     public class FlavourController : Controller
     {
         private readonly IFlavourService _flavourService;

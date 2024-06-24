@@ -5,12 +5,14 @@ using FinalProject.Business.Services.Concret;
 using FinalProject.Core.Models;
 using FinalProject.Core.RepositoryAbstract;
 using FinalProject.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 
 namespace FinalProject.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "SuperAdmin")]
     public class ProductController : Controller
     {
         private readonly IProductService _productService;

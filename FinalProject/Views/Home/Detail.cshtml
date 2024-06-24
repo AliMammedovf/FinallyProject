@@ -3,17 +3,17 @@
 <!-- Page Title Section -->
 
 <section class="page-title-section" style="background-image: url(~/uploads/shop-detail/8.jpg)">
-        <div class="auto-container">
-            <h1>Testing Pizza</h1>
-            <div class="content">
-                <h3>Shop Detial</h3>
-                <ul class="bread-crumbs">
-                    <li><a asp-action="Index" asp-controller="Home">Home</a></li>
-                    <li>Shop Detial</li>
-                </ul>
-            </div>
+    <div class="auto-container">
+        <h1>Testing Pizza</h1>
+        <div class="content">
+            <h3>Shop Detial</h3>
+            <ul class="bread-crumbs">
+                <li><a asp-action="Index" asp-controller="Home">Home</a></li>
+                <li>Shop Detial</li>
+            </ul>
         </div>
-    </section>
+    </div>
+</section>
 
 <!-- End Page Title Section -->
 <!-- Shop Detail Section -->
@@ -93,31 +93,31 @@
                     </div>
                     <div class="clearfix">
                         <!-- Flavour Box -->
-                            <div class="flavour-box pull-left" style="display:flex">
-                                <!-- Form Group -->
-                                <div class="form-group" style="margin-right:10px">
-                                    <label asp-for="Product.FlavourId" class="form-label">Flavour:</label>
+                        <div class="flavour-box pull-left" style="display:flex">
+                            <!-- Form Group -->
+                            <div class="form-group" style="margin-right:10px">
+                                <label asp-for="Product.FlavourId" class="form-label">Flavour:</label>
                                 <select asp-for="Product.FlavourId" class="custom-select" aria-label="Default select example">
                                     @foreach (var falavour in ViewBag.Flavours)
                                     {
                                         <option value="@falavour.Id">@falavour.Name</option>
                                     }
                                 </select>
-                                </div>
-                                <div class="form-group">
-                                    <label asp-for="Product.SizeIds" class="form-label">Size:</label>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Product.SizeIds" class="form-label">Size:</label>
                                 <select asp-for="Product.SizeIds" class="custom-select" aria-label="Default select example">
-                                @foreach(var size in ViewBag.Sizes)
+                                    @foreach (var size in ViewBag.Sizes)
                                     {
                                         <option value="@size.Id">@size.Name</option>
                                     }
                                 </select>
-                                </div>
                             </div>
-                     
+                        </div>
+
                         <!-- End Flavour Box -->
                         <!-- Button Box -->
-                        <div class="button-box pull-right" style="margin-top:30px" >
+                        <div class="button-box pull-right" style="margin-top:30px">
                             <a href="#" class="theme-btn btn-style-four"><span class="txt">Add To Cart</span></a>
                         </div>
                     </div>
@@ -184,31 +184,31 @@
             <div class="row clearfix">
 
 
-                @foreach(var item in Model.Products)
+                @foreach (var item in Model.Products)
                 {
-                <!-- Menu Block -->
-                <div class="menu-block-two col-lg-3 col-md-6 col-sm-12">
-                <div class="inner-box">
+                    <!-- Menu Block -->
+                    <div class="menu-block-two col-lg-3 col-md-6 col-sm-12">
+                        <div class="inner-box">
                             <div class="image" style="width:280px; height:300px">
-                <a href="shop-detail.html"><img src="~/uploads/products/@item.ProductImages?.Where(x=>x.IsPoster==true).FirstOrDefault()?.ImageUrl" alt="" /></a>
-                <div class="overlay-box">
-                <div class="content">
-                <div class="btn-box">
-                <a class="theme-btn btn-style-two" asp-action="Detail" asp-controller="Home" asp-route-id="@item.Id"><span class="txt">Add To Cart</span></a>
-                </div>
-                <ul class="btns-list">
-                <li><a asp-action="Detail" asp-controller="Home" asp-route-id="@item.Id" class="fa fa-eye"></a></li>
-                </ul>
-                </div>
-                </div>
-                </div>
+                                <a href="shop-detail.html"><img src="~/uploads/products/@item.ProductImages?.Where(x=>x.IsPoster==true).FirstOrDefault()?.ImageUrl" alt="" /></a>
+                                <div class="overlay-box">
+                                    <div class="content">
+                                        <div class="btn-box">
+                                            <a class="theme-btn btn-style-two" asp-action="Detail" asp-controller="Home" asp-route-id="@item.Id"><span class="txt">Add To Cart</span></a>
+                                        </div>
+                                        <ul class="btns-list">
+                                            <li><a asp-action="Detail" asp-controller="Home" asp-route-id="@item.Id" class="fa fa-eye"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="lower-content" style="width:280px; height:150px">
-                <h4>@item.Title</h4>
-                <p>@item.Category.Name</p>
-                <div class="price">$@item.Price</div>
-                </div>
-                </div>
-                </div>
+                                <h4>@item.Title</h4>
+                                <p>@item.Category.Name</p>
+                                <div class="price">$@item.Price</div>
+                            </div>
+                        </div>
+                    </div>
                 }
 
 

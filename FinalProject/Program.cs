@@ -5,10 +5,12 @@ using FinalProject.Business.DTOs.SizeDTOs;
 using FinalProject.Business.Mapping;
 using FinalProject.Business.Services.Abstarct;
 using FinalProject.Business.Services.Concret;
+using FinalProject.Core.Models;
 using FinalProject.Core.RepositoryAbstract;
 using FinalProject.Data.DAL;
 using FinalProject.Data.RepositoryConcret;
 using FluentValidation.AspNetCore;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace FinalProject
@@ -34,7 +36,18 @@ namespace FinalProject
                 options.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
             });
 
-            builder.Services.AddScoped<IProductRepository, ProductRepository>();
+			builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
+			{
+				options.Password.RequireNonAlphanumeric = true;
+				options.Password.RequireUppercase = true;
+				options.Password.RequireLowercase = true;
+				options.Password.RequireDigit = true;
+				options.Password.RequiredLength = 8;
+
+                options.User.RequireUniqueEmail = true;
+			}).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
+
+			builder.Services.AddScoped<IProductRepository, ProductRepository>();
             builder.Services.AddScoped<IProductService, ProductService>();
             builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
             builder.Services.AddScoped<ICategoryService, CategoryService>();
@@ -55,7 +68,7 @@ namespace FinalProject
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            app.UseAuthorization();
             app.UseAuthorization();
              app.MapControllerRoute(
                   name: "areas",

@@ -1,12 +1,13 @@
 ﻿using FinalProject.Core.Models;
 using FinalProject.Data.Configurations;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 
 
 namespace FinalProject.Data.DAL;
 
-public class AppDbContext:DbContext
+public class AppDbContext:IdentityDbContext
 {
     public AppDbContext(DbContextOptions options): base(options)
     {
@@ -24,6 +25,8 @@ public class AppDbContext:DbContext
     public DbSet<Flavour> Flavours { get; set; }
 
     public DbSet<ProductImage> ProductImages { get; set; }
+
+    public DbSet<AppUser> Users { get; set; }
 
 
 

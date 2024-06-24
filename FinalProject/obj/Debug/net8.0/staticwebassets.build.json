@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4pV1MiSSFwlEJIScwUqUFwj1yTBxIDz4gdQVfUzbC/o=",
+  "Hash": "iYOoKhL3DTSxvLZycypIO9KZXv26LP0S0Qi3CfTwNhA=",
   "Source": "FinalProject",
   "BasePath": "_content/FinalProject",
   "Mode": "Default",
@@ -36818,6 +36818,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\icons\\waves-shape.png"
+    },
+    {
+      "Identity": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\loginimg.jpg",
+      "SourceId": "FinalProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\",
+      "BasePath": "_content/FinalProject",
+      "RelativePath": "images/loginimg.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\loginimg.jpg"
     },
     {
       "Identity": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\images\\logo.png",

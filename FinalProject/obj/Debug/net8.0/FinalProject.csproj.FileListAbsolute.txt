@@ -263,3 +263,4 @@ C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject\obj\Debug\net8.0\Fina
 C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\V&V\Desktop\CodeAcademy\FinalProject\FinalProject\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll

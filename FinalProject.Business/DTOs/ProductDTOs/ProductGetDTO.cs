@@ -29,6 +29,8 @@ public class ProductGetDTO
 
     public Size? Size { get; set; }
 
+    public AppUser? User { get; set; }
+
     public string? ImageUrl { get; set; }
 
     public List<ProductImage>? ProductImages { get; set; }
