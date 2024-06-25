@@ -74,29 +74,30 @@
 					<!-- Menu Block -->
 					@foreach (var product in Model.Products)
 					{
-						<div class="menu-block-two col-lg-4 col-md-6 col-sm-12">
-							<div class="inner-box">
-								<div class="image" style="width:250px; height:300px">
-									<a asp-action="Detail" asp-controller="Home" asp-route-id="@product.Id"><img src="~/uploads/products/@product.ProductImages?.Where(x=>x.IsPoster==true).FirstOrDefault()?.ImageUrl" alt="" /></a>
-									<div class="overlay-box">
-										<div class="content">
-											<div class="btn-box">
-												<a class="theme-btn btn-style-two" href="shop-detail.html"><span class="txt">Add To Cart</span></a>
-											</div>
-											<ul class="btns-list">
+							<div class="menu-block-two col-lg-4 col-md-6 col-sm-12">
+								<div class="inner-box">
+									<div class="image" style="width:250px; height:300px">
+										<a asp-action="Detail" asp-controller="Home" asp-route-id="@product.Id"><img src="~/uploads/products/@product.ProductImages?.Where(x=>x.IsPoster==true).FirstOrDefault()?.ImageUrl" alt="" /></a>
+										<div class="overlay-box">
+											<div class="content">
+												<div class="btn-box">
+													<a class="theme-btn btn-style-two" href="shop-detail.html"><span class="txt">Add To Cart</span></a>
+												</div>
+												<ul class="btns-list">
 
-												<li><a asp-action="Detail" asp-controller="Home" asp-route-id="@product.Id" class="fa fa-eye"></a></li>
-											</ul>
+													<li><a asp-action="Detail" asp-controller="Home" asp-route-id="@product.Id" class="fa fa-eye"></a></li>
+												</ul>
+											</div>
 										</div>
 									</div>
-								</div>
-								<div class="lower-content" style="width:250px; height:150px">
-									<h4><a asp-action="Detail" asp-controller="Home" asp-route-id="@product.Id">@product.Title</a></h4>
-									<p>@product.Category.Name</p>
-									<div class="price">$@product.Price</div>
+									<div class="lower-content" style="width:250px; height:150px">
+										<h4><a asp-action="Detail" asp-controller="Home" asp-route-id="@product.Id">@product.Title</a></h4>
+										<p>@product.Category.Name</p>
+										<div class="price">$@product.Price</div>
+									</div>
 								</div>
 							</div>
-						</div>
+						
 					}
 
 
@@ -162,62 +163,4 @@
 	</div>
 </section>
 <!-- End Subscribe Section -->
-@* <script>
-	document.addEventListener('DOMContentLoaded', function () {
-		var products = @Html.Raw(Json.Serialize(Model.Products)); // Serialize Products from server-side model
 
-		function sortByPrice(order) {
-			if (order === 'asc') {
-				products.sort((a, b) => a.Price - b.Price);
-			} else if (order === 'desc') {
-				products.sort((a, b) => b.Price - a.Price);
-			}
-			displayProducts(products);
-		}
-
-		function displayProducts(products) {
-			var productsContainer = document.querySelector('.content-side .row');
-			productsContainer.innerHTML = ''; // Clear existing products
-
-			products.forEach(function (product) {
-				var productHtml = `
-						<div class="menu-block-two col-lg-4 col-md-6 col-sm-12">
-							<div class="inner-box">
-								<div class="image" style="width:250px; height:300px">
-									<a href="/Home/Detail/${product.Id}"><img src="${product.ImageUrl}" alt="${product.Title}" /></a>
-									<div class="overlay-box">
-										<div class="content">
-											<div class="btn-box">
-												<a class="theme-btn btn-style-two" href="#"><span class="txt">Add To Cart</span></a>
-											</div>
-											<ul class="btns-list">
-												<li><a href="/Home/Detail/${product.Id}" class="fa fa-eye"></a></li>
-											</ul>
-										</div>
-									</div>
-								</div>
-								<div class="lower-content" style="width:250px; height:150px">
-									<h4><a href="/Home/Detail/${product.Id}">${product.Title}</a></h4>
-									<p>${product.Category.Name}</p>
-									<div class="price">$${product.Price}</div>
-								</div>
-							</div>
-						</div>`;
-				productsContainer.innerHTML += productHtml;
-			});
-		}
-
-		// Initial display
-		displayProducts(products);
-
-		// Event listener for select change
-		document.getElementById('sort-by').addEventListener('change', function () {
-			var selectedOption = this.value;
-			if (selectedOption === 'asc' || selectedOption === 'desc') {
-				sortByPrice(selectedOption);
-			} else {
-				// Handle default or other cases here
-			}
-		});
-	});
-</script> *@

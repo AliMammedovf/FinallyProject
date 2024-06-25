@@ -39,15 +39,17 @@
 								</ul>
 								<div class="select-box">
 									<select name="sort-by" id="sort-by">
-										<option value="default">Default Short by</option>
+										<option value="default">Default Sort by</option>
 										<option value="asc">Ascending</option>
 										<option value="desc">Descending</option>
 									</select>
-
 								</div>
 							</div>
 						</div>
 					</div>
+
+					
+
 
 					<!-- Category Widget -->
 					<div class="sidebar-widget category-widget">
@@ -61,7 +63,7 @@
 								}
 
 							</ul>
-						</div>
+						</div>`
 					</div>
 
 				</aside>
@@ -69,36 +71,40 @@
 
 			<!-- Content Side -->
 			<div class="content-side right-sidebar col-lg-9 col-md-12 col-sm-12">
-				<div class="row clearfix">
+				<div class="row clearfix product-short">
 
 					<!-- Menu Block -->
 				
 					@foreach(var product in Model.Products)
 					{
-						<div class="menu-block-two col-lg-4 col-md-6 col-sm-12">
-							<div class="inner-box">
-								<div class="image" style="width:250px; height:250px">
-									<a asp-action="Detail" asp-controller="Home" asp-route-id="@product.Id"><img src="~/uploads/products/@product.ProductImages?.Where(x=>x.IsPoster==true).FirstOrDefault()?.ImageUrl" alt="" /></a>
-									<div class="overlay-box">
-										<div class="content">
-											<div class="btn-box">
-												<a class="theme-btn btn-style-two add-to-basket" asp-action="addtobasket" asp-controller="product" asp-route-productId="@product.Id"><span class="txt">Add To Cart</span></a>
+						
+							<div class="menu-block-two col-lg-4 col-md-6 col-sm-12 product-item " id="product-list">
+								<div class="inner-box">
+									<div class="image" style="width:250px; height:250px">
+										<a asp-action="Detail" asp-controller="Home" asp-route-id="@product.Id"><img src="~/uploads/products/@product.ProductImages?.Where(x=>x.IsPoster==true).FirstOrDefault()?.ImageUrl" alt="" /></a>
+										<div class="overlay-box">
+											<div class="content">
+												<div class="btn-box">
+													<a class="theme-btn btn-style-two add-to-basket" asp-action="addtobasket" asp-controller="product" asp-route-productId="@product.Id"><span class="txt">Add To Cart</span></a>
+												</div>
+												<ul class="btns-list">
+
+													<li><a asp-action="Detail" asp-controller="Home" asp-route-id="@product.Id" class="fa fa-eye"></a></li>
+												</ul>
 											</div>
-											<ul class="btns-list">
-								
-												<li><a asp-action="Detail" asp-controller="Home" asp-route-id="@product.Id" class="fa fa-eye"></a></li>
-											</ul>
 										</div>
 									</div>
-								</div>
-								<div class="lower-content" style="width:250px; height:150px">
-									<h4><a asp-action="Detail" asp-controller="Home" asp-route-id="@product.Id">@product.Title</a></h4>
-									<p>@product.Category.Name</p>
-									<div class="price">$@product.Price</div>
+									<div class="lower-content" style="width:250px; height:150px">
+										<h4><a asp-action="Detail" asp-controller="Home" asp-route-id="@product.Id" id="product-item">@product.Title</a></h4>
+										<p>@product.Category.Name</p>
+										<div class="price" id="data-price">$@product.Price</div>
+									</div>
 								</div>
 							</div>
-						</div>
+						
+
 					}
+
 
 			
 
@@ -162,63 +168,43 @@
 
 	</div>
 </section>
-<!-- End Subscribe Section -->
-@* <script>
+
+<script>
 	document.addEventListener('DOMContentLoaded', function () {
-		var products = @Html.Raw(Json.Serialize(Model.Products)); // Serialize Products from server-side model
+		const sortBySelect = document.getElementById('sort-by');
+		const productList = document.getElementById('product-list'); // Assuming this is the container for all product items
 
-		function sortByPrice(order) {
-			if (order === 'asc') {
-				products.sort((a, b) => a.Price - b.Price);
-			} else if (order === 'desc') {
-				products.sort((a, b) => b.Price - a.Price);
+		sortBySelect.addEventListener('change', function () {
+			const sortBy = this.value;
+			let products = Array.from(document.getElementsByClassName('product-item'));
+
+			// Sort products based on selected option
+			if (sortBy === 'asc') {
+				products.sort((a, b) => {
+					let priceA = parseFloat(a.getAttribute('data-price'));
+					let priceB = parseFloat(b.getAttribute('data-price'));
+					return priceA - priceB;
+				});
+			} else if (sortBy === 'desc') {
+				products.sort((a, b) => {
+					let priceA = parseFloat(a.getAttribute('data-price'));
+					let priceB = parseFloat(b.getAttribute('data-price'));
+					return priceB - priceA;
+				});
 			}
-			displayProducts(products);
-		}
 
-		function displayProducts(products) {
-			var productsContainer = document.querySelector('.content-side .row');
-			productsContainer.innerHTML = ''; // Clear existing products
+			// Clear existing product list
+			while (productList.firstChild) {
+				productList.removeChild(productList.firstChild);
+			}
 
-			products.forEach(function (product) {
-				var productHtml = `
-						<div class="menu-block-two col-lg-4 col-md-6 col-sm-12">
-							<div class="inner-box">
-								<div class="image" style="width:250px; height:300px">
-									<a href="/Home/Detail/${product.Id}"><img src="${product.ImageUrl}" alt="${product.Title}" /></a>
-									<div class="overlay-box">
-										<div class="content">
-											<div class="btn-box">
-												<a class="theme-btn btn-style-two" href="#"><span class="txt">Add To Cart</span></a>
-											</div>
-											<ul class="btns-list">
-												<li><a href="/Home/Detail/${product.Id}" class="fa fa-eye"></a></li>
-											</ul>
-										</div>
-									</div>
-								</div>
-								<div class="lower-content" style="width:250px; height:150px">
-									<h4><a href="/Home/Detail/${product.Id}">${product.Title}</a></h4>
-									<p>${product.Category.Name}</p>
-									<div class="price">$${product.Price}</div>
-								</div>
-							</div>
-						</div>`;
-				productsContainer.innerHTML += productHtml;
+			// Append sorted products back to the product list container
+			products.forEach(product => {
+				productList.appendChild(product);
 			});
-		}
-
-		// Initial display
-		displayProducts(products);
-
-		// Event listener for select change
-		document.getElementById('sort-by').addEventListener('change', function () {
-			var selectedOption = this.value;
-			if (selectedOption === 'asc' || selectedOption === 'desc') {
-				sortByPrice(selectedOption);
-			} else {
-				// Handle default or other cases here
-			}
 		});
 	});
-</script> *@
+
+</script>
+
+
