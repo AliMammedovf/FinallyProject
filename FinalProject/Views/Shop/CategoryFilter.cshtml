@@ -1,0 +1,223 @@
+﻿@model HomeVM
+
+<!-- Page Title Section -->
+<section class="page-title-section" style="background-image: url(/images/background/8.jpg)">
+	<div class="auto-container">
+		<h1>Testing Pizza</h1>
+		<div class="content">
+			<h3>Shop List</h3>
+			<ul class="bread-crumbs">
+				<li><a href="index-2.html">Home</a></li>
+				<li>Shop List</li>
+			</ul>
+		</div>
+	</div>
+</section>
+<!-- End Page Title Section -->
+<!-- Sidebar Page Container -->
+<div class="sidebar-page-container">
+	<div class="pattern-layer-one" style="background-image: url(/images/background/pattern-4.png)"></div>
+	<div class="pattern-layer-two" style="background-image: url(/images/background/pattern-5.png)"></div>
+	<div class="auto-container">
+		<div class="row clearfix">
+
+			<!-- Sidebar Side -->
+			<div class="sidebar-side left-sidebar col-lg-3 col-md-12 col-sm-12">
+				<aside class="sidebar sticky-top">
+
+
+					<!-- Shop Info Box -->
+					<div class="shop-info-box">
+						<div class="clearfix">
+							<div class="pull-left">
+								<div class="total-post">Showing 1–9 of 12 results</div>
+							</div>
+							<div class="pull-right clearfix">
+								<ul class="view-list">
+									<li><a href="#" class="flaticon-squares"></a></li>
+									<li><a href="#" class="fa fa-list-ul"></a></li>
+								</ul>
+								<div class="select-box">
+									<select name="sort-by" id="sort-by">
+										<option value="default">Default Short by</option>
+										<option value="asc">Ascending</option>
+										<option value="desc">Descending</option>
+									</select>
+
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Category Widget -->
+					<div class="sidebar-widget category-widget">
+						<div class="widget-content">
+							<h4>Categories</h4>
+							<ul class="cate-list">
+
+								@foreach (var category in Model.Categories)
+								{
+									<li><a  asp-route-id="@category.Id">@category.Name</a></li>
+								}
+
+							</ul>
+						</div>
+					</div>
+
+				</aside>
+			</div>
+
+			<!-- Content Side -->
+			<div class="content-side right-sidebar col-lg-9 col-md-12 col-sm-12">
+				<div class="row clearfix">
+
+					<!-- Menu Block -->
+					@foreach (var product in Model.Products)
+					{
+						<div class="menu-block-two col-lg-4 col-md-6 col-sm-12">
+							<div class="inner-box">
+								<div class="image" style="width:250px; height:300px">
+									<a asp-action="Detail" asp-controller="Home" asp-route-id="@product.Id"><img src="~/uploads/products/@product.ProductImages?.Where(x=>x.IsPoster==true).FirstOrDefault()?.ImageUrl" alt="" /></a>
+									<div class="overlay-box">
+										<div class="content">
+											<div class="btn-box">
+												<a class="theme-btn btn-style-two" href="shop-detail.html"><span class="txt">Add To Cart</span></a>
+											</div>
+											<ul class="btns-list">
+
+												<li><a asp-action="Detail" asp-controller="Home" asp-route-id="@product.Id" class="fa fa-eye"></a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="lower-content" style="width:250px; height:150px">
+									<h4><a asp-action="Detail" asp-controller="Home" asp-route-id="@product.Id">@product.Title</a></h4>
+									<p>@product.Category.Name</p>
+									<div class="price">$@product.Price</div>
+								</div>
+							</div>
+						</div>
+					}
+
+
+
+				</div>
+
+				<!-- Post Share Options -->
+				<div class="styled-pagination">
+					<ul class="clearfix">
+						<li class="share">Showing 1–9of 12 results</li>
+						<li class="active"><a href="#">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li class="next"><a href="#"><span class="fa fa-angle-right"></span> </a></li>
+					</ul>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<!-- Clients Section -->
+<section class="clients-section" style="background-image: url(/images/background/pattern-7.png)">
+	<div class="auto-container">
+		<div class="inner-container">
+			<div class="sponsors-outer">
+				<!--Sponsors Carousel-->
+				<ul class="sponsors-carousel owl-carousel owl-theme">
+					<li class="slide-item"><figure class="image-box"><a href="#"><img src="/images/clients/1.png" alt=""></a></figure></li>
+					<li class="slide-item"><figure class="image-box"><a href="#"><img src="/images/clients/2.png" alt=""></a></figure></li>
+					<li class="slide-item"><figure class="image-box"><a href="#"><img src="/images/clients/3.png" alt=""></a></figure></li>
+					<li class="slide-item"><figure class="image-box"><a href="#"><img src="/images/clients/4.png" alt=""></a></figure></li>
+					<li class="slide-item"><figure class="image-box"><a href="#"><img src="/images/clients/1.png" alt=""></a></figure></li>
+					<li class="slide-item"><figure class="image-box"><a href="#"><img src="/images/clients/2.png" alt=""></a></figure></li>
+					<li class="slide-item"><figure class="image-box"><a href="#"><img src="/images/clients/3.png" alt=""></a></figure></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- End Clients Section -->
+<!-- Subscribe Section -->
+<section class="subscribe-section" style="background-image: url(/images/background/4.jpg)">
+	<div class="auto-container">
+		<!-- Sec Title -->
+		<div class="sec-title centered">
+			<h3>You've Got Pizza</h3>
+			<div class="text">Sign up for hot slices of pizza news and special offers! Don’t worry, we won’t clog <br> your inbox or your arteries.</div>
+		</div>
+
+		<!-- NewsLetter Form -->
+		<div class="newsletter-form">
+			<form method="post" action="https://gico.io/cyyo/05_Pizza/contact.html">
+				<div class="form-group">
+					<input type="email" name="email" value="" placeholder="Email address" required="">
+					<button type="submit" class="theme-btn"><span class="txt">Sign up For Subscribe</span></button>
+				</div>
+			</form>
+		</div>
+
+	</div>
+</section>
+<!-- End Subscribe Section -->
+@* <script>
+	document.addEventListener('DOMContentLoaded', function () {
+		var products = @Html.Raw(Json.Serialize(Model.Products)); // Serialize Products from server-side model
+
+		function sortByPrice(order) {
+			if (order === 'asc') {
+				products.sort((a, b) => a.Price - b.Price);
+			} else if (order === 'desc') {
+				products.sort((a, b) => b.Price - a.Price);
+			}
+			displayProducts(products);
+		}
+
+		function displayProducts(products) {
+			var productsContainer = document.querySelector('.content-side .row');
+			productsContainer.innerHTML = ''; // Clear existing products
+
+			products.forEach(function (product) {
+				var productHtml = `
+						<div class="menu-block-two col-lg-4 col-md-6 col-sm-12">
+							<div class="inner-box">
+								<div class="image" style="width:250px; height:300px">
+									<a href="/Home/Detail/${product.Id}"><img src="${product.ImageUrl}" alt="${product.Title}" /></a>
+									<div class="overlay-box">
+										<div class="content">
+											<div class="btn-box">
+												<a class="theme-btn btn-style-two" href="#"><span class="txt">Add To Cart</span></a>
+											</div>
+											<ul class="btns-list">
+												<li><a href="/Home/Detail/${product.Id}" class="fa fa-eye"></a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="lower-content" style="width:250px; height:150px">
+									<h4><a href="/Home/Detail/${product.Id}">${product.Title}</a></h4>
+									<p>${product.Category.Name}</p>
+									<div class="price">$${product.Price}</div>
+								</div>
+							</div>
+						</div>`;
+				productsContainer.innerHTML += productHtml;
+			});
+		}
+
+		// Initial display
+		displayProducts(products);
+
+		// Event listener for select change
+		document.getElementById('sort-by').addEventListener('change', function () {
+			var selectedOption = this.value;
+			if (selectedOption === 'asc' || selectedOption === 'desc') {
+				sortByPrice(selectedOption);
+			} else {
+				// Handle default or other cases here
+			}
+		});
+	});
+</script> *@

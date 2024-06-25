@@ -65,17 +65,21 @@
 												<li><a href="team.html">Team</a></li>
 											</ul>
 										</li>
-										<li><a href="reservation.html">Reservation</a></li>
+										<li><a asp-action="Reserv" asp-controller="Reservation">Reservation</a></li>
 									</ul>
 
 									<ul class="navigation right-nav clearfix">
 										<li>
 											<a asp-action="Index" asp-controller="Shop">Shop</a>
 										</li>
-										<li >
-											<a asp-action="Login" asp-controller="User">SignIn/SignUp</a>
+										<li class="dropdown" >
+											<a href="#">Login/Register</a>
+											<ul>
+												<li><a asp-action="Login" asp-controller="User">Login</a></li>
+												<li><a asp-action="Register" asp-controller="Account">Register</a></li>
+											</ul>
 										</li>
-										<li><a asp-action="Index" asp-controller="Contact">Contact us</a></li>
+										<li><a asp-action="Index" asp-controller="Contact">Contact</a></li>
 									</ul>
 
 								</div>
@@ -321,6 +325,7 @@
 <script src="~/js/nav-tool.js"></script>
 <script src="~/js/jquery-ui.js"></script>
 <script src="~/js/script.js"></script>
+<script src="~/js/main.js"></script>
 
 </body>
 

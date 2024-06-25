@@ -57,7 +57,7 @@
 								  
 								@foreach(var category in Model.Categories)
 								{
-									<li><a asp-route-id="@category.Id">@category.Name</a></li>
+									<li><a asp-action="CategoryFilter" asp-controller="Shop" asp-route-id="@category.Id">@category.Name</a></li>
 								}
 
 							</ul>
@@ -77,12 +77,12 @@
 					{
 						<div class="menu-block-two col-lg-4 col-md-6 col-sm-12">
 							<div class="inner-box">
-								<div class="image" style="width:250px; height:300px">
+								<div class="image" style="width:250px; height:250px">
 									<a asp-action="Detail" asp-controller="Home" asp-route-id="@product.Id"><img src="~/uploads/products/@product.ProductImages?.Where(x=>x.IsPoster==true).FirstOrDefault()?.ImageUrl" alt="" /></a>
 									<div class="overlay-box">
 										<div class="content">
 											<div class="btn-box">
-												<a class="theme-btn btn-style-two" href="shop-detail.html"><span class="txt">Add To Cart</span></a>
+												<a class="theme-btn btn-style-two add-to-basket" asp-action="addtobasket" asp-controller="product" asp-route-productId="@product.Id"><span class="txt">Add To Cart</span></a>
 											</div>
 											<ul class="btns-list">
 								
@@ -163,7 +163,7 @@
 	</div>
 </section>
 <!-- End Subscribe Section -->
-<script>
+@* <script>
 	document.addEventListener('DOMContentLoaded', function () {
 		var products = @Html.Raw(Json.Serialize(Model.Products)); // Serialize Products from server-side model
 
@@ -221,4 +221,4 @@
 			}
 		});
 	});
-</script>
+</script> *@

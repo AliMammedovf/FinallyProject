@@ -57,7 +57,10 @@ namespace FinalProject
             builder.Services.AddScoped<ISizeService, SizeService>();
             builder.Services.AddScoped<IProductSizeRepository, ProductSizeRepository>();
             builder.Services.AddScoped<IProductImageRepository, ProductImageRepository>();
-            builder.Services.AddScoped<IEmailService, EmailService>();  
+            builder.Services.AddScoped<IEmailService, EmailService>();
+            builder.Services.AddScoped<IBasketItemRepository, BasketItemRepository>();
+            builder.Services.AddScoped<IBasketItemService, BasketItemService>();
+            builder.Services.AddSession();
 
             var app = builder.Build();
 
@@ -69,6 +72,7 @@ namespace FinalProject
             app.UseStaticFiles();
 
             app.UseRouting();
+            app.UseSession();
             app.UseAuthorization();
             app.UseAuthorization();
              app.MapControllerRoute(

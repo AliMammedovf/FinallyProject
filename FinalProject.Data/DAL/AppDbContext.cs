@@ -28,9 +28,11 @@ public class AppDbContext:IdentityDbContext
 
     public DbSet<AppUser> Users { get; set; }
 
+	public DbSet<BasketItem> BasketItems { get; set; }
 
 
-    protected override void OnModelCreating(ModelBuilder builder)
+
+	protected override void OnModelCreating(ModelBuilder builder)
     {
         builder.ApplyConfigurationsFromAssembly(typeof(ProductConfugration).Assembly);
         builder.ApplyConfigurationsFromAssembly(typeof(CategoryConfugration).Assembly);

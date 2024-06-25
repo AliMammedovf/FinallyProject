@@ -17,14 +17,14 @@ namespace FinalProject.Controllers
 			_productService = productService;
 		}
 
-		public IActionResult Index(int? categoryId)
+		public IActionResult Index()
         {
             var category= _categoryService.GetAllCategories();
-            IEnumerable<ProductGetDTO> products = new List<ProductGetDTO>();
-            if (categoryId != null)
-                products = _productService.GetAllProducts(x=>x.CategoryId == categoryId);
-            else
-                products = _productService.GetAllProducts();
+            //IEnumerable<ProductGetDTO> products = new List<ProductGetDTO>();
+            //if (categoryId != null)
+            //    products = _productService.GetAllProducts(x=>x.CategoryId == categoryId);
+            //else
+            var products = _productService.GetAllProducts();
 
             HomeVM vm = new HomeVM()
             {
@@ -34,6 +34,23 @@ namespace FinalProject.Controllers
 
             return View(vm);
         }
+
+        public IActionResult CategoryFilter(int? categoryId)
+        {
+			var category = _categoryService.GetAllCategories();
+			IEnumerable<ProductGetDTO> products = new List<ProductGetDTO>();
+            if (categoryId != null)
+                products = _productService.GetAllProducts(x => x.Category.Id==categoryId);
+            else
+                products = _productService.GetAllProducts();
+
+			HomeVM vm = new HomeVM()
+			{
+				Categories = category,
+				Products = products
+			};
+            			return View(vm);
+		}
 
 		
 	}
