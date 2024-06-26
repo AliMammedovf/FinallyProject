@@ -5,6 +5,7 @@ using FinalProject.Business.DTOs.SizeDTOs;
 using FinalProject.Business.Mapping;
 using FinalProject.Business.Services.Abstarct;
 using FinalProject.Business.Services.Concret;
+using FinalProject.Business.ViewServices;
 using FinalProject.Core.Models;
 using FinalProject.Core.RepositoryAbstract;
 using FinalProject.Data.DAL;
@@ -61,6 +62,7 @@ namespace FinalProject
             builder.Services.AddScoped<IBasketItemRepository, BasketItemRepository>();
             builder.Services.AddScoped<IBasketItemService, BasketItemService>();
             builder.Services.AddSession();
+            builder.Services.AddScoped<LayoutService>();
 
             var app = builder.Build();
 

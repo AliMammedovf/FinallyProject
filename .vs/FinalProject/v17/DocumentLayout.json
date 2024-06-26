@@ -3,216 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject\\views\\shop\\categoryfilter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\shop\\categoryfilter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject\\views\\product\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\product\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject\\views\\reservation\\reserv.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\reservation\\reserv.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject\\wwwroot\\css\\checkout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\wwwroot\\css\\checkout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A08959E-F497-478C-8084-CE6E56386CED}|FinalProject.Core\\FinalProject.Core.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject.core\\models\\basketitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A08959E-F497-478C-8084-CE6E56386CED}|FinalProject.Core\\FinalProject.Core.csproj|solutionrelative:finalproject.core\\models\\basketitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject.business\\services\\abstarct\\ibasketitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|solutionrelative:finalproject.business\\services\\abstarct\\ibasketitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject.business\\services\\concret\\basketitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|solutionrelative:finalproject.business\\services\\concret\\basketitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject\\wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A08959E-F497-478C-8084-CE6E56386CED}|FinalProject.Core\\FinalProject.Core.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject.core\\models\\productsize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A08959E-F497-478C-8084-CE6E56386CED}|FinalProject.Core\\FinalProject.Core.csproj|solutionrelative:finalproject.core\\models\\productsize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A08959E-F497-478C-8084-CE6E56386CED}|FinalProject.Core\\FinalProject.Core.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject.core\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A08959E-F497-478C-8084-CE6E56386CED}|FinalProject.Core\\FinalProject.Core.csproj|solutionrelative:finalproject.core\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A08959E-F497-478C-8084-CE6E56386CED}|FinalProject.Core\\FinalProject.Core.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject.core\\models\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A08959E-F497-478C-8084-CE6E56386CED}|FinalProject.Core\\FinalProject.Core.csproj|solutionrelative:finalproject.core\\models\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject.business\\viewservices\\layoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|solutionrelative:finalproject.business\\viewservices\\layoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject\\viewmodels\\basketitemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\viewmodels\\basketitemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject\\views\\product\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\product\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject\\areas\\admin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\areas\\admin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject\\viewmodels\\checkoutvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\viewmodels\\checkoutvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject\\areas\\admin\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\areas\\admin\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject\\views\\user\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\user\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject.business\\services\\concret\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|solutionrelative:finalproject.business\\services\\concret\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject\\areas\\admin\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\areas\\admin\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject\\areas\\admin\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\areas\\admin\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject\\viewmodels\\resetpasswordvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\viewmodels\\resetpasswordvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject\\viewmodels\\userregistervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\viewmodels\\userregistervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject\\viewmodels\\forgotpasswordvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\viewmodels\\forgotpasswordvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject\\views\\user\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\user\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject\\views\\home\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\home\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject\\views\\home\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\home\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject.business\\services\\abstarct\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|solutionrelative:finalproject.business\\services\\abstarct\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject\\viewmodels\\adminloginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\viewmodels\\adminloginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A08959E-F497-478C-8084-CE6E56386CED}|FinalProject.Core\\FinalProject.Core.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject.core\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A08959E-F497-478C-8084-CE6E56386CED}|FinalProject.Core\\FinalProject.Core.csproj|solutionrelative:finalproject.core\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A08959E-F497-478C-8084-CE6E56386CED}|FinalProject.Core\\FinalProject.Core.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject.core\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A08959E-F497-478C-8084-CE6E56386CED}|FinalProject.Core\\FinalProject.Core.csproj|solutionrelative:finalproject.core\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A08959E-F497-478C-8084-CE6E56386CED}|FinalProject.Core\\FinalProject.Core.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject.core\\models\\flavour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A08959E-F497-478C-8084-CE6E56386CED}|FinalProject.Core\\FinalProject.Core.csproj|solutionrelative:finalproject.core\\models\\flavour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject\\viewmodels\\userloginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\viewmodels\\userloginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject\\wwwroot\\admin\\css\\sb-admin-2.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\wwwroot\\admin\\css\\sb-admin-2.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject\\areas\\admin\\controllers\\flavourcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\areas\\admin\\controllers\\flavourcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject\\areas\\admin\\controllers\\sizecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\areas\\admin\\controllers\\sizecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject.business\\dtos\\productdtos\\productgetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|solutionrelative:finalproject.business\\dtos\\productdtos\\productgetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\codeacademy\\finalproject\\finalproject\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -222,8 +34,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Program.cs",
+              "RelativeDocumentMoniker": "FinalProject\\Program.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Program.cs",
+              "RelativeToolTip": "FinalProject\\Program.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAAAEAAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T00:05:14.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LayoutService.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Business\\ViewServices\\LayoutService.cs",
+              "RelativeDocumentMoniker": "FinalProject.Business\\ViewServices\\LayoutService.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Business\\ViewServices\\LayoutService.cs",
+              "RelativeToolTip": "FinalProject.Business\\ViewServices\\LayoutService.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAABMAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T23:48:59.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FinalProject\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAGwAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T23:40:30.731Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -232,636 +83,36 @@
               "RelativeDocumentMoniker": "FinalProject\\Views\\Product\\CheckOut.cshtml",
               "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Views\\Product\\CheckOut.cshtml",
               "RelativeToolTip": "FinalProject\\Views\\Product\\CheckOut.cshtml",
-              "ViewState": "AQIAAJgAAAAAAAAAAAAAAJAAAAAoAAAA",
+              "ViewState": "AQIAAKAAAAAAAAAAAAAAAK0AAABoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-25T16:17:10.117Z"
+              "WhenOpened": "2024-06-25T22:57:21.831Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Program.cs",
-              "RelativeDocumentMoniker": "FinalProject\\Program.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Program.cs",
-              "RelativeToolTip": "FinalProject\\Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAD0AAABQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T00:25:03.699Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "FinalProject\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAANgAAAAAAAAAAAAAAOIAAAB1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-25T13:12:29.924Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "FinalProject\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Controllers\\ProductController.cs",
               "RelativeToolTip": "FinalProject\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAH8AAAAAAAAAAAAAAIsAAAAcAAAA",
+              "ViewState": "AQIAAI8AAAAAAAAAAAAAAI8AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T10:48:28.752Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Views\\Shop\\Index.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Views\\Shop\\Index.cshtml",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Views\\Shop\\Index.cshtml",
-              "RelativeToolTip": "FinalProject\\Views\\Shop\\Index.cshtml",
-              "ViewState": "AQIAAGwAAAAAAAAAAAAAAGQAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-24T13:08:44.075Z",
+              "WhenOpened": "2024-06-25T22:34:42.059Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Reserv.cshtml",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Views\\Reservation\\Reserv.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Views\\Reservation\\Reserv.cshtml",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Views\\Reservation\\Reserv.cshtml",
-              "RelativeToolTip": "FinalProject\\Views\\Reservation\\Reserv.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-25T09:56:53.244Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CategoryFilter.cshtml",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Views\\Shop\\CategoryFilter.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Views\\Shop\\CategoryFilter.cshtml",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Views\\Shop\\CategoryFilter.cshtml",
-              "RelativeToolTip": "FinalProject\\Views\\Shop\\CategoryFilter.cshtml",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAAAGMAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-25T09:02:50.612Z",
+              "Title": "CheckOutVM.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\ViewModels\\CheckOutVM.cs",
+              "RelativeDocumentMoniker": "FinalProject\\ViewModels\\CheckOutVM.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\ViewModels\\CheckOutVM.cs",
+              "RelativeToolTip": "FinalProject\\ViewModels\\CheckOutVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T22:32:01.917Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ShopController.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Controllers\\ShopController.cs",
-              "RelativeDocumentMoniker": "FinalProject\\Controllers\\ShopController.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Controllers\\ShopController.cs",
-              "RelativeToolTip": "FinalProject\\Controllers\\ShopController.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAAAC4AAABMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T12:01:18.567Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "BasketItem.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Core\\Models\\BasketItem.cs",
-              "RelativeDocumentMoniker": "FinalProject.Core\\Models\\BasketItem.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Core\\Models\\BasketItem.cs",
-              "RelativeToolTip": "FinalProject.Core\\Models\\BasketItem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T14:08:05.141Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "checkout.css",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\css\\checkout.css",
-              "RelativeDocumentMoniker": "FinalProject\\wwwroot\\css\\checkout.css",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\css\\checkout.css",
-              "RelativeToolTip": "FinalProject\\wwwroot\\css\\checkout.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-25T18:22:58.807Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IBasketItemService.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Business\\Services\\Abstarct\\IBasketItemService.cs",
-              "RelativeDocumentMoniker": "FinalProject.Business\\Services\\Abstarct\\IBasketItemService.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Business\\Services\\Abstarct\\IBasketItemService.cs",
-              "RelativeToolTip": "FinalProject.Business\\Services\\Abstarct\\IBasketItemService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA8AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T14:23:54.351Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "BasketItemService.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Business\\Services\\Concret\\BasketItemService.cs",
-              "RelativeDocumentMoniker": "FinalProject.Business\\Services\\Concret\\BasketItemService.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Business\\Services\\Concret\\BasketItemService.cs",
-              "RelativeToolTip": "FinalProject.Business\\Services\\Concret\\BasketItemService.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAAwC0AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T14:24:54.563Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "BasketItemVM.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\ViewModels\\BasketItemVM.cs",
-              "RelativeDocumentMoniker": "FinalProject\\ViewModels\\BasketItemVM.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\ViewModels\\BasketItemVM.cs",
-              "RelativeToolTip": "FinalProject\\ViewModels\\BasketItemVM.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T10:34:42.232Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "main.js",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\js\\main.js",
-              "RelativeDocumentMoniker": "FinalProject\\wwwroot\\js\\main.js",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\js\\main.js",
-              "RelativeToolTip": "FinalProject\\wwwroot\\js\\main.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-06-25T13:35:52.721Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Reservation.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Core\\Models\\Reservation.cs",
-              "RelativeDocumentMoniker": "FinalProject.Core\\Models\\Reservation.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Core\\Models\\Reservation.cs",
-              "RelativeToolTip": "FinalProject.Core\\Models\\Reservation.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T10:14:25.866Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ReservationController.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Controllers\\ReservationController.cs",
-              "RelativeDocumentMoniker": "FinalProject\\Controllers\\ReservationController.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Controllers\\ReservationController.cs",
-              "RelativeToolTip": "FinalProject\\Controllers\\ReservationController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T09:56:19.429Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ProductSize.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Core\\Models\\ProductSize.cs",
-              "RelativeDocumentMoniker": "FinalProject.Core\\Models\\ProductSize.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Core\\Models\\ProductSize.cs",
-              "RelativeToolTip": "FinalProject.Core\\Models\\ProductSize.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T06:31:42.097Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Table.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Core\\Models\\Table.cs",
-              "RelativeDocumentMoniker": "FinalProject.Core\\Models\\Table.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Core\\Models\\Table.cs",
-              "RelativeToolTip": "FinalProject.Core\\Models\\Table.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T10:23:16.181Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "FinalProject\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAADEBAAAAAAAAAAAAAEQBAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-23T13:10:50.64Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Areas\\Admin\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Areas\\Admin\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "FinalProject\\Areas\\Admin\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAAKsAAAAAAAAAAAAAAHEAAABSAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T00:24:07.566Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Areas\\Admin\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Areas\\Admin\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "FinalProject\\Areas\\Admin\\Views\\Account\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-23T00:58:50.776Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "FinalProject\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Controllers\\UserController.cs",
-              "RelativeToolTip": "FinalProject\\Controllers\\UserController.cs",
-              "ViewState": "AQIAALYAAAAAAAAAAAAAAM0AAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T13:03:12Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "EmailService.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Business\\Services\\Concret\\EmailService.cs",
-              "RelativeDocumentMoniker": "FinalProject.Business\\Services\\Concret\\EmailService.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Business\\Services\\Concret\\EmailService.cs",
-              "RelativeToolTip": "FinalProject.Business\\Services\\Concret\\EmailService.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAAwCIAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T12:14:54.756Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ResetPassword.cshtml",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Views\\User\\ResetPassword.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Views\\User\\ResetPassword.cshtml",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Views\\User\\ResetPassword.cshtml",
-              "RelativeToolTip": "FinalProject\\Views\\User\\ResetPassword.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-24T13:15:54.141Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Views\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Views\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Views\\Account\\Register.cshtml",
-              "RelativeToolTip": "FinalProject\\Views\\Account\\Register.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-23T13:06:07.619Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "FinalProject\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "FinalProject\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAAABMAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T13:02:33.913Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "FinalProject\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAANEAAAAAAAAAAAAAAC4AAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T01:02:26.575Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "ResetPassword.cshtml",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Areas\\Admin\\Views\\Account\\ResetPassword.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\Account\\ResetPassword.cshtml",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Areas\\Admin\\Views\\Account\\ResetPassword.cshtml",
-              "RelativeToolTip": "FinalProject\\Areas\\Admin\\Views\\Account\\ResetPassword.cshtml",
-              "ViewState": "AQIAACAAAAAAAAAAAAAAADAAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-23T20:43:26.325Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "ForgotPassword.cshtml",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Areas\\Admin\\Views\\Account\\ForgotPassword.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\Account\\ForgotPassword.cshtml",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Areas\\Admin\\Views\\Account\\ForgotPassword.cshtml",
-              "RelativeToolTip": "FinalProject\\Areas\\Admin\\Views\\Account\\ForgotPassword.cshtml",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEgAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-23T14:48:46.765Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "ResetPasswordVm.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\ViewModels\\ResetPasswordVm.cs",
-              "RelativeDocumentMoniker": "FinalProject\\ViewModels\\ResetPasswordVm.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\ViewModels\\ResetPasswordVm.cs",
-              "RelativeToolTip": "FinalProject\\ViewModels\\ResetPasswordVm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T20:34:30.292Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "UserRegisterVm.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\ViewModels\\UserRegisterVm.cs",
-              "RelativeDocumentMoniker": "FinalProject\\ViewModels\\UserRegisterVm.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\ViewModels\\UserRegisterVm.cs",
-              "RelativeToolTip": "FinalProject\\ViewModels\\UserRegisterVm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T13:00:23.364Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "ForgotPasswordVm.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\ViewModels\\ForgotPasswordVm.cs",
-              "RelativeDocumentMoniker": "FinalProject\\ViewModels\\ForgotPasswordVm.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\ViewModels\\ForgotPasswordVm.cs",
-              "RelativeToolTip": "FinalProject\\ViewModels\\ForgotPasswordVm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T18:43:21.981Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "ForgotPassword.cshtml",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Views\\User\\ForgotPassword.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Views\\User\\ForgotPassword.cshtml",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Views\\User\\ForgotPassword.cshtml",
-              "RelativeToolTip": "FinalProject\\Views\\User\\ForgotPassword.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF0AAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-24T13:14:36.474Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Views\\User\\Login.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Views\\User\\Login.cshtml",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Views\\User\\Login.cshtml",
-              "RelativeToolTip": "FinalProject\\Views\\User\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEYAAABTAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-24T10:40:37.581Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\appsettings.json",
-              "RelativeDocumentMoniker": "FinalProject\\appsettings.json",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\appsettings.json",
-              "RelativeToolTip": "FinalProject\\appsettings.json",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAAA8AAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-24T10:30:31.389Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Views\\Home\\Error.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\Error.cshtml",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Views\\Home\\Error.cshtml",
-              "RelativeToolTip": "FinalProject\\Views\\Home\\Error.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAABDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-24T12:52:45.65Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "Detail.cshtml",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Views\\Home\\Detail.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\Detail.cshtml",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Views\\Home\\Detail.cshtml",
-              "RelativeToolTip": "FinalProject\\Views\\Home\\Detail.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-24T12:51:55.723Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "ContactController.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Controllers\\ContactController.cs",
-              "RelativeDocumentMoniker": "FinalProject\\Controllers\\ContactController.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Controllers\\ContactController.cs",
-              "RelativeToolTip": "FinalProject\\Controllers\\ContactController.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T12:22:03.733Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Views\\Contact\\Index.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Views\\Contact\\Index.cshtml",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Views\\Contact\\Index.cshtml",
-              "RelativeToolTip": "FinalProject\\Views\\Contact\\Index.cshtml",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAAAF8AAABDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-23T14:21:38.867Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "AdminLoginVm.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\ViewModels\\AdminLoginVm.cs",
-              "RelativeDocumentMoniker": "FinalProject\\ViewModels\\AdminLoginVm.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\ViewModels\\AdminLoginVm.cs",
-              "RelativeToolTip": "FinalProject\\ViewModels\\AdminLoginVm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T00:18:36.616Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "IEmailService.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Business\\Services\\Abstarct\\IEmailService.cs",
-              "RelativeDocumentMoniker": "FinalProject.Business\\Services\\Abstarct\\IEmailService.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Business\\Services\\Abstarct\\IEmailService.cs",
-              "RelativeToolTip": "FinalProject.Business\\Services\\Abstarct\\IEmailService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T12:14:38.036Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "AppUser.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Core\\Models\\AppUser.cs",
-              "RelativeDocumentMoniker": "FinalProject.Core\\Models\\AppUser.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Core\\Models\\AppUser.cs",
-              "RelativeToolTip": "FinalProject.Core\\Models\\AppUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T00:13:46.591Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "Flavour.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Core\\Models\\Flavour.cs",
-              "RelativeDocumentMoniker": "FinalProject.Core\\Models\\Flavour.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Core\\Models\\Flavour.cs",
-              "RelativeToolTip": "FinalProject.Core\\Models\\Flavour.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T06:31:34.113Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Core\\Models\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "FinalProject.Core\\Models\\BaseEntity.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Core\\Models\\BaseEntity.cs",
-              "RelativeToolTip": "FinalProject.Core\\Models\\BaseEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T06:31:50.239Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "UserLoginVm.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\ViewModels\\UserLoginVm.cs",
-              "RelativeDocumentMoniker": "FinalProject\\ViewModels\\UserLoginVm.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\ViewModels\\UserLoginVm.cs",
-              "RelativeToolTip": "FinalProject\\ViewModels\\UserLoginVm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T13:01:17.117Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "FinalProject\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-23T18:45:21.435Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "sb-admin-2.css",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\admin\\css\\sb-admin-2.css",
-              "RelativeDocumentMoniker": "FinalProject\\wwwroot\\admin\\css\\sb-admin-2.css",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\wwwroot\\admin\\css\\sb-admin-2.css",
-              "RelativeToolTip": "FinalProject\\wwwroot\\admin\\css\\sb-admin-2.css",
-              "ViewState": "AQIAAGYqAAAAAAAAAAASwHsqAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-23T18:31:24.568Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "FinalProject\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAEIBAAAAAAAAAAAAAFYBAABnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-23T01:13:48.551Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "SizeController.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Areas\\Admin\\Controllers\\SizeController.cs",
-              "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Controllers\\SizeController.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Areas\\Admin\\Controllers\\SizeController.cs",
-              "RelativeToolTip": "FinalProject\\Areas\\Admin\\Controllers\\SizeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T01:02:35.111Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "FlavourController.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Areas\\Admin\\Controllers\\FlavourController.cs",
-              "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Controllers\\FlavourController.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Areas\\Admin\\Controllers\\FlavourController.cs",
-              "RelativeToolTip": "FinalProject\\Areas\\Admin\\Controllers\\FlavourController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T01:02:18.481Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "DashboardController.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Areas\\Admin\\Controllers\\DashboardController.cs",
-              "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Controllers\\DashboardController.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Areas\\Admin\\Controllers\\DashboardController.cs",
-              "RelativeToolTip": "FinalProject\\Areas\\Admin\\Controllers\\DashboardController.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAAAsAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T01:02:10.423Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "FinalProject\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T01:02:01.632Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "ProductGetDTO.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Business\\DTOs\\ProductDTOs\\ProductGetDTO.cs",
-              "RelativeDocumentMoniker": "FinalProject.Business\\DTOs\\ProductDTOs\\ProductGetDTO.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Business\\DTOs\\ProductDTOs\\ProductGetDTO.cs",
-              "RelativeToolTip": "FinalProject.Business\\DTOs\\ProductDTOs\\ProductGetDTO.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAAAB8AAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T09:20:34.067Z"
             }
           ]
         }
