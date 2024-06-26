@@ -16,7 +16,7 @@ public class Product: BaseEntity
     public string AdditionalInfo { get; set; } = null!;
 
     public bool IsAvialable { get; set; }
-    public double Price { get; set; }  
+    public decimal Price { get; set; }  
 
     public int CategoryId { get; set; }
 

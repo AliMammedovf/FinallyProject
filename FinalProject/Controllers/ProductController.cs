@@ -133,28 +133,28 @@ namespace FinalProject.Controllers
 
 			string basketItemListStr = HttpContext.Request.Cookies["BasketItems"];
 
-			if(basketItemListStr != null)
+			if (basketItemListStr != null)
 			{
-				basketItemList= JsonConvert.DeserializeObject<List<BasketItemVM>>(basketItemListStr);
+				basketItemList = JsonConvert.DeserializeObject<List<BasketItemVM>>(basketItemListStr);
 			}
 
 			return Json(basketItemList);
 		}
 
-		public  IActionResult CheckOut()
+		public IActionResult CheckOut()
 		{
 			List<CheckOutVM> checkOutItemList = new List<CheckOutVM>();
-			List<BasketItemVM> basketItemList= new List<BasketItemVM>();
+			List<BasketItemVM> basketItemList = new List<BasketItemVM>();
 
 			CheckOutVM checkoutItem = null;
 
 			string basketItemListStr = HttpContext.Request.Cookies["BasketItems"];
 
-			if(basketItemListStr != null)
+			if (basketItemListStr != null)
 			{
 				basketItemList = JsonConvert.DeserializeObject<List<BasketItemVM>>(basketItemListStr);
 
-				foreach(var item in basketItemList)
+				foreach (var item in basketItemList)
 				{
 					checkoutItem = new CheckOutVM
 					{
@@ -167,7 +167,7 @@ namespace FinalProject.Controllers
 				}
 			}
 
-			 return View(checkOutItemList);
+			return View(checkOutItemList);
 		}
 
 	}

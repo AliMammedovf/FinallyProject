@@ -66,7 +66,7 @@ namespace FinalProject.Data.Migrations
                     b.Property<DateTime?>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 6, 25, 18, 37, 19, 677, DateTimeKind.Utc).AddTicks(2363));
+                        .HasDefaultValue(new DateTime(2024, 6, 26, 22, 23, 17, 218, DateTimeKind.Utc).AddTicks(1583));
 
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("datetime2");
@@ -92,7 +92,7 @@ namespace FinalProject.Data.Migrations
                     b.Property<DateTime?>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 6, 25, 18, 37, 19, 677, DateTimeKind.Utc).AddTicks(2561));
+                        .HasDefaultValue(new DateTime(2024, 6, 26, 22, 23, 17, 218, DateTimeKind.Utc).AddTicks(1782));
 
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("datetime2");
@@ -126,7 +126,7 @@ namespace FinalProject.Data.Migrations
                     b.Property<DateTime?>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 6, 25, 18, 37, 19, 677, DateTimeKind.Utc).AddTicks(2750));
+                        .HasDefaultValue(new DateTime(2024, 6, 26, 22, 23, 17, 218, DateTimeKind.Utc).AddTicks(2015));
 
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("datetime2");
@@ -145,8 +145,8 @@ namespace FinalProject.Data.Migrations
                     b.Property<bool>("IsAvialable")
                         .HasColumnType("bit");
 
-                    b.Property<double>("Price")
-                        .HasColumnType("float");
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("SizeIds")
                         .IsRequired()
@@ -236,7 +236,7 @@ namespace FinalProject.Data.Migrations
                     b.Property<DateTime?>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 6, 25, 18, 37, 19, 677, DateTimeKind.Utc).AddTicks(2973));
+                        .HasDefaultValue(new DateTime(2024, 6, 26, 22, 23, 17, 218, DateTimeKind.Utc).AddTicks(2229));
 
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("datetime2");
