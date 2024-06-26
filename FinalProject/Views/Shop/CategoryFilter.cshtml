@@ -1,9 +1,10 @@
 ﻿@model ShopVM
 
+
 <!-- Page Title Section -->
 <section class="page-title-section" style="background-image: url(/images/background/8.jpg)">
 	<div class="auto-container">
-		<h1>Testing Pizza</h1>
+		<h1>Chef Pizza</h1>
 		<div class="content">
 			<h3>Shop List</h3>
 			<ul class="bread-crumbs">
@@ -76,100 +77,39 @@
 					<!-- Menu Block -->
 					@foreach (var product in Model.Products)
 					{
-						
-						
-						
-						if (product.CategoryId == 1)
-						{
-							<div class="menu-block-two col-lg-4 col-md-6 col-sm-12 product-item " id="product-list">
-								<div class="inner-box">
-									<div class="image" style="width:250px; height:250px">
-										<a asp-action="Detail" asp-controller="Home" asp-route-id="@product.Id"><img src="~/uploads/products/@product.ProductImages?.Where(x=>x.IsPoster==true).FirstOrDefault()?.ImageUrl" alt="" /></a>
-										<div class="overlay-box">
-											<div class="content">
-												<div class="btn-box">
-													<a class="theme-btn btn-style-two add-to-basket" asp-action="addtobasket" asp-controller="product" asp-route-productId="@product.Id"><span class="txt">Add To Cart</span></a>
-												</div>
-												<ul class="btns-list">
 
-													<li><a asp-action="Detail" asp-controller="Home" asp-route-id="@product.Id" class="fa fa-eye"></a></li>
-												</ul>
+						for(int i=1; i<product.CategoryId+1;i++)
+						{
+							if (product.CategoryId == i)
+							{
+
+								<div class="menu-block-two col-lg-4 col-md-6 col-sm-12 product-item " id="product-list">
+									<div class="inner-box">
+										<div class="image" style="width:250px; height:250px">
+											<a asp-action="Detail" asp-controller="Home" asp-route-id="@product.Id"><img src="~/uploads/products/@product.ProductImages?.Where(x=>x.IsPoster==true).FirstOrDefault()?.ImageUrl" alt="" /></a>
+											<div class="overlay-box">
+												<div class="content">
+													<div class="btn-box">
+														<a class="theme-btn btn-style-two add-to-basket" asp-action="addtobasket" asp-controller="product" asp-route-productId="@product.Id"><span class="txt">Add To Cart</span></a>
+													</div>
+													<ul class="btns-list">
+
+														<li><a asp-action="Detail" asp-controller="Home" asp-route-id="@product.Id" class="fa fa-eye"></a></li>
+													</ul>
+												</div>
 											</div>
 										</div>
-									</div>
-									<div class="lower-content" style="width:250px; height:150px">
-										<h4><a asp-action="Detail" asp-controller="Home" asp-route-id="@product.Id" id="product-item">@product.Title</a></h4>
-										<p>@product.Category.Name</p>
-										<div class="price" id="data-price">$@product.Price</div>
-									</div>
-								</div>
-							</div>
-						}
-						else if (product.CategoryId == 2)
-						{
-							<div class="menu-block-two col-lg-4 col-md-6 col-sm-12 product-item " id="product-list">
-								<div class="inner-box">
-									<div class="image" style="width:250px; height:250px">
-										<a asp-action="Detail" asp-controller="Home" asp-route-id="@product.Id"><img src="~/uploads/products/@product.ProductImages?.Where(x=>x.IsPoster==true).FirstOrDefault()?.ImageUrl" alt="" /></a>
-										<div class="overlay-box">
-											<div class="content">
-												<div class="btn-box">
-													<a class="theme-btn btn-style-two add-to-basket" asp-action="addtobasket" asp-controller="product" asp-route-productId="@product.Id"><span class="txt">Add To Cart</span></a>
-												</div>
-												<ul class="btns-list">
-
-													<li><a asp-action="Detail" asp-controller="Home" asp-route-id="@product.Id" class="fa fa-eye"></a></li>
-												</ul>
-											</div>
+										<div class="lower-content" style="width:250px; height:150px">
+											<h4><a asp-action="Detail" asp-controller="Home" asp-route-id="@product.Id" id="product-item">@product.Title</a></h4>
+											<p>@product.Category.Name</p>
+											<div class="price" id="data-price">$@product.Price</div>
 										</div>
 									</div>
-									<div class="lower-content" style="width:250px; height:150px">
-										<h4><a asp-action="Detail" asp-controller="Home" asp-route-id="@product.Id" id="product-item">@product.Title</a></h4>
-										<p>@product.Category.Name</p>
-										<div class="price" id="data-price">$@product.Price</div>
-									</div>
 								</div>
-							</div>
+							}
 						}
-						else if (product.CategoryId == 3)
-						{
-							<div class="menu-block-two col-lg-4 col-md-6 col-sm-12 product-item " id="product-list">
-								<div class="inner-box">
-									<div class="image" style="width:250px; height:250px">
-										<a asp-action="Detail" asp-controller="Home" asp-route-id="@product.Id"><img src="~/uploads/products/@product.ProductImages?.Where(x=>x.IsPoster==true).FirstOrDefault()?.ImageUrl" alt="" /></a>
-										<div class="overlay-box">
-											<div class="content">
-												<div class="btn-box">
-													<a class="theme-btn btn-style-two add-to-basket" asp-action="addtobasket" asp-controller="product" asp-route-productId="@product.Id"><span class="txt">Add To Cart</span></a>
-												</div>
-												<ul class="btns-list">
-
-													<li><a asp-action="Detail" asp-controller="Home" asp-route-id="@product.Id" class="fa fa-eye"></a></li>
-												</ul>
-											</div>
-										</div>
-									</div>
-									<div class="lower-content" style="width:250px; height:150px">
-										<h4><a asp-action="Detail" asp-controller="Home" asp-route-id="@product.Id" id="product-item">@product.Title</a></h4>
-										<p>@product.Category.Name</p>
-										<div class="price" id="data-price">$@product.Price</div>
-									</div>
-								</div>
-							</div>
-						}
-
-
 
 					}
-
-						
-
-
-
-					
-
-
-
 
 				</div>
 
