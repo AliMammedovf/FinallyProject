@@ -1,4 +1,4 @@
-﻿@model HomeVM
+﻿@model ShopVM
 
 	<!-- Page Title Section -->
 <section class="page-title-section" style="background-image: url(/images/background/8.jpg)">
@@ -59,11 +59,11 @@
 								  
 								@foreach(var category in Model.Categories)
 								{
-									<li><a asp-action="CategoryFilter" asp-controller="Shop" asp-route-id="@category.Id">@category.Name</a></li>
+									<li><a asp-action="CategoryFilter" asp-controller="Shop" asp-route-CategoryId="@category.Id">@category.Name</a></li>
 								}
 
 							</ul>
-						</div>`
+						</div>
 					</div>
 
 				</aside>

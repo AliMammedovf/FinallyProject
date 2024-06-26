@@ -32,6 +32,8 @@ public class AppDbContext:IdentityDbContext
 
 
 
+
+
 	protected override void OnModelCreating(ModelBuilder builder)
     {
         builder.ApplyConfigurationsFromAssembly(typeof(ProductConfugration).Assembly);

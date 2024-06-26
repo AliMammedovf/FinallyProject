@@ -11,7 +11,7 @@ namespace FinalProject.Data.RepositoryConcret;
 
 public class CategoryRepository : GenericRepository<Category>, ICategoryRepository
 {
-    public CategoryRepository(AppDbContext appDbContext) : base(appDbContext)
-    {
-    }
+	public CategoryRepository(AppDbContext appDbContext) : base(appDbContext)
+	{
+	}
 }

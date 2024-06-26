@@ -5,11 +5,12 @@ using FinalProject.Business.DTOs.SizeDTOs;
 using FinalProject.Business.Mapping;
 using FinalProject.Business.Services.Abstarct;
 using FinalProject.Business.Services.Concret;
-using FinalProject.Business.ViewServices;
 using FinalProject.Core.Models;
 using FinalProject.Core.RepositoryAbstract;
 using FinalProject.Data.DAL;
 using FinalProject.Data.RepositoryConcret;
+using FinalProject.ViewModels;
+using FinalProject.ViewServices;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -48,6 +49,8 @@ namespace FinalProject
                 options.User.RequireUniqueEmail = true;
 			}).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
 
+
+            builder.Services.AddScoped<LayoutService>();
 			builder.Services.AddScoped<IProductRepository, ProductRepository>();
             builder.Services.AddScoped<IProductService, ProductService>();
             builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
@@ -61,8 +64,9 @@ namespace FinalProject
             builder.Services.AddScoped<IEmailService, EmailService>();
             builder.Services.AddScoped<IBasketItemRepository, BasketItemRepository>();
             builder.Services.AddScoped<IBasketItemService, BasketItemService>();
+            builder.Services.AddScoped<ICheckOutService, CheckOutService>();
             builder.Services.AddSession();
-            builder.Services.AddScoped<LayoutService>();
+           
 
             var app = builder.Build();
 

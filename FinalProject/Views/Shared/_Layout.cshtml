@@ -1,8 +1,7 @@
-﻿@using FinalProject.Business.ViewServices
+﻿@using FinalProject.ViewServices
 @inject LayoutService layoutService
-
 @{
-	var basketItems = layoutService.GetBasketItems();
+	var check = layoutService.GetBasketItems();
 }
 <!DOCTYPE html>
 <html>
@@ -98,15 +97,15 @@
 								<!-- Cart Box -->
 								<div class="cart-box">
 									<div class="dropdown">
-										<button class="cart-box-btn dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flaticon-shopping-cart"></span><span class="total-cart">2</span></button>
+										<button class="cart-box-btn dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flaticon-shopping-cart"></span><span class="total-cart"></span></button>
 										<div class="dropdown-menu pull-right cart-panel" aria-labelledby="dropdownMenu1">
 
-											@foreach(var item in basketItems)
+											@foreach(var item in check)
 											{
 												<div class="cart-product">
 													<div class="inner">
 														<div class="cross-icon"><span class="icon fa fa-remove"></span></div>
-														<div class="image"><img src="~/uploads/products/@item.Product.ImageUrl" alt="" /></div>
+														<div class="image"><img src="~/uploads/products/@item.Product.ProductImages?.Where(x=>x.IsPoster==true).FirstOrDefault()?.ImageUrl" alt="" /></div>
 														<h3><a href="#">@item.Product.Title</a></h3>
 														<div class="quantity-text">@item.Count</div>
 														<div class="price">$@item.Product.Price</div>
@@ -117,7 +116,7 @@
 											<div class="cart-total">Sub Total: <span>$198</span></div>
 											<ul class="btns-boxed">
 												<li><a href="#">View Cart</a></li>
-												<li><a href="#">CheckOut</a></li>
+												<li><a asp-action="checkout" asp-controller="product">CheckOut</a></li>
 											</ul>
 
 										</div>
@@ -154,31 +153,25 @@
 							<!-- Cart Box -->
 							<div class="cart-box">
 								<div class="dropdown">
-									<button class="cart-box-btn dropdown-toggle" type="button" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flaticon-shopping-bag-1"></span><span class="total-cart">2</span></button>
+									<button class="cart-box-btn dropdown-toggle" type="button" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flaticon-shopping-bag-1"></span><span class="total-cart"></span></button>
 									<div class="dropdown-menu pull-right cart-panel" aria-labelledby="dropdownMenu">
-
-										<div class="cart-product">
-											<div class="inner">
-												<div class="cross-icon"><span class="icon fa fa-remove"></span></div>
-												<div class="image"><img src="~/images/resource/post-thumb-1.jpg" alt="" /></div>
-												<h3><a href="#">Flying Ninja</a></h3>
-												<div class="quantity-text">Quantity 1</div>
-												<div class="price">$99.00</div>
+										@foreach (var item in check)
+										{
+											<div class="cart-product">
+												<div class="inner">
+													<div class="cross-icon"><span class="icon fa fa-remove"></span></div>
+													<div class="image"><img src="~/uploads/products/@item.Product.ImageUrl" alt="" /></div>
+													<h3><a href="#">@item.Product.Title</a></h3>
+													<div class="quantity-text">@item.Count</div>
+													<div class="price">$@item.Product.Price</div>
+												</div>
 											</div>
-										</div>
-										<div class="cart-product">
-											<div class="inner">
-												<div class="cross-icon"><span class="icon fa fa-remove"></span></div>
-												<div class="image"><img src="~/images/resource/post-thumb-2.jpg" alt="" /></div>
-												<h3><a href="#">Patient Ninja</a></h3>
-												<div class="quantity-text">Quantity 1</div>
-												<div class="price">$99.00</div>
-											</div>
-										</div>
+										}
+									
 										<div class="cart-total">Sub Total: <span>$198</span></div>
 										<ul class="btns-boxed">
 											<li><a href="#">View Cart</a></li>
-											<li><a href="#">CheckOut</a></li>
+											<li><a asp-action="checkout" asp-controller="product">CheckOut</a></li>
 										</ul>
 
 									</div>

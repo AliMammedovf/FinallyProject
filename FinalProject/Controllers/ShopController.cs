@@ -32,7 +32,7 @@ namespace FinalProject.Controllers
             //else
                 var products = _productService.GetAllProducts();
 
-            HomeVM vm = new HomeVM()
+            ShopVM vm = new ShopVM()
             {
                 Categories = category,
                 Products = products
@@ -45,12 +45,21 @@ namespace FinalProject.Controllers
         {
             var category = _categoryService.GetAllCategories();
             IEnumerable<ProductGetDTO> products = new List<ProductGetDTO>();
+            
             if (categoryId != null)
-                products = _productService.GetAllProducts(x => x.Category.Id == categoryId);
-            else
-                products = _productService.GetAllProducts();
+            {
+				products = _productService.GetAllProducts(x => x.Category.Id == categoryId);
 
-            HomeVM vm = new HomeVM()
+				
+
+			}
+            else
+            {
+				products = _productService.GetAllProducts();
+			}
+                
+
+            ShopVM vm = new ShopVM()
             {
                 Categories = category,
                 Products = products
