@@ -18,5 +18,5 @@ public interface ISizeService
 
     SizeGetDTO  GetSize(Func<Size, bool>? func=null);
 
-    IEnumerable<SizeGetDTO> GetAllSizes(Func<Size, bool>? func=null);
+    List<SizeGetDTO> GetAllSizes(Func<Size, bool>? func=null);
 }

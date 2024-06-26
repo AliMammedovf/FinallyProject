@@ -18,5 +18,5 @@ public interface IFlavourService
 
     FlavourGetDTO GetFlavour(Func<Flavour, bool>? func = null);
 
-    IEnumerable<FlavourGetDTO> GetAllFlavours(Func<Flavour, bool>? func = null);
+    List<FlavourGetDTO> GetAllFlavours(Func<Flavour, bool>? func = null);
 }

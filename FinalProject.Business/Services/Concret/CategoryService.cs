@@ -54,11 +54,11 @@ public class CategoryService : ICategoryService
         _categoryRepository.Commit();
     }
 
-    public IEnumerable<CategoryGetDTO> GetAllCategories(Func<Category, bool>? func = null)
+    public List<CategoryGetDTO> GetAllCategories(Func<Category, bool>? func = null)
     {
         var category= _categoryRepository.GetAll(func);
 
-        IEnumerable<CategoryGetDTO> categoryGetDTO = _mapper.Map<IEnumerable<CategoryGetDTO>>(category);
+        List<CategoryGetDTO> categoryGetDTO = _mapper.Map<List<CategoryGetDTO>>(category);
 
         return categoryGetDTO;
     }

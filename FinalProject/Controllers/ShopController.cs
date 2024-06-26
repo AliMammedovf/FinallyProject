@@ -44,7 +44,7 @@ namespace FinalProject.Controllers
         public IActionResult CategoryFilter(int? categoryId)
         {
             var category = _categoryService.GetAllCategories();
-            IEnumerable<ProductGetDTO> products = new List<ProductGetDTO>();
+            List<ProductGetDTO> products = new List<ProductGetDTO>();
             
             if (categoryId != null)
             {

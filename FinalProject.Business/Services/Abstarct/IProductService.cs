@@ -18,6 +18,6 @@ public interface IProductService
 
     ProductGetDTO GetProduct(Func<Product, bool>? func=null);
 
-    IEnumerable<ProductGetDTO> GetAllProducts(Func<Product, bool>? func=null);
+    List<ProductGetDTO> GetAllProducts(Func<Product, bool>? func=null);
 
 }

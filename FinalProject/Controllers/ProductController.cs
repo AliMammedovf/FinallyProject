@@ -1,7 +1,11 @@
 ﻿using FinalProject.Business.Services.Abstarct;
+using FinalProject.Core.Models;
 using FinalProject.Core.RepositoryAbstract;
+using FinalProject.Data.DAL;
 using FinalProject.ViewModels;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 
 namespace FinalProject.Controllers
@@ -9,10 +13,16 @@ namespace FinalProject.Controllers
 	public class ProductController : Controller
 	{
 		private readonly IProductService _productService;
+		private readonly UserManager<AppUser> _userManager;
+		private readonly IBasketItemService _basketItemService;
+		private readonly AppDbContext _appDbContext;
 
-		public ProductController(IProductService productService)
+		public ProductController(IProductService productService, UserManager<AppUser> userManager, IBasketItemService basketItemService, AppDbContext appDbContext)
 		{
 			_productService = productService;
+			_userManager = userManager;
+			_basketItemService = basketItemService;
+			_appDbContext = appDbContext;
 		}
 
 		public IActionResult Index()
@@ -75,53 +85,89 @@ namespace FinalProject.Controllers
 			return Json(ids);
 		}
 
-		public IActionResult AddToBasket(int productId)
+		public async Task<IActionResult> AddToBasket(int productId)
 		{
 
 			List<BasketItemVM> basketItemList= new List<BasketItemVM>();
 			BasketItemVM basketItem = null;
+			BasketItem userBasketItem = null;
+			AppUser user = null;
 
-			string basketItemListStr= HttpContext.Request.Cookies["BasketItems"];
-
-			if(basketItemListStr != null)
+			if (HttpContext.User.Identity.IsAuthenticated)
 			{
-				basketItemList = JsonConvert.DeserializeObject<List<BasketItemVM>>(basketItemListStr);
+				user= await _userManager.FindByNameAsync(HttpContext.User.Identity.Name);
+			}
 
-				basketItem= basketItemList.FirstOrDefault(x=>x.ProductId==productId);
+			if (user != null)
+			{
+				//string basketItemListStr = HttpContext.Request.Cookies["BasketItems"];
 
-				if(basketItem != null)
+				//if (basketItemListStr != null)
+				//{
+				//	basketItemList = JsonConvert.DeserializeObject<List<BasketItemVM>>(basketItemListStr);
+
+				//	basketItem = basketItemList.FirstOrDefault(x => x.ProductId == productId);
+
+				//	if (basketItem != null)
+				//	{
+				//		basketItem.Count++;
+				//	}
+				//	else
+				//	{
+				//		basketItem = new BasketItemVM()
+				//		{
+				//			ProductId = productId,
+				//			Count = 1
+				//		};
+
+				//		basketItemList.Add(basketItem);
+				//	}
+
+
+				//}
+				//else
+				//{
+				//	basketItem = new BasketItemVM()
+				//	{
+				//		ProductId = productId,
+				//		Count = 1
+				//	};
+
+				//	basketItemList.Add(basketItem);
+				//}
+
+
+
+				//basketItemListStr = JsonConvert.SerializeObject(basketItemList);
+
+				//HttpContext.Response.Cookies.Append("BasketItems", basketItemListStr);
+
+				userBasketItem = await _appDbContext.BasketItems.FirstOrDefaultAsync(x => x.ProductId == productId && x.AppUserId == user.Id);
+
+				if (userBasketItem != null)
 				{
-					basketItem.Count++;
+					userBasketItem.Count++;
 				}
 				else
 				{
-					basketItem = new BasketItemVM()
+					userBasketItem = new BasketItem
 					{
 						ProductId = productId,
-						Count = 1
+						Count = 1,
+						AppUserId = user.Id,
+
 					};
 
-					basketItemList.Add(basketItem);
+					_appDbContext.BasketItems.Add(userBasketItem);
 				}
 
-				 
+				await _appDbContext.SaveChangesAsync();
 			}
 			else
 			{
-				 basketItem = new BasketItemVM()
-				{
-					ProductId = productId,
-					Count = 1
-				};
-
-				basketItemList.Add(basketItem);
+				return View();
 			}
-
 			
-
-			 basketItemListStr=  JsonConvert.SerializeObject(basketItemList);
-
-			HttpContext.Response.Cookies.Append("BasketItems",basketItemListStr);
 
 			return Ok();
 
@@ -141,26 +187,48 @@ namespace FinalProject.Controllers
 			return Json(basketItemList);
 		}
 
-		public IActionResult CheckOut()
+		public async Task<IActionResult> CheckOut()
 		{
 			List<CheckOutVM> checkOutItemList = new List<CheckOutVM>();
 			List<BasketItemVM> basketItemList = new List<BasketItemVM>();
-
+			List<BasketItem> userBasketItems = new List<BasketItem>();
 			CheckOutVM checkoutItem = null;
+			AppUser user = null;
 
-			string basketItemListStr = HttpContext.Request.Cookies["BasketItems"];
-
-			if (basketItemListStr != null)
+			if (HttpContext.User.Identity.IsAuthenticated)
 			{
-				basketItemList = JsonConvert.DeserializeObject<List<BasketItemVM>>(basketItemListStr);
+				user = await _userManager.FindByNameAsync(HttpContext.User.Identity.Name);
+			}
 
-				foreach (var item in basketItemList)
+			if(user != null)
+			{
+				//string basketItemListStr = HttpContext.Request.Cookies["BasketItems"];
+
+				//if (basketItemListStr != null)
+				//{
+				//	basketItemList = JsonConvert.DeserializeObject<List<BasketItemVM>>(basketItemListStr);
+
+				//	foreach (var item in basketItemList)
+				//	{
+				//		checkoutItem = new CheckOutVM
+				//		{
+				//			Product = _productService.GetProduct(x => x.Id == item.ProductId),
+				//			Count = item.Count,
+
+				//		};
+
+				//		checkOutItemList.Add(checkoutItem);
+				//	}
+				//}
+
+				userBasketItems= _basketItemService.GetAllBasketItems(x=>x.AppUserId==user.Id);
+
+				foreach (var item in userBasketItems)
 				{
-					checkoutItem = new CheckOutVM
+					checkoutItem = new CheckOutVM()
 					{
-						Product = _productService.GetProduct(x => x.Id == item.ProductId),
+						Product = item.Product,
 						Count = item.Count,
-
 					};
 
 					checkOutItemList.Add(checkoutItem);

@@ -46,11 +46,11 @@ public class SizeService : ISizeService
         _sizeRepository.Commit();
     }
 
-    public IEnumerable<SizeGetDTO> GetAllSizes(Func<Size, bool>? func = null)
+    public List<SizeGetDTO> GetAllSizes(Func<Size, bool>? func = null)
     {
         var size = _sizeRepository.GetAll(func);
 
-        IEnumerable<SizeGetDTO> sizeGetDTO = _mapper.Map<IEnumerable<SizeGetDTO>>(size);
+        List<SizeGetDTO> sizeGetDTO = _mapper.Map<List<SizeGetDTO>>(size);
 
         return sizeGetDTO;
     }

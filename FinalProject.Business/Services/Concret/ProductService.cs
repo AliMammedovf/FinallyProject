@@ -135,11 +135,11 @@ public class ProductService : IProductService
         _productRepository.Commit();
     }
 
-    public IEnumerable<ProductGetDTO> GetAllProducts(Func<Product, bool>? func = null)
+    public List<ProductGetDTO> GetAllProducts(Func<Product, bool>? func = null)
     {
         var products = _productRepository.GetAll(func, "Category", "Flavour","ProductSizes.Size","ProductImages");
 
-        IEnumerable<ProductGetDTO> productsDTO= _mapper.Map<IEnumerable<ProductGetDTO>>(products);
+        List<ProductGetDTO> productsDTO= _mapper.Map<List<ProductGetDTO>>(products);
 
         return productsDTO;
     }

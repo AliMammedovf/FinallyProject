@@ -35,7 +35,7 @@ public class BasketItemService:IBasketItemService
 		_basketItemRepository.Delete(existBasketItem);
 	}
 
-	public IEnumerable<BasketItem> GetAllBasketItems(Func<BasketItem, bool>? func = null)
+	public List<BasketItem> GetAllBasketItems(Func<BasketItem, bool>? func = null)
 	{
 		return _basketItemRepository.GetAll(func,"Product");
 	}

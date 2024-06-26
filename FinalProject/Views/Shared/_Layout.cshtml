@@ -1,8 +1,10 @@
 ﻿@using FinalProject.ViewServices
-@inject LayoutService layoutService
+@inject LayoutService layoutService;
 @{
-	var check = layoutService.GetBasketItems();
+	var check = layoutService.checks;
+	var user = await layoutService.GetUserData();
 }
+
 <!DOCTYPE html>
 <html>
 
@@ -77,13 +79,31 @@
 										<li>
 											<a asp-action="Index" asp-controller="Shop">Shop</a>
 										</li>
-										<li class="dropdown" >
-											<a href="#">Login/Register</a>
-											<ul>
-												<li><a asp-action="Login" asp-controller="User">Login</a></li>
-												<li><a asp-action="Register" asp-controller="Account">Register</a></li>
-											</ul>
-										</li>
+										@if (User.Identity.IsAuthenticated)
+										{
+											<li class="dropdown">
+												<a href="#"><i class="fa fa-user "><i class="text-monospace text-primary"> @user.UserName</i></i></a>
+												<ul>
+													
+													@* <li><a asp-action="Login" asp-controller="User">Login</a></li> *@
+													<li><a asp-action="SignOut" asp-controller="User">LogOut</a></li>
+
+												</ul>
+											</li>
+										}
+										else
+										{
+											<li class="dropdown">
+												<a href="#">Login/Register</a>
+												<ul>
+
+													<li><a asp-action="Login" asp-controller="User">Login</a></li>
+													<li><a asp-action="Register" asp-controller="Account">Register</a></li>
+
+												</ul>
+											</li>
+										}
+
 										<li><a asp-action="Index" asp-controller="Contact">Contact</a></li>
 									</ul>
 
@@ -100,7 +120,7 @@
 										<button class="cart-box-btn dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flaticon-shopping-cart"></span><span class="total-cart"></span></button>
 										<div class="dropdown-menu pull-right cart-panel" aria-labelledby="dropdownMenu1">
 
-											@foreach(var item in check)
+											@foreach (var item in check)
 											{
 												<div class="cart-product">
 													<div class="inner">

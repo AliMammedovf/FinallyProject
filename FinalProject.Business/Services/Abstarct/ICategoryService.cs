@@ -19,5 +19,5 @@ public  interface ICategoryService
 
     CategoryGetDTO GetCategory(Func<Category, bool>? func=null);
 
-    IEnumerable<CategoryGetDTO> GetAllCategories(Func<Category, bool>? func = null);
+    List<CategoryGetDTO> GetAllCategories(Func<Category, bool>? func = null);
 }

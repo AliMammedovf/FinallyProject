@@ -13,5 +13,5 @@ public interface IBasketItemService
 	void DeleteBasketItem(int id);
 	void UpdateBasketItem(int id, BasketItem newBasketItem);
 	BasketItem GetBasketItem(Func<BasketItem, bool>? func = null);
-	IEnumerable<BasketItem> GetAllBasketItems(Func<BasketItem, bool>? func = null);
+	List<BasketItem> GetAllBasketItems(Func<BasketItem, bool>? func = null);
 }

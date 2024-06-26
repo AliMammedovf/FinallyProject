@@ -55,11 +55,11 @@ public class FlavourService : IFlavourService
         _favourRepository.Commit();
     }
 
-    public IEnumerable<FlavourGetDTO> GetAllFlavours(Func<Flavour, bool>? func = null)
+    public List<FlavourGetDTO> GetAllFlavours(Func<Flavour, bool>? func = null)
     {
         var flavour = _favourRepository.GetAll(func);
 
-        IEnumerable<FlavourGetDTO> flavourGetDTO = _mapper.Map<IEnumerable<FlavourGetDTO>>(flavour);
+        List<FlavourGetDTO> flavourGetDTO = _mapper.Map<List<FlavourGetDTO>>(flavour);
 
         return flavourGetDTO;
     }

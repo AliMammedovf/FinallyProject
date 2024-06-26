@@ -56,7 +56,7 @@ public class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity, 
             entity.FirstOrDefault(func);
     }
 
-    public IEnumerable<T> GetAll(Func<T, bool>? func = null, params string[]? includes)
+    public List<T> GetAll(Func<T, bool>? func = null, params string[]? includes)
     {
         var entity= _appDbContext.Set<T>().AsQueryable();
 

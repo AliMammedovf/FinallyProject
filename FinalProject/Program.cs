@@ -64,7 +64,6 @@ namespace FinalProject
             builder.Services.AddScoped<IEmailService, EmailService>();
             builder.Services.AddScoped<IBasketItemRepository, BasketItemRepository>();
             builder.Services.AddScoped<IBasketItemService, BasketItemService>();
-            builder.Services.AddScoped<ICheckOutService, CheckOutService>();
             builder.Services.AddSession();
            
 
