@@ -62,7 +62,7 @@
 
 
             <div class="content-column col-lg-6 col-md-12 col-sm-12">
-                <div class="inner-column">
+                <form asp-action="AddToBasket" asp-controller="Product" asp-route-productId="@Model.Product.Id" class="inner-column">
                     <div class="title">@Model.Product.IsAvialable</div>
                     <h3>@Model.Product.Title</h3>
 
@@ -76,12 +76,17 @@
                                 <!-- Form Group -->
                                 <div class="form-group">
                                     <label>Quantity :</label>
-                                    <select class="form-control">
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
+                                    <select required name="count" class="form-control">
+                                        <option selected disabled value="@null">Select quantity</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                       @*  @foreach (var count in ViewBag.CheckOuts)
+                                        {
+                                            <option >@count.Count</option>
+                                        } *@
                                     </select>
                                 </div>
                             </div>
@@ -97,7 +102,9 @@
                             <!-- Form Group -->
                             <div class="form-group" style="margin-right:10px">
                                 <label asp-for="Product.FlavourId" class="form-label">Flavour:</label>
-                                <select asp-for="Product.FlavourId" class="custom-select" aria-label="Default select example">
+                                <select required name="flavourId" class="custom-select" aria-label="Default select example">
+                                    <option selected disabled value="@null">Select Falavour</option>
+
                                     @foreach (var falavour in ViewBag.Flavours)
                                     {
                                         <option value="@falavour.Id">@falavour.Name</option>
@@ -106,7 +113,9 @@
                             </div>
                             <div class="form-group">
                                 <label asp-for="Product.SizeIds" class="form-label">Size:</label>
-                                <select asp-for="Product.SizeIds" class="custom-select" aria-label="Default select example">
+                                <select required name="sizeId" class="custom-select" aria-label="Default select example">
+                                    <option selected disabled value="@null">Select Size</option>
+
                                     @foreach (var size in ViewBag.Sizes)
                                     {
                                         <option value="@size.Id">@size.Name</option>
@@ -118,7 +127,7 @@
                         <!-- End Flavour Box -->
                         <!-- Button Box -->
                         <div class="button-box pull-right" style="margin-top:30px">
-                            <a asp-action="addtobasket" asp-controller="product" class="theme-btn btn-style-four"><span class="txt">Add To Cart</span></a>
+                            <button type="submit" class="theme-btn btn-style-four"><span class="txt">Add To Cart</span></button>
                         </div>
                     </div>
 
@@ -129,7 +138,7 @@
                         <li><a href="https://www.instagram.com/" class="fa fa-instagram"></a></li>
                         <li><a href="https://www.twitter.com/" class="fa fa-twitter"></a></li>
                     </ul>
-                </div>
+                </form>
             </div>
 
 

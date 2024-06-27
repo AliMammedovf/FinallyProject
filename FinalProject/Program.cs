@@ -9,8 +9,7 @@ using FinalProject.Core.Models;
 using FinalProject.Core.RepositoryAbstract;
 using FinalProject.Data.DAL;
 using FinalProject.Data.RepositoryConcret;
-using FinalProject.ViewModels;
-using FinalProject.ViewServices;
+using FinalProject.ViewService;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -72,7 +71,7 @@ namespace FinalProject
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
             {
-                app.UseExceptionHandler("/Home/Error");
+                app.UseExceptionHandler("/Error/Home");
             }
             app.UseStaticFiles();
 

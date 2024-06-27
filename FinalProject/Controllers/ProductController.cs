@@ -6,7 +6,10 @@ using FinalProject.ViewModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.ChangeTracking.Internal;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Newtonsoft.Json;
+using System.Runtime.Intrinsics.X86;
 
 namespace FinalProject.Controllers
 {
@@ -85,7 +88,7 @@ namespace FinalProject.Controllers
 			return Json(ids);
 		}
 
-		public async Task<IActionResult> AddToBasket(int productId)
+		public async Task<IActionResult> AddToBasket(int productId,int sizeId,int flavourId, string? returnUrl, int count=1)
 		{
 
 			List<BasketItemVM> basketItemList= new List<BasketItemVM>();
@@ -142,19 +145,21 @@ namespace FinalProject.Controllers
 
 				//HttpContext.Response.Cookies.Append("BasketItems", basketItemListStr);
 
-				userBasketItem = await _appDbContext.BasketItems.FirstOrDefaultAsync(x => x.ProductId == productId && x.AppUserId == user.Id);
+				userBasketItem = await _appDbContext.BasketItems.FirstOrDefaultAsync(x => x.ProductId == productId && x.AppUserId == user.Id && x.SizeId==sizeId && x.FlavourId==flavourId);
 
 				if (userBasketItem != null)
 				{
-					userBasketItem.Count++;
+					userBasketItem.Count+=count;
 				}
 				else
 				{
 					userBasketItem = new BasketItem
 					{
 						ProductId = productId,
-						Count = 1,
+						Count = count,
 						AppUserId = user.Id,
+						SizeId = sizeId,
+						FlavourId = flavourId,
 
 					};
 
@@ -167,9 +172,10 @@ namespace FinalProject.Controllers
 			{
 				return View();
 			}
-			
 
-			return Ok();
+			if (returnUrl is not null)
+				return Redirect(returnUrl);
+			return RedirectToAction("Detail", "Home", new {id=productId});
 
 		}
 
@@ -233,9 +239,91 @@ namespace FinalProject.Controllers
 
 					checkOutItemList.Add(checkoutItem);
 				}
-			}
+			}		
 
-			return View(checkOutItemList);
+			OrderVM orderVM = new OrderVM()
+			{
+				//CheckOutVMs = checkOutItemList,
+				FullName=user.FullName
+			};
+            ViewBag.CheckOutViewModel = checkOutItemList;
+            return View(orderVM);
+		}
+
+		[HttpPost]
+		public async Task<IActionResult> CheckOut(OrderVM orderVM)
+		{
+            //ModelState.Remove("CheckOutVMs");
+
+            
+
+            List<CheckOutVM> checkOutItemList = new List<CheckOutVM>();
+            List<BasketItemVM> basketItemList = new List<BasketItemVM>();
+            List<BasketItem> userBasketItems = new List<BasketItem>();
+            OrderItem orderItem = null;
+			CheckOutVM checkOut = null;
+
+
+
+            AppUser user = null;
+
+            if (HttpContext.User.Identity.IsAuthenticated)
+            {
+                user = await _userManager.FindByNameAsync(HttpContext.User.Identity.Name);
+            }
+
+            Order order = new Order()
+            {
+                FullName = orderVM.FullName,
+                Address = orderVM.Address,
+                Country = orderVM.Country,
+                Phone = orderVM.Phone,
+                PostCode = orderVM.PostCode,
+                Email = orderVM.Email,
+				OrdeerItems = new List<OrderItem>(),
+                AppUserId = user.Id
+
+            };
+
+			List<CheckOutVM> checkoutVmList = new List<CheckOutVM>();
+
+            if (user != null)
+			{
+                userBasketItems = _basketItemService.GetAllBasketItems(x => x.AppUserId == user.Id);
+
+				foreach (var item in userBasketItems)
+				{
+                    Product product = _appDbContext.Products.FirstOrDefault(x => x.Id == item.ProductId);
+                    CheckOutVM checkOutVM = new ()
+					{
+						Product = product,
+						Count = item.Count
+					};
+					checkoutVmList.Add(checkOutVM);
+					orderItem = new OrderItem()
+					{
+						Product = product,
+						ProductName = product.Title,
+						Price = product.Price,
+						Count = item.Count,
+						Order = order
+					};
+
+					order.TotalPrice += orderItem.Price * orderItem.Count;
+
+					order.OrdeerItems.Add(orderItem);
+				}
+            }
+
+            ViewBag.CheckOutViewModel = checkoutVmList;
+
+			if (!ModelState.IsValid)
+				return View();
+
+			await _appDbContext.Orders.AddAsync(order);
+		    await _appDbContext.SaveChangesAsync();
+
+			return RedirectToAction("Index","Home");
 		}
 
 	}

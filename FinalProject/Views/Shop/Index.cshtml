@@ -85,7 +85,7 @@
 										<div class="overlay-box">
 											<div class="content">
 												<div class="btn-box">
-													<a class="theme-btn btn-style-two add-to-basket" asp-action="addtobasket" asp-controller="product" asp-route-productId="@product.Id"><span class="txt">Add To Cart</span></a>
+													<a class="theme-btn btn-style-two add-to-basket" asp-action="addtobasket" asp-controller="product" asp-route-returnUrl="@Context.Request.Path.Value" asp-route-productId="@product.Id"><span class="txt">Add To Cart</span></a>
 												</div>
 												<ul class="btns-list">
 

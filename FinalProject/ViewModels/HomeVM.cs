@@ -14,6 +14,8 @@ public class HomeVM
 
     public ProductGetDTO Product { get; set; }
 
+    public List<CheckOutVM> Checkouts { get; set; }
+
     
 
   

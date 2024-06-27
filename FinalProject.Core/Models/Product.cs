@@ -22,9 +22,7 @@ public class Product: BaseEntity
 
     public int FlavourId { get; set; }
 
-    public string? ImageUrl { get; set; }
-
-    
+    //public string? ImageUrl { get; set; }
     public List<int> SizeIds { get; set; }
 
     public Flavour Flavour { get; set; }

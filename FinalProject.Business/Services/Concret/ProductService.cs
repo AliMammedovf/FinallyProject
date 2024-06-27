@@ -128,10 +128,16 @@ public class ProductService : IProductService
        var exsistProduct = _productRepository.Get(x=>x.Id== id);
         if (exsistProduct == null) throw new CategoryNotFoundException("Id cannot be empty!");
 
-        Helper.DeleteFile(_env.WebRootPath, @"uploads/products", exsistProduct.ImageUrl);
+        foreach (var item in exsistProduct.ProductImages)
+        {
+            if (item.ImageUrl != null) 
+            {
+                Helper.DeleteFile(_env.WebRootPath, @"uploads/products", item.ImageUrl);
+            }
+        }
 
         _productRepository.Delete(exsistProduct);
-        exsistProduct.DeletedDate = DateTime.UtcNow.AddHours(4);
+        //exsistProduct.DeletedDate = DateTime.UtcNow.AddHours(4);
         _productRepository.Commit();
     }
 
@@ -188,6 +194,8 @@ public class ProductService : IProductService
 
         if (productUpdateDTO.PosterImage != null)
         {
+            Helper.DeleteFile(_env.WebRootPath, @"uploads/products", oldProduct.ProductImages.FirstOrDefault(x => x.IsPoster == true).ImageUrl);
+            oldProduct.ProductImages.Remove(oldProduct.ProductImages.FirstOrDefault(x => x.IsPoster == true));
             ProductImage poster = new ProductImage()
             {
                 Product = oldProduct,
@@ -195,11 +203,10 @@ public class ProductService : IProductService
                 IsPoster = true
                 
             };
-            Helper.DeleteFile(_env.WebRootPath, @"uploads/products", oldProduct.ImageUrl);
-
+            //Helper.DeleteFile(_env.WebRootPath, @"uploads/products", oldProduct.ImageUrl);
+            
+            
             oldProduct.ProductImages.Add(poster);
-
-
         }
 
         oldProduct.ProductImages.RemoveAll(bi => !productUpdateDTO.ProductImageIds.Contains(bi.Id) && bi.IsPoster==null);

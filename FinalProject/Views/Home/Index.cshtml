@@ -224,8 +224,8 @@
 							<a asp-action="Index" asp-controller="Shop" asp-route-id="@item.Id"><img src="~/uploads/products/@item.ProductImages?.Where(x=>x.IsPoster==true).FirstOrDefault()?.ImageUrl" /></a>
 							<div class="overlay-box">
 								<ul class="btns-list">
-									<li><a asp-action="addtobasket" asp-controller="product" asp-route-productId="@item.Id" class="add-to-basket">Add To Cart</a></li>
-									<li><a asp-action="Detail" asp-controller="Home" asp-route-id="@item.Id">View Product</a></li>
+									<li><a asp-action="addtobasket" asp-controller="product" asp-route-returnUrl="@Context.Request.Path.Value" asp-route-productId="@item.Id" class="add-to-basket">Add To Cart</a></li>
+									<li><a asp-action="Detail" asp-controller="Home" asp-route-productId="@item.Id">View Product</a></li>
 								</ul>
 							</div>
 						</div>

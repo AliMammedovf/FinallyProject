@@ -4,8 +4,6 @@ deleteBtns.forEach(btn => {
 
     let url = btn.getAttribute("href");
     btn.addEventListener("click", function (e) {
-      
-
         e.preventDefault();
 
         Swal.fire({
@@ -20,7 +18,6 @@ deleteBtns.forEach(btn => {
             if (result.isConfirmed) {
 
                 fetch(url).then(response => {
-
                         if (response.status == 200) {
                             window.location.reload(true);
 
@@ -35,8 +32,6 @@ deleteBtns.forEach(btn => {
                             alert("Id not available!");
                         }
                     })
-
-               
             }
         });
     })
