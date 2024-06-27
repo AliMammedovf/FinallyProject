@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Business\\FinalProject.Business.csproj": {}
+    "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject.Business\\FinalProject.Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Business\\FinalProject.Business.csproj": {
+    "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject.Business\\FinalProject.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Business\\FinalProject.Business.csproj",
+        "projectUniqueName": "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject.Business\\FinalProject.Business.csproj",
         "projectName": "FinalProject.Business",
-        "projectPath": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Business\\FinalProject.Business.csproj",
+        "projectPath": "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject.Business\\FinalProject.Business.csproj",
         "packagesPath": "C:\\Users\\V&V\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Business\\obj\\",
+        "outputPath": "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject.Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\V&V\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Data\\FinalProject.Data.csproj": {
-                "projectPath": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Data\\FinalProject.Data.csproj"
+              "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject.Data\\FinalProject.Data.csproj": {
+                "projectPath": "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject.Data\\FinalProject.Data.csproj"
               }
             }
           }
@@ -86,14 +86,14 @@
         }
       }
     },
-    "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Core\\FinalProject.Core.csproj": {
+    "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject.Core\\FinalProject.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Core\\FinalProject.Core.csproj",
+        "projectUniqueName": "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject.Core\\FinalProject.Core.csproj",
         "projectName": "FinalProject.Core",
-        "projectPath": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Core\\FinalProject.Core.csproj",
+        "projectPath": "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject.Core\\FinalProject.Core.csproj",
         "packagesPath": "C:\\Users\\V&V\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Core\\obj\\",
+        "outputPath": "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\V&V\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -157,14 +157,14 @@
         }
       }
     },
-    "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Data\\FinalProject.Data.csproj": {
+    "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject.Data\\FinalProject.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Data\\FinalProject.Data.csproj",
+        "projectUniqueName": "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject.Data\\FinalProject.Data.csproj",
         "projectName": "FinalProject.Data",
-        "projectPath": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Data\\FinalProject.Data.csproj",
+        "projectPath": "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject.Data\\FinalProject.Data.csproj",
         "packagesPath": "C:\\Users\\V&V\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Data\\obj\\",
+        "outputPath": "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\V&V\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -182,8 +182,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Core\\FinalProject.Core.csproj": {
-                "projectPath": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Core\\FinalProject.Core.csproj"
+              "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject.Core\\FinalProject.Core.csproj": {
+                "projectPath": "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject.Core\\FinalProject.Core.csproj"
               }
             }
           }

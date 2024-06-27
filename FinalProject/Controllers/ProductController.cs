@@ -1,7 +1,9 @@
 ﻿using FinalProject.Business.Services.Abstarct;
+using FinalProject.Business.Services.Concret;
 using FinalProject.Core.Models;
 using FinalProject.Core.RepositoryAbstract;
 using FinalProject.Data.DAL;
+using FinalProject.Data.RepositoryConcret;
 using FinalProject.ViewModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -325,6 +327,8 @@ namespace FinalProject.Controllers
 
 			return RedirectToAction("Index","Home");
 		}
+
+		
 
 	}
 }

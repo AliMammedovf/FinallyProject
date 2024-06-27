@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Core\\FinalProject.Core.csproj": {}
+    "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject.Core\\FinalProject.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Core\\FinalProject.Core.csproj": {
+    "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject.Core\\FinalProject.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Core\\FinalProject.Core.csproj",
+        "projectUniqueName": "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject.Core\\FinalProject.Core.csproj",
         "projectName": "FinalProject.Core",
-        "projectPath": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Core\\FinalProject.Core.csproj",
+        "projectPath": "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject.Core\\FinalProject.Core.csproj",
         "packagesPath": "C:\\Users\\V&V\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\V&V\\Desktop\\CodeAcademy\\FinalProject\\FinalProject.Core\\obj\\",
+        "outputPath": "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\V&V\\AppData\\Roaming\\NuGet\\NuGet.Config",

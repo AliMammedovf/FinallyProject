@@ -78,16 +78,7 @@ namespace FinalProject.Areas.Admin.Controllers
            
         }
 
-        //[HttpPost]
-        //public IActionResult DeletePost(int id)
-        //{
-        //    if (!ModelState.IsValid)
-        //        return View();
-
-        //    _categoryService.DeleteCategory(id);
-
-        //    return Ok();
-        //}
+     
 
         public IActionResult Update(int id)
         {

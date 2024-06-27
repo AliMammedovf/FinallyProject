@@ -49,7 +49,7 @@
 					<div class="clearfix">
 
 						<div class="pull-left logo-box">
-							<div class="logo"><a asp-action="Index" asp-controller="Home"><img src="~/images/logo.png" alt="" title=""></a></div>
+							<div class="logo"><a asp-action="Index" asp-controller="Home"><img src="~/images/logo.png"  alt="" title=""></a></div>
 						</div>
 
 						<div class="nav-outer clearfix">
@@ -82,6 +82,9 @@
 										<li>
 											<a asp-action="Index" asp-controller="Shop">Shop</a>
 										</li>
+
+										<li><a asp-action="Index" asp-controller="Contact">Contact</a></li>
+
 										@if (User.Identity.IsAuthenticated)
 										{
 											<li class="dropdown">
@@ -107,7 +110,7 @@
 											</li>
 										}
 
-										<li><a asp-action="Index" asp-controller="Contact">Contact</a></li>
+										
 									</ul>
 
 								</div>
@@ -127,7 +130,7 @@
 											{
 												<div class="cart-product">
 													<div class="inner">
-														<div class="cross-icon"><span class="icon fa fa-remove"></span></div>
+														<div class=" cross-icon"><a asp-action="DeleteBasket" asp-controller="Product"  asp-route-productId="@item.Product.Id" class="product-delete  icon fa fa-remove "></a></div>
 														<div class="image"><img src="~/uploads/products/@item.Product.ProductImages?.Where(x=>x.IsPoster==true).FirstOrDefault()?.ImageUrl" alt="" /></div>
 														<h3><a href="#">@item.Product.Title</a></h3>
 														<div class="quantity-text">@item.Count</div>
@@ -186,7 +189,7 @@
 										{
 											<div class="cart-product">
 												<div class="inner">
-													<div class="cross-icon"><span class="icon fa fa-remove"></span></div>
+													<div class=" cross-icon"><a asp-action="DeleteBasket" asp-controller="Product"  asp-route-productId="@item.Product.Id" class="product-delete  icon fa fa-remove "></a></div>
 													<div class="image"><img src="~/uploads/products/@item.Product.ProductImages?.Where(x=>x.IsPoster==true).FirstOrDefault()?.ImageUrl" alt="" /></div>
 													<h3><a href="#">@item.Product.Title</a></h3>
 													<div class="quantity-text">@item.Count</div>
