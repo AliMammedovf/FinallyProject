@@ -134,7 +134,7 @@ namespace FinalProject.Controllers
 
 ";
 
-			_emailService.SendEmail(model.Email ?? "", "Client Comment", emailBody);
+			_emailService.SendEmail("tu7dw5n4h@code.edu.az", "Client Comment", emailBody);
 
 
 			return RedirectToAction("Index","Contact");
