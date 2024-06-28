@@ -114,15 +114,19 @@
 				</div>
 
 				<!-- Post Share Options -->
-				<div class="styled-pagination">
-					<ul class="clearfix">
-						<li class="share">Showing 1–9of 12 results</li>
-						<li class="active"><a href="#">1</a></li>
-						<li><a href="#">2</a></li>
-						<li><a href="#">3</a></li>
-						<li class="next"><a href="#"><span class="fa fa-angle-right"></span> </a></li>
+				<nav aria-label="...">
+					<ul class="pagination">
+
+						@for (int i = 1; i <= Model.PaginatedProduct.TotalPageCount; i++)
+						{
+							<li class="page-item active @(Model.PaginatedProduct.ActivePage == i ? "active" : "")"><a class="page-link" asp-action="Index" asp-route-page="@i">@i</a></li>
+						}
+
+						<li class="page-item" @(Model.PaginatedProduct.HasNext == true ? "" : "disabled")>
+							<a class="page-link" asp-action="Index" asp-route-page="@(Model.PaginatedProduct.ActivePage + 1)">Next</a>
+						</li>
 					</ul>
-				</div>
+				</nav>
 
 			</div>
 

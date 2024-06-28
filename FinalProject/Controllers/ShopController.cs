@@ -1,4 +1,6 @@
-﻿using FinalProject.Business.DTOs.ProductDTOs;
+﻿using AutoMapper;
+using FinalProject.Business.DTOs.ProductDTOs;
+using FinalProject.Business.Extensions;
 using FinalProject.Business.Services.Abstarct;
 using FinalProject.Core.Models;
 using FinalProject.Data.DAL;
@@ -12,30 +14,38 @@ namespace FinalProject.Controllers
     {
         private readonly ICategoryService _categoryService;
         private readonly IProductService _productService;
+        private readonly IMapper _mapper;
 
         private readonly AppDbContext _appDbContext;
 
 
-        public ShopController(ICategoryService categoryService, IProductService productService, AppDbContext appDbContext)
-        {
-            _categoryService = categoryService;
-            _productService = productService;
-            _appDbContext = appDbContext;
-        }
+		public ShopController(ICategoryService categoryService, IProductService productService, AppDbContext appDbContext, IMapper mapper)
+		{
+			_categoryService = categoryService;
+			_productService = productService;
+			_appDbContext = appDbContext;
+			_mapper = mapper;
+		}
 
-        public IActionResult Index()
+		public async Task<IActionResult> Index(int page=1)
         {
             var category= _categoryService.GetAllCategories();
-            //IEnumerable<ProductGetDTO> products = new List<ProductGetDTO>();
-            //if (categoryId != null)
-            //    products = _productService.GetAllProducts(x => x.CategoryId == categoryId);
-            //else
-                var products = _productService.GetAllProducts();
 
-            ShopVM vm = new ShopVM()
+			var datas = _productService.GetAllProducts();
+
+			List<Product> roomGetDtos = _mapper.Map<List<Product>>(datas);
+
+			if (page <= 0 || page > (double)Math.Ceiling((double)roomGetDtos.Count / 2))
+			{
+				return RedirectToAction("Index", "ErrorPage");
+			}
+
+			var paginatedDatas = PaginatedList<Product>.Create(roomGetDtos, 6, page);
+			ShopVM vm = new ShopVM()
             {
                 Categories = category,
-                Products = products
+                //Products = products,
+                PaginatedProduct=paginatedDatas
             };
 
             return View(vm);
