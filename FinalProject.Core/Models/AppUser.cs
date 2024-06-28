@@ -14,4 +14,6 @@ public class AppUser:IdentityUser
 	public List<BasketItem> BasketItems { get; set; }
 
 	public List<Order> Order { get; set; }
+
+	public List<Reservation> Reservations { get; set; }
 }

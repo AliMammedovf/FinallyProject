@@ -72,7 +72,7 @@ namespace FinalProject.Data.Migrations
                     b.Property<DateTime?>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 6, 27, 19, 54, 14, 721, DateTimeKind.Utc).AddTicks(7764));
+                        .HasDefaultValue(new DateTime(2024, 6, 28, 17, 32, 45, 817, DateTimeKind.Utc).AddTicks(1223));
 
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("datetime2");
@@ -98,7 +98,7 @@ namespace FinalProject.Data.Migrations
                     b.Property<DateTime?>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 6, 27, 19, 54, 14, 721, DateTimeKind.Utc).AddTicks(8026));
+                        .HasDefaultValue(new DateTime(2024, 6, 28, 17, 32, 45, 817, DateTimeKind.Utc).AddTicks(1474));
 
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("datetime2");
@@ -223,7 +223,7 @@ namespace FinalProject.Data.Migrations
                     b.Property<DateTime?>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 6, 27, 19, 54, 14, 721, DateTimeKind.Utc).AddTicks(8447));
+                        .HasDefaultValue(new DateTime(2024, 6, 28, 17, 32, 45, 817, DateTimeKind.Utc).AddTicks(1742));
 
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("datetime2");
@@ -319,6 +319,45 @@ namespace FinalProject.Data.Migrations
                     b.ToTable("ProductSizes");
                 });
 
+            modelBuilder.Entity("FinalProject.Core.Models.Reservation", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime?>("CreatedDate")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2024, 6, 28, 17, 32, 45, 817, DateTimeKind.Utc).AddTicks(2011));
+
+                    b.Property<DateTime?>("DeletedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("EndDate")
+                        .IsRequired()
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("StartDate")
+                        .IsRequired()
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("TableId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("TableId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Reservations");
+                });
+
             modelBuilder.Entity("FinalProject.Core.Models.Size", b =>
                 {
                     b.Property<int>("Id")
@@ -330,7 +369,7 @@ namespace FinalProject.Data.Migrations
                     b.Property<DateTime?>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 6, 27, 19, 54, 14, 721, DateTimeKind.Utc).AddTicks(8929));
+                        .HasDefaultValue(new DateTime(2024, 6, 28, 17, 32, 45, 817, DateTimeKind.Utc).AddTicks(2355));
 
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("datetime2");
@@ -343,6 +382,38 @@ namespace FinalProject.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Sizes");
+                });
+
+            modelBuilder.Entity("FinalProject.Core.Models.Table", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime?>("CreatedDate")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2024, 6, 28, 17, 32, 45, 817, DateTimeKind.Utc).AddTicks(2647));
+
+                    b.Property<DateTime?>("DeletedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("Seats")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Tables");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -661,6 +732,23 @@ namespace FinalProject.Data.Migrations
                     b.Navigation("Size");
                 });
 
+            modelBuilder.Entity("FinalProject.Core.Models.Reservation", b =>
+                {
+                    b.HasOne("FinalProject.Core.Models.Table", "Table")
+                        .WithMany("Reservations")
+                        .HasForeignKey("TableId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("FinalProject.Core.Models.AppUser", "User")
+                        .WithMany("Reservations")
+                        .HasForeignKey("UserId");
+
+                    b.Navigation("Table");
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -739,11 +827,18 @@ namespace FinalProject.Data.Migrations
                     b.Navigation("ProductSizes");
                 });
 
+            modelBuilder.Entity("FinalProject.Core.Models.Table", b =>
+                {
+                    b.Navigation("Reservations");
+                });
+
             modelBuilder.Entity("FinalProject.Core.Models.AppUser", b =>
                 {
                     b.Navigation("BasketItems");
 
                     b.Navigation("Order");
+
+                    b.Navigation("Reservations");
                 });
 #pragma warning restore 612, 618
         }

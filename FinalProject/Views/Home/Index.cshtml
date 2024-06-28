@@ -208,7 +208,7 @@
 				</div>
 				<div class="pull-right">
 					<div class="btn-box">
-						<a class="theme-btn btn-style-four" href="shop.html"><span class="txt">See all Item</span></a>
+						<a class="theme-btn btn-style-four" asp-action="Index" asp-controller="Shop"><span class="txt">See all Item</span></a>
 					</div>
 				</div>
 			</div>
@@ -225,7 +225,7 @@
 							<div class="overlay-box">
 								<ul class="btns-list">
 									<li><a asp-action="addtobasket" asp-controller="product" asp-route-returnUrl="@Context.Request.Path.Value" asp-route-productId="@item.Id" class="add-to-basket">Add To Cart</a></li>
-									<li><a asp-action="Detail" asp-controller="Home" asp-route-productId="@item.Id">View Product</a></li>
+									<li><a asp-action="Detail" asp-controller="Home" asp-route-id="@item.Id">View Product</a></li>
 								</ul>
 							</div>
 						</div>
@@ -488,64 +488,7 @@
 </section>
 <!-- End Testimonial Section -->
 <!-- News Section -->
-<section class="news-section">
-	<div class="auto-container">
-		<!-- Sec Title -->
-		<div class="sec-title centered">
-			<h3>Latest News</h3>
-			<div class="text">Lorem ipsum is placeholder text commonly used in the graphic, print, and <br> publishing industries</div>
-		</div>
-		<div class="row clearfix">
 
-			<!-- News Block -->
-			<div class="news-block col-lg-4 col-md-6 col-sm-12">
-				<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-					<div class="image">
-						<a href="blog-detail.html"><img src="~/images/resource/news-1.jpg" alt="" /></a>
-					</div>
-					<div class="lower-content">
-						<h4><a href="blog-detail.html">Virtual Classes</a></h4>
-						<div class="text">Excepteur sint occaecat cupidatat non proident, sunt in culpa</div>
-						<div class="post-date">14 Aug, 2020</div>
-						<a href="blog-detail.html" class="read-more">Read More</a>
-					</div>
-				</div>
-			</div>
-
-			<!-- News Block -->
-			<div class="news-block col-lg-4 col-md-6 col-sm-12">
-				<div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-					<div class="image">
-						<a href="blog-detail.html"><img src="~/images/resource/news-2.jpg" alt="" /></a>
-					</div>
-					<div class="lower-content">
-						<h4><a href="blog-detail.html">Catering Services Offered</a></h4>
-						<div class="text">Excepteur sint occaecat cupidatat non proident, sunt in culpa</div>
-						<div class="post-date">14 Aug, 2020</div>
-						<a href="blog-detail.html" class="read-more">Read More</a>
-					</div>
-				</div>
-			</div>
-
-			<!-- News Block -->
-			<div class="news-block col-lg-4 col-md-6 col-sm-12">
-				<div class="inner-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-					<div class="image">
-						<a href="blog-detail.html"><img src="~/images/resource/news-3.jpg" alt="" /></a>
-					</div>
-					<div class="lower-content">
-						<h4><a href="blog-detail.html">Thin Crust Pizzas</a></h4>
-						<div class="text">Excepteur sint occaecat cupidatat non proident, sunt in culpa</div>
-						<div class="post-date">14 Aug, 2020</div>
-						<a href="blog-detail.html" class="read-more">Read More</a>
-					</div>
-				</div>
-			</div>
-
-		</div>
-	</div>
-</section>
-<!-- End News Section -->
 <!-- Subscribe Section -->
 <section class="subscribe-section" style="background-image: url(images/background/4.jpg)">
 	<div class="auto-container">
@@ -557,10 +500,10 @@
 
 		<!-- NewsLetter Form -->
 		<div class="newsletter-form">
-			<form method="post" action="https://gico.io/cyyo/05_Pizza/contact.html">
+			<form method="post" asp-action="Index" asp-controller="Contact">
 				<div class="form-group">
 					<input type="email" name="email" value="" placeholder="Email address" required="">
-					<button type="submit" class="theme-btn"><span class="txt">Sign up For Subscribe</span></button>
+					<button type="submit" class="theme-btn" ><span class="txt">Send</span></button>
 				</div>
 			</form>
 		</div>

@@ -13,6 +13,7 @@ using FinalProject.ViewService;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Stripe;
 
 namespace FinalProject
 {
@@ -33,9 +34,11 @@ namespace FinalProject
             builder.Services.AddAutoMapper(typeof(MappingProfile).Assembly);
 
             builder.Services.AddDbContext<AppDbContext>(options =>
-            {
-                options.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
-            });
+
+                options.UseSqlServer(builder.Configuration.GetConnectionString("Default"),
+                sqlServerOptions => sqlServerOptions.CommandTimeout(300)));
+
+            
 
 			builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
 			{
@@ -51,7 +54,7 @@ namespace FinalProject
 
             builder.Services.AddScoped<LayoutService>();
 			builder.Services.AddScoped<IProductRepository, ProductRepository>();
-            builder.Services.AddScoped<IProductService, ProductService>();
+            builder.Services.AddScoped<IProductService, Business.Services.Concret.ProductService>();
             builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
             builder.Services.AddScoped<ICategoryService, CategoryService>();
             builder.Services.AddScoped<IFlavourRepository, FlavourRepository>();
@@ -64,9 +67,12 @@ namespace FinalProject
             builder.Services.AddScoped<IBasketItemRepository, BasketItemRepository>();
             builder.Services.AddScoped<IBasketItemService, BasketItemService>();
             builder.Services.AddSession();
-           
+			builder.Services.Configure<StripeSettings>(builder.Configuration.GetSection("Stripe"));
 
-            var app = builder.Build();
+			StripeConfiguration.ApiKey = builder.Configuration["Stripe:Secretkey"];
+
+
+			var app = builder.Build();
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())

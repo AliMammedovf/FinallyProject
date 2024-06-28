@@ -11,6 +11,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking.Internal;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Newtonsoft.Json;
+using Stripe;
 using System.Runtime.Intrinsics.X86;
 
 namespace FinalProject.Controllers
@@ -21,16 +22,17 @@ namespace FinalProject.Controllers
 		private readonly UserManager<AppUser> _userManager;
 		private readonly IBasketItemService _basketItemService;
 		private readonly AppDbContext _appDbContext;
+       
 
-		public ProductController(IProductService productService, UserManager<AppUser> userManager, IBasketItemService basketItemService, AppDbContext appDbContext)
-		{
-			_productService = productService;
-			_userManager = userManager;
-			_basketItemService = basketItemService;
-			_appDbContext = appDbContext;
-		}
+        public ProductController(IProductService productService, UserManager<AppUser> userManager, IBasketItemService basketItemService, AppDbContext appDbContext)
+        {
+            _productService = productService;
+            _userManager = userManager;
+            _basketItemService = basketItemService;
+            _appDbContext = appDbContext;
+        }
 
-		public IActionResult Index()
+        public IActionResult Index()
 		{
 			return View();
 		}
@@ -172,7 +174,7 @@ namespace FinalProject.Controllers
 			}
 			else
 			{
-				return View();
+				return RedirectToAction("Login", "User");
 			}
 
 			if (returnUrl is not null)
@@ -241,7 +243,11 @@ namespace FinalProject.Controllers
 
 					checkOutItemList.Add(checkoutItem);
 				}
-			}		
+			}
+			else
+			{
+				return RedirectToAction("Login","User");
+			}
 
 			OrderVM orderVM = new OrderVM()
 			{
@@ -295,7 +301,7 @@ namespace FinalProject.Controllers
 
 				foreach (var item in userBasketItems)
 				{
-                    Product product = _appDbContext.Products.FirstOrDefault(x => x.Id == item.ProductId);
+                    Core.Models.Product product = _appDbContext.Products.FirstOrDefault(x => x.Id == item.ProductId);
                     CheckOutVM checkOutVM = new ()
 					{
 						Product = product,
@@ -316,8 +322,38 @@ namespace FinalProject.Controllers
 					order.OrdeerItems.Add(orderItem);
 				}
             }
+            else
+            {
+                return RedirectToAction("Login", "User");
+            }
 
-            ViewBag.CheckOutViewModel = checkoutVmList;
+            var optionCust = new CustomerCreateOptions
+            {
+                Email = user.Email,
+                Name = user.Email + " " + user.FullName,
+                Phone = "+994 50 66"
+            };
+            var serviceCust = new CustomerService();
+            Customer customer = serviceCust.Create(optionCust);
+            orderVM.Total = orderVM.Total * 100;
+            var optionsCharge = new ChargeCreateOptions
+            {
+                Amount = (long)orderVM.Total,
+                Currency = "USD",
+                Description = "Product Selling amount",
+                Source = "pk_test_51PWh50LzIBUdEvDlg1EExO8XGLPATyoZtksTff7DG16X8BfROzXyDWUCLBw0jsIUvea4quL3oWzVOIYemtYpIjq200aOm6fgK9",
+                ReceiptEmail = "elmemmedov871@gmail.com"
+            };
+            var serviceCharge = new ChargeService();
+            Charge charge = serviceCharge.Create(optionsCharge);
+                ViewBag.CheckOutViewModel = checkoutVmList;
+            if (charge.Status != "succeeded")
+            {
+
+                ModelState.AddModelError("Address", "Odenishde problem var");
+                return View();
+            }
+
 
 			if (!ModelState.IsValid)
 				return View();
@@ -328,6 +364,7 @@ namespace FinalProject.Controllers
 			return RedirectToAction("Index","Home");
 		}
 
+		
 		
 
 	}

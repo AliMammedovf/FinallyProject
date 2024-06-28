@@ -5,10 +5,9 @@ deleteBtns.forEach(btn => {
     let url = btn.getAttribute("href");
     btn.addEventListener("click", function (e) {
         e.preventDefault();
-
        fetch(url)
         .then((response) => {
-            if (result.isConfirmed) {
+            if (result) {
 
                 fetch(url).then(response => {
                     if (response.status == 200) {
