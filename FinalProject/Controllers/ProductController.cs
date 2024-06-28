@@ -251,7 +251,7 @@ namespace FinalProject.Controllers
 
 			OrderVM orderVM = new OrderVM()
 			{
-				//CheckOutVMs = checkOutItemList,
+			
 				FullName=user.FullName
 			};
             ViewBag.CheckOutViewModel = checkOutItemList;
