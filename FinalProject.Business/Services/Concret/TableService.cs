@@ -54,7 +54,7 @@ public class TableService : ITableService
 		_tableRepository.Commit();
 	}
 
-	public IEnumerable<TableGetDTO> GetAllReservations(Func<Table, bool>? func = null)
+	public IEnumerable<TableGetDTO> GetAllTables(Func<Table, bool>? func = null)
 	{
 		var table = _tableRepository.GetAll(func);
 

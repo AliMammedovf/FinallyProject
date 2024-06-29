@@ -1,7 +1,10 @@
 using FinalProject.Business.DTOs.CategoryDTOs;
 using FinalProject.Business.DTOs.FlavourDTOs;
 using FinalProject.Business.DTOs.ProductDTOs;
+using FinalProject.Business.DTOs.ReservationDTOs;
 using FinalProject.Business.DTOs.SizeDTOs;
+using FinalProject.Business.DTOs.SliderDTOs;
+using FinalProject.Business.DTOs.TableDTOs;
 using FinalProject.Business.Mapping;
 using FinalProject.Business.Services.Abstarct;
 using FinalProject.Business.Services.Concret;
@@ -30,7 +33,10 @@ namespace FinalProject
                 x.RegisterValidatorsFromAssemblyContaining(typeof(CategoryCreateDTOValidator));
                 x.RegisterValidatorsFromAssemblyContaining(typeof(FlavourCreateDTOValidator));
                 x.RegisterValidatorsFromAssemblyContaining(typeof(SizeCreateDTOValidator));
-            });
+				x.RegisterValidatorsFromAssemblyContaining(typeof(TableCreateDTOValidator));
+				x.RegisterValidatorsFromAssemblyContaining(typeof(ReservationCreateDTOValidator));
+				x.RegisterValidatorsFromAssemblyContaining(typeof(SliderCreateDTOValidator));
+			});
             builder.Services.AddAutoMapper(typeof(MappingProfile).Assembly);
 
             builder.Services.AddDbContext<AppDbContext>(options =>
@@ -55,18 +61,36 @@ namespace FinalProject
             builder.Services.AddScoped<LayoutService>();
 			builder.Services.AddScoped<IProductRepository, ProductRepository>();
             builder.Services.AddScoped<IProductService, Business.Services.Concret.ProductService>();
+
             builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
             builder.Services.AddScoped<ICategoryService, CategoryService>();
+
             builder.Services.AddScoped<IFlavourRepository, FlavourRepository>();
             builder.Services.AddScoped<IFlavourService, FlavourService>();
+
             builder.Services.AddScoped<ISizeRepository, SizeRepository>();
             builder.Services.AddScoped<ISizeService, SizeService>();
+
             builder.Services.AddScoped<IProductSizeRepository, ProductSizeRepository>();
             builder.Services.AddScoped<IProductImageRepository, ProductImageRepository>();
+
             builder.Services.AddScoped<IEmailService, EmailService>();
+
             builder.Services.AddScoped<IBasketItemRepository, BasketItemRepository>();
             builder.Services.AddScoped<IBasketItemService, BasketItemService>();
+
+            builder.Services.AddScoped<ITableRepository, TableRepository>();
+            builder.Services.AddScoped<ITableService, TableService>();
+
+            builder.Services.AddScoped<IReservationRepository, ReservationRepository>();
+            builder.Services.AddScoped<IReservationService, ReservationService>();
+
+            builder.Services.AddScoped<ISliderRepository, SliderRepository>();
+            builder.Services.AddScoped<ISliderService, SliderService>();
+
             builder.Services.AddSession();
+
+
 			builder.Services.Configure<StripeSettings>(builder.Configuration.GetSection("Stripe"));
 
 			StripeConfiguration.ApiKey = builder.Configuration["Stripe:Secretkey"];

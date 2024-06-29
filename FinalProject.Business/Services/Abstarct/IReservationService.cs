@@ -12,6 +12,6 @@ public interface IReservationService
 {
 	Task AddAsyncReservation(ReservationCreateDTO reservationCreateDTO);
 	
-	ReservationGetDTO GeTReservation(Func<Reservation, bool>? func = null);
+	ReservationGetDTO GetReservation(Func<Reservation, bool>? func = null);
 	List<ReservationGetDTO> GetAllReservations(Func<Reservation, bool>? func = null);
 }

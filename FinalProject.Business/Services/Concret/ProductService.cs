@@ -83,7 +83,7 @@ public class ProductService : IProductService
             ProductImage poster = new ProductImage()
             {
                 Product = product,
-                ImageUrl = Helper.SaveFile(_env.WebRootPath, @"uploads/products", productCreateDTO.PosterImage),
+                ImageUrl = Helper.SaveFile(_env.WebRootPath, @"uploads\products", productCreateDTO.PosterImage),
                 IsPoster = true
             };
 
@@ -105,7 +105,7 @@ public class ProductService : IProductService
                 ProductImage productImage = new ProductImage
                 {
                     Product = product,
-                    ImageUrl = Helper.SaveFile(_env.WebRootPath, @"uploads/products", ImageFile),
+                    ImageUrl = Helper.SaveFile(_env.WebRootPath, @"uploads\products", ImageFile),
                     IsPoster = null
                 };
 
@@ -132,7 +132,7 @@ public class ProductService : IProductService
         {
             if (item.ImageUrl != null) 
             {
-                Helper.DeleteFile(_env.WebRootPath, @"uploads/products", item.ImageUrl);
+                Helper.DeleteFile(_env.WebRootPath, @"uploads\products", item.ImageUrl);
             }
         }
 
@@ -194,12 +194,12 @@ public class ProductService : IProductService
 
         if (productUpdateDTO.PosterImage != null)
         {
-            Helper.DeleteFile(_env.WebRootPath, @"uploads/products", oldProduct.ProductImages.FirstOrDefault(x => x.IsPoster == true).ImageUrl);
+            Helper.DeleteFile(_env.WebRootPath, @"uploads\products", oldProduct.ProductImages.FirstOrDefault(x => x.IsPoster == true).ImageUrl);
             oldProduct.ProductImages.Remove(oldProduct.ProductImages.FirstOrDefault(x => x.IsPoster == true));
             ProductImage poster = new ProductImage()
             {
                 Product = oldProduct,
-                ImageUrl = Helper.SaveFile(_env.WebRootPath, @"uploads/products", productUpdateDTO.PosterImage),
+                ImageUrl = Helper.SaveFile(_env.WebRootPath, @"uploads\products", productUpdateDTO.PosterImage),
                 IsPoster = true
                 
             };
@@ -221,7 +221,7 @@ public class ProductService : IProductService
                 ProductImage productImage = new ProductImage
                 {
                     Product = oldProduct,
-                    ImageUrl = Helper.SaveFile(_env.WebRootPath, @"uploads/products", ImageFile),
+                    ImageUrl = Helper.SaveFile(_env.WebRootPath, @"uploads\products", ImageFile),
                     IsPoster = null
                 };
 

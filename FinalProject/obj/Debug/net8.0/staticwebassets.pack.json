@@ -9113,6 +9113,10 @@
       "PackagePath": "staticwebassets\\uploads\\products\\f8d06423-0364-4682-9d15-e5944fc52e6b.jpg"
     },
     {
+      "Id": "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject\\wwwroot\\uploads\\sliders\\30791f77-752c-46bb-adb4-6b0b2d233701.jpg",
+      "PackagePath": "staticwebassets\\uploads\\sliders\\30791f77-752c-46bb-adb4-6b0b2d233701.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FinalProject.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

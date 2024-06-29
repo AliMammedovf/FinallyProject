@@ -1,4 +1,5 @@
 ﻿using FinalProject.Core.Models;
+using FluentValidation;
 using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
@@ -32,4 +33,34 @@ public class ProductUpdateDTO
     public IFormFile? PosterImage { get; set; }
 
     public List<IFormFile>? ImageFiles { get; set; }
+}
+
+
+public class ProductUpdateDTOValidator : AbstractValidator<ProductUpdateDTO>
+{
+	public ProductUpdateDTOValidator()
+	{
+		RuleFor(x => x.Title)
+			.NotEmpty().WithMessage("Title cannot be empty!")
+			.NotNull().WithMessage("Title cannot be null!")
+			.MaximumLength(50).WithMessage("Length should be max 50!");
+
+		RuleFor(x => x.Description)
+			.NotEmpty().WithMessage("Description cannot be empty!")
+			.NotNull().WithMessage("Description cannot be null!")
+			.MaximumLength(200).WithMessage("Length should be max 200!");
+		RuleFor(x => x.AdditionalInfo)
+		   .NotEmpty().WithMessage("AdditionalInfo cannot be empty!")
+		   .NotNull().WithMessage("AdditionalInfo cannot be null!")
+		   .MaximumLength(100).WithMessage("Length should be max 100!");
+
+		RuleFor(x => x).Custom((x, context) =>
+		{
+			if (x.Price <= 0)
+			{
+				context.AddFailure("Price", "Price should be min 1!");
+			}
+
+		});
+	}
 }

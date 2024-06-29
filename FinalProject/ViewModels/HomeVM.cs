@@ -1,5 +1,6 @@
 ﻿using FinalProject.Business.DTOs.CategoryDTOs;
 using FinalProject.Business.DTOs.ProductDTOs;
+using FinalProject.Business.DTOs.SliderDTOs;
 using FinalProject.Core.Models;
 
 namespace FinalProject.ViewModels;
@@ -15,6 +16,10 @@ public class HomeVM
     public ProductGetDTO Product { get; set; }
 
     public List<CheckOutVM> Checkouts { get; set; }
+
+    public List<SliderGetDTO> Sliders { get; set; }
+
+    public SliderGetDTO Slider { get; set; }
 
     
 

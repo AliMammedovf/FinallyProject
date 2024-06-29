@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FinalProject.Areas.Admin.Controllers
 {
+	[Area("Admin")]
 	public class TableController : Controller
 	{
 		private readonly ITableService _tableService;
@@ -18,7 +19,8 @@ namespace FinalProject.Areas.Admin.Controllers
 
 		public IActionResult Index()
 		{
-			return View();
+			var table= _tableService.GetAllTables();
+			return View(table);
 		}
 
 		public IActionResult Create()

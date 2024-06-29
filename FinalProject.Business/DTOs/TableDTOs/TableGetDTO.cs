@@ -16,5 +16,9 @@ public class TableGetDTO
 
 	public int Seats { get; set; }
 
+	public bool IsAvialable { get; set; }
+
+	public int TableId { get; set; }
+
 	public List<Reservation>? Reservations { get; set; }
 }

@@ -13,20 +13,24 @@ namespace FinalProject.Controllers
         private readonly IProductService _productService;
         private readonly ISizeService _sizeService;
         private readonly IFlavourService _favourService;
+        private readonly ISliderService _sliderService;
 
-        public HomeController(IProductService productService, ISizeService sizeService, IFlavourService favourService)
-        {
-            _productService = productService;
-            _sizeService = sizeService;
-            _favourService = favourService;
-        }
+		public HomeController(IProductService productService, ISizeService sizeService, IFlavourService favourService, ISliderService sliderService)
+		{
+			_productService = productService;
+			_sizeService = sizeService;
+			_favourService = favourService;
+			_sliderService = sliderService;
+		}
 
-        public IActionResult Index()
+		public IActionResult Index()
         {
             var products= _productService.GetAllProducts();
+            var sliders= _sliderService.GetAllSliders();
             HomeVM vm = new HomeVM()
             {
                 Products =products,
+                Sliders = sliders,
             };
             return View(vm);
         }
