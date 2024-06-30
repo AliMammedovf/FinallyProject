@@ -33,19 +33,18 @@ namespace FinalProject.Controllers
 
 			var datas = _productService.GetAllProducts();
 
-			List<Product> roomGetDtos = _mapper.Map<List<Product>>(datas);
+			List<Product> productGetDtos = _mapper.Map<List<Product>>(datas);
 
-			if (page <= 0 || page > (double)Math.Ceiling((double)roomGetDtos.Count / 2))
-			{
-				return RedirectToAction("Index", "ErrorPage");
-			}
+            if (page <= 0 || page > (double)Math.Ceiling((double)productGetDtos.Count / 2))
+            {
+                return RedirectToAction("Index", "Error");
+            }
 
-			var paginatedDatas = PaginatedList<Product>.Create(roomGetDtos, 6, page);
-			ShopVM vm = new ShopVM()
+            var paginatedDatas = PaginatedList<Product>.Create(productGetDtos, 6, page);
+            ShopVM vm = new ShopVM()
             {
                 Categories = category,
-                //Products = products,
-                PaginatedProduct=paginatedDatas
+                PaginatedProduct = paginatedDatas
             };
 
             return View(vm);

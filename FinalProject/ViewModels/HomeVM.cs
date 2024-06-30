@@ -1,7 +1,9 @@
 ﻿using FinalProject.Business.DTOs.AboutSliderDTOs;
 using FinalProject.Business.DTOs.CategoryDTOs;
+using FinalProject.Business.DTOs.EmployeeDTOs;
 using FinalProject.Business.DTOs.PizzaMenyuDTOs;
 using FinalProject.Business.DTOs.ProductDTOs;
+using FinalProject.Business.DTOs.SetMenyuHeaderDTOs;
 using FinalProject.Business.DTOs.SliderDTOs;
 using FinalProject.Core.Models;
 
@@ -21,12 +23,16 @@ public class HomeVM
 
     public List<SliderGetDTO> Sliders { get; set; }
 
-    public List<AboutSlider> AboutSliders { get; set; }
 
     public AboutSliderGetDTO AboutSlider { get; set; }
 
     public List<PizzaMenyuGetDTO> PizzasMenyu { get; set; }
 
+    public List<EmployeeGetDTO> Employees { get; set; }
+
+    public List<SetMenyuHeaderGetDTO> SetMenyuHeader { get; set; }
+
+    public List<KomboMenyu> KomboMenyu { get; set; }
     
 
   

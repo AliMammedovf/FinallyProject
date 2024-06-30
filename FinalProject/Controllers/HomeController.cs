@@ -16,8 +16,11 @@ namespace FinalProject.Controllers
         private readonly ISliderService _sliderService;
         private readonly IAboutSliderService _aboutSliderService;
         private readonly IPizzaMenyuService _pizzaMenyuService;
+        private readonly IEmployeeService _employeeService;
+        private readonly ISetMenyuHeaderService _setMenyuHeaderService;
+        private readonly IKomboMenyuService _komboMenyuService;
 
-        public HomeController(IProductService productService, ISizeService sizeService, IFlavourService favourService, ISliderService sliderService, IAboutSliderService aboutSliderService, IPizzaMenyuService pizzaMenyuService)
+        public HomeController(IProductService productService, ISizeService sizeService, IFlavourService favourService, ISliderService sliderService, IAboutSliderService aboutSliderService, IPizzaMenyuService pizzaMenyuService, IEmployeeService employeeService, ISetMenyuHeaderService setMenyuHeaderService, IKomboMenyuService komboMenyuService)
         {
             _productService = productService;
             _sizeService = sizeService;
@@ -25,6 +28,9 @@ namespace FinalProject.Controllers
             _sliderService = sliderService;
             _aboutSliderService = aboutSliderService;
             _pizzaMenyuService = pizzaMenyuService;
+            _employeeService = employeeService;
+            _setMenyuHeaderService = setMenyuHeaderService;
+            _komboMenyuService = komboMenyuService;
         }
 
         public IActionResult Index()
@@ -33,12 +39,19 @@ namespace FinalProject.Controllers
             var sliders= _sliderService.GetAllSliders();
             var aboutSlider = _aboutSliderService.GetAboutSlider();
             var menyu= _pizzaMenyuService.GetAllPizzaMenyus();
+            var employer= _employeeService.GetAllEmployees();
+            var menyuheader= _setMenyuHeaderService.GetAllSetMenyuHeaders();
+            var komboMenyu = _komboMenyuService.GetAllMenyus();
+
             HomeVM vm = new HomeVM()
             {
                 Products =products,
                 Sliders = sliders,
                 AboutSlider = aboutSlider,
-                PizzasMenyu = menyu
+                PizzasMenyu = menyu,
+                Employees=employer,
+                SetMenyuHeader = menyuheader,
+                KomboMenyu= komboMenyu,
             };
             return View(vm);
         }

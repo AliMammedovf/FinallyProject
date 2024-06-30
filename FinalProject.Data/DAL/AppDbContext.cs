@@ -44,7 +44,13 @@ public class AppDbContext:IdentityDbContext
 
     public DbSet<PizzaMenyu> Pizzas {  get; set; }
 
+    public DbSet<Employee> Employees { get; set; }
 
+    public DbSet<SetMenyuHeader> SetMenyuHeaders { get; set; }
+
+    public DbSet<KomboMenyu> KomboMenyus { get; set; }
+
+    public DbSet<AboutInfo> Info {  get; set; }
 
 
 
@@ -58,6 +64,9 @@ public class AppDbContext:IdentityDbContext
 		builder.ApplyConfigurationsFromAssembly(typeof(TableConfiguration).Assembly);
 		builder.ApplyConfigurationsFromAssembly(typeof(SliderConfugration).Assembly);
 		builder.ApplyConfigurationsFromAssembly(typeof(AboutSliderConfiguration).Assembly);
+		builder.ApplyConfigurationsFromAssembly(typeof(EmployeeConfiguration).Assembly);
+		builder.ApplyConfigurationsFromAssembly(typeof(SetMenyuHeadersConfiguration).Assembly);
+		builder.ApplyConfigurationsFromAssembly(typeof(AboutInfoConfiguration).Assembly);
 		base.OnModelCreating(builder);
         
     }

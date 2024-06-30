@@ -3,12 +3,320 @@
   "WorkspaceRootPath": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\areas\\admin\\views\\aboutinfo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\areas\\admin\\views\\aboutinfo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\areas\\admin\\views\\aboutslider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\areas\\admin\\views\\aboutslider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.business\\services\\concret\\aboutinfoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|solutionrelative:finalproject.business\\services\\concret\\aboutinfoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\viewmodels\\aboutvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\viewmodels\\aboutvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\areas\\admin\\views\\aboutinfo\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\areas\\admin\\views\\aboutinfo\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\areas\\admin\\views\\aboutinfo\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\areas\\admin\\views\\aboutinfo\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\areas\\admin\\views\\aboutslider\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\areas\\admin\\views\\aboutslider\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\areas\\admin\\controllers\\aboutinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\areas\\admin\\controllers\\aboutinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\areas\\admin\\controllers\\aboutslidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\areas\\admin\\controllers\\aboutslidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.business\\services\\concret\\aboutsliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|solutionrelative:finalproject.business\\services\\concret\\aboutsliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.business\\services\\abstarct\\iaboutinfoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|solutionrelative:finalproject.business\\services\\abstarct\\iaboutinfoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.business\\services\\abstarct\\iaboutsliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|solutionrelative:finalproject.business\\services\\abstarct\\iaboutsliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED3054F-B2A0-49BF-B417-4953EBBFEDE8}|FinalProject.Data\\FinalProject.Data.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.data\\repositoryconcret\\aboutinforepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FED3054F-B2A0-49BF-B417-4953EBBFEDE8}|FinalProject.Data\\FinalProject.Data.csproj|solutionrelative:finalproject.data\\repositoryconcret\\aboutinforepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A08959E-F497-478C-8084-CE6E56386CED}|FinalProject.Core\\FinalProject.Core.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.core\\repositoryabstract\\iaboutinforepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A08959E-F497-478C-8084-CE6E56386CED}|FinalProject.Core\\FinalProject.Core.csproj|solutionrelative:finalproject.core\\repositoryabstract\\iaboutinforepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED3054F-B2A0-49BF-B417-4953EBBFEDE8}|FinalProject.Data\\FinalProject.Data.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.data\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FED3054F-B2A0-49BF-B417-4953EBBFEDE8}|FinalProject.Data\\FinalProject.Data.csproj|solutionrelative:finalproject.data\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.business\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|solutionrelative:finalproject.business\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.business\\dtos\\aboutinfodtos\\aboutinfocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|solutionrelative:finalproject.business\\dtos\\aboutinfodtos\\aboutinfocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A08959E-F497-478C-8084-CE6E56386CED}|FinalProject.Core\\FinalProject.Core.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.core\\models\\aboutinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A08959E-F497-478C-8084-CE6E56386CED}|FinalProject.Core\\FinalProject.Core.csproj|solutionrelative:finalproject.core\\models\\aboutinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.business\\dtos\\aboutinfodtos\\aboutinfoupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|solutionrelative:finalproject.business\\dtos\\aboutinfodtos\\aboutinfoupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.business\\dtos\\aboutinfodtos\\aboutinfogetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|solutionrelative:finalproject.business\\dtos\\aboutinfodtos\\aboutinfogetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED3054F-B2A0-49BF-B417-4953EBBFEDE8}|FinalProject.Data\\FinalProject.Data.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.data\\configurations\\aboutinfoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FED3054F-B2A0-49BF-B417-4953EBBFEDE8}|FinalProject.Data\\FinalProject.Data.csproj|solutionrelative:finalproject.data\\configurations\\aboutinfoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.business\\dtos\\aboutsliderdtos\\aboutslidercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|solutionrelative:finalproject.business\\dtos\\aboutsliderdtos\\aboutslidercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED3054F-B2A0-49BF-B417-4953EBBFEDE8}|FinalProject.Data\\FinalProject.Data.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.data\\configurations\\aboutsliderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FED3054F-B2A0-49BF-B417-4953EBBFEDE8}|FinalProject.Data\\FinalProject.Data.csproj|solutionrelative:finalproject.data\\configurations\\aboutsliderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\views\\shop\\categoryfilter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\shop\\categoryfilter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\views\\about\\team.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\about\\team.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\viewmodels\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\viewmodels\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\areas\\admin\\controllers\\kombomenyucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\areas\\admin\\controllers\\kombomenyucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\areas\\admin\\views\\kombomenyu\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\areas\\admin\\views\\kombomenyu\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\areas\\admin\\views\\kombomenyu\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\areas\\admin\\views\\kombomenyu\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\areas\\admin\\views\\kombomenyu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\areas\\admin\\views\\kombomenyu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.business\\services\\concret\\kombomenyuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|solutionrelative:finalproject.business\\services\\concret\\kombomenyuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.business\\services\\abstarct\\ikombomenyuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|solutionrelative:finalproject.business\\services\\abstarct\\ikombomenyuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.business\\services\\concret\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|solutionrelative:finalproject.business\\services\\concret\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED3054F-B2A0-49BF-B417-4953EBBFEDE8}|FinalProject.Data\\FinalProject.Data.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.data\\repositoryconcret\\kombomenyurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FED3054F-B2A0-49BF-B417-4953EBBFEDE8}|FinalProject.Data\\FinalProject.Data.csproj|solutionrelative:finalproject.data\\repositoryconcret\\kombomenyurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A08959E-F497-478C-8084-CE6E56386CED}|FinalProject.Core\\FinalProject.Core.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.core\\repositoryabstract\\ikombomenyurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A08959E-F497-478C-8084-CE6E56386CED}|FinalProject.Core\\FinalProject.Core.csproj|solutionrelative:finalproject.core\\repositoryabstract\\ikombomenyurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A08959E-F497-478C-8084-CE6E56386CED}|FinalProject.Core\\FinalProject.Core.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.core\\models\\kombomenyu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A08959E-F497-478C-8084-CE6E56386CED}|FinalProject.Core\\FinalProject.Core.csproj|solutionrelative:finalproject.core\\models\\kombomenyu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\areas\\admin\\views\\setmenyuheader\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\areas\\admin\\views\\setmenyuheader\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\areas\\admin\\views\\setmenyuheader\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\areas\\admin\\views\\setmenyuheader\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\areas\\admin\\views\\setmenyuheader\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\areas\\admin\\views\\setmenyuheader\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\areas\\admin\\controllers\\setmenyuheadercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\areas\\admin\\controllers\\setmenyuheadercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.business\\services\\abstarct\\isetmenyuheaderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|solutionrelative:finalproject.business\\services\\abstarct\\isetmenyuheaderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.business\\services\\concret\\setmenyuheaderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|solutionrelative:finalproject.business\\services\\concret\\setmenyuheaderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.business\\dtos\\setmenyuheaderdtos\\setmenyuheadergetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|solutionrelative:finalproject.business\\dtos\\setmenyuheaderdtos\\setmenyuheadergetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.business\\dtos\\setmenyuheaderdtos\\setmenyuheaderupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|solutionrelative:finalproject.business\\dtos\\setmenyuheaderdtos\\setmenyuheaderupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.business\\dtos\\setmenyuheaderdtos\\setmenyuheadercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|solutionrelative:finalproject.business\\dtos\\setmenyuheaderdtos\\setmenyuheadercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.business\\dtos\\employeedtos\\employeeupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|solutionrelative:finalproject.business\\dtos\\employeedtos\\employeeupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.business\\dtos\\employeedtos\\employeegetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|solutionrelative:finalproject.business\\dtos\\employeedtos\\employeegetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.business\\dtos\\employeedtos\\employeecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|solutionrelative:finalproject.business\\dtos\\employeedtos\\employeecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.business\\dtos\\aboutsliderdtos\\aboutslidergetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|solutionrelative:finalproject.business\\dtos\\aboutsliderdtos\\aboutslidergetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A08959E-F497-478C-8084-CE6E56386CED}|FinalProject.Core\\FinalProject.Core.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.core\\models\\setmenyuheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A08959E-F497-478C-8084-CE6E56386CED}|FinalProject.Core\\FinalProject.Core.csproj|solutionrelative:finalproject.core\\models\\setmenyuheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED3054F-B2A0-49BF-B417-4953EBBFEDE8}|FinalProject.Data\\FinalProject.Data.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.data\\configurations\\setmenyuheadersconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FED3054F-B2A0-49BF-B417-4953EBBFEDE8}|FinalProject.Data\\FinalProject.Data.csproj|solutionrelative:finalproject.data\\configurations\\setmenyuheadersconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED3054F-B2A0-49BF-B417-4953EBBFEDE8}|FinalProject.Data\\FinalProject.Data.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.data\\repositoryconcret\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FED3054F-B2A0-49BF-B417-4953EBBFEDE8}|FinalProject.Data\\FinalProject.Data.csproj|solutionrelative:finalproject.data\\repositoryconcret\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED3054F-B2A0-49BF-B417-4953EBBFEDE8}|FinalProject.Data\\FinalProject.Data.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.data\\configurations\\reservationconfugration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FED3054F-B2A0-49BF-B417-4953EBBFEDE8}|FinalProject.Data\\FinalProject.Data.csproj|solutionrelative:finalproject.data\\configurations\\reservationconfugration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED3054F-B2A0-49BF-B417-4953EBBFEDE8}|FinalProject.Data\\FinalProject.Data.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.data\\configurations\\pizzamenyuconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FED3054F-B2A0-49BF-B417-4953EBBFEDE8}|FinalProject.Data\\FinalProject.Data.csproj|solutionrelative:finalproject.data\\configurations\\pizzamenyuconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED3054F-B2A0-49BF-B417-4953EBBFEDE8}|FinalProject.Data\\FinalProject.Data.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.data\\configurations\\employeeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FED3054F-B2A0-49BF-B417-4953EBBFEDE8}|FinalProject.Data\\FinalProject.Data.csproj|solutionrelative:finalproject.data\\configurations\\employeeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\areas\\admin\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\areas\\admin\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.business\\services\\concret\\sliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|solutionrelative:finalproject.business\\services\\concret\\sliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.business\\services\\concret\\tableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|solutionrelative:finalproject.business\\services\\concret\\tableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED3054F-B2A0-49BF-B417-4953EBBFEDE8}|FinalProject.Data\\FinalProject.Data.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.data\\repositoryconcret\\setmenyuheaderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FED3054F-B2A0-49BF-B417-4953EBBFEDE8}|FinalProject.Data\\FinalProject.Data.csproj|solutionrelative:finalproject.data\\repositoryconcret\\setmenyuheaderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A08959E-F497-478C-8084-CE6E56386CED}|FinalProject.Core\\FinalProject.Core.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.core\\repositoryabstract\\isetmenyuheaderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A08959E-F497-478C-8084-CE6E56386CED}|FinalProject.Core\\FinalProject.Core.csproj|solutionrelative:finalproject.core\\repositoryabstract\\isetmenyuheaderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A08959E-F497-478C-8084-CE6E56386CED}|FinalProject.Core\\FinalProject.Core.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.core\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A08959E-F497-478C-8084-CE6E56386CED}|FinalProject.Core\\FinalProject.Core.csproj|solutionrelative:finalproject.core\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\areas\\admin\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\areas\\admin\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\areas\\admin\\views\\employee\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\areas\\admin\\views\\employee\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\areas\\admin\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\areas\\admin\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.business\\services\\abstarct\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|solutionrelative:finalproject.business\\services\\abstarct\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED3054F-B2A0-49BF-B417-4953EBBFEDE8}|FinalProject.Data\\FinalProject.Data.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.data\\repositoryconcret\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FED3054F-B2A0-49BF-B417-4953EBBFEDE8}|FinalProject.Data\\FinalProject.Data.csproj|solutionrelative:finalproject.data\\repositoryconcret\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A08959E-F497-478C-8084-CE6E56386CED}|FinalProject.Core\\FinalProject.Core.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.core\\repositoryabstract\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A08959E-F497-478C-8084-CE6E56386CED}|FinalProject.Core\\FinalProject.Core.csproj|solutionrelative:finalproject.core\\repositoryabstract\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A08959E-F497-478C-8084-CE6E56386CED}|FinalProject.Core\\FinalProject.Core.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.core\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A08959E-F497-478C-8084-CE6E56386CED}|FinalProject.Core\\FinalProject.Core.csproj|solutionrelative:finalproject.core\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.business\\dtos\\pizzamenyudtos\\pizzamenyucreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +325,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.business\\dtos\\pizzamenyudtos\\pizzamenyugetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|solutionrelative:finalproject.business\\dtos\\pizzamenyudtos\\pizzamenyugetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.business\\dtos\\aboutsliderdtos\\aboutslidergetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|solutionrelative:finalproject.business\\dtos\\aboutsliderdtos\\aboutslidergetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\areas\\admin\\views\\pizzamenyu\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -35,32 +339,12 @@
       "RelativeMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|solutionrelative:finalproject.business\\services\\concret\\pizzamenyuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\viewmodels\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\viewmodels\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\areas\\admin\\controllers\\tablecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\areas\\admin\\controllers\\tablecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\areas\\admin\\controllers\\aboutslidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\areas\\admin\\controllers\\aboutslidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\areas\\admin\\views\\pizzamenyu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -69,14 +353,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\areas\\admin\\views\\pizzamenyu\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\areas\\admin\\views\\pizzamenyu\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.business\\services\\concret\\sliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|solutionrelative:finalproject.business\\services\\concret\\sliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.business\\services\\abstarct\\ipizzamenyuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -99,48 +375,16 @@
       "RelativeMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|solutionrelative:finalproject.business\\dtos\\aboutsliderdtos\\aboutsliderupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FED3054F-B2A0-49BF-B417-4953EBBFEDE8}|FinalProject.Data\\FinalProject.Data.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.data\\configurations\\pizzamenyuconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FED3054F-B2A0-49BF-B417-4953EBBFEDE8}|FinalProject.Data\\FinalProject.Data.csproj|solutionrelative:finalproject.data\\configurations\\pizzamenyuconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2A08959E-F497-478C-8084-CE6E56386CED}|FinalProject.Core\\FinalProject.Core.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.core\\models\\pizzamenyu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A08959E-F497-478C-8084-CE6E56386CED}|FinalProject.Core\\FinalProject.Core.csproj|solutionrelative:finalproject.core\\models\\pizzamenyu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.business\\dtos\\aboutsliderdtos\\aboutslidercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|solutionrelative:finalproject.business\\dtos\\aboutsliderdtos\\aboutslidercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A08959E-F497-478C-8084-CE6E56386CED}|FinalProject.Core\\FinalProject.Core.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.core\\models\\aboutslider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A08959E-F497-478C-8084-CE6E56386CED}|FinalProject.Core\\FinalProject.Core.csproj|solutionrelative:finalproject.core\\models\\aboutslider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FED3054F-B2A0-49BF-B417-4953EBBFEDE8}|FinalProject.Data\\FinalProject.Data.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.data\\configurations\\aboutsliderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FED3054F-B2A0-49BF-B417-4953EBBFEDE8}|FinalProject.Data\\FinalProject.Data.csproj|solutionrelative:finalproject.data\\configurations\\aboutsliderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FED3054F-B2A0-49BF-B417-4953EBBFEDE8}|FinalProject.Data\\FinalProject.Data.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.data\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FED3054F-B2A0-49BF-B417-4953EBBFEDE8}|FinalProject.Data\\FinalProject.Data.csproj|solutionrelative:finalproject.data\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.business\\services\\concret\\aboutsliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|solutionrelative:finalproject.business\\services\\concret\\aboutsliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\areas\\admin\\views\\aboutslider\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\areas\\admin\\views\\aboutslider\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\areas\\admin\\views\\aboutslider\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\areas\\admin\\views\\aboutslider\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\areas\\admin\\views\\aboutslider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\areas\\admin\\views\\aboutslider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.business\\services\\abstarct\\iaboutsliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|solutionrelative:finalproject.business\\services\\abstarct\\iaboutsliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A08959E-F497-478C-8084-CE6E56386CED}|FinalProject.Core\\FinalProject.Core.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.core\\repositoryabstract\\iaboutsliderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -171,28 +415,12 @@
       "RelativeMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|solutionrelative:finalproject.business\\services\\abstarct\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FED3054F-B2A0-49BF-B417-4953EBBFEDE8}|FinalProject.Data\\FinalProject.Data.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.data\\repositoryconcret\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FED3054F-B2A0-49BF-B417-4953EBBFEDE8}|FinalProject.Data\\FinalProject.Data.csproj|solutionrelative:finalproject.data\\repositoryconcret\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2A08959E-F497-478C-8084-CE6E56386CED}|FinalProject.Core\\FinalProject.Core.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.core\\repositoryabstract\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A08959E-F497-478C-8084-CE6E56386CED}|FinalProject.Core\\FinalProject.Core.csproj|solutionrelative:finalproject.core\\repositoryabstract\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\views\\reservation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\reservation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.business\\services\\concret\\tableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|solutionrelative:finalproject.business\\services\\concret\\tableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A08959E-F497-478C-8084-CE6E56386CED}|FinalProject.Core\\FinalProject.Core.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.core\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A08959E-F497-478C-8084-CE6E56386CED}|FinalProject.Core\\FinalProject.Core.csproj|solutionrelative:finalproject.core\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FED3054F-B2A0-49BF-B417-4953EBBFEDE8}|FinalProject.Data\\FinalProject.Data.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.data\\configurations\\reservationconfugration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FED3054F-B2A0-49BF-B417-4953EBBFEDE8}|FinalProject.Data\\FinalProject.Data.csproj|solutionrelative:finalproject.data\\configurations\\reservationconfugration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.business\\services\\abstarct\\itableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -214,388 +442,414 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PizzaMenyuController.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Controllers\\PizzaMenyuController.cs",
-              "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Controllers\\PizzaMenyuController.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Controllers\\PizzaMenyuController.cs",
-              "RelativeToolTip": "FinalProject\\Areas\\Admin\\Controllers\\PizzaMenyuController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAiwBgAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T07:43:32.82Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\PizzaMenyu\\Create.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\PizzaMenyu\\Create.cshtml",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\PizzaMenyu\\Create.cshtml",
-              "RelativeToolTip": "FinalProject\\Areas\\Admin\\Views\\PizzaMenyu\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-30T07:48:47.963Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AboutSliderGetDTO.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\AboutSliderDTOs\\AboutSliderGetDTO.cs",
-              "RelativeDocumentMoniker": "FinalProject.Business\\DTOs\\AboutSliderDTOs\\AboutSliderGetDTO.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\AboutSliderDTOs\\AboutSliderGetDTO.cs",
-              "RelativeToolTip": "FinalProject.Business\\DTOs\\AboutSliderDTOs\\AboutSliderGetDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T20:19:03.022Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PizzaMenyuGetDTO.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\PizzaMenyuDTOs\\PizzaMenyuGetDTO.cs",
-              "RelativeDocumentMoniker": "FinalProject.Business\\DTOs\\PizzaMenyuDTOs\\PizzaMenyuGetDTO.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\PizzaMenyuDTOs\\PizzaMenyuGetDTO.cs",
-              "RelativeToolTip": "FinalProject.Business\\DTOs\\PizzaMenyuDTOs\\PizzaMenyuGetDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T07:20:25.078Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PizzaMenyuCreateDTO.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\PizzaMenyuDTOs\\PizzaMenyuCreateDTO.cs",
-              "RelativeDocumentMoniker": "FinalProject.Business\\DTOs\\PizzaMenyuDTOs\\PizzaMenyuCreateDTO.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\PizzaMenyuDTOs\\PizzaMenyuCreateDTO.cs",
-              "RelativeToolTip": "FinalProject.Business\\DTOs\\PizzaMenyuDTOs\\PizzaMenyuCreateDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBEAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T07:16:07.302Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Mapping\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "FinalProject.Business\\Mapping\\MappingProfile.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Mapping\\MappingProfile.cs",
-              "RelativeToolTip": "FinalProject.Business\\Mapping\\MappingProfile.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAAADkAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T17:50:34.051Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "FinalProject\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAHwAAAAAAAAAAAAAAIkAAAAHAAAA",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\AboutInfo\\Index.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\AboutInfo\\Index.cshtml",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\AboutInfo\\Index.cshtml",
+              "RelativeToolTip": "FinalProject\\Areas\\Admin\\Views\\AboutInfo\\Index.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAABoAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-30T06:46:22.079Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PizzaMenyuService.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Concret\\PizzaMenyuService.cs",
-              "RelativeDocumentMoniker": "FinalProject.Business\\Services\\Concret\\PizzaMenyuService.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Concret\\PizzaMenyuService.cs",
-              "RelativeToolTip": "FinalProject.Business\\Services\\Concret\\PizzaMenyuService.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAIwGEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T07:32:23.861Z",
+              "WhenOpened": "2024-06-30T19:25:03.281Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "FinalProject\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "FinalProject\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAuwBsAAAAJAAAA",
+              "Title": "AboutVM.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\ViewModels\\AboutVM.cs",
+              "RelativeDocumentMoniker": "FinalProject\\ViewModels\\AboutVM.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\ViewModels\\AboutVM.cs",
+              "RelativeToolTip": "FinalProject\\ViewModels\\AboutVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T06:53:02.537Z",
+              "WhenOpened": "2024-06-30T17:42:25.685Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "HomeVM.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\ViewModels\\HomeVM.cs",
-              "RelativeDocumentMoniker": "FinalProject\\ViewModels\\HomeVM.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\ViewModels\\HomeVM.cs",
-              "RelativeToolTip": "FinalProject\\ViewModels\\HomeVM.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAApwBsAAAAhAAAA",
+              "DocumentIndex": 7,
+              "Title": "AboutController.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Controllers\\AboutController.cs",
+              "RelativeDocumentMoniker": "FinalProject\\Controllers\\AboutController.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Controllers\\AboutController.cs",
+              "RelativeToolTip": "FinalProject\\Controllers\\AboutController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACMAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T06:45:37.946Z",
+              "WhenOpened": "2024-06-30T17:28:09Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "TableController.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Controllers\\TableController.cs",
-              "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Controllers\\TableController.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Controllers\\TableController.cs",
-              "RelativeToolTip": "FinalProject\\Areas\\Admin\\Controllers\\TableController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T07:57:27.774Z",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Views\\About\\Index.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Views\\About\\Index.cshtml",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Views\\About\\Index.cshtml",
+              "RelativeToolTip": "FinalProject\\Views\\About\\Index.cshtml",
+              "ViewState": "AQIAABEAAAAAAAAAAAAqwCIAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T17:28:22.031Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "FinalProject\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 6,
+              "Title": "AboutInfoService.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Concret\\AboutInfoService.cs",
+              "RelativeDocumentMoniker": "FinalProject.Business\\Services\\Concret\\AboutInfoService.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Concret\\AboutInfoService.cs",
+              "RelativeToolTip": "FinalProject.Business\\Services\\Concret\\AboutInfoService.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAowC8AAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T12:48:23.898Z",
+              "WhenOpened": "2024-06-30T19:13:57.884Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AboutSliderController.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Controllers\\AboutSliderController.cs",
-              "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Controllers\\AboutSliderController.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Controllers\\AboutSliderController.cs",
-              "RelativeToolTip": "FinalProject\\Areas\\Admin\\Controllers\\AboutSliderController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T05:29:28.345Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Program.cs",
               "RelativeDocumentMoniker": "FinalProject\\Program.cs",
               "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Program.cs",
               "RelativeToolTip": "FinalProject\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGEAAABQAAAA",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAqwHMAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-30T05:57:02.391Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\PizzaMenyu\\Index.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\PizzaMenyu\\Index.cshtml",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\PizzaMenyu\\Index.cshtml",
-              "RelativeToolTip": "FinalProject\\Areas\\Admin\\Views\\PizzaMenyu\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAwAAAA",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "FinalProject\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAAALcAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-30T07:43:45.479Z",
+              "WhenOpened": "2024-06-30T06:46:22.079Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Views\\Shop\\Index.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Views\\Shop\\Index.cshtml",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Views\\Shop\\Index.cshtml",
+              "RelativeToolTip": "FinalProject\\Views\\Shop\\Index.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAAkAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T18:10:06.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\AboutSlider\\Index.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\AboutSlider\\Index.cshtml",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\AboutSlider\\Index.cshtml",
+              "RelativeToolTip": "FinalProject\\Areas\\Admin\\Views\\AboutSlider\\Index.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAgwBcAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T05:42:50.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Update.cshtml",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\PizzaMenyu\\Update.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\PizzaMenyu\\Update.cshtml",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\PizzaMenyu\\Update.cshtml",
-              "RelativeToolTip": "FinalProject\\Areas\\Admin\\Views\\PizzaMenyu\\Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\AboutInfo\\Update.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\AboutInfo\\Update.cshtml",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\AboutInfo\\Update.cshtml",
+              "RelativeToolTip": "FinalProject\\Areas\\Admin\\Views\\AboutInfo\\Update.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-30T07:49:06.611Z",
+              "WhenOpened": "2024-06-30T19:25:34.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\AboutInfo\\Create.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\AboutInfo\\Create.cshtml",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\AboutInfo\\Create.cshtml",
+              "RelativeToolTip": "FinalProject\\Areas\\Admin\\Views\\AboutInfo\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T19:25:18.22Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "SliderController.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Controllers\\SliderController.cs",
-              "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Controllers\\SliderController.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Controllers\\SliderController.cs",
-              "RelativeToolTip": "FinalProject\\Areas\\Admin\\Controllers\\SliderController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T05:29:59.686Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\_ViewImports.cshtml",
               "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\_ViewImports.cshtml",
               "RelativeToolTip": "FinalProject\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAwAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-30T05:44:11.549Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "IPizzaMenyuService.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Abstarct\\IPizzaMenyuService.cs",
-              "RelativeDocumentMoniker": "FinalProject.Business\\Services\\Abstarct\\IPizzaMenyuService.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Abstarct\\IPizzaMenyuService.cs",
-              "RelativeToolTip": "FinalProject.Business\\Services\\Abstarct\\IPizzaMenyuService.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAqwBUAAABSAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T07:29:40.761Z",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\AboutSlider\\Create.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\AboutSlider\\Create.cshtml",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\AboutSlider\\Create.cshtml",
+              "RelativeToolTip": "FinalProject\\Areas\\Admin\\Views\\AboutSlider\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T05:43:11.953Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "PizzaMenyuRepository.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\RepositoryConcret\\PizzaMenyuRepository.cs",
-              "RelativeDocumentMoniker": "FinalProject.Data\\RepositoryConcret\\PizzaMenyuRepository.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\RepositoryConcret\\PizzaMenyuRepository.cs",
-              "RelativeToolTip": "FinalProject.Data\\RepositoryConcret\\PizzaMenyuRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAdAAAA",
+              "DocumentIndex": 13,
+              "Title": "AboutInfoController.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Controllers\\AboutInfoController.cs",
+              "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Controllers\\AboutInfoController.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Controllers\\AboutInfoController.cs",
+              "RelativeToolTip": "FinalProject\\Areas\\Admin\\Controllers\\AboutInfoController.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAAAFgAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T07:27:50.278Z",
+              "WhenOpened": "2024-06-30T19:21:22.848Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "IPizzaMenyuRepository.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\RepositoryAbstract\\IPizzaMenyuRepository.cs",
-              "RelativeDocumentMoniker": "FinalProject.Core\\RepositoryAbstract\\IPizzaMenyuRepository.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\RepositoryAbstract\\IPizzaMenyuRepository.cs",
-              "RelativeToolTip": "FinalProject.Core\\RepositoryAbstract\\IPizzaMenyuRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "DocumentIndex": 16,
+              "Title": "IAboutInfoService.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Abstarct\\IAboutInfoService.cs",
+              "RelativeDocumentMoniker": "FinalProject.Business\\Services\\Abstarct\\IAboutInfoService.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Abstarct\\IAboutInfoService.cs",
+              "RelativeToolTip": "FinalProject.Business\\Services\\Abstarct\\IAboutInfoService.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T07:26:44.74Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "PizzaMenyuUpdateDTO.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\PizzaMenyuDTOs\\PizzaMenyuUpdateDTO.cs",
-              "RelativeDocumentMoniker": "FinalProject.Business\\DTOs\\PizzaMenyuDTOs\\PizzaMenyuUpdateDTO.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\PizzaMenyuDTOs\\PizzaMenyuUpdateDTO.cs",
-              "RelativeToolTip": "FinalProject.Business\\DTOs\\PizzaMenyuDTOs\\PizzaMenyuUpdateDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T07:22:19.841Z",
+              "WhenOpened": "2024-06-30T19:12:00.12Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "SliderService.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Concret\\SliderService.cs",
-              "RelativeDocumentMoniker": "FinalProject.Business\\Services\\Concret\\SliderService.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Concret\\SliderService.cs",
-              "RelativeToolTip": "FinalProject.Business\\Services\\Concret\\SliderService.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAkwF8AAAACAAAA",
+              "Title": "AboutInfoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\RepositoryConcret\\AboutInfoRepository.cs",
+              "RelativeDocumentMoniker": "FinalProject.Data\\RepositoryConcret\\AboutInfoRepository.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\RepositoryConcret\\AboutInfoRepository.cs",
+              "RelativeToolTip": "FinalProject.Data\\RepositoryConcret\\AboutInfoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T20:48:52.684Z",
+              "WhenOpened": "2024-06-30T19:09:37.089Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IAboutInfoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\RepositoryAbstract\\IAboutInfoRepository.cs",
+              "RelativeDocumentMoniker": "FinalProject.Core\\RepositoryAbstract\\IAboutInfoRepository.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\RepositoryAbstract\\IAboutInfoRepository.cs",
+              "RelativeToolTip": "FinalProject.Core\\RepositoryAbstract\\IAboutInfoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T19:08:45.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AboutSliderController.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Controllers\\AboutSliderController.cs",
+              "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Controllers\\AboutSliderController.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Controllers\\AboutSliderController.cs",
+              "RelativeToolTip": "FinalProject\\Areas\\Admin\\Controllers\\AboutSliderController.cs",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAAAI0AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T05:29:28.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AboutInfoCreateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\AboutInfoDTOs\\AboutInfoCreateDTO.cs",
+              "RelativeDocumentMoniker": "FinalProject.Business\\DTOs\\AboutInfoDTOs\\AboutInfoCreateDTO.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\AboutInfoDTOs\\AboutInfoCreateDTO.cs",
+              "RelativeToolTip": "FinalProject.Business\\DTOs\\AboutInfoDTOs\\AboutInfoCreateDTO.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAA5wCMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T18:52:16.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AboutSliderService.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Concret\\AboutSliderService.cs",
+              "RelativeDocumentMoniker": "FinalProject.Business\\Services\\Concret\\AboutSliderService.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Concret\\AboutSliderService.cs",
+              "RelativeToolTip": "FinalProject.Business\\Services\\Concret\\AboutSliderService.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAAwHIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T20:39:39.086Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
-              "Title": "PizzaMenyuConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\Configurations\\PizzaMenyuConfiguration.cs",
-              "RelativeDocumentMoniker": "FinalProject.Data\\Configurations\\PizzaMenyuConfiguration.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\Configurations\\PizzaMenyuConfiguration.cs",
-              "RelativeToolTip": "FinalProject.Data\\Configurations\\PizzaMenyuConfiguration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Title": "AboutInfoUpdateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\AboutInfoDTOs\\AboutInfoUpdateDTO.cs",
+              "RelativeDocumentMoniker": "FinalProject.Business\\DTOs\\AboutInfoDTOs\\AboutInfoUpdateDTO.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\AboutInfoDTOs\\AboutInfoUpdateDTO.cs",
+              "RelativeToolTip": "FinalProject.Business\\DTOs\\AboutInfoDTOs\\AboutInfoUpdateDTO.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T07:06:07.976Z",
+              "WhenOpened": "2024-06-30T18:53:28.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IAboutSliderService.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Abstarct\\IAboutSliderService.cs",
+              "RelativeDocumentMoniker": "FinalProject.Business\\Services\\Abstarct\\IAboutSliderService.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Abstarct\\IAboutSliderService.cs",
+              "RelativeToolTip": "FinalProject.Business\\Services\\Abstarct\\IAboutSliderService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T20:31:10.786Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 25,
-              "Title": "PizzaMenyu.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\Models\\PizzaMenyu.cs",
-              "RelativeDocumentMoniker": "FinalProject.Core\\Models\\PizzaMenyu.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\Models\\PizzaMenyu.cs",
-              "RelativeToolTip": "FinalProject.Core\\Models\\PizzaMenyu.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAADAAAA",
+              "Title": "AboutInfoGetDTO.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\AboutInfoDTOs\\AboutInfoGetDTO.cs",
+              "RelativeDocumentMoniker": "FinalProject.Business\\DTOs\\AboutInfoDTOs\\AboutInfoGetDTO.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\AboutInfoDTOs\\AboutInfoGetDTO.cs",
+              "RelativeToolTip": "FinalProject.Business\\DTOs\\AboutInfoDTOs\\AboutInfoGetDTO.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T07:01:09.437Z",
+              "WhenOpened": "2024-06-30T18:53:07.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "FinalProject.Business\\Mapping\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "FinalProject.Business\\Mapping\\MappingProfile.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAAAEoAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T17:50:34.051Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
-              "Title": "AboutSliderUpdateDTO.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\AboutSliderDTOs\\AboutSliderUpdateDTO.cs",
-              "RelativeDocumentMoniker": "FinalProject.Business\\DTOs\\AboutSliderDTOs\\AboutSliderUpdateDTO.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\AboutSliderDTOs\\AboutSliderUpdateDTO.cs",
-              "RelativeToolTip": "FinalProject.Business\\DTOs\\AboutSliderDTOs\\AboutSliderUpdateDTO.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAuwBAAAAApAAAA",
+              "Title": "AboutInfo.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\Models\\AboutInfo.cs",
+              "RelativeDocumentMoniker": "FinalProject.Core\\Models\\AboutInfo.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\Models\\AboutInfo.cs",
+              "RelativeToolTip": "FinalProject.Core\\Models\\AboutInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T20:22:05.495Z",
+              "WhenOpened": "2024-06-30T18:45:35.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\DAL\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "FinalProject.Data\\DAL\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\DAL\\AppDbContext.cs",
+              "RelativeToolTip": "FinalProject.Data\\DAL\\AppDbContext.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAEQAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T20:02:10.53Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 26,
+              "Title": "AboutInfoConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\Configurations\\AboutInfoConfiguration.cs",
+              "RelativeDocumentMoniker": "FinalProject.Data\\Configurations\\AboutInfoConfiguration.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\Configurations\\AboutInfoConfiguration.cs",
+              "RelativeToolTip": "FinalProject.Data\\Configurations\\AboutInfoConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T18:48:46.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "AboutSliderCreateDTO.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\AboutSliderDTOs\\AboutSliderCreateDTO.cs",
               "RelativeDocumentMoniker": "FinalProject.Business\\DTOs\\AboutSliderDTOs\\AboutSliderCreateDTO.cs",
               "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\AboutSliderDTOs\\AboutSliderCreateDTO.cs",
               "RelativeToolTip": "FinalProject.Business\\DTOs\\AboutSliderDTOs\\AboutSliderCreateDTO.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAgwCYAAAA+AAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAA7wB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-29T20:12:47.438Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "AboutSlider.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\Models\\AboutSlider.cs",
-              "RelativeDocumentMoniker": "FinalProject.Core\\Models\\AboutSlider.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\Models\\AboutSlider.cs",
-              "RelativeToolTip": "FinalProject.Core\\Models\\AboutSlider.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T19:57:11.894Z",
+              "DocumentIndex": 29,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Views\\Contact\\Index.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Views\\Contact\\Index.cshtml",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Views\\Contact\\Index.cshtml",
+              "RelativeToolTip": "FinalProject\\Views\\Contact\\Index.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACYAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T18:23:57.092Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 30,
-              "Title": "AboutSliderService.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Concret\\AboutSliderService.cs",
-              "RelativeDocumentMoniker": "FinalProject.Business\\Services\\Concret\\AboutSliderService.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Concret\\AboutSliderService.cs",
-              "RelativeToolTip": "FinalProject.Business\\Services\\Concret\\AboutSliderService.cs",
-              "ViewState": "AQIAAE8AAAAAAAAAAAAAwGUAAABrAAAA",
+              "Title": "ShopController.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Controllers\\ShopController.cs",
+              "RelativeDocumentMoniker": "FinalProject\\Controllers\\ShopController.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Controllers\\ShopController.cs",
+              "RelativeToolTip": "FinalProject\\Controllers\\ShopController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T20:39:39.086Z",
+              "WhenOpened": "2024-06-30T18:13:18.345Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CategoryFilter.cshtml",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Views\\Shop\\CategoryFilter.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Views\\Shop\\CategoryFilter.cshtml",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Views\\Shop\\CategoryFilter.cshtml",
+              "RelativeToolTip": "FinalProject\\Views\\Shop\\CategoryFilter.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T18:10:33.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
@@ -605,14 +859,772 @@
               "RelativeDocumentMoniker": "FinalProject.Data\\Configurations\\AboutSliderConfiguration.cs",
               "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\Configurations\\AboutSliderConfiguration.cs",
               "RelativeToolTip": "FinalProject.Data\\Configurations\\AboutSliderConfiguration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABUAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-29T20:03:55.312Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Team.cshtml",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Views\\About\\Team.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Views\\About\\Team.cshtml",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Views\\About\\Team.cshtml",
+              "RelativeToolTip": "FinalProject\\Views\\About\\Team.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T17:39:20.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 31,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FinalProject\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAFIAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T17:36:18.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "FinalProject\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "FinalProject\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAACkAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T06:53:02.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "HomeVM.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\ViewModels\\HomeVM.cs",
+              "RelativeDocumentMoniker": "FinalProject\\ViewModels\\HomeVM.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\ViewModels\\HomeVM.cs",
+              "RelativeToolTip": "FinalProject\\ViewModels\\HomeVM.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T06:45:37.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "KomboMenyuController.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Controllers\\KomboMenyuController.cs",
+              "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Controllers\\KomboMenyuController.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Controllers\\KomboMenyuController.cs",
+              "RelativeToolTip": "FinalProject\\Areas\\Admin\\Controllers\\KomboMenyuController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAcwBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T16:58:37.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\KomboMenyu\\Update.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\KomboMenyu\\Update.cshtml",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\KomboMenyu\\Update.cshtml",
+              "RelativeToolTip": "FinalProject\\Areas\\Admin\\Views\\KomboMenyu\\Update.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T17:08:01.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\KomboMenyu\\Create.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\KomboMenyu\\Create.cshtml",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\KomboMenyu\\Create.cshtml",
+              "RelativeToolTip": "FinalProject\\Areas\\Admin\\Views\\KomboMenyu\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T17:07:38.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\KomboMenyu\\Index.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\KomboMenyu\\Index.cshtml",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\KomboMenyu\\Index.cshtml",
+              "RelativeToolTip": "FinalProject\\Areas\\Admin\\Views\\KomboMenyu\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACIAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T17:07:26.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "KomboMenyuService.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Concret\\KomboMenyuService.cs",
+              "RelativeDocumentMoniker": "FinalProject.Business\\Services\\Concret\\KomboMenyuService.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Concret\\KomboMenyuService.cs",
+              "RelativeToolTip": "FinalProject.Business\\Services\\Concret\\KomboMenyuService.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAAwDoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T16:45:30.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IKomboMenyuService.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Abstarct\\IKomboMenyuService.cs",
+              "RelativeDocumentMoniker": "FinalProject.Business\\Services\\Abstarct\\IKomboMenyuService.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Abstarct\\IKomboMenyuService.cs",
+              "RelativeToolTip": "FinalProject.Business\\Services\\Abstarct\\IKomboMenyuService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBQAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T16:37:50.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "KomboMenyuRepository.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\RepositoryConcret\\KomboMenyuRepository.cs",
+              "RelativeDocumentMoniker": "FinalProject.Data\\RepositoryConcret\\KomboMenyuRepository.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\RepositoryConcret\\KomboMenyuRepository.cs",
+              "RelativeToolTip": "FinalProject.Data\\RepositoryConcret\\KomboMenyuRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T16:36:15.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IKomboMenyuRepository.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\RepositoryAbstract\\IKomboMenyuRepository.cs",
+              "RelativeDocumentMoniker": "FinalProject.Core\\RepositoryAbstract\\IKomboMenyuRepository.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\RepositoryAbstract\\IKomboMenyuRepository.cs",
+              "RelativeToolTip": "FinalProject.Core\\RepositoryAbstract\\IKomboMenyuRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T16:34:22.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "KomboMenyu.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\Models\\KomboMenyu.cs",
+              "RelativeDocumentMoniker": "FinalProject.Core\\Models\\KomboMenyu.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\Models\\KomboMenyu.cs",
+              "RelativeToolTip": "FinalProject.Core\\Models\\KomboMenyu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T16:31:06.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Concret\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "FinalProject.Business\\Services\\Concret\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Concret\\EmployeeService.cs",
+              "RelativeToolTip": "FinalProject.Business\\Services\\Concret\\EmployeeService.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAEkAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T12:28:55.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\SetMenyuHeader\\Create.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\SetMenyuHeader\\Create.cshtml",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\SetMenyuHeader\\Create.cshtml",
+              "RelativeToolTip": "FinalProject\\Areas\\Admin\\Views\\SetMenyuHeader\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T14:56:52.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\SetMenyuHeader\\Index.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\SetMenyuHeader\\Index.cshtml",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\SetMenyuHeader\\Index.cshtml",
+              "RelativeToolTip": "FinalProject\\Areas\\Admin\\Views\\SetMenyuHeader\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T14:57:00.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\SetMenyuHeader\\Update.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\SetMenyuHeader\\Update.cshtml",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\SetMenyuHeader\\Update.cshtml",
+              "RelativeToolTip": "FinalProject\\Areas\\Admin\\Views\\SetMenyuHeader\\Update.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T14:57:15.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "SetMenyuHeaderController.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Controllers\\SetMenyuHeaderController.cs",
+              "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Controllers\\SetMenyuHeaderController.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Controllers\\SetMenyuHeaderController.cs",
+              "RelativeToolTip": "FinalProject\\Areas\\Admin\\Controllers\\SetMenyuHeaderController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEQAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T14:53:18.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ISetMenyuHeaderService.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Abstarct\\ISetMenyuHeaderService.cs",
+              "RelativeDocumentMoniker": "FinalProject.Business\\Services\\Abstarct\\ISetMenyuHeaderService.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Abstarct\\ISetMenyuHeaderService.cs",
+              "RelativeToolTip": "FinalProject.Business\\Services\\Abstarct\\ISetMenyuHeaderService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T14:33:46.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "SetMenyuHeaderService.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Concret\\SetMenyuHeaderService.cs",
+              "RelativeDocumentMoniker": "FinalProject.Business\\Services\\Concret\\SetMenyuHeaderService.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Concret\\SetMenyuHeaderService.cs",
+              "RelativeToolTip": "FinalProject.Business\\Services\\Concret\\SetMenyuHeaderService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T14:36:00.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "SetMenyuHeaderGetDTO.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\SetMenyuHeaderDTOs\\SetMenyuHeaderGetDTO.cs",
+              "RelativeDocumentMoniker": "FinalProject.Business\\DTOs\\SetMenyuHeaderDTOs\\SetMenyuHeaderGetDTO.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\SetMenyuHeaderDTOs\\SetMenyuHeaderGetDTO.cs",
+              "RelativeToolTip": "FinalProject.Business\\DTOs\\SetMenyuHeaderDTOs\\SetMenyuHeaderGetDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T14:26:29.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "SetMenyuHeaderUpdateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\SetMenyuHeaderDTOs\\SetMenyuHeaderUpdateDTO.cs",
+              "RelativeDocumentMoniker": "FinalProject.Business\\DTOs\\SetMenyuHeaderDTOs\\SetMenyuHeaderUpdateDTO.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\SetMenyuHeaderDTOs\\SetMenyuHeaderUpdateDTO.cs",
+              "RelativeToolTip": "FinalProject.Business\\DTOs\\SetMenyuHeaderDTOs\\SetMenyuHeaderUpdateDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T14:27:59.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "SetMenyuHeaderCreateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\SetMenyuHeaderDTOs\\SetMenyuHeaderCreateDTO.cs",
+              "RelativeDocumentMoniker": "FinalProject.Business\\DTOs\\SetMenyuHeaderDTOs\\SetMenyuHeaderCreateDTO.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\SetMenyuHeaderDTOs\\SetMenyuHeaderCreateDTO.cs",
+              "RelativeToolTip": "FinalProject.Business\\DTOs\\SetMenyuHeaderDTOs\\SetMenyuHeaderCreateDTO.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T14:24:13.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "EmployeeUpdateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\EmployeeDTOs\\EmployeeUpdateDTO.cs",
+              "RelativeDocumentMoniker": "FinalProject.Business\\DTOs\\EmployeeDTOs\\EmployeeUpdateDTO.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\EmployeeDTOs\\EmployeeUpdateDTO.cs",
+              "RelativeToolTip": "FinalProject.Business\\DTOs\\EmployeeDTOs\\EmployeeUpdateDTO.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwA0AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T12:19:08.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "EmployeeGetDTO.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\EmployeeDTOs\\EmployeeGetDTO.cs",
+              "RelativeDocumentMoniker": "FinalProject.Business\\DTOs\\EmployeeDTOs\\EmployeeGetDTO.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\EmployeeDTOs\\EmployeeGetDTO.cs",
+              "RelativeToolTip": "FinalProject.Business\\DTOs\\EmployeeDTOs\\EmployeeGetDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBAAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T12:17:41.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "EmployeeCreateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\EmployeeDTOs\\EmployeeCreateDTO.cs",
+              "RelativeDocumentMoniker": "FinalProject.Business\\DTOs\\EmployeeDTOs\\EmployeeCreateDTO.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\EmployeeDTOs\\EmployeeCreateDTO.cs",
+              "RelativeToolTip": "FinalProject.Business\\DTOs\\EmployeeDTOs\\EmployeeCreateDTO.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T12:13:47.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "AboutSliderGetDTO.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\AboutSliderDTOs\\AboutSliderGetDTO.cs",
+              "RelativeDocumentMoniker": "FinalProject.Business\\DTOs\\AboutSliderDTOs\\AboutSliderGetDTO.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\AboutSliderDTOs\\AboutSliderGetDTO.cs",
+              "RelativeToolTip": "FinalProject.Business\\DTOs\\AboutSliderDTOs\\AboutSliderGetDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T20:19:03.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "SetMenyuHeader.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\Models\\SetMenyuHeader.cs",
+              "RelativeDocumentMoniker": "FinalProject.Core\\Models\\SetMenyuHeader.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\Models\\SetMenyuHeader.cs",
+              "RelativeToolTip": "FinalProject.Core\\Models\\SetMenyuHeader.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T14:15:31.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "SetMenyuHeadersConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\Configurations\\SetMenyuHeadersConfiguration.cs",
+              "RelativeDocumentMoniker": "FinalProject.Data\\Configurations\\SetMenyuHeadersConfiguration.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\Configurations\\SetMenyuHeadersConfiguration.cs",
+              "RelativeToolTip": "FinalProject.Data\\Configurations\\SetMenyuHeadersConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T14:18:42.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\RepositoryConcret\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "FinalProject.Data\\RepositoryConcret\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\RepositoryConcret\\GenericRepository.cs",
+              "RelativeToolTip": "FinalProject.Data\\RepositoryConcret\\GenericRepository.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAnwEoAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T12:58:56.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "ReservationConfugration.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\Configurations\\ReservationConfugration.cs",
+              "RelativeDocumentMoniker": "FinalProject.Data\\Configurations\\ReservationConfugration.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\Configurations\\ReservationConfugration.cs",
+              "RelativeToolTip": "FinalProject.Data\\Configurations\\ReservationConfugration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T13:43:25.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "PizzaMenyuConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\Configurations\\PizzaMenyuConfiguration.cs",
+              "RelativeDocumentMoniker": "FinalProject.Data\\Configurations\\PizzaMenyuConfiguration.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\Configurations\\PizzaMenyuConfiguration.cs",
+              "RelativeToolTip": "FinalProject.Data\\Configurations\\PizzaMenyuConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T07:06:07.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "EmployeeConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\Configurations\\EmployeeConfiguration.cs",
+              "RelativeDocumentMoniker": "FinalProject.Data\\Configurations\\EmployeeConfiguration.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\Configurations\\EmployeeConfiguration.cs",
+              "RelativeToolTip": "FinalProject.Data\\Configurations\\EmployeeConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T12:07:34.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "FinalProject\\Areas\\Admin\\Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T12:42:12.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "SetMenyuHeaderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\RepositoryConcret\\SetMenyuHeaderRepository.cs",
+              "RelativeDocumentMoniker": "FinalProject.Data\\RepositoryConcret\\SetMenyuHeaderRepository.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\RepositoryConcret\\SetMenyuHeaderRepository.cs",
+              "RelativeToolTip": "FinalProject.Data\\RepositoryConcret\\SetMenyuHeaderRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T14:32:11.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "SliderController.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Controllers\\SliderController.cs",
+              "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Controllers\\SliderController.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Controllers\\SliderController.cs",
+              "RelativeToolTip": "FinalProject\\Areas\\Admin\\Controllers\\SliderController.cs",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAAAIMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T05:29:59.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "ISetMenyuHeaderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\RepositoryAbstract\\ISetMenyuHeaderRepository.cs",
+              "RelativeDocumentMoniker": "FinalProject.Core\\RepositoryAbstract\\ISetMenyuHeaderRepository.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\RepositoryAbstract\\ISetMenyuHeaderRepository.cs",
+              "RelativeToolTip": "FinalProject.Core\\RepositoryAbstract\\ISetMenyuHeaderRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T14:31:09.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "SliderService.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Concret\\SliderService.cs",
+              "RelativeDocumentMoniker": "FinalProject.Business\\Services\\Concret\\SliderService.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Concret\\SliderService.cs",
+              "RelativeToolTip": "FinalProject.Business\\Services\\Concret\\SliderService.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAkwF4AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T20:48:52.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "TableService.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Concret\\TableService.cs",
+              "RelativeDocumentMoniker": "FinalProject.Business\\Services\\Concret\\TableService.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Concret\\TableService.cs",
+              "RelativeToolTip": "FinalProject.Business\\Services\\Concret\\TableService.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAgwE0AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T12:57:10.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\Employee\\Index.cshtml",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\Employee\\Index.cshtml",
+              "RelativeToolTip": "FinalProject\\Areas\\Admin\\Views\\Employee\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T12:57:00.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\Models\\Reservation.cs",
+              "RelativeDocumentMoniker": "FinalProject.Core\\Models\\Reservation.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\Models\\Reservation.cs",
+              "RelativeToolTip": "FinalProject.Core\\Models\\Reservation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T15:10:08.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\Employee\\Update.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\Employee\\Update.cshtml",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\Employee\\Update.cshtml",
+              "RelativeToolTip": "FinalProject\\Areas\\Admin\\Views\\Employee\\Update.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T12:57:26.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\Employee\\Create.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\Employee\\Create.cshtml",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\Employee\\Create.cshtml",
+              "RelativeToolTip": "FinalProject\\Areas\\Admin\\Views\\Employee\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T12:57:12.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Abstarct\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "FinalProject.Business\\Services\\Abstarct\\IEmployeeService.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Abstarct\\IEmployeeService.cs",
+              "RelativeToolTip": "FinalProject.Business\\Services\\Abstarct\\IEmployeeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T12:27:08.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\RepositoryConcret\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "FinalProject.Data\\RepositoryConcret\\EmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\RepositoryConcret\\EmployeeRepository.cs",
+              "RelativeToolTip": "FinalProject.Data\\RepositoryConcret\\EmployeeRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T12:24:19.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\RepositoryAbstract\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "FinalProject.Core\\RepositoryAbstract\\IEmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\RepositoryAbstract\\IEmployeeRepository.cs",
+              "RelativeToolTip": "FinalProject.Core\\RepositoryAbstract\\IEmployeeRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T12:23:31.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "FinalProject.Core\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\Models\\Employee.cs",
+              "RelativeToolTip": "FinalProject.Core\\Models\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T08:43:42.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "PizzaMenyuGetDTO.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\PizzaMenyuDTOs\\PizzaMenyuGetDTO.cs",
+              "RelativeDocumentMoniker": "FinalProject.Business\\DTOs\\PizzaMenyuDTOs\\PizzaMenyuGetDTO.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\PizzaMenyuDTOs\\PizzaMenyuGetDTO.cs",
+              "RelativeToolTip": "FinalProject.Business\\DTOs\\PizzaMenyuDTOs\\PizzaMenyuGetDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T07:20:25.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "PizzaMenyuCreateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\PizzaMenyuDTOs\\PizzaMenyuCreateDTO.cs",
+              "RelativeDocumentMoniker": "FinalProject.Business\\DTOs\\PizzaMenyuDTOs\\PizzaMenyuCreateDTO.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\PizzaMenyuDTOs\\PizzaMenyuCreateDTO.cs",
+              "RelativeToolTip": "FinalProject.Business\\DTOs\\PizzaMenyuDTOs\\PizzaMenyuCreateDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBEAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T07:16:07.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\PizzaMenyu\\Create.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\PizzaMenyu\\Create.cshtml",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\PizzaMenyu\\Create.cshtml",
+              "RelativeToolTip": "FinalProject\\Areas\\Admin\\Views\\PizzaMenyu\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T07:48:47.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "PizzaMenyuController.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Controllers\\PizzaMenyuController.cs",
+              "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Controllers\\PizzaMenyuController.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Controllers\\PizzaMenyuController.cs",
+              "RelativeToolTip": "FinalProject\\Areas\\Admin\\Controllers\\PizzaMenyuController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAiwBgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T07:43:32.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "PizzaMenyuService.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Concret\\PizzaMenyuService.cs",
+              "RelativeDocumentMoniker": "FinalProject.Business\\Services\\Concret\\PizzaMenyuService.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Concret\\PizzaMenyuService.cs",
+              "RelativeToolTip": "FinalProject.Business\\Services\\Concret\\PizzaMenyuService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAIwGEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T07:32:23.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "TableController.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Controllers\\TableController.cs",
+              "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Controllers\\TableController.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Controllers\\TableController.cs",
+              "RelativeToolTip": "FinalProject\\Areas\\Admin\\Controllers\\TableController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T07:57:27.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "FinalProject\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T12:48:23.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\PizzaMenyu\\Index.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\PizzaMenyu\\Index.cshtml",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\PizzaMenyu\\Index.cshtml",
+              "RelativeToolTip": "FinalProject\\Areas\\Admin\\Views\\PizzaMenyu\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T07:43:45.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\PizzaMenyu\\Update.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\PizzaMenyu\\Update.cshtml",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\PizzaMenyu\\Update.cshtml",
+              "RelativeToolTip": "FinalProject\\Areas\\Admin\\Views\\PizzaMenyu\\Update.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T07:49:06.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "IPizzaMenyuService.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Abstarct\\IPizzaMenyuService.cs",
+              "RelativeDocumentMoniker": "FinalProject.Business\\Services\\Abstarct\\IPizzaMenyuService.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Abstarct\\IPizzaMenyuService.cs",
+              "RelativeToolTip": "FinalProject.Business\\Services\\Abstarct\\IPizzaMenyuService.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAqwBUAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T07:29:40.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "PizzaMenyuRepository.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\RepositoryConcret\\PizzaMenyuRepository.cs",
+              "RelativeDocumentMoniker": "FinalProject.Data\\RepositoryConcret\\PizzaMenyuRepository.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\RepositoryConcret\\PizzaMenyuRepository.cs",
+              "RelativeToolTip": "FinalProject.Data\\RepositoryConcret\\PizzaMenyuRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T07:27:50.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "IPizzaMenyuRepository.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\RepositoryAbstract\\IPizzaMenyuRepository.cs",
+              "RelativeDocumentMoniker": "FinalProject.Core\\RepositoryAbstract\\IPizzaMenyuRepository.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\RepositoryAbstract\\IPizzaMenyuRepository.cs",
+              "RelativeToolTip": "FinalProject.Core\\RepositoryAbstract\\IPizzaMenyuRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T07:26:44.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "PizzaMenyuUpdateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\PizzaMenyuDTOs\\PizzaMenyuUpdateDTO.cs",
+              "RelativeDocumentMoniker": "FinalProject.Business\\DTOs\\PizzaMenyuDTOs\\PizzaMenyuUpdateDTO.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\PizzaMenyuDTOs\\PizzaMenyuUpdateDTO.cs",
+              "RelativeToolTip": "FinalProject.Business\\DTOs\\PizzaMenyuDTOs\\PizzaMenyuUpdateDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T07:22:19.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "PizzaMenyu.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\Models\\PizzaMenyu.cs",
+              "RelativeDocumentMoniker": "FinalProject.Core\\Models\\PizzaMenyu.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\Models\\PizzaMenyu.cs",
+              "RelativeToolTip": "FinalProject.Core\\Models\\PizzaMenyu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T07:01:09.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "AboutSliderUpdateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\AboutSliderDTOs\\AboutSliderUpdateDTO.cs",
+              "RelativeDocumentMoniker": "FinalProject.Business\\DTOs\\AboutSliderDTOs\\AboutSliderUpdateDTO.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\AboutSliderDTOs\\AboutSliderUpdateDTO.cs",
+              "RelativeToolTip": "FinalProject.Business\\DTOs\\AboutSliderDTOs\\AboutSliderUpdateDTO.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAuwBAAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T20:22:05.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "AboutSlider.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\Models\\AboutSlider.cs",
+              "RelativeDocumentMoniker": "FinalProject.Core\\Models\\AboutSlider.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\Models\\AboutSlider.cs",
+              "RelativeToolTip": "FinalProject.Core\\Models\\AboutSlider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T19:57:11.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\AboutSlider\\Update.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\AboutSlider\\Update.cshtml",
@@ -620,63 +1632,11 @@
               "RelativeToolTip": "FinalProject\\Areas\\Admin\\Views\\AboutSlider\\Update.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-30T05:43:30.729Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-30T05:43:30.729Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\DAL\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "FinalProject.Data\\DAL\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\DAL\\AppDbContext.cs",
-              "RelativeToolTip": "FinalProject.Data\\DAL\\AppDbContext.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAwwCwAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T20:02:10.53Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\AboutSlider\\Create.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\AboutSlider\\Create.cshtml",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\AboutSlider\\Create.cshtml",
-              "RelativeToolTip": "FinalProject\\Areas\\Admin\\Views\\AboutSlider\\Create.cshtml",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAABAAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-30T05:43:11.953Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\AboutSlider\\Index.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\AboutSlider\\Index.cshtml",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\AboutSlider\\Index.cshtml",
-              "RelativeToolTip": "FinalProject\\Areas\\Admin\\Views\\AboutSlider\\Index.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACEAAABQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-30T05:42:50.008Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "IAboutSliderService.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Abstarct\\IAboutSliderService.cs",
-              "RelativeDocumentMoniker": "FinalProject.Business\\Services\\Abstarct\\IAboutSliderService.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Abstarct\\IAboutSliderService.cs",
-              "RelativeToolTip": "FinalProject.Business\\Services\\Abstarct\\IAboutSliderService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T20:31:10.786Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 96,
               "Title": "IAboutSliderRepository.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\RepositoryAbstract\\IAboutSliderRepository.cs",
               "RelativeDocumentMoniker": "FinalProject.Core\\RepositoryAbstract\\IAboutSliderRepository.cs",
@@ -688,7 +1648,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 97,
               "Title": "AboutSliderRepository.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\RepositoryConcret\\AboutSliderRepository.cs",
               "RelativeDocumentMoniker": "FinalProject.Data\\RepositoryConcret\\AboutSliderRepository.cs",
@@ -700,7 +1660,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 98,
               "Title": "ReservationCreateDTO.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\ReservationDTOs\\ReservationCreateDTO.cs",
               "RelativeDocumentMoniker": "FinalProject.Business\\DTOs\\ReservationDTOs\\ReservationCreateDTO.cs",
@@ -712,7 +1672,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 99,
               "Title": "ResservationVM.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\ViewModels\\ResservationVM.cs",
               "RelativeDocumentMoniker": "FinalProject\\ViewModels\\ResservationVM.cs",
@@ -724,7 +1684,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 100,
               "Title": "ReservationController.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Controllers\\ReservationController.cs",
               "RelativeDocumentMoniker": "FinalProject\\Controllers\\ReservationController.cs",
@@ -737,7 +1697,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 101,
               "Title": "ReservationService.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Concret\\ReservationService.cs",
               "RelativeDocumentMoniker": "FinalProject.Business\\Services\\Concret\\ReservationService.cs",
@@ -749,19 +1709,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\RepositoryConcret\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "FinalProject.Data\\RepositoryConcret\\GenericRepository.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\RepositoryConcret\\GenericRepository.cs",
-              "RelativeToolTip": "FinalProject.Data\\RepositoryConcret\\GenericRepository.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAAD4v1AAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T12:58:56.465Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 103,
               "Title": "IGenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\RepositoryAbstract\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "FinalProject.Core\\RepositoryAbstract\\IGenericRepository.cs",
@@ -773,7 +1721,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 102,
               "Title": "IReservationService.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Abstarct\\IReservationService.cs",
               "RelativeDocumentMoniker": "FinalProject.Business\\Services\\Abstarct\\IReservationService.cs",
@@ -785,7 +1733,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 104,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Views\\Reservation\\Index.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\Reservation\\Index.cshtml",
@@ -797,43 +1745,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "TableService.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Concret\\TableService.cs",
-              "RelativeDocumentMoniker": "FinalProject.Business\\Services\\Concret\\TableService.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Concret\\TableService.cs",
-              "RelativeToolTip": "FinalProject.Business\\Services\\Concret\\TableService.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAgwE0AAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T12:57:10.726Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "Reservation.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\Models\\Reservation.cs",
-              "RelativeDocumentMoniker": "FinalProject.Core\\Models\\Reservation.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\Models\\Reservation.cs",
-              "RelativeToolTip": "FinalProject.Core\\Models\\Reservation.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T15:10:08.442Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "ReservationConfugration.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\Configurations\\ReservationConfugration.cs",
-              "RelativeDocumentMoniker": "FinalProject.Data\\Configurations\\ReservationConfugration.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\Configurations\\ReservationConfugration.cs",
-              "RelativeToolTip": "FinalProject.Data\\Configurations\\ReservationConfugration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T13:43:25.187Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 105,
               "Title": "ITableService.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Abstarct\\ITableService.cs",
               "RelativeDocumentMoniker": "FinalProject.Business\\Services\\Abstarct\\ITableService.cs",
@@ -845,7 +1757,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 107,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "FinalProject\\Controllers\\ProductController.cs",
@@ -857,7 +1769,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 106,
               "Title": "TableCreateDTO.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\TableDTOs\\TableCreateDTO.cs",
               "RelativeDocumentMoniker": "FinalProject.Business\\DTOs\\TableDTOs\\TableCreateDTO.cs",

@@ -1,8 +1,11 @@
+using FinalProject.Business.DTOs.AboutInfoDTOs;
 using FinalProject.Business.DTOs.CategoryDTOs;
+using FinalProject.Business.DTOs.EmployeeDTOs;
 using FinalProject.Business.DTOs.FlavourDTOs;
 using FinalProject.Business.DTOs.PizzaMenyuDTOs;
 using FinalProject.Business.DTOs.ProductDTOs;
 using FinalProject.Business.DTOs.ReservationDTOs;
+using FinalProject.Business.DTOs.SetMenyuHeaderDTOs;
 using FinalProject.Business.DTOs.SizeDTOs;
 using FinalProject.Business.DTOs.SliderDTOs;
 using FinalProject.Business.DTOs.TableDTOs;
@@ -39,7 +42,10 @@ namespace FinalProject
 				x.RegisterValidatorsFromAssemblyContaining(typeof(SliderCreateDTOValidator));
                 x.RegisterValidatorsFromAssemblyContaining(typeof(AboutSliderCreateDTOValidator));
                 x.RegisterValidatorsFromAssemblyContaining(typeof(PizzaMenyuCreateDTOValidator));
-            });
+				x.RegisterValidatorsFromAssemblyContaining(typeof(EmployeeCreateDTOValidator));
+				x.RegisterValidatorsFromAssemblyContaining(typeof(SetMenyuHeaderCreateDTOValidator));
+				x.RegisterValidatorsFromAssemblyContaining(typeof(AboutInfoCreateDTOValidator));
+			});
             builder.Services.AddAutoMapper(typeof(MappingProfile).Assembly);
 
             builder.Services.AddDbContext<AppDbContext>(options =>
@@ -96,6 +102,18 @@ namespace FinalProject
 
             builder.Services.AddScoped<IPizzaMenyuRepository, PizzaMenyuRepository>();
             builder.Services.AddScoped<IPizzaMenyuService, PizzaMenyuService>();
+
+            builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+            builder.Services.AddScoped<IEmployeeService, EmployeeService>();
+
+            builder.Services.AddScoped<ISetMenyuHeaderService, SetMenyuHeaderService>();
+            builder.Services.AddScoped<ISetMenyuHeaderRepository, SetMenyuHeaderRepository>();
+
+            builder.Services.AddScoped<IKomboMenyuRepository, KomboMenyuRepository>();
+            builder.Services.AddScoped<IKomboMenyuService, KomboMenyuService>();
+
+            builder.Services.AddScoped<IAboutInfoRepository, AboutInfoRepository>();
+            builder.Services.AddScoped<IAboutInfoService, AboutInfoService>();
 
             builder.Services.AddSession();
 

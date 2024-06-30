@@ -1,0 +1,179 @@
+﻿@model AboutVM
+    <!-- End Main Header -->
+	
+	<!-- Page Title Section -->
+    <section class="page-title-section" style="background-image: url(/images/background/5.jpg)">
+		<div class="auto-container">
+			<h1>Chef Pizza</h1>
+			<div class="content">
+				<h3>About </h3>
+				<ul class="bread-crumbs">
+					<li><a asp-action="Index" asp-controller="Home">Home</a></li>
+					<li>About Us</li>
+				</ul>
+			</div>
+        </div>
+	</section>
+	<!-- End Page Title Section -->
+	
+	<!-- About Section -->
+    <section class="about-section">
+		<div class="auto-container">
+			<div class="row clearfix">
+			
+				<!-- Content Column -->
+			@foreach(var item in Model.AboutInfo)
+			{
+				<div class="content-column col-lg-6 col-md-12 col-sm-12">
+					<div class="inner-column">
+						<div class="title-box">
+							<h3>@item.Title</h3>
+							
+						</div>
+						<p>@item.Description</p>
+					</div>
+				</div>
+
+				<!-- Image Column -->
+				<div class="image-column col-lg-6 col-md-12 col-sm-12">
+					<div class="inner-column">
+						<div class="image">
+							<img src="~/uploads/aboutinfos/@item.ImageUrl" alt="" />
+						</div>
+						<div class="image-two">
+							<img src="~/uploads/aboutinfos/@item.FonUrl" alt="" />
+						</div>
+					</div>
+				</div>
+			}
+				
+			</div>
+		</div>
+	</section>
+	<!-- End About Section -->
+	
+	<!-- Deal Section -->
+    <section class="deal-section">
+		<div class="image-layer" style="background-image: url(/images/background/1.jpg)"></div>
+		<!-- Upper Box -->
+	<div class="upper-box">
+		<div class="auto-container">
+			<div class="content">
+				<div class="menu-icon"><img src="~/uploads/aboutsliders/@Model.AboutSlider.ImageUrl" width="250px" height="250px" alt="" /></div>
+				<div class="icon"><img src="~/uploads/aboutsliders/@Model.AboutSlider.IconUrl" width="100px" height="100px" alt="" /></div>
+				<h2>@Model.AboutSlider.Title</h2>
+				<div class="bold-text">@Model.AboutSlider.Text</div>
+				<div class="text">@Model.AboutSlider.Text</div>
+				<div class="btn-box">
+					<a class="theme-btn btn-style-one" asp-action="Index" asp-controller="About"><span class="txt">@Model.AboutSlider.RedirectUrl</span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+		<!-- End Upper Box -->
+		
+		<!-- Lower Box -->
+		<div class="lower-box">
+			<div class="auto-container">
+				<div class="row clearfix">
+
+				@foreach (var item in Model.PizzasMenyu)
+				{
+					<!-- Service Block -->
+					<div class="service-block col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box" style="background-image: url(~/uploads/pizzas/background/@item.ImageUrl)">
+							<h3><a href="#">@item.Title</a></h3>
+							<div class="price">@item.Description</div>
+							<div class="image-outer">
+								<div class="menu-price">$ @item.Price</div>
+								<div class="image">
+									<a href="#"><img src="~/uploads/pizzas/@item.ImageUrl" alt="" /></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				}
+					
+				</div>
+			</div>
+		</div>
+		<!-- End Lower Box -->
+	</section>
+	<!-- End Deal Section -->
+	
+	<!-- Team Section -->
+	<section class="team-section">
+		<div class="auto-container">
+			<!-- Sec Title -->
+			<div class="sec-title centered">
+				<h3>Our Awesome Team</h3>
+				<div class="text">Lorem ipsum is placeholder text commonly used in the graphic, print, and <br> publishing industries</div>
+			</div>
+			<div class="row clearfix">
+
+			@foreach (var item in Model.Employees)
+			{
+				<div class="team-block col-lg-3 col-md-6 col-sm-12">
+					<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+						<div class="image">
+							<a asp-action="Team" asp-controller="About"><img src="~/uploads/employees/@item.ImageUrl" alt="" /></a>
+						</div>
+						<div class="lower-content">
+							<h5><a asp-action="Team" asp-controller="About">@item.FullName</a></h5>
+							<div class="designation">@item.Profession</div>
+						</div>
+					</div>
+				</div>
+
+			}
+				
+			</div>
+		</div>
+	</section>
+	
+
+	
+	<!-- Clients Section -->
+    <section class="clients-section" style="background-image: url(images/background/pattern-7.png)">
+        <div class="auto-container">
+            <div class="inner-container">
+				<div class="sponsors-outer">
+					<!--Sponsors Carousel-->
+					<ul class="sponsors-carousel owl-carousel owl-theme">
+						<li class="slide-item"><figure class="image-box"><a href="#"><img src="~/images/clients/1.png" alt=""></a></figure></li>
+						<li class="slide-item"><figure class="image-box"><a href="#"><img src="~/images/clients/2.png" alt=""></a></figure></li>
+						<li class="slide-item"><figure class="image-box"><a href="#"><img src="~/images/clients/3.png" alt=""></a></figure></li>
+						<li class="slide-item"><figure class="image-box"><a href="#"><img src="~/images/clients/4.png" alt=""></a></figure></li>
+						<li class="slide-item"><figure class="image-box"><a href="#"><img src="~/images/clients/1.png" alt=""></a></figure></li>
+						<li class="slide-item"><figure class="image-box"><a href="#"><img src="~/images/clients/2.png" alt=""></a></figure></li>
+						<li class="slide-item"><figure class="image-box"><a href="#"><img src="~/images/clients/3.png" alt=""></a></figure></li>
+					</ul>
+				</div>
+            </div>
+        </div>
+    </section>
+    <!-- End Clients Section -->
+	
+	<!-- Subscribe Section -->
+	<section class="subscribe-section" style="background-image: url(images/background/4.jpg)">
+		<div class="auto-container">
+			<!-- Sec Title -->
+			<div class="sec-title centered">
+				<h3>You've Got Pizza</h3>
+				<div class="text">Sign up for hot slices of pizza news and special offers! Don’t worry, we won’t clog <br> your inbox or your arteries.</div>
+			</div>
+			
+			<!-- NewsLetter Form -->
+			<div class="newsletter-form">
+				<form method="post" asp-action="Index" asp-controller="Contact">
+					<div class="form-group">
+						<input type="email" name="email" value="" placeholder="Email address" required="">
+						<button type="submit" class="theme-btn"><span class="txt">Send</span></button>
+					</div>
+				</form>
+			</div>
+			
+		</div>
+	</section>
+	<!-- End Subscribe Section -->
+	

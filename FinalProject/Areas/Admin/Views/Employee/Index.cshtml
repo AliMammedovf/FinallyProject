@@ -1,0 +1,45 @@
+﻿@model List<EmployeeGetDTO>
+@{
+    int counter = 1;
+}
+<div class="container">
+    <div class="row">
+        <div class="col-3 mb-3">
+            <a asp-action="Create" asp-controller="Employee" class="btn btn-outline-info">Create</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Id</th>
+                        <th scope="col">FullName</th>
+                        <th scope="col">Profession</th>
+                        <th scope="col">Image</th>
+                        <th scope="col">Action</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <th scope="row">@(counter++)</th>
+                            <td>@item.Id</td>
+                            <td>@item.FullName</td>
+                            <td>@item.Profession</td>
+                            <td><img src="~/uploads/employees/@item.ImageUrl" width="100" height="100" alt="Alternate Text" /></td>
+                            <td>
+                                <a asp-action="Delete" asp-controller="Employee" asp-route-id="@item.Id" class="btn btn-outline-danger delete-btn">Delete</a>
+                                <a asp-action="Update" asp-controller="Employee" asp-route-id="@item.Id" class="btn btn-outline-primary">Update</a>
+                            </td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,28 @@
+﻿@model EmployeeCreateDTO
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <form method="post" asp-action="Create" asp-controller="Employee" enctype="multipart/form-data">
+                <div class="mb-3">
+                    <label for="exampleInputEmail5" class="form-label">FullName</label>
+                    <input asp-for="FullName" class="form-control" id="exampleInputEmail5">
+                    <span asp-validation-for="FullName" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail4" class="form-label">Profession</label>
+                    <input asp-for="Profession" class="form-control" id="exampleInputEmail4">
+                    <span asp-validation-for="Profession" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">ImageFile</label>
+                    <input asp-for="ImageFile" class="form-control" id="exampleInputEmail1">
+                    <span asp-validation-for="ImageFile" class="text-danger"></span>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Create</button>
+            </form>
+
+        </div>
+    </div>
+</div>

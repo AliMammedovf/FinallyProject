@@ -1,10 +1,13 @@
 ﻿using AutoMapper;
+using FinalProject.Business.DTOs.AboutInfoDTOs;
 using FinalProject.Business.DTOs.AboutSliderDTOs;
 using FinalProject.Business.DTOs.CategoryDTOs;
+using FinalProject.Business.DTOs.EmployeeDTOs;
 using FinalProject.Business.DTOs.FlavourDTOs;
 using FinalProject.Business.DTOs.PizzaMenyuDTOs;
 using FinalProject.Business.DTOs.ProductDTOs;
 using FinalProject.Business.DTOs.ReservationDTOs;
+using FinalProject.Business.DTOs.SetMenyuHeaderDTOs;
 using FinalProject.Business.DTOs.SizeDTOs;
 using FinalProject.Business.DTOs.SliderDTOs;
 using FinalProject.Business.DTOs.TableDTOs;
@@ -58,5 +61,17 @@ public class MappingProfile: Profile
         CreateMap<PizzaMenyu, PizzaMenyuGetDTO>().ReverseMap();
         CreateMap<PizzaMenyu, PizzaMenyuUpdateDTO>().ReverseMap();
 
-    }
+
+        CreateMap<EmployeeCreateDTO,Employee>().ReverseMap();
+        CreateMap<Employee, EmployeeGetDTO>().ReverseMap();
+        CreateMap<Employee,EmployeeUpdateDTO>().ReverseMap();
+
+		CreateMap<SetMenyuHeaderCreateDTO, SetMenyuHeader>().ReverseMap();
+		CreateMap<SetMenyuHeader, SetMenyuHeaderGetDTO>().ReverseMap();
+		CreateMap<SetMenyuHeader, SetMenyuHeaderUpdateDTO>().ReverseMap();
+
+		CreateMap<AboutInfoCreateDTO, AboutInfo>().ReverseMap();
+		CreateMap<AboutInfo, AboutInfoGetDTO>().ReverseMap();
+		CreateMap<AboutInfo, AboutInfoUpdateDTO>().ReverseMap();
+	}
 }

@@ -22,6 +22,43 @@ namespace FinalProject.Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("FinalProject.Core.Models.AboutInfo", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime?>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("DeletedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
+
+                    b.Property<string>("FonUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Info");
+                });
+
             modelBuilder.Entity("FinalProject.Core.Models.AboutSlider", b =>
                 {
                     b.Property<int>("Id")
@@ -33,7 +70,7 @@ namespace FinalProject.Data.Migrations
                     b.Property<DateTime?>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 6, 30, 11, 13, 0, 463, DateTimeKind.Utc).AddTicks(28));
+                        .HasDefaultValue(new DateTime(2024, 6, 30, 23, 7, 25, 671, DateTimeKind.Utc).AddTicks(2121));
 
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("datetime2");
@@ -116,7 +153,7 @@ namespace FinalProject.Data.Migrations
                     b.Property<DateTime?>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 6, 30, 11, 13, 0, 463, DateTimeKind.Utc).AddTicks(234));
+                        .HasDefaultValue(new DateTime(2024, 6, 30, 23, 7, 25, 671, DateTimeKind.Utc).AddTicks(2566));
 
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("datetime2");
@@ -131,6 +168,38 @@ namespace FinalProject.Data.Migrations
                     b.ToTable("Categories");
                 });
 
+            modelBuilder.Entity("FinalProject.Core.Models.Employee", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime?>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("DeletedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("FullName")
+                        .IsRequired()
+                        .HasMaxLength(40)
+                        .HasColumnType("nvarchar(40)");
+
+                    b.Property<string>("ImageUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Profession")
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Employees");
+                });
+
             modelBuilder.Entity("FinalProject.Core.Models.Flavour", b =>
                 {
                     b.Property<int>("Id")
@@ -142,7 +211,7 @@ namespace FinalProject.Data.Migrations
                     b.Property<DateTime?>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 6, 30, 11, 13, 0, 463, DateTimeKind.Utc).AddTicks(458));
+                        .HasDefaultValue(new DateTime(2024, 6, 30, 23, 7, 25, 671, DateTimeKind.Utc).AddTicks(2896));
 
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("datetime2");
@@ -155,6 +224,36 @@ namespace FinalProject.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Flavours");
+                });
+
+            modelBuilder.Entity("FinalProject.Core.Models.KomboMenyu", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime?>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("DeletedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal?>("Price")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("KomboMenyus");
                 });
 
             modelBuilder.Entity("FinalProject.Core.Models.Order", b =>
@@ -303,7 +402,7 @@ namespace FinalProject.Data.Migrations
                     b.Property<DateTime?>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 6, 30, 11, 13, 0, 463, DateTimeKind.Utc).AddTicks(1113));
+                        .HasDefaultValue(new DateTime(2024, 6, 30, 23, 7, 25, 671, DateTimeKind.Utc).AddTicks(3333));
 
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("datetime2");
@@ -414,7 +513,7 @@ namespace FinalProject.Data.Migrations
                     b.Property<DateTime?>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 6, 30, 11, 13, 0, 463, DateTimeKind.Utc).AddTicks(1575));
+                        .HasDefaultValue(new DateTime(2024, 6, 30, 23, 7, 25, 671, DateTimeKind.Utc).AddTicks(3588));
 
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("datetime2");
@@ -450,6 +549,39 @@ namespace FinalProject.Data.Migrations
                     b.ToTable("Reservations");
                 });
 
+            modelBuilder.Entity("FinalProject.Core.Models.SetMenyuHeader", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime?>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("DeletedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasMaxLength(250)
+                        .HasColumnType("nvarchar(250)");
+
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("SetMenyuHeaders");
+                });
+
             modelBuilder.Entity("FinalProject.Core.Models.Size", b =>
                 {
                     b.Property<int>("Id")
@@ -461,7 +593,7 @@ namespace FinalProject.Data.Migrations
                     b.Property<DateTime?>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 6, 30, 11, 13, 0, 463, DateTimeKind.Utc).AddTicks(1951));
+                        .HasDefaultValue(new DateTime(2024, 6, 30, 23, 7, 25, 671, DateTimeKind.Utc).AddTicks(3956));
 
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("datetime2");
@@ -524,7 +656,7 @@ namespace FinalProject.Data.Migrations
                     b.Property<DateTime?>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 6, 30, 11, 13, 0, 463, DateTimeKind.Utc).AddTicks(2383));
+                        .HasDefaultValue(new DateTime(2024, 6, 30, 23, 7, 25, 671, DateTimeKind.Utc).AddTicks(4311));
 
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("datetime2");
