@@ -1,19 +1,20 @@
-﻿using FluentValidation;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using FinalProject.Business.DTOs.TableDTOs;
+using FluentValidation;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace FinalProject.Business.DTOs.ReservationDTOs;
 
 public class ReservationCreateDTO
 {
-	public int ProductId { get; set; }
-	public DateTime StartDate { get; set; }
-	public DateTime EndDate { get; set; }
-	public bool? IsDeleted { get; set; }
+	public string Email { get; set; } = null!;
+	public string Phone { get; set; } = null!;
+	public int TableId { get; set; }
 
+
+	public string Comments { get; set; }
+
+	public DateTime? StartDate { get; set; }
+	public DateTime? EndDate { get; set; }
 
 }
 
@@ -21,9 +22,9 @@ public class ReservationCreateDTOValidator : AbstractValidator<ReservationCreate
 {
 	public ReservationCreateDTOValidator()
 	{
-		RuleFor(x => x.ProductId)
-			.NotEmpty().WithMessage("RoomId bos ola bilmez!")
-			.NotNull().WithMessage("RoomId null ola bilmez!");
+		RuleFor(x => x.TableId)
+			.NotEmpty().WithMessage("TableId bos ola bilmez!")
+			.NotNull().WithMessage("TableId null ola bilmez!");
 
 		RuleFor(x => x.StartDate)
 			.NotEmpty().WithMessage("StartDate bos ola bilmez!")

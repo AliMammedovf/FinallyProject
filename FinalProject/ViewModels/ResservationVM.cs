@@ -1,14 +1,17 @@
 ﻿using FinalProject.Business.DTOs.ReservationDTOs;
 using FinalProject.Business.DTOs.TableDTOs;
+using FinalProject.Core.Models;
 
 namespace FinalProject.ViewModels
 {
 	public class ResservationVM
 	{
-		public List<TableGetDTO> Tables = new List<TableGetDTO>();
+		public List<TableGetDTO> Tables {  get; set; }
 
-		public List<ReservationGetDTO> Reservations = new List<ReservationGetDTO>();
+		public List<ReservationCreateDTO> Reservations { get; set; }
 
-		public TableGetDTO Table = new TableGetDTO();
+		public TableGetDTO Table { get; set; }
+
+		public Reservation Reservation { get; set; }
 	}
 }

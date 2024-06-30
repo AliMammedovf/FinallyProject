@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
+using FinalProject.Business.DTOs.AboutSliderDTOs;
 using FinalProject.Business.DTOs.CategoryDTOs;
 using FinalProject.Business.DTOs.FlavourDTOs;
+using FinalProject.Business.DTOs.PizzaMenyuDTOs;
 using FinalProject.Business.DTOs.ProductDTOs;
 using FinalProject.Business.DTOs.ReservationDTOs;
 using FinalProject.Business.DTOs.SizeDTOs;
@@ -42,11 +44,19 @@ public class MappingProfile: Profile
 
 		CreateMap<ReservationCreateDTO, Reservation>().ReverseMap();
 		CreateMap<Reservation, ReservationGetDTO>().ReverseMap();
-        CreateMap<Reservation, ReservationUpdateDTO>().ReverseMap();
 
         CreateMap<SliderCreateDTO, Slider>().ReverseMap();
         CreateMap<Slider, SliderGetDTO>().ReverseMap();
         CreateMap<Slider,SliderUpdateDTO>().ReverseMap();
 
-	}
+
+		CreateMap<AboutSliderCreateDTO, AboutSlider>().ReverseMap();
+		CreateMap<AboutSlider, AboutSliderGetDTO>().ReverseMap();
+		CreateMap<AboutSlider, AboutSliderUpdateDTO>().ReverseMap();
+
+        CreateMap<PizzaMenyuCreateDTO, PizzaMenyu>().ReverseMap();
+        CreateMap<PizzaMenyu, PizzaMenyuGetDTO>().ReverseMap();
+        CreateMap<PizzaMenyu, PizzaMenyuUpdateDTO>().ReverseMap();
+
+    }
 }

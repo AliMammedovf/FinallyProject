@@ -10,9 +10,12 @@ namespace FinalProject.Business.DTOs.ReservationDTOs;
 public class ReservationGetDTO
 {
 	public int Id { get; set; }
-	public int ProductId { get; set; }
-	public DateTime StartDate { get; set; }
-	public DateTime EndDate { get; set; }
-	public bool IsDeleted { get; set; }
-	public Reservation Reservation { get; set; }
+	public string Email { get; set; } = null!;
+	public string Phone { get; set; } = null!;
+	public int TableId { get; set; }
+
+	public string Comments { get; set; }
+
+	public DateTime? StartDate { get; set; }
+	public DateTime? EndDate { get; set; }
 }

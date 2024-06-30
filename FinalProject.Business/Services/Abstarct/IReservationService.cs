@@ -1,5 +1,6 @@
 ﻿using FinalProject.Business.DTOs.ReservationDTOs;
 using FinalProject.Core.Models;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +11,7 @@ namespace FinalProject.Business.Services.Abstarct;
 
 public interface IReservationService
 {
-	Task AddAsyncReservation(ReservationCreateDTO reservationCreateDTO);
+	Task<bool> AddAsyncReservation(ReservationCreateDTO reservationCreateDTO,ModelStateDictionary ModelState,dynamic ViewBag);
 	
 	ReservationGetDTO GetReservation(Func<Reservation, bool>? func = null);
 	List<ReservationGetDTO> GetAllReservations(Func<Reservation, bool>? func = null);

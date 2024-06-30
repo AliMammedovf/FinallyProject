@@ -1,12 +1,14 @@
 ﻿using FinalProject.Business.DTOs.SliderDTOs;
 using FinalProject.Business.Exceptions;
 using FinalProject.Business.Services.Abstarct;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FinalProject.Areas.Admin.Controllers
 {
 	[Area("Admin")]
-	public class SliderController : Controller
+    [Authorize(Roles = "SuperAdmin")]
+    public class SliderController : Controller
 	{
 		private readonly ISliderService _sliderService;
 

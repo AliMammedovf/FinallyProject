@@ -88,13 +88,13 @@
 	<div class="upper-box">
 		<div class="auto-container">
 			<div class="content">
-				<div class="menu-icon"><img src="~/images/resource/menu-1.png" alt="" /></div>
-				<div class="icon"><img src="~/images/icons/hot.png" alt="" /></div>
-				<h2>Buy One Pizza. Get One</h2>
-				<div class="bold-text">100% outdoors and covid-conscious</div>
-				<div class="text">We're offering a limited number of private walking tours for groups of up to 8 people. <br> Everyone gets a PPPE kit (the extra P is for "pizza") including a face mask,hand sanitizer, <br> and our world famous Pocket Pizza Journal for your tasting notes.</div>
+				<div class="menu-icon"><img src="~/uploads/aboutsliders/@Model.AboutSlider.ImageUrl" width="250px" height="250px" alt="" /></div>
+				<div class="icon"><img src="~/uploads//aboutsliders/@Model.AboutSlider.IconUrl" alt="" /></div>
+				<h2>@Model.AboutSlider.Title</h2>
+				<div class="bold-text">@Model.AboutSlider.Text</div>
+				<div class="text">@Model.AboutSlider.Text</div>
 				<div class="btn-box">
-					<a class="theme-btn btn-style-one" href="about.html"><span class="txt">Our Story</span></a>
+					<a class="theme-btn btn-style-one" asp-action="Index" asp-controller="About"><span class="txt">@Model.AboutSlider.RedirectUrl</span></a>
 				</div>
 			</div>
 		</div>
@@ -105,47 +105,23 @@
 		<div class="auto-container">
 			<div class="row clearfix">
 
-				<!-- Service Block -->
-				<div class="service-block col-lg-4 col-md-6 col-sm-12">
-					<div class="inner-box" style="background-image: url(images/background/service-pattern-1.png)">
-						<h3><a href="#">14" Medium Pizza (8-Cut)</a></h3>
-						<div class="price">$ 1.50 per topping</div>
-						<div class="image-outer">
-							<div class="menu-price">$17</div>
-							<div class="image">
-								<a href="#"><img src="~/images/resource/menu-2.jpg" alt="" /></a>
+				@foreach (var item in Model.PizzasMenyu)
+				{
+					<!-- Service Block -->
+					<div class="service-block col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box" style="background-image: url(~/uploads/pizzas/background/@item.ImageUrl)">
+							<h3><a href="#">@item.Title</a></h3>
+							<div class="price">@item.Description</div>
+							<div class="image-outer">
+								<div class="menu-price">$ @item.Price</div>
+								<div class="image">
+									<a href="#"><img src="~/uploads/pizzas/@item.ImageUrl" alt="" /></a>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
+				}
 
-				<!-- Service Block -->
-				<div class="service-block col-lg-4 col-md-6 col-sm-12">
-					<div class="inner-box" style="background-image: url(images/background/service-pattern-2.png)">
-						<h3><a href="#">12" Small Pizza (8-Cut)</a></h3>
-						<div class="price">$ 1.00 per topping</div>
-						<div class="image-outer">
-							<div class="menu-price">$12</div>
-							<div class="image">
-								<a href="#"><img src="~/images/resource/menu-3.jpg" alt="" /></a>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<!-- Service Block -->
-				<div class="service-block col-lg-4 col-md-6 col-sm-12">
-					<div class="inner-box" style="background-image: url(images/background/service-pattern-3.png)">
-						<h3><a href="#">14" Medium Pizza (8-Cut)</a></h3>
-						<div class="price">$ 1.50 per topping</div>
-						<div class="image-outer">
-							<div class="menu-price">$21</div>
-							<div class="image">
-								<a href="#"><img src="~/images/resource/menu-4.jpg" alt="" /></a>
-							</div>
-						</div>
-					</div>
-				</div>
 
 			</div>
 		</div>

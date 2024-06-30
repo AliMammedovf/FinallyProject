@@ -9,6 +9,7 @@ using FinalProject.Data.RepositoryConcret;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -70,6 +71,11 @@ public class TableService : ITableService
 		TableGetDTO tableGetDTO = _mapper.Map<TableGetDTO>(table);
 
 		return tableGetDTO;
+	}
+
+	public async Task<bool> IsExistAsync(Expression<Func<Table, bool>> expression)
+	{
+			return await _tableRepository.IsExistAsync(expression,"Reservation");	
 	}
 
 	public void UpdateTable(TableUpdateDTO tableUpdateDTO)

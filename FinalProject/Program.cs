@@ -1,5 +1,6 @@
 using FinalProject.Business.DTOs.CategoryDTOs;
 using FinalProject.Business.DTOs.FlavourDTOs;
+using FinalProject.Business.DTOs.PizzaMenyuDTOs;
 using FinalProject.Business.DTOs.ProductDTOs;
 using FinalProject.Business.DTOs.ReservationDTOs;
 using FinalProject.Business.DTOs.SizeDTOs;
@@ -36,7 +37,9 @@ namespace FinalProject
 				x.RegisterValidatorsFromAssemblyContaining(typeof(TableCreateDTOValidator));
 				x.RegisterValidatorsFromAssemblyContaining(typeof(ReservationCreateDTOValidator));
 				x.RegisterValidatorsFromAssemblyContaining(typeof(SliderCreateDTOValidator));
-			});
+                x.RegisterValidatorsFromAssemblyContaining(typeof(AboutSliderCreateDTOValidator));
+                x.RegisterValidatorsFromAssemblyContaining(typeof(PizzaMenyuCreateDTOValidator));
+            });
             builder.Services.AddAutoMapper(typeof(MappingProfile).Assembly);
 
             builder.Services.AddDbContext<AppDbContext>(options =>
@@ -87,6 +90,12 @@ namespace FinalProject
 
             builder.Services.AddScoped<ISliderRepository, SliderRepository>();
             builder.Services.AddScoped<ISliderService, SliderService>();
+
+            builder.Services.AddScoped<IAboutSliderRepository, AboutSliderRepository>();
+            builder.Services.AddScoped<IAboutSliderService, AboutSliderService>();
+
+            builder.Services.AddScoped<IPizzaMenyuRepository, PizzaMenyuRepository>();
+            builder.Services.AddScoped<IPizzaMenyuService, PizzaMenyuService>();
 
             builder.Services.AddSession();
 

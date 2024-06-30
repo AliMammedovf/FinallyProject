@@ -15,7 +15,6 @@ public class ReservationConfugration : IEntityTypeConfiguration<Reservation>
 	{
 
 		builder.Property(x => x.CreatedDate).HasDefaultValue(DateTime.UtcNow.AddHours(4));
-		builder.Property(x => x.TableId).IsRequired();
 		builder.Property(x => x.StartDate).IsRequired();
 		builder.Property(x => x.EndDate).IsRequired();
 	}

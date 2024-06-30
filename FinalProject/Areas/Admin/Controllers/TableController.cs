@@ -3,12 +3,14 @@ using FinalProject.Business.DTOs.TableDTOs;
 using FinalProject.Business.Exceptions;
 using FinalProject.Business.Services.Abstarct;
 using FinalProject.Business.Services.Concret;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FinalProject.Areas.Admin.Controllers
 {
 	[Area("Admin")]
-	public class TableController : Controller
+    [Authorize(Roles = "SuperAdmin")]
+    public class TableController : Controller
 	{
 		private readonly ITableService _tableService;
 

@@ -35,7 +35,7 @@ public class SliderService : ISliderService
 
 		Slider slider= _mapper.Map<Slider>(sliderCreateDTO);
 
-		slider.ImageUrl = Helper.SaveFile(_env.WebRootPath, @"uploads/sliders", sliderCreateDTO.ImageFile);
+		slider.ImageUrl = Helper.SaveFile(_env.WebRootPath, @"uploads\sliders", sliderCreateDTO.ImageFile);
 
 		await _sliderRepository.AddAsync(slider);
 		await _sliderRepository.CommitAsync();
@@ -48,7 +48,7 @@ public class SliderService : ISliderService
 		if (existSlider == null)
 			throw new EntityNotFoundException("Slider not found!");
 
-		Helper.DeleteFile(_env.WebRootPath, @"uploads/sliders", existSlider.ImageUrl);
+		Helper.DeleteFile(_env.WebRootPath, @"uploads\sliders", existSlider.ImageUrl);
 
 		_sliderRepository.Delete(existSlider);
 		_sliderRepository.Commit();

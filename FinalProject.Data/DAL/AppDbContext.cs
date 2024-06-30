@@ -40,6 +40,10 @@ public class AppDbContext:IdentityDbContext
 
     public DbSet<Slider> Sliders { get; set; }
 
+    public DbSet<AboutSlider> AboutSliders { get; set; }
+
+    public DbSet<PizzaMenyu> Pizzas {  get; set; }
+
 
 
 
@@ -53,6 +57,7 @@ public class AppDbContext:IdentityDbContext
 		builder.ApplyConfigurationsFromAssembly(typeof(ReservationConfugration).Assembly);
 		builder.ApplyConfigurationsFromAssembly(typeof(TableConfiguration).Assembly);
 		builder.ApplyConfigurationsFromAssembly(typeof(SliderConfugration).Assembly);
+		builder.ApplyConfigurationsFromAssembly(typeof(AboutSliderConfiguration).Assembly);
 		base.OnModelCreating(builder);
         
     }

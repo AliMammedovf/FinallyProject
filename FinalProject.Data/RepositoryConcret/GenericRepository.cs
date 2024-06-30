@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -72,4 +73,18 @@ public class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity, 
             entity.ToList() :
             entity.Where(func).ToList();
     }
+
+	public async Task<bool> IsExistAsync(Expression<Func<T, bool>> expression, params string[]? includes)
+	{
+        var query = _appDbContext.Set<T>().AsQueryable();
+
+        if (includes != null)
+        {
+			foreach (var include in includes)
+			{
+				query = query.Include(include);
+			}
+		}
+        return await query.AnyAsync(expression);   
+	}
 }

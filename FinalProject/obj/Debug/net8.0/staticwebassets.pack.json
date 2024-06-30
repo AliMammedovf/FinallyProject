@@ -8961,6 +8961,30 @@
       "PackagePath": "staticwebassets\\js\\wow.js"
     },
     {
+      "Id": "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject\\wwwroot\\uploads\\aboutsliders\\0c9b9097-0f8f-48c5-ba40-ca29113a3c7e.jpg",
+      "PackagePath": "staticwebassets\\uploads\\aboutsliders\\0c9b9097-0f8f-48c5-ba40-ca29113a3c7e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject\\wwwroot\\uploads\\aboutsliders\\74ff7dc4-aaa4-4a49-b21c-da177d344bd4.jpg",
+      "PackagePath": "staticwebassets\\uploads\\aboutsliders\\74ff7dc4-aaa4-4a49-b21c-da177d344bd4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject\\wwwroot\\uploads\\pizzas\\008501b5-6797-4c07-90ca-2155152e99a9.jpg",
+      "PackagePath": "staticwebassets\\uploads\\pizzas\\008501b5-6797-4c07-90ca-2155152e99a9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject\\wwwroot\\uploads\\pizzas\\background\\service-pattern-1.png",
+      "PackagePath": "staticwebassets\\uploads\\pizzas\\background\\service-pattern-1.png"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject\\wwwroot\\uploads\\pizzas\\background\\service-pattern-2.png",
+      "PackagePath": "staticwebassets\\uploads\\pizzas\\background\\service-pattern-2.png"
+    },
+    {
+      "Id": "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject\\wwwroot\\uploads\\pizzas\\background\\service-pattern-3.png",
+      "PackagePath": "staticwebassets\\uploads\\pizzas\\background\\service-pattern-3.png"
+    },
+    {
       "Id": "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject\\wwwroot\\uploads\\products\\0602afe3-8d26-45f6-98bb-e1b59b7e9fb9.jpg",
       "PackagePath": "staticwebassets\\uploads\\products\\0602afe3-8d26-45f6-98bb-e1b59b7e9fb9.jpg"
     },

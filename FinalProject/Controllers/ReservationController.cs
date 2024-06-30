@@ -1,7 +1,9 @@
 ﻿using AutoMapper;
+using FinalProject.Business.DTOs.ReservationDTOs;
 using FinalProject.Business.DTOs.TableDTOs;
 using FinalProject.Business.Services.Abstarct;
 using FinalProject.Core.Models;
+using FinalProject.Data.DAL;
 using FinalProject.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
@@ -12,55 +14,32 @@ namespace FinalProject.Controllers
 		private readonly IReservationService _reservationService;
 		private readonly IMapper _mapper;
 		private readonly ITableService _tableService;
+		private readonly AppDbContext _appDbContext;
 
-        public ReservationController(IReservationService reservationService, IMapper mapper, ITableService tableService)
-        {
-            _reservationService = reservationService;
-            _mapper = mapper;
-            _tableService = tableService;
-        }
-
-        public IActionResult Index()
+		public ReservationController(IReservationService reservationService, IMapper mapper, ITableService tableService, AppDbContext appDbContext)
 		{
+			_reservationService = reservationService;
+			_mapper = mapper;
+			_tableService = tableService;
+			_appDbContext = appDbContext;
+		}
+
+		public  IActionResult Index()
+		{
+			var tables =  _tableService.GetAllTables();
+			ViewBag.Tables=tables;
 			return View();
 		}
 
-		public IActionResult Reserv(string? search, int? price, int? seats, DateTime? arrive, DateTime? departure)
+		
+		public IActionResult Reserv(ReservationCreateDTO reservation)/*, string? search, int? minPrice, int? maxPrice, int? personCount, DateTime? arrive, DateTime? departure)*/
 		{
-
-			var table = _tableService.GetAllTables().AsQueryable();
-
-			if(!string.IsNullOrEmpty(search) )
-			{
-				table= table.Where(x=>x.Title.ToLower().Contains(search.ToLower()));
-			}
-
-			if (price.HasValue)
-			{
-				table = table.Where(x => x.Price == price);
-			}
-
-			if (seats.HasValue)
-			{
-				table= table.Where(x=>x.Seats == seats);
-			}
-
-			if(arrive.HasValue && departure.HasValue)
-			{
-				table = table.Where(table => table.Reservations.Any(reservation =>
-				    (reservation.StartDate <= departure && reservation.EndDate >= departure)
-			    ));
-			}
+			
+			_reservationService.AddAsyncReservation(reservation, ModelState, ViewBag);
 
 
-			List<TableGetDTO> tableGetDTOs= _mapper.Map<List<TableGetDTO>>(table);
 
-			ResservationVM tableVM = new ResservationVM()
-			{
-				Tables = tableGetDTOs,
-			};
-
-			return View(tableVM);
+			return RedirectToAction("Index","Reservation");
 			
 		}
 

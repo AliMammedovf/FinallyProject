@@ -37,22 +37,22 @@
 									<div class="row clearfix">
 
 					                    <div class="form-group col-lg-12 col-md-12 col-sm-12">
-											<input type="email" name="email" placeholder="Email" required="">
+											<input type="email" asp-for="@Model.Reservation.Email" placeholder="Email" required="">
 										</div>
 									
 										<div class="form-group col-lg-12 col-md-12 col-sm-12">
-											<input type="text" name="phone" placeholder="Phone" required="">
+											<input type="text" asp-for="@Model.Reservation.Phone" placeholder="Phone" required="">
 										</div>
 
 										<div class="form-group col-lg-12 col-md-12 col-sm-12">
-									<label asp-for="Table.Seats" class="form-label">TableName:</label>
-									<select required name="tableId" class="custom-select" aria-label="Default select example">
-										<option selected disabled value="@null">Select Table</option>
+									<label asp-for="@Model.Reservation.TableId" class="form-label">TableName:</label>
+									<select required asp-for="@Model.Reservation.TableId" class="custom-select" aria-label="Default select example">
+										<option selected disabled value="@null" >Select Table</option>
 
-										@* @foreach (var table in ViewBag.Table)
+										@foreach (var table in ViewBag.Tables)
 										{
-											<option value="@table.Id">@table.Title</option>
-										} *@
+											<option value="@table.Id">@table.Title <span>@table.Seats</span></option>
+										}
 									</select>
 										</div>
 
@@ -66,17 +66,17 @@
 
 										<!-- Form Group -->
 										<div class="form-group col-lg-6 col-md-6 col-sm-12">
-									    <input class="awe-calendar awe-input from" name="arrive" type="text" placeholder="Check In StartTime" />
+									    <input class="awe-calendar awe-input from" asp-for="@Model.Reservation.StartDate" type="text" placeholder="Check In StartTime" />
 											<span class="icon flaticon-wall-clock"></span>
 										</div>
 
 								        <div class="form-group col-lg-6 col-md-6 col-sm-12">
-									   <input class="awe-calendar awe-input to" name="departure" type="text" placeholder="Check In EndTime" />
+									<input class="awe-calendar awe-input to" asp-for="@Model.Reservation.EndDate" type="text" placeholder="Check In EndTime" />
 									        <span class="icon flaticon-wall-clock"></span>
 								        </div>
 
 										<div class="col-lg-12 col-md-12 col-sm-12 form-group">
-											<textarea class="" name="message" placeholder="Comments"></textarea>
+											<textarea class="" asp-for="@Model.Reservation.Comments" placeholder="Comments"></textarea>
 										</div>
 
 										<div class="form-group col-lg-12 col-md-12 col-sm-12">
