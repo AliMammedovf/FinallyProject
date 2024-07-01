@@ -3,11 +3,14 @@ using FinalProject.Business.Exceptions;
 using FinalProject.Business.Services.Abstarct;
 using FinalProject.Core.Models;
 using FinalProject.Core.RepositoryAbstract;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FinalProject.Areas.Admin.Controllers
 {
-	public class KomboMenyuController : Controller
+    [Area("Admin")]
+    [Authorize(Roles = "SuperAdmin")]
+    public class KomboMenyuController : Controller
 	{
 
 		private readonly IKomboMenyuService _komboMenyuService;
@@ -28,6 +31,7 @@ namespace FinalProject.Areas.Admin.Controllers
 			return View();
 		}
 
+		[HttpPost]
 		public async Task<IActionResult> Create(KomboMenyu menyu)
 		{
 			if (!ModelState.IsValid)

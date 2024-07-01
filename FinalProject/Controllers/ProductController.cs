@@ -261,9 +261,6 @@ namespace FinalProject.Controllers
 		[HttpPost]
 		public async Task<IActionResult> CheckOut(OrderVM orderVM)
 		{
-            //ModelState.Remove("CheckOutVMs");
-
-            
 
             List<CheckOutVM> checkOutItemList = new List<CheckOutVM>();
             List<BasketItemVM> basketItemList = new List<BasketItemVM>();

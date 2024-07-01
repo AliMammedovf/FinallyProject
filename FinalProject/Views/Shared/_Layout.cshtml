@@ -244,24 +244,28 @@
 					<div class="footer-column col-lg-6 col-md-6 col-sm-12">
 						<div class="footer-widget logo-widget">
 							<div class="logo">
-								<a href="index-2.html"><img src="~/images/footer-logo.png" alt="" /></a>
+								<a asp-action="Index" asp-controller="Home"><img src="~/images/footer-logo.png" alt="" /></a>
 							</div>
-							<div class="text">Sebastian and Tony Lazzara221 <br> W 38th St New York, NY 10018</div>
+								<div class="text">Bakı şəhəri,Nəsimi Rayonu <br /> Rəşid Behbudov küç.101A</div>
 							<a class="phone-number" href="tel:+212-924-7778">+(212) 924-7778</a>
 							<!-- Timing -->
 							<ul class="timing">
 								<span>Opening Hours</span>
-								<li>Friday:    09:00 – 23:00h</li>
-								<li>Saturday:    09:00 – 16:00h</li>
-								<li>Sunday:    12:00 – 18:00h</li>
+								<li>Bazar Ertəsi:  09:00 – 23:00h</li>
+								<li>Ç.A: 09:00 – 23:00h</li>
+								<li>Ç: 9:00 – 23:00h</li>
+								<li>C.A: 9:00 – 23:00h</li>
+								<li>C: 9:00 – 23:00h</li>
+								<li>Şənbə: 9:00 – 23:00h</li>
+								<li>Bazar: 9:00 – 23:00h</li>
 							</ul>
 							
 							<!-- Social Box -->
 							<ul class="social-box">
-								<li><a href="#" class="fa fa-facebook-f"></a></li>
-								<li><a href="#" class="fa fa-twitter"></a></li>
-								<li><a href="#" class="fa fa-instagram"></a></li>
-								<li><a href="#" class="fa fa-pinterest-p"></a></li>
+									<li><a href="https://www.facebook.com/login/" class="fa fa-facebook-f"></a></li>
+									<li><a href="https://x.com/i/flow/login" class="fa fa-twitter"></a></li>
+									<li><a href="https://www.instagram.com/cyyopizza?igsh=OXhoM2lscHo3anJq" class="fa fa-instagram"></a></li>
+								
 							</ul>
 							
 						</div>
@@ -271,11 +275,11 @@
 					<div class="footer-column col-lg-6 col-md-6 col-sm-12">
 						<h5>Useful Link</h5>
 						<ul class="footer-list">
-							<li><a href="#">About us</a></li>
-							<li><a href="#">Membership</a></li>
-							<li><a href="#">Item</a></li>
-							<li><a href="#">Refund Policy</a></li>
-							<li><a href="#">Contact us</a></li>
+							<li><a asp-action="Index" asp-controller="Home">Home</a></li>
+							<li><a asp-action="Index" asp-controller="About">About us</a></li>
+							<li><a asp-action="Index" asp-controller="Shop">Shop</a></li>
+							<li><a asp-action="Reserv" asp-controller="Reservation"> Reservation</a></li>
+							<li><a asp-action="Index" asp-controller="Contact">Contact us</a></li>
 						</ul>
 						
 						<div class="footer-widget gallery-widget">
@@ -325,7 +329,7 @@
 <div class="search-popup">
 	<button class="close-search style-two"><span class="flaticon-multiply"></span></button>
 	<button class="close-search"><span class="flaticon-multiply"></span></button>
-	<form method="post" action="https://gico.io/cyyo/05_Pizza/blog.html">
+	<form method="post" action="">
 		<div class="form-group">
 			<input type="search" name="search-field" value="" placeholder="Search Here" required="">
 			<button type="submit"><i class="fa fa-search"></i></button>

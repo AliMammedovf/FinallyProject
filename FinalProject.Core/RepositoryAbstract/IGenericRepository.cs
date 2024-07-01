@@ -22,5 +22,5 @@ public interface IGenericRepository<T> where T : BaseEntity, new()
 
     Task<int> CommitAsync();
 
-    Task<bool> IsExistAsync(Expression<Func<T, bool>> expression, params string[]? includes);
+    
 }

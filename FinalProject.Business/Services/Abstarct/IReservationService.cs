@@ -11,7 +11,7 @@ namespace FinalProject.Business.Services.Abstarct;
 
 public interface IReservationService
 {
-	Task<bool> AddAsyncReservation(ReservationCreateDTO reservationCreateDTO,ModelStateDictionary ModelState,dynamic ViewBag);
+	Task AddAsyncReservation(ReservationCreateDTO reservationCreateDTO);
 	
 	ReservationGetDTO GetReservation(Func<Reservation, bool>? func = null);
 	List<ReservationGetDTO> GetAllReservations(Func<Reservation, bool>? func = null);

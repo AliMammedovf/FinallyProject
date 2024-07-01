@@ -18,6 +18,5 @@ namespace FinalProject.Business.Services.Abstarct
 		TableGetDTO GetTable(Func<Table, bool>? func = null);
 		IEnumerable<TableGetDTO> GetAllTables(Func<Table, bool>? func = null);
 
-		Task<bool> IsExistAsync(Expression<Func<Table, bool>> expression);
 	}
 }

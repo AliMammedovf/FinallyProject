@@ -8,10 +8,11 @@ namespace FinalProject.ViewModels
 	{
 		public List<TableGetDTO> Tables {  get; set; }
 
-		public List<ReservationCreateDTO> Reservations { get; set; }
+		public List<ReservationGetDTO> Reservations { get; set; }
 
 		public TableGetDTO Table { get; set; }
 
 		public Reservation Reservation { get; set; }
-	}
+        public ReservationCreateDTO res { get; set; }
+    }
 }

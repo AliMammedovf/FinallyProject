@@ -18,7 +18,7 @@ public class AboutInfoCreateDTO
 
 	public string? ImageUrl { get; set; }
 
-	public string FonUrl { get; set; }
+	public string? FonUrl { get; set; }
 
 	public IFormFile ImageFile { get; set; }
 

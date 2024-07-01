@@ -73,10 +73,6 @@ public class TableService : ITableService
 		return tableGetDTO;
 	}
 
-	public async Task<bool> IsExistAsync(Expression<Func<Table, bool>> expression)
-	{
-			return await _tableRepository.IsExistAsync(expression,"Reservation");	
-	}
 
 	public void UpdateTable(TableUpdateDTO tableUpdateDTO)
 	{

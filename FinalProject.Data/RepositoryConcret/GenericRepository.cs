@@ -74,17 +74,5 @@ public class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity, 
             entity.Where(func).ToList();
     }
 
-	public async Task<bool> IsExistAsync(Expression<Func<T, bool>> expression, params string[]? includes)
-	{
-        var query = _appDbContext.Set<T>().AsQueryable();
 
-        if (includes != null)
-        {
-			foreach (var include in includes)
-			{
-				query = query.Include(include);
-			}
-		}
-        return await query.AnyAsync(expression);   
-	}
 }

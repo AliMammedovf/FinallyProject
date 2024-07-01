@@ -18,4 +18,6 @@ public class ReservationGetDTO
 
 	public DateTime? StartDate { get; set; }
 	public DateTime? EndDate { get; set; }
+
+	public List<Reservation> Reservations { get; set; }
 }

@@ -1,5 +1,9 @@
-﻿
-@model ResservationVM
+﻿@using FinalProject.Business.DTOs.ReservationDTOs
+@using FinalProject.Core.Models
+@using Microsoft.Extensions.Options
+
+@model ReservationCreateDTO
+@inject IOptions<StripeSettings> Stripe
 		<!-- Page Title Section -->
 		<section class="page-title-section" style="background-image: url(/images/background/7.jpg)">
 			<div class="auto-container">
@@ -33,20 +37,20 @@
 
 							<!-- Reservation Form -->
 							<div class="reservation-form">
-								<form method="post" asp-action="Reserv" asp-controller="Reservation">
+								<form method="post" asp-action="Index" asp-controller="Reservation">
 									<div class="row clearfix">
 
 					                    <div class="form-group col-lg-12 col-md-12 col-sm-12">
-											<input type="email" asp-for="@Model.Reservation.Email" placeholder="Email" required="">
+											<input type="email" asp-for="@Model.Email" placeholder="Email" required="">
 										</div>
 									
 										<div class="form-group col-lg-12 col-md-12 col-sm-12">
-											<input type="text" asp-for="@Model.Reservation.Phone" placeholder="Phone" required="">
+											<input  asp-for="@Model.Phone" placeholder="Phone" required="">
 										</div>
 
 										<div class="form-group col-lg-12 col-md-12 col-sm-12">
-									<label asp-for="@Model.Reservation.TableId" class="form-label">TableName:</label>
-									<select required asp-for="@Model.Reservation.TableId" class="custom-select" aria-label="Default select example">
+									<label asp-for="@Model.TableId" class="form-label">TableName:</label>
+									<select required asp-for="@Model.TableId" class="custom-select" aria-label="Default select example">
 										<option selected disabled value="@null" >Select Table</option>
 
 										@foreach (var table in ViewBag.Tables)
@@ -57,30 +61,35 @@
 										</div>
 
 
-
-										<!-- Form Group -->
-										<div class="form-group col-lg-12 col-md-12 col-sm-12">
-											<input class="datepicker"  type="text" placeholder="Check In Date" />
-											<span class="icon flaticon-calendar"></span>
-										</div>
-
 										<!-- Form Group -->
 										<div class="form-group col-lg-6 col-md-6 col-sm-12">
-									    <input class="awe-calendar awe-input from" asp-for="@Model.Reservation.StartDate" type="text" placeholder="Check In StartTime" />
-											<span class="icon flaticon-wall-clock"></span>
+									    <input class="awe-calendar awe-input from" asp-for="@Model.StartDate"  placeholder="Check In StartTime" />
+											<span asp-validation-for="StartDate" class="text-danger"></span>
 										</div>
 
 								        <div class="form-group col-lg-6 col-md-6 col-sm-12">
-									<input class="awe-calendar awe-input to" asp-for="@Model.Reservation.EndDate" type="text" placeholder="Check In EndTime" />
-									        <span class="icon flaticon-wall-clock"></span>
+									<input class="awe-calendar awe-input to" asp-for="@Model.EndDate"  placeholder="Check In EndTime" />
+									       
 								        </div>
 
 										<div class="col-lg-12 col-md-12 col-sm-12 form-group">
-											<textarea class="" asp-for="@Model.Reservation.Comments" placeholder="Comments"></textarea>
+											<textarea class="" asp-for="@Model.Comments" placeholder="Comments"></textarea>
 										</div>
 
 										<div class="form-group col-lg-12 col-md-12 col-sm-12">
-											<button class="theme-btn btn-style-four" type="submit" name="submit-form"><span class="txt">Pick your date</span></button>
+									<form action="/" method="post">
+										<script src="//checkout.stripe.com/v2/checkout.js"
+												class="stripe-button"
+												data-key="@Stripe.Value.Publishablekey"
+												data-amount="@ViewBag.Total"
+												data-name="[Deveducate]"
+												data-locale="en"
+												data-discription="Sample charge"
+												data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+												data-zip-code="true">
+										</script>
+
+									</form>
 										</div>
 
 									</div>

@@ -1,11 +1,14 @@
 ﻿using FinalProject.Business.DTOs.AboutInfoDTOs;
 using FinalProject.Business.Exceptions;
 using FinalProject.Business.Services.Abstarct;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FinalProject.Areas.Admin.Controllers
 {
-	public class AboutInfoController : Controller
+    [Area("Admin")]
+    [Authorize(Roles = "SuperAdmin")]
+    public class AboutInfoController : Controller
 	{
 
 		private readonly IAboutInfoService _aboutInfoService;

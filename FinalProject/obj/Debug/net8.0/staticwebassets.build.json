@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cjWLnFeXrc0C8aSz5eGZL9IkLGiAP76VfToKQ/SucSo=",
+  "Hash": "IuZdmwBBMsVa0Uiu354jJzFz306AKpF/k/wYjZ/0nSI=",
   "Source": "FinalProject",
   "BasePath": "_content/FinalProject",
   "Mode": "Default",
@@ -42596,6 +42596,44 @@
       "OriginalItemSpec": "wwwroot\\js\\wow.js"
     },
     {
+      "Identity": "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject\\wwwroot\\uploads\\aboutinfos\\fb43afdc-a9cb-4bea-860e-c38dbf2e421e.png",
+      "SourceId": "FinalProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject\\wwwroot\\",
+      "BasePath": "_content/FinalProject",
+      "RelativePath": "uploads/aboutinfos/fb43afdc-a9cb-4bea-860e-c38dbf2e421e.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\aboutinfos\\fb43afdc-a9cb-4bea-860e-c38dbf2e421e.png"
+    },
+    {
+      "Identity": "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject\\wwwroot\\uploads\\aboutinfos\\fdc14966-07af-4f8a-b7b3-744e0d9406e3.jpg",
+      "SourceId": "FinalProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject\\wwwroot\\",
+      "BasePath": "_content/FinalProject",
+      "RelativePath": "uploads/aboutinfos/fdc14966-07af-4f8a-b7b3-744e0d9406e3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\aboutinfos\\fdc14966-07af-4f8a-b7b3-744e0d9406e3.jpg"
+    },
+    {
       "Identity": "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject\\wwwroot\\uploads\\aboutsliders\\0c9b9097-0f8f-48c5-ba40-ca29113a3c7e.jpg",
       "SourceId": "FinalProject",
       "SourceType": "Discovered",
@@ -42653,12 +42691,12 @@
       "OriginalItemSpec": "wwwroot\\uploads\\employees\\a31c6302-b313-430c-9b51-8eca2f749ef0.jpg"
     },
     {
-      "Identity": "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject\\wwwroot\\uploads\\pizzas\\008501b5-6797-4c07-90ca-2155152e99a9.jpg",
+      "Identity": "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject\\wwwroot\\uploads\\pizzas\\9b40e654-3039-44ce-8769-6ee74dd288e2.png",
       "SourceId": "FinalProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject\\wwwroot\\",
       "BasePath": "_content/FinalProject",
-      "RelativePath": "uploads/pizzas/008501b5-6797-4c07-90ca-2155152e99a9.jpg",
+      "RelativePath": "uploads/pizzas/9b40e654-3039-44ce-8769-6ee74dd288e2.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -42669,7 +42707,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\pizzas\\008501b5-6797-4c07-90ca-2155152e99a9.jpg"
+      "OriginalItemSpec": "wwwroot\\uploads\\pizzas\\9b40e654-3039-44ce-8769-6ee74dd288e2.png"
     },
     {
       "Identity": "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject\\wwwroot\\uploads\\pizzas\\background\\service-pattern-1.png",
@@ -42729,12 +42767,12 @@
       "OriginalItemSpec": "wwwroot\\uploads\\pizzas\\background\\service-pattern-3.png"
     },
     {
-      "Identity": "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject\\wwwroot\\uploads\\products\\2e997c9f-e54c-4b2e-9cef-3d10dacf39c9.jpg",
+      "Identity": "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject\\wwwroot\\uploads\\products\\3a6aa47d-33a8-43cc-b5b1-e4dc6b683657.jpg",
       "SourceId": "FinalProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject\\wwwroot\\",
       "BasePath": "_content/FinalProject",
-      "RelativePath": "uploads/products/2e997c9f-e54c-4b2e-9cef-3d10dacf39c9.jpg",
+      "RelativePath": "uploads/products/3a6aa47d-33a8-43cc-b5b1-e4dc6b683657.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -42745,15 +42783,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\products\\2e997c9f-e54c-4b2e-9cef-3d10dacf39c9.jpg"
+      "OriginalItemSpec": "wwwroot\\uploads\\products\\3a6aa47d-33a8-43cc-b5b1-e4dc6b683657.jpg"
     },
     {
-      "Identity": "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject\\wwwroot\\uploads\\products\\5cdeb7d0-67b8-42e7-9934-0b28e2cbd639.jpg",
+      "Identity": "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject\\wwwroot\\uploads\\products\\6c8bdacf-6be2-4811-87de-06655047291f.jpg",
       "SourceId": "FinalProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject\\wwwroot\\",
       "BasePath": "_content/FinalProject",
-      "RelativePath": "uploads/products/5cdeb7d0-67b8-42e7-9934-0b28e2cbd639.jpg",
+      "RelativePath": "uploads/products/6c8bdacf-6be2-4811-87de-06655047291f.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -42764,15 +42802,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\products\\5cdeb7d0-67b8-42e7-9934-0b28e2cbd639.jpg"
+      "OriginalItemSpec": "wwwroot\\uploads\\products\\6c8bdacf-6be2-4811-87de-06655047291f.jpg"
     },
     {
-      "Identity": "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject\\wwwroot\\uploads\\products\\d8a0b3e1-9979-49c0-b430-eb988dec0a37.jpg",
+      "Identity": "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject\\wwwroot\\uploads\\products\\e02591b7-bea0-4c14-ac6b-8b3dab58b7cd.jpg",
       "SourceId": "FinalProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject\\wwwroot\\",
       "BasePath": "_content/FinalProject",
-      "RelativePath": "uploads/products/d8a0b3e1-9979-49c0-b430-eb988dec0a37.jpg",
+      "RelativePath": "uploads/products/e02591b7-bea0-4c14-ac6b-8b3dab58b7cd.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -42783,7 +42821,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\products\\d8a0b3e1-9979-49c0-b430-eb988dec0a37.jpg"
+      "OriginalItemSpec": "wwwroot\\uploads\\products\\e02591b7-bea0-4c14-ac6b-8b3dab58b7cd.jpg"
     },
     {
       "Identity": "C:\\Users\\V&V\\Desktop\\FinallyProject\\FinalProject\\wwwroot\\uploads\\sliders\\3cd9eab3-405d-4b75-aa13-a9f0a34d7326.png",

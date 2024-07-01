@@ -10,6 +10,8 @@ public class ReservationCreateDTO
 	public string Phone { get; set; } = null!;
 	public int TableId { get; set; }
 
+	public Table? Table { get; set; }
+
 
 	public string Comments { get; set; }
 

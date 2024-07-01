@@ -37,7 +37,7 @@ namespace FinalProject.Controllers
 
             if (page <= 0 || page > (double)Math.Ceiling((double)productGetDtos.Count / 2))
             {
-                return RedirectToAction("Index", "Error");
+                return RedirectToAction("Error","Home");
             }
 
             var paginatedDatas = PaginatedList<Product>.Create(productGetDtos, 6, page);
