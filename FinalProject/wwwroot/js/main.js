@@ -1,28 +1,19 @@
-﻿let deleteBtns = document.querySelectorAll(".product-delete");
-
-deleteBtns.forEach(btn => {
-
-    let url = btn.getAttribute("href");
-    btn.addEventListener("click", function (e) {
-        e.preventDefault();
-       fetch(url)
-        .then((response) => {
-            if (result) {
-
-                fetch(url).then(response => {
-                    if (response.status == 200) {
-                        window.location.reload(true);
-
-                        Swal.fire({
-                            title: "Deleted!",
-                            text: "Your file has been deleted.",
-                            icon: "success"
-                        });
-
-                    }
-                   
-                })
+﻿function deleteProduct(productId) {
+    if (confirm('Are you sure you want to remove this product from the basket?')) {
+        fetch(`/Product/DeleteBasket?productId=${productId}`, {
+            method: 'DELETE',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-CSRF-TOKEN': document.querySelector('input[name="__RequestVerificationToken"]').value // Include this line if you use anti-forgery tokens
             }
-        });
-    })
-})
+        })
+            .then(response => {
+                if (response.ok) {
+                    document.getElementById(`product-${productId}`).remove();
+                    // Optionally, update the total amount here
+                } 
+            })
+           
+    }
+}
+

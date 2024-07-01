@@ -361,8 +361,28 @@ namespace FinalProject.Controllers
 			return RedirectToAction("Index","Home");
 		}
 
-		
-		
+		[HttpGet]
+		public IActionResult DeleteBasket(int productId)
+		{
+			// Your logic to remove the product from the basket
+			// For example:
+			var product = _appDbContext.BasketItems.FirstOrDefault(p => p.ProductId == productId);
+			if (product != null)
+			{
+				_appDbContext.BasketItems.Remove(product);
+				_appDbContext.SaveChanges();
+				return RedirectToAction("Index", "Shop");
+			}
+			else
+			{
+				return RedirectToAction("Error", "Home");
+			}
+			
+		}
+
+
+
+
 
 	}
 }

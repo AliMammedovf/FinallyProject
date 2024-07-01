@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A08959E-F497-478C-8084-CE6E56386CED}|FinalProject.Core\\FinalProject.Core.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.core\\repositoryabstract\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A08959E-F497-478C-8084-CE6E56386CED}|FinalProject.Core\\FinalProject.Core.csproj|solutionrelative:finalproject.core\\repositoryabstract\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,16 +39,8 @@
       "RelativeMoniker": "D:0:0:{FC217905-94D9-4EBD-B7B3-4C4838BE1E6D}|FinalProject.Business\\FinalProject.Business.csproj|solutionrelative:finalproject.business\\services\\concret\\tableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A08959E-F497-478C-8084-CE6E56386CED}|FinalProject.Core\\FinalProject.Core.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.core\\repositoryabstract\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A08959E-F497-478C-8084-CE6E56386CED}|FinalProject.Core\\FinalProject.Core.csproj|solutionrelative:finalproject.core\\repositoryabstract\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FED3054F-B2A0-49BF-B417-4953EBBFEDE8}|FinalProject.Data\\FinalProject.Data.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.data\\repositoryconcret\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FED3054F-B2A0-49BF-B417-4953EBBFEDE8}|FinalProject.Data\\FinalProject.Data.csproj|solutionrelative:finalproject.data\\repositoryconcret\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\views\\product\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -81,10 +89,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FED3054F-B2A0-49BF-B417-4953EBBFEDE8}|FinalProject.Data\\FinalProject.Data.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject.data\\configurations\\reservationconfugration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FED3054F-B2A0-49BF-B417-4953EBBFEDE8}|FinalProject.Data\\FinalProject.Data.csproj|solutionrelative:finalproject.data\\configurations\\reservationconfugration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDD2D6B5-CCF0-4532-8401-443D7F627EAF}|FinalProject\\FinalProject.csproj|c:\\users\\v\u0026v\\desktop\\finallyproject\\finalproject\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -467,6 +471,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "main.js",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\wwwroot\\js\\main.js",
+              "RelativeDocumentMoniker": "FinalProject\\wwwroot\\js\\main.js",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\wwwroot\\js\\main.js",
+              "RelativeToolTip": "FinalProject\\wwwroot\\js\\main.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-01T20:28:53.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ReservationController.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Controllers\\ReservationController.cs",
               "RelativeDocumentMoniker": "FinalProject\\Controllers\\ReservationController.cs",
@@ -479,59 +496,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "IGenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\RepositoryAbstract\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "FinalProject.Core\\RepositoryAbstract\\IGenericRepository.cs",
               "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\RepositoryAbstract\\IGenericRepository.cs",
               "RelativeToolTip": "FinalProject.Core\\RepositoryAbstract\\IGenericRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBgAAAAEAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-29T12:57:58.462Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TableService.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Concret\\TableService.cs",
-              "RelativeDocumentMoniker": "FinalProject.Business\\Services\\Concret\\TableService.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Concret\\TableService.cs",
-              "RelativeToolTip": "FinalProject.Business\\Services\\Concret\\TableService.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAqwBEAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T12:57:10.726Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ITableService.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Abstarct\\ITableService.cs",
-              "RelativeDocumentMoniker": "FinalProject.Business\\Services\\Abstarct\\ITableService.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Abstarct\\ITableService.cs",
-              "RelativeToolTip": "FinalProject.Business\\Services\\Abstarct\\ITableService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T12:56:30.797Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ContactController.cs",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Controllers\\ContactController.cs",
-              "RelativeDocumentMoniker": "FinalProject\\Controllers\\ContactController.cs",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Controllers\\ContactController.cs",
-              "RelativeToolTip": "FinalProject\\Controllers\\ContactController.cs",
-              "ViewState": "AQIAAGkAAAAAAAAAAAAYwBAAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T10:14:12.281Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "ReservationCreateDTO.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\ReservationDTOs\\ReservationCreateDTO.cs",
               "RelativeDocumentMoniker": "FinalProject.Business\\DTOs\\ReservationDTOs\\ReservationCreateDTO.cs",
@@ -539,12 +517,11 @@
               "RelativeToolTip": "FinalProject.Business\\DTOs\\ReservationDTOs\\ReservationCreateDTO.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAuwAwAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T09:40:24.517Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-29T09:40:24.517Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\RepositoryConcret\\GenericRepository.cs",
               "RelativeDocumentMoniker": "FinalProject.Data\\RepositoryConcret\\GenericRepository.cs",
@@ -552,25 +529,73 @@
               "RelativeToolTip": "FinalProject.Data\\RepositoryConcret\\GenericRepository.cs",
               "ViewState": "AQIAADwAAAAAAAAAAAAAAEwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T12:58:56.465Z",
+              "WhenOpened": "2024-06-29T12:58:56.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FinalProject\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAH4AAAAAAAAAAAAAAIMAAADYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T17:36:18.266Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "FinalProject\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Controllers\\ProductController.cs",
               "RelativeToolTip": "FinalProject\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAAABAAAAAAAAAAAqwBABAAAUAAAA",
+              "ViewState": "AQIAAGIBAAAAAAAAAAAAAHUBAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-29T09:41:42.25Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "FinalProject\\Controllers\\ContactController.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "FinalProject\\Controllers\\ContactController.cs",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAYwBAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T10:14:12.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ITableService.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Abstarct\\ITableService.cs",
+              "RelativeDocumentMoniker": "FinalProject.Business\\Services\\Abstarct\\ITableService.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Abstarct\\ITableService.cs",
+              "RelativeToolTip": "FinalProject.Business\\Services\\Abstarct\\ITableService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T12:56:30.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TableService.cs",
+              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Concret\\TableService.cs",
+              "RelativeDocumentMoniker": "FinalProject.Business\\Services\\Concret\\TableService.cs",
+              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Concret\\TableService.cs",
+              "RelativeToolTip": "FinalProject.Business\\Services\\Concret\\TableService.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAqwBEAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T12:57:10.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Views\\Reservation\\Index.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\Reservation\\Index.cshtml",
@@ -578,12 +603,11 @@
               "RelativeToolTip": "FinalProject\\Views\\Reservation\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAFsAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-29T08:50:56.523Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-29T08:50:56.523Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "ReservationGetDTO.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\ReservationDTOs\\ReservationGetDTO.cs",
               "RelativeDocumentMoniker": "FinalProject.Business\\DTOs\\ReservationDTOs\\ReservationGetDTO.cs",
@@ -591,12 +615,11 @@
               "RelativeToolTip": "FinalProject.Business\\DTOs\\ReservationDTOs\\ReservationGetDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T16:04:05.423Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-01T16:04:05.423Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Reservation.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\Models\\Reservation.cs",
               "RelativeDocumentMoniker": "FinalProject.Core\\Models\\Reservation.cs",
@@ -604,12 +627,11 @@
               "RelativeToolTip": "FinalProject.Core\\Models\\Reservation.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T15:10:08.442Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-29T15:10:08.442Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "CheckOut.cshtml",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Views\\Product\\CheckOut.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\Product\\CheckOut.cshtml",
@@ -617,12 +639,11 @@
               "RelativeToolTip": "FinalProject\\Views\\Product\\CheckOut.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgBAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-01T19:29:13.87Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-01T19:29:13.87Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "ReservationService.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Concret\\ReservationService.cs",
               "RelativeDocumentMoniker": "FinalProject.Business\\Services\\Concret\\ReservationService.cs",
@@ -630,12 +651,11 @@
               "RelativeToolTip": "FinalProject.Business\\Services\\Concret\\ReservationService.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAAAABgAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T18:11:13.825Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-01T18:11:13.825Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\DAL\\AppDbContext.cs",
               "RelativeDocumentMoniker": "FinalProject.Data\\DAL\\AppDbContext.cs",
@@ -643,12 +663,11 @@
               "RelativeToolTip": "FinalProject.Data\\DAL\\AppDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T20:02:10.53Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-29T20:02:10.53Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Program.cs",
               "RelativeDocumentMoniker": "FinalProject\\Program.cs",
@@ -656,12 +675,11 @@
               "RelativeToolTip": "FinalProject\\Program.cs",
               "ViewState": "AQIAACcAAAAAAAAAAAAuwDQAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T05:57:02.391Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-30T05:57:02.391Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "Team.cshtml",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Views\\About\\Team.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\About\\Team.cshtml",
@@ -673,7 +691,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "ResservationVM.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\ViewModels\\ResservationVM.cs",
               "RelativeDocumentMoniker": "FinalProject\\ViewModels\\ResservationVM.cs",
@@ -685,7 +703,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "IReservationService.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Abstarct\\IReservationService.cs",
               "RelativeDocumentMoniker": "FinalProject.Business\\Services\\Abstarct\\IReservationService.cs",
@@ -697,7 +715,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "MappingProfile.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Mapping\\MappingProfile.cs",
               "RelativeDocumentMoniker": "FinalProject.Business\\Mapping\\MappingProfile.cs",
@@ -709,7 +727,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "ReservationConfugration.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\Configurations\\ReservationConfugration.cs",
               "RelativeDocumentMoniker": "FinalProject.Data\\Configurations\\ReservationConfugration.cs",
@@ -721,19 +739,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "FinalProject\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-30T17:36:18.266Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Views\\Shop\\Index.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\Shop\\Index.cshtml",
@@ -745,7 +751,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\SetMenyuHeader\\Index.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\SetMenyuHeader\\Index.cshtml",
@@ -757,7 +763,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\SetMenyuHeader\\Create.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\SetMenyuHeader\\Create.cshtml",
@@ -769,7 +775,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "SetMenyuHeaderController.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Controllers\\SetMenyuHeaderController.cs",
               "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Controllers\\SetMenyuHeaderController.cs",
@@ -782,7 +788,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "KomboMenyuController.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Controllers\\KomboMenyuController.cs",
               "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Controllers\\KomboMenyuController.cs",
@@ -794,7 +800,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "PizzaMenyuController.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Controllers\\PizzaMenyuController.cs",
               "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Controllers\\PizzaMenyuController.cs",
@@ -806,7 +812,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\PizzaMenyu\\Index.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\PizzaMenyu\\Index.cshtml",
@@ -818,7 +824,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\PizzaMenyu\\Update.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\PizzaMenyu\\Update.cshtml",
@@ -830,7 +836,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "AboutInfoCreateDTO.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\AboutInfoDTOs\\AboutInfoCreateDTO.cs",
               "RelativeDocumentMoniker": "FinalProject.Business\\DTOs\\AboutInfoDTOs\\AboutInfoCreateDTO.cs",
@@ -842,7 +848,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\AboutInfo\\Create.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\AboutInfo\\Create.cshtml",
@@ -854,7 +860,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "AboutInfoController.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Controllers\\AboutInfoController.cs",
               "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Controllers\\AboutInfoController.cs",
@@ -866,7 +872,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "AboutSliderController.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Controllers\\AboutSliderController.cs",
               "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Controllers\\AboutSliderController.cs",
@@ -878,7 +884,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\AboutInfo\\Index.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\AboutInfo\\Index.cshtml",
@@ -890,7 +896,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
@@ -902,7 +908,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\AboutSlider\\Index.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\AboutSlider\\Index.cshtml",
@@ -914,7 +920,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "FinalProject\\Controllers\\HomeController.cs",
@@ -926,7 +932,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "AboutController.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Controllers\\AboutController.cs",
               "RelativeDocumentMoniker": "FinalProject\\Controllers\\AboutController.cs",
@@ -938,7 +944,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Views\\Contact\\Index.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\Contact\\Index.cshtml",
@@ -950,7 +956,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "ShopController.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Controllers\\ShopController.cs",
               "RelativeDocumentMoniker": "FinalProject\\Controllers\\ShopController.cs",
@@ -962,7 +968,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\Home\\Index.cshtml",
@@ -974,7 +980,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "AboutInfoService.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Concret\\AboutInfoService.cs",
               "RelativeDocumentMoniker": "FinalProject.Business\\Services\\Concret\\AboutInfoService.cs",
@@ -986,7 +992,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Views\\About\\Index.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\About\\Index.cshtml",
@@ -998,7 +1004,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "AboutVM.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\ViewModels\\AboutVM.cs",
               "RelativeDocumentMoniker": "FinalProject\\ViewModels\\AboutVM.cs",
@@ -1010,7 +1016,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\AboutInfo\\Update.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\AboutInfo\\Update.cshtml",
@@ -1022,7 +1028,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\_ViewImports.cshtml",
@@ -1034,7 +1040,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\AboutSlider\\Create.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\AboutSlider\\Create.cshtml",
@@ -1046,7 +1052,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "IAboutInfoService.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Abstarct\\IAboutInfoService.cs",
               "RelativeDocumentMoniker": "FinalProject.Business\\Services\\Abstarct\\IAboutInfoService.cs",
@@ -1058,7 +1064,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "AboutInfoRepository.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\RepositoryConcret\\AboutInfoRepository.cs",
               "RelativeDocumentMoniker": "FinalProject.Data\\RepositoryConcret\\AboutInfoRepository.cs",
@@ -1070,7 +1076,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 52,
               "Title": "IAboutInfoRepository.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\RepositoryAbstract\\IAboutInfoRepository.cs",
               "RelativeDocumentMoniker": "FinalProject.Core\\RepositoryAbstract\\IAboutInfoRepository.cs",
@@ -1082,7 +1088,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "AboutSliderService.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Concret\\AboutSliderService.cs",
               "RelativeDocumentMoniker": "FinalProject.Business\\Services\\Concret\\AboutSliderService.cs",
@@ -1094,7 +1100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 54,
               "Title": "AboutInfoUpdateDTO.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\AboutInfoDTOs\\AboutInfoUpdateDTO.cs",
               "RelativeDocumentMoniker": "FinalProject.Business\\DTOs\\AboutInfoDTOs\\AboutInfoUpdateDTO.cs",
@@ -1106,7 +1112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "IAboutSliderService.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Abstarct\\IAboutSliderService.cs",
               "RelativeDocumentMoniker": "FinalProject.Business\\Services\\Abstarct\\IAboutSliderService.cs",
@@ -1118,7 +1124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 55,
               "Title": "AboutInfoGetDTO.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\AboutInfoDTOs\\AboutInfoGetDTO.cs",
               "RelativeDocumentMoniker": "FinalProject.Business\\DTOs\\AboutInfoDTOs\\AboutInfoGetDTO.cs",
@@ -1130,7 +1136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 53,
               "Title": "AboutInfo.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\Models\\AboutInfo.cs",
               "RelativeDocumentMoniker": "FinalProject.Core\\Models\\AboutInfo.cs",
@@ -1142,7 +1148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
               "Title": "AboutInfoConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\Configurations\\AboutInfoConfiguration.cs",
               "RelativeDocumentMoniker": "FinalProject.Data\\Configurations\\AboutInfoConfiguration.cs",
@@ -1154,7 +1160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 57,
               "Title": "AboutSliderCreateDTO.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\AboutSliderDTOs\\AboutSliderCreateDTO.cs",
               "RelativeDocumentMoniker": "FinalProject.Business\\DTOs\\AboutSliderDTOs\\AboutSliderCreateDTO.cs",
@@ -1166,7 +1172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 59,
               "Title": "CategoryFilter.cshtml",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Views\\Shop\\CategoryFilter.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Views\\Shop\\CategoryFilter.cshtml",
@@ -1178,7 +1184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 58,
               "Title": "AboutSliderConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\Configurations\\AboutSliderConfiguration.cs",
               "RelativeDocumentMoniker": "FinalProject.Data\\Configurations\\AboutSliderConfiguration.cs",
@@ -1190,7 +1196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 60,
               "Title": "HomeVM.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\ViewModels\\HomeVM.cs",
               "RelativeDocumentMoniker": "FinalProject\\ViewModels\\HomeVM.cs",
@@ -1202,7 +1208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 61,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\KomboMenyu\\Update.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\KomboMenyu\\Update.cshtml",
@@ -1214,7 +1220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 62,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\KomboMenyu\\Create.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\KomboMenyu\\Create.cshtml",
@@ -1226,7 +1232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 63,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\KomboMenyu\\Index.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\KomboMenyu\\Index.cshtml",
@@ -1238,7 +1244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 64,
               "Title": "KomboMenyuService.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Concret\\KomboMenyuService.cs",
               "RelativeDocumentMoniker": "FinalProject.Business\\Services\\Concret\\KomboMenyuService.cs",
@@ -1250,7 +1256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 65,
               "Title": "IKomboMenyuService.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Abstarct\\IKomboMenyuService.cs",
               "RelativeDocumentMoniker": "FinalProject.Business\\Services\\Abstarct\\IKomboMenyuService.cs",
@@ -1262,7 +1268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 67,
               "Title": "KomboMenyuRepository.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\RepositoryConcret\\KomboMenyuRepository.cs",
               "RelativeDocumentMoniker": "FinalProject.Data\\RepositoryConcret\\KomboMenyuRepository.cs",
@@ -1274,7 +1280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 68,
               "Title": "IKomboMenyuRepository.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\RepositoryAbstract\\IKomboMenyuRepository.cs",
               "RelativeDocumentMoniker": "FinalProject.Core\\RepositoryAbstract\\IKomboMenyuRepository.cs",
@@ -1286,7 +1292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 69,
               "Title": "KomboMenyu.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\Models\\KomboMenyu.cs",
               "RelativeDocumentMoniker": "FinalProject.Core\\Models\\KomboMenyu.cs",
@@ -1298,7 +1304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 66,
               "Title": "EmployeeService.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Concret\\EmployeeService.cs",
               "RelativeDocumentMoniker": "FinalProject.Business\\Services\\Concret\\EmployeeService.cs",
@@ -1310,7 +1316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 70,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\SetMenyuHeader\\Update.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\SetMenyuHeader\\Update.cshtml",
@@ -1322,7 +1328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 71,
               "Title": "ISetMenyuHeaderService.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Abstarct\\ISetMenyuHeaderService.cs",
               "RelativeDocumentMoniker": "FinalProject.Business\\Services\\Abstarct\\ISetMenyuHeaderService.cs",
@@ -1334,7 +1340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 72,
               "Title": "SetMenyuHeaderService.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Concret\\SetMenyuHeaderService.cs",
               "RelativeDocumentMoniker": "FinalProject.Business\\Services\\Concret\\SetMenyuHeaderService.cs",
@@ -1346,7 +1352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 73,
               "Title": "SetMenyuHeaderGetDTO.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\SetMenyuHeaderDTOs\\SetMenyuHeaderGetDTO.cs",
               "RelativeDocumentMoniker": "FinalProject.Business\\DTOs\\SetMenyuHeaderDTOs\\SetMenyuHeaderGetDTO.cs",
@@ -1358,7 +1364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 74,
               "Title": "SetMenyuHeaderUpdateDTO.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\SetMenyuHeaderDTOs\\SetMenyuHeaderUpdateDTO.cs",
               "RelativeDocumentMoniker": "FinalProject.Business\\DTOs\\SetMenyuHeaderDTOs\\SetMenyuHeaderUpdateDTO.cs",
@@ -1370,7 +1376,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 75,
               "Title": "SetMenyuHeaderCreateDTO.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\SetMenyuHeaderDTOs\\SetMenyuHeaderCreateDTO.cs",
               "RelativeDocumentMoniker": "FinalProject.Business\\DTOs\\SetMenyuHeaderDTOs\\SetMenyuHeaderCreateDTO.cs",
@@ -1382,7 +1388,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 76,
               "Title": "EmployeeUpdateDTO.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\EmployeeDTOs\\EmployeeUpdateDTO.cs",
               "RelativeDocumentMoniker": "FinalProject.Business\\DTOs\\EmployeeDTOs\\EmployeeUpdateDTO.cs",
@@ -1394,7 +1400,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 77,
               "Title": "EmployeeGetDTO.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\EmployeeDTOs\\EmployeeGetDTO.cs",
               "RelativeDocumentMoniker": "FinalProject.Business\\DTOs\\EmployeeDTOs\\EmployeeGetDTO.cs",
@@ -1406,7 +1412,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 78,
               "Title": "EmployeeCreateDTO.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\EmployeeDTOs\\EmployeeCreateDTO.cs",
               "RelativeDocumentMoniker": "FinalProject.Business\\DTOs\\EmployeeDTOs\\EmployeeCreateDTO.cs",
@@ -1418,7 +1424,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 79,
               "Title": "AboutSliderGetDTO.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\AboutSliderDTOs\\AboutSliderGetDTO.cs",
               "RelativeDocumentMoniker": "FinalProject.Business\\DTOs\\AboutSliderDTOs\\AboutSliderGetDTO.cs",
@@ -1430,7 +1436,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 80,
               "Title": "SetMenyuHeader.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\Models\\SetMenyuHeader.cs",
               "RelativeDocumentMoniker": "FinalProject.Core\\Models\\SetMenyuHeader.cs",
@@ -1442,7 +1448,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 81,
               "Title": "SetMenyuHeadersConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\Configurations\\SetMenyuHeadersConfiguration.cs",
               "RelativeDocumentMoniker": "FinalProject.Data\\Configurations\\SetMenyuHeadersConfiguration.cs",
@@ -1454,7 +1460,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 82,
               "Title": "PizzaMenyuConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\Configurations\\PizzaMenyuConfiguration.cs",
               "RelativeDocumentMoniker": "FinalProject.Data\\Configurations\\PizzaMenyuConfiguration.cs",
@@ -1466,7 +1472,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 83,
               "Title": "EmployeeConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\Configurations\\EmployeeConfiguration.cs",
               "RelativeDocumentMoniker": "FinalProject.Data\\Configurations\\EmployeeConfiguration.cs",
@@ -1478,7 +1484,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 84,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Controllers\\EmployeeController.cs",
@@ -1490,7 +1496,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 87,
               "Title": "SetMenyuHeaderRepository.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\RepositoryConcret\\SetMenyuHeaderRepository.cs",
               "RelativeDocumentMoniker": "FinalProject.Data\\RepositoryConcret\\SetMenyuHeaderRepository.cs",
@@ -1502,7 +1508,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 85,
               "Title": "SliderController.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Controllers\\SliderController.cs",
               "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Controllers\\SliderController.cs",
@@ -1514,7 +1520,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 88,
               "Title": "ISetMenyuHeaderRepository.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\RepositoryAbstract\\ISetMenyuHeaderRepository.cs",
               "RelativeDocumentMoniker": "FinalProject.Core\\RepositoryAbstract\\ISetMenyuHeaderRepository.cs",
@@ -1526,7 +1532,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 86,
               "Title": "SliderService.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Concret\\SliderService.cs",
               "RelativeDocumentMoniker": "FinalProject.Business\\Services\\Concret\\SliderService.cs",
@@ -1538,7 +1544,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 89,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\Employee\\Index.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\Employee\\Index.cshtml",
@@ -1550,7 +1556,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 90,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\Employee\\Update.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\Employee\\Update.cshtml",
@@ -1562,7 +1568,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 91,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\Employee\\Create.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\Employee\\Create.cshtml",
@@ -1574,7 +1580,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 92,
               "Title": "IEmployeeService.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Abstarct\\IEmployeeService.cs",
               "RelativeDocumentMoniker": "FinalProject.Business\\Services\\Abstarct\\IEmployeeService.cs",
@@ -1586,7 +1592,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 93,
               "Title": "EmployeeRepository.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\RepositoryConcret\\EmployeeRepository.cs",
               "RelativeDocumentMoniker": "FinalProject.Data\\RepositoryConcret\\EmployeeRepository.cs",
@@ -1598,7 +1604,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 94,
               "Title": "IEmployeeRepository.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\RepositoryAbstract\\IEmployeeRepository.cs",
               "RelativeDocumentMoniker": "FinalProject.Core\\RepositoryAbstract\\IEmployeeRepository.cs",
@@ -1610,7 +1616,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 95,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\Models\\Employee.cs",
               "RelativeDocumentMoniker": "FinalProject.Core\\Models\\Employee.cs",
@@ -1622,7 +1628,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
+              "DocumentIndex": 97,
               "Title": "PizzaMenyuGetDTO.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\PizzaMenyuDTOs\\PizzaMenyuGetDTO.cs",
               "RelativeDocumentMoniker": "FinalProject.Business\\DTOs\\PizzaMenyuDTOs\\PizzaMenyuGetDTO.cs",
@@ -1634,7 +1640,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 96,
               "Title": "PizzaMenyuCreateDTO.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\PizzaMenyuDTOs\\PizzaMenyuCreateDTO.cs",
               "RelativeDocumentMoniker": "FinalProject.Business\\DTOs\\PizzaMenyuDTOs\\PizzaMenyuCreateDTO.cs",
@@ -1646,7 +1652,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 98,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\PizzaMenyu\\Create.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\PizzaMenyu\\Create.cshtml",
@@ -1658,7 +1664,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 99,
               "Title": "PizzaMenyuService.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Concret\\PizzaMenyuService.cs",
               "RelativeDocumentMoniker": "FinalProject.Business\\Services\\Concret\\PizzaMenyuService.cs",
@@ -1670,7 +1676,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 100,
               "Title": "TableController.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Controllers\\TableController.cs",
               "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Controllers\\TableController.cs",
@@ -1682,7 +1688,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 100,
+              "DocumentIndex": 101,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Controllers\\ProductController.cs",
@@ -1694,7 +1700,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 101,
+              "DocumentIndex": 102,
               "Title": "IPizzaMenyuService.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\Services\\Abstarct\\IPizzaMenyuService.cs",
               "RelativeDocumentMoniker": "FinalProject.Business\\Services\\Abstarct\\IPizzaMenyuService.cs",
@@ -1706,7 +1712,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 102,
+              "DocumentIndex": 103,
               "Title": "PizzaMenyuRepository.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\RepositoryConcret\\PizzaMenyuRepository.cs",
               "RelativeDocumentMoniker": "FinalProject.Data\\RepositoryConcret\\PizzaMenyuRepository.cs",
@@ -1718,7 +1724,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 103,
+              "DocumentIndex": 104,
               "Title": "IPizzaMenyuRepository.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\RepositoryAbstract\\IPizzaMenyuRepository.cs",
               "RelativeDocumentMoniker": "FinalProject.Core\\RepositoryAbstract\\IPizzaMenyuRepository.cs",
@@ -1730,7 +1736,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 104,
+              "DocumentIndex": 105,
               "Title": "PizzaMenyuUpdateDTO.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\PizzaMenyuDTOs\\PizzaMenyuUpdateDTO.cs",
               "RelativeDocumentMoniker": "FinalProject.Business\\DTOs\\PizzaMenyuDTOs\\PizzaMenyuUpdateDTO.cs",
@@ -1742,7 +1748,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 106,
+              "DocumentIndex": 107,
               "Title": "PizzaMenyu.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\Models\\PizzaMenyu.cs",
               "RelativeDocumentMoniker": "FinalProject.Core\\Models\\PizzaMenyu.cs",
@@ -1754,7 +1760,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 105,
+              "DocumentIndex": 106,
               "Title": "AboutSliderUpdateDTO.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\AboutSliderDTOs\\AboutSliderUpdateDTO.cs",
               "RelativeDocumentMoniker": "FinalProject.Business\\DTOs\\AboutSliderDTOs\\AboutSliderUpdateDTO.cs",
@@ -1766,7 +1772,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 107,
+              "DocumentIndex": 108,
               "Title": "AboutSlider.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\Models\\AboutSlider.cs",
               "RelativeDocumentMoniker": "FinalProject.Core\\Models\\AboutSlider.cs",
@@ -1778,7 +1784,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 108,
+              "DocumentIndex": 109,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject\\Areas\\Admin\\Views\\AboutSlider\\Update.cshtml",
               "RelativeDocumentMoniker": "FinalProject\\Areas\\Admin\\Views\\AboutSlider\\Update.cshtml",
@@ -1790,7 +1796,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 109,
+              "DocumentIndex": 110,
               "Title": "IAboutSliderRepository.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Core\\RepositoryAbstract\\IAboutSliderRepository.cs",
               "RelativeDocumentMoniker": "FinalProject.Core\\RepositoryAbstract\\IAboutSliderRepository.cs",
@@ -1802,7 +1808,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 110,
+              "DocumentIndex": 111,
               "Title": "AboutSliderRepository.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Data\\RepositoryConcret\\AboutSliderRepository.cs",
               "RelativeDocumentMoniker": "FinalProject.Data\\RepositoryConcret\\AboutSliderRepository.cs",
@@ -1814,7 +1820,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 111,
+              "DocumentIndex": 112,
               "Title": "TableCreateDTO.cs",
               "DocumentMoniker": "C:\\Users\\V\u0026V\\Desktop\\FinallyProject\\FinalProject.Business\\DTOs\\TableDTOs\\TableCreateDTO.cs",
               "RelativeDocumentMoniker": "FinalProject.Business\\DTOs\\TableDTOs\\TableCreateDTO.cs",
