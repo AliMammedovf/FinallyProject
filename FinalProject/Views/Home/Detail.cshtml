@@ -190,7 +190,7 @@
             <div class="row clearfix">
 
 
-                @foreach (var item in Model.Products)
+                @foreach (var item in Model.Products.Where(x=>x.Id>=14 && x.Id<=17))
                 {
                     <!-- Menu Block -->
                     <div class="menu-block-two col-lg-3 col-md-6 col-sm-12">

@@ -50,21 +50,34 @@ namespace FinalProject.Controllers
 
             List<ReservationGetDTO> reservation = _reservationService.GetAllReservations();
 
-			IEnumerable<ReservationGetDTO> reservationGetDTOs = reservation;
-            
 
-            if (reservationCreateDTO.StartDate.HasValue && reservationCreateDTO.EndDate.HasValue) 
+            IEnumerable<TableGetDTO> tableGetDTO = _tableService.GetAllTables();
+
+
+
+            if (reservationCreateDTO.StartDate.HasValue && reservationCreateDTO.EndDate.HasValue)
             {
-				reservationGetDTOs = reservationGetDTOs.Where(reserv => !reserv.Reservations.Any(reservation =>
-					(reservation.StartDate <= reservationCreateDTO.EndDate && reservation.EndDate >= reservationCreateDTO.StartDate)
-				));
+                tableGetDTO = tableGetDTO.Where(reserv => !reserv.Reservations.Any(reservation =>
+                    (reservation.StartDate <= reservationCreateDTO.EndDate && reservation.EndDate >= reservationCreateDTO.StartDate)
+                ));
+
+
+                var table = _tableService.GetTable(x => x.Id == reservationCreateDTO.TableId);
 
                 
+                    if (table.Reservations.Any(res => res.StartDate <= reservationCreateDTO.EndDate && res.EndDate >= reservationCreateDTO.StartDate))
+                    {
+                        ModelState.AddModelError("Table", "Masa seçdiyiniz vaxt ərzində rezerv edilib!");
+                        return View();
+                    }
+                
+
 
             }
 
 
-			await _reservationService.AddAsyncReservation(reservationCreateDTO);
+
+            await _reservationService.AddAsyncReservation(reservationCreateDTO);
 
 			
 

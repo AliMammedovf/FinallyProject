@@ -36,17 +36,17 @@ public class AboutSliderCreateDTOValidator : AbstractValidator<AboutSliderCreate
 		RuleFor(x => x.Title)
 			.NotEmpty().WithMessage("Title cannot be empty!")
 			.NotNull().WithMessage("Title cannot be null!")
-			.MaximumLength(30).WithMessage("Length should be max 30!");
+			.MaximumLength(100).WithMessage("Length should be max 100!");
 
 		RuleFor(x => x.Description)
 			.NotEmpty().WithMessage("Description cannot be empty!")
 			.NotNull().WithMessage("Description cannot be null!")
-			.MaximumLength(50).WithMessage("Length should be max 70!");
+			.MaximumLength(100).WithMessage("Length should be max 100!");
 
 		RuleFor(x => x.Text)
 			.NotEmpty().WithMessage("Text cannot be empty!")
 			.NotNull().WithMessage("Text cannot be null!")
-			.MaximumLength(200).WithMessage("Length should be max 200!");
+			.MaximumLength(300).WithMessage("Length should be max 300!");
 
 	}
 }

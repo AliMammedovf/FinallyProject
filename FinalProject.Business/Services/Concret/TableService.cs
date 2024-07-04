@@ -92,6 +92,9 @@ public class TableService : ITableService
 			throw new DuplicateEntityException("Table name is available!");
 		}
 
+		oldTable.Price = tableUpdateDTO.Price;
+		oldTable.Seats = tableUpdateDTO.Seats;
+
 		_tableRepository.Commit();
 	}
 }

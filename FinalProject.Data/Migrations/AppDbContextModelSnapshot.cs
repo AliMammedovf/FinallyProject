@@ -70,14 +70,14 @@ namespace FinalProject.Data.Migrations
                     b.Property<DateTime?>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 6, 30, 23, 7, 25, 671, DateTimeKind.Utc).AddTicks(2121));
+                        .HasDefaultValue(new DateTime(2024, 7, 3, 0, 35, 1, 579, DateTimeKind.Utc).AddTicks(8604));
 
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Description")
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.Property<string>("IconUrl")
                         .HasColumnType("nvarchar(max)");
@@ -90,13 +90,13 @@ namespace FinalProject.Data.Migrations
 
                     b.Property<string>("Text")
                         .IsRequired()
-                        .HasMaxLength(200)
-                        .HasColumnType("nvarchar(200)");
+                        .HasMaxLength(300)
+                        .HasColumnType("nvarchar(300)");
 
                     b.Property<string>("Title")
                         .IsRequired()
-                        .HasMaxLength(30)
-                        .HasColumnType("nvarchar(30)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.HasKey("Id");
 
@@ -153,7 +153,7 @@ namespace FinalProject.Data.Migrations
                     b.Property<DateTime?>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 6, 30, 23, 7, 25, 671, DateTimeKind.Utc).AddTicks(2566));
+                        .HasDefaultValue(new DateTime(2024, 7, 3, 0, 35, 1, 579, DateTimeKind.Utc).AddTicks(8774));
 
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("datetime2");
@@ -211,7 +211,7 @@ namespace FinalProject.Data.Migrations
                     b.Property<DateTime?>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 6, 30, 23, 7, 25, 671, DateTimeKind.Utc).AddTicks(2896));
+                        .HasDefaultValue(new DateTime(2024, 7, 3, 0, 35, 1, 579, DateTimeKind.Utc).AddTicks(8981));
 
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("datetime2");
@@ -289,6 +289,9 @@ namespace FinalProject.Data.Migrations
                     b.Property<string>("FullName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("OrderStatus")
+                        .HasColumnType("int");
 
                     b.Property<string>("Phone")
                         .IsRequired()
@@ -402,7 +405,7 @@ namespace FinalProject.Data.Migrations
                     b.Property<DateTime?>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 6, 30, 23, 7, 25, 671, DateTimeKind.Utc).AddTicks(3333));
+                        .HasDefaultValue(new DateTime(2024, 7, 3, 0, 35, 1, 579, DateTimeKind.Utc).AddTicks(9262));
 
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("datetime2");
@@ -513,7 +516,7 @@ namespace FinalProject.Data.Migrations
                     b.Property<DateTime?>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 6, 30, 23, 7, 25, 671, DateTimeKind.Utc).AddTicks(3588));
+                        .HasDefaultValue(new DateTime(2024, 7, 3, 0, 35, 1, 579, DateTimeKind.Utc).AddTicks(9484));
 
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("datetime2");
@@ -593,7 +596,7 @@ namespace FinalProject.Data.Migrations
                     b.Property<DateTime?>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 6, 30, 23, 7, 25, 671, DateTimeKind.Utc).AddTicks(3956));
+                        .HasDefaultValue(new DateTime(2024, 7, 3, 0, 35, 1, 579, DateTimeKind.Utc).AddTicks(9731));
 
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("datetime2");
@@ -656,7 +659,7 @@ namespace FinalProject.Data.Migrations
                     b.Property<DateTime?>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 6, 30, 23, 7, 25, 671, DateTimeKind.Utc).AddTicks(4311));
+                        .HasDefaultValue(new DateTime(2024, 7, 3, 0, 35, 1, 579, DateTimeKind.Utc).AddTicks(9991));
 
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("datetime2");

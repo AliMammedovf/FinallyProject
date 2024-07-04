@@ -19,6 +19,6 @@ public class OrderVM
 
     public string PostCode { get; set; }
 
-
-    public int Total { get; set; }
+    public int? Total {  get; set; }
+    
 }

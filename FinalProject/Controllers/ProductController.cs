@@ -22,6 +22,7 @@ namespace FinalProject.Controllers
 		private readonly UserManager<AppUser> _userManager;
 		private readonly IBasketItemService _basketItemService;
 		private readonly AppDbContext _appDbContext;
+		
        
 
         public ProductController(IProductService productService, UserManager<AppUser> userManager, IBasketItemService basketItemService, AppDbContext appDbContext)
@@ -298,7 +299,7 @@ namespace FinalProject.Controllers
 
 				foreach (var item in userBasketItems)
 				{
-                    Core.Models.Product product = _appDbContext.Products.FirstOrDefault(x => x.Id == item.ProductId);
+                    Core.Models.Product product =  _appDbContext.Products.FirstOrDefault(x => x.Id == item.ProductId);
                     CheckOutVM checkOutVM = new ()
 					{
 						Product = product,
@@ -315,6 +316,7 @@ namespace FinalProject.Controllers
 					};
 
 					order.TotalPrice += orderItem.Price * orderItem.Count;
+					
 
 					order.OrdeerItems.Add(orderItem);
 				}
@@ -324,38 +326,42 @@ namespace FinalProject.Controllers
                 return RedirectToAction("Login", "User");
             }
 
-            var optionCust = new CustomerCreateOptions
-            {
-                Email = user.Email,
-                Name = user.Email + " " + user.FullName,
-                Phone = "+994 50 66"
-            };
-            var serviceCust = new CustomerService();
-            Customer customer = serviceCust.Create(optionCust);
-            orderVM.Total = orderVM.Total * 100;
-            var optionsCharge = new ChargeCreateOptions
-            {
-                Amount = (long)orderVM.Total,
-                Currency = "USD",
-                Description = "Product Selling amount",
-                Source = "pk_test_51PWh50LzIBUdEvDlg1EExO8XGLPATyoZtksTff7DG16X8BfROzXyDWUCLBw0jsIUvea4quL3oWzVOIYemtYpIjq200aOm6fgK9",
-                ReceiptEmail = "elmemmedov871@gmail.com"
-            };
-            var serviceCharge = new ChargeService();
-            Charge charge = serviceCharge.Create(optionsCharge);
-                ViewBag.CheckOutViewModel = checkoutVmList;
-            if (charge.Status != "succeeded")
-            {
+			var optionCust = new CustomerCreateOptions
+			{
+				Email = "tu7dw5n4h@code.edu.az",
+				Name = user.Email + " " + user.FullName,
+				Phone = "+994 50 66"
+			};
+			var serviceCust = new CustomerService();
+			Customer customer = serviceCust.Create(optionCust);
+			//orderVM.Total = orderVM.Total * 100;
+			//var optionsCharge = new ChargeCreateOptions
+			//{
+			//	Amount = (long)orderVM.Total,
+			//	Currency = "USD",
+			//	Description = "Product Selling amount",
+			//	//Source = "pk_test_51PYOQsFiyqPg2bBwmm5AFN6aHiPzDrKk25qwKT3J91AD0kyLNuJKmggc7YvBErKSwABEaoGXZ8fOgoofRV6qe1Z300429HKATQ",
+			//	ReceiptEmail = "tu7dw5n4h@code.edu.az"
+			//};
+			//var serviceCharge = new ChargeService();
 
-                ModelState.AddModelError("Address", "Odenishde problem var");
-                return View();
-            }
 
+
+			//Charge charge = serviceCharge.Create(optionsCharge);
+
+			//if (charge.Status != "succeeded")
+			//{
+
+			//	ModelState.AddModelError("Address", "Odenishde problem var");
+			//	return View();
+			//}
+
+			ViewBag.CheckOutViewModel = checkoutVmList;
 
 			if (!ModelState.IsValid)
 				return View();
-
-			await _appDbContext.Orders.AddAsync(order);
+           
+            await _appDbContext.Orders.AddAsync(order);
 		    await _appDbContext.SaveChangesAsync();
 
 			return RedirectToAction("Index","Home");

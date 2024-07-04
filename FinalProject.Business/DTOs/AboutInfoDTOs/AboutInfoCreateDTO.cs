@@ -37,7 +37,7 @@ public class AboutInfoCreateDTOValidator : AbstractValidator<AboutInfoCreateDTO>
 		RuleFor(x => x.Description)
 			.NotEmpty().WithMessage("Description cannot be empty!")
 			.NotNull().WithMessage("Description cannot be null!")
-			.MaximumLength(200).WithMessage("Length should be max 200!");
+			.MaximumLength(500).WithMessage("Length should be max 500!");
 
 		
 

@@ -3,7 +3,7 @@
 <div class="container">
     <div class="row">
         <div class="col-12">
-            <form asp-action="Update" asp-controller="Table" enctype="multipart/form-data">
+            <form method="post" asp-action="Update" asp-controller="Table" enctype="multipart/form-data">
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Title</label>
                     <input asp-for="Title" class="form-control" id="exampleInputEmail1" placeholder="Enter to name">

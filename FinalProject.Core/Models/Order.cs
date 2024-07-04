@@ -1,4 +1,6 @@
-﻿using System;
+﻿
+using FinalProject.Core.EnumForCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +25,8 @@ public class Order : BaseEntity
     public decimal? TotalPrice { get; set; }
 
     public string AppUserId { get; set; }
+
+    public OrderStatus OrderStatus { get; set; }
 
     public AppUser AppUser { get; set; }
 

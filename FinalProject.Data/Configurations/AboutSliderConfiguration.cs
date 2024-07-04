@@ -13,9 +13,9 @@ public class AboutSliderConfiguration : IEntityTypeConfiguration<AboutSlider>
 {
 	public void Configure(EntityTypeBuilder<AboutSlider> builder)
 	{
-		builder.Property(x => x.Title).IsRequired().HasMaxLength(30);
-		builder.Property( x => x.Description).HasMaxLength(50);
-		builder.Property(x=>x.Text).IsRequired().HasMaxLength(200);
+		builder.Property(x => x.Title).IsRequired().HasMaxLength(100);
+		builder.Property( x => x.Description).HasMaxLength(100);
+		builder.Property(x=>x.Text).IsRequired().HasMaxLength(300);
 		builder.Property(x => x.CreatedDate).HasDefaultValue(DateTime.UtcNow.AddHours(4));
 	}
 }

@@ -27,7 +27,7 @@
 				<div class="content-column col-lg-6 col-md-12 col-sm-12">
 					<div class="inner-column">
 						<div class="title-box">
-							<h3>@item.Title</h3>
+							<h3 style="color:chocolate">@item.Title</h3>
 							
 						</div>
 						<p>@item.Description</p>
@@ -59,13 +59,13 @@
 	<div class="upper-box">
 		<div class="auto-container">
 			<div class="content">
-				<div class="menu-icon"><img src="~/uploads/aboutsliders/@Model.AboutSlider.ImageUrl" width="250px" height="250px" alt="" /></div>
-				<div class="icon"><img src="~/uploads/aboutsliders/@Model.AboutSlider.IconUrl" width="100px" height="100px" alt="" /></div>
+				@* <div class="menu-icon"><img src="~/uploads/aboutsliders/@Model.AboutSlider.ImageUrl"  alt="" /></div> *@
+				<div class="icon"><img src="~/uploads/aboutsliders/@Model.AboutSlider.IconUrl" alt="" /></div>
 				<h2>@Model.AboutSlider.Title</h2>
-				<div class="bold-text">@Model.AboutSlider.Text</div>
+				<div class="bold-text">@Model.AboutSlider.Description</div>
 				<div class="text">@Model.AboutSlider.Text</div>
 				<div class="btn-box">
-					<a class="theme-btn btn-style-one" asp-action="Index" asp-controller="About"><span class="txt">@Model.AboutSlider.RedirectUrl</span></a>
+					<a class="theme-btn btn-style-one" asp-action="Index" asp-controller="Shop"><span class="txt">@Model.AboutSlider.RedirectUrl</span></a>
 				</div>
 			</div>
 		</div>
@@ -83,7 +83,7 @@
 					<div class="service-block col-lg-4 col-md-6 col-sm-12">
 						<div class="inner-box" style="background-image: url(~/uploads/pizzas/background/@item.ImageUrl)">
 							<h3><a href="#">@item.Title</a></h3>
-							<div class="price">@item.Description</div>
+							<div class="des">@item.Description</div>
 							<div class="image-outer">
 								<div class="menu-price">$ @item.Price</div>
 								<div class="image">
@@ -111,12 +111,12 @@
 			</div>
 			<div class="row clearfix">
 
-			@foreach (var item in Model.Employees)
+			@foreach (var item in Model.Employees.Where(x=>x.Id>4 && x.Id<=8))
 			{
 				<div class="team-block col-lg-3 col-md-6 col-sm-12">
 					<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
 						<div class="image">
-							<a asp-action="Team" asp-controller="About"><img src="~/uploads/employees/@item.ImageUrl" alt="" /></a>
+							<a asp-action="Team" asp-controller="About"><img src="~/uploads/employees/@item.ImageUrl" style="width:280px; height:220px" alt="" /></a>
 						</div>
 						<div class="lower-content">
 							<h5><a asp-action="Team" asp-controller="About">@item.FullName</a></h5>

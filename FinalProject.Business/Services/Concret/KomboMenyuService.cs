@@ -81,6 +81,9 @@ public class KomboMenyuService : IKomboMenyuService
 			throw new DuplicateEntityException("Entity name is available!");
 		}
 
+		oldMenyu.Description = menyu.Description;
+		oldMenyu.Price = menyu.Price;
+
 		_komboMenyuRepository.Commit();
 	}
 }

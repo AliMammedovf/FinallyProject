@@ -55,9 +55,16 @@
 
 										@foreach (var table in ViewBag.Tables)
 										{
-											<option value="@table.Id">@table.Title <span>@table.Seats</span></option>
+											<option value="@table.Id"> Masa adı: @table.Title -
+
+												          <span>PersonCount: @table.Seats</span> -
+
+														  <span>ReservPrice: @table.Price ₼</span>
+											</option>
+											
 										}
 									</select>
+									<span asp-validation-for="Table" class="text-danger"></span>
 										</div>
 
 

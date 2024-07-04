@@ -6,6 +6,8 @@
 	var basket = layoutService.GetBasketItems();
 	decimal? totalAmount = 0;
 	decimal? itemAmount = 0;
+	decimal? itemAmountt = 0;
+	decimal? total = 0;
 }
 
 <!DOCTYPE html>
@@ -133,16 +135,16 @@
 														<div class="image"><img src="~/uploads/products/@item.Product.ProductImages?.Where(x=>x.IsPoster==true).FirstOrDefault()?.ImageUrl" alt="" /></div>
 														<h3><a href="#">@item.Product.Title</a></h3>
 														<div class="quantity-text">@item.Count</div>
-														<div class="price">$ @(itemAmount = (item.Product.Price * item.Count))
+														<div class="price"> @(itemAmount = (item.Product.Price * item.Count)) ₼
 															<span hidden @(totalAmount += itemAmount)></span>
 														</div>
 													</div>
 												</div>
 											}
 
-												<div class="cart-total">Sub Total: <span>$ @(totalAmount)</span></div>
+												<div class="cart-total">Sub Total: <span> @(totalAmount) ₼</span></div>
 												<ul class="btns-boxed">
-													<li><a href="#">View Cart</a></li>
+													
 													<li><a asp-action="checkout" asp-controller="product">CheckOut</a></li>
 												</ul>
 
@@ -188,21 +190,21 @@
 										{
 											<div class="cart-product">
 												<div class="inner">
-													<div class=" cross-icon"><a asp-action="DeleteBasket" asp-controller="Product"  asp-route-productId="@item.Product.Id" class="product-delete  icon fa fa-remove "></a></div>
+													<div class=" cross-icon"><a asp-action="DeleteBasket" asp-controller="Product" asp-route-productId="@item.Product.Id" class="product-delete  icon fa fa-remove " onclick="deleteProduct(@item.Product.Id)"></a></div>
 													<div class="image"><img src="~/uploads/products/@item.Product.ProductImages?.Where(x=>x.IsPoster==true).FirstOrDefault()?.ImageUrl" alt="" /></div>
 													<h3><a href="#">@item.Product.Title</a></h3>
 													<div class="quantity-text">@item.Count</div>
 													<div class="price">
-														$ @(itemAmount = (item.Product.Price * item.Count))
-														<span hidden @(totalAmount += itemAmount)></span>
+													 @(itemAmountt = (item.Product.Price * item.Count)) ₼
+														<span hidden @(total += itemAmountt)></span>
 													</div>
 												</div>
 											</div>
 										}
 
-										<div class="cart-total">Sub Total: <span>$ @(totalAmount)</span></div>
+										<div class="cart-total">Sub Total: <span>@(total) ₼</span></div>
 										<ul class="btns-boxed">
-											<li><a href="#">View Cart</a></li>
+
 											<li><a asp-action="checkout" asp-controller="product">CheckOut</a></li>
 										</ul>
 

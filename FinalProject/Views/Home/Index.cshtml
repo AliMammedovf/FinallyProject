@@ -16,7 +16,7 @@
 								<h1>@item.Title</h1>
 								<div class="text">@item.Description</div>
 								<div class="btn-box">
-									<a class="theme-btn btn-style-two" asp-action="Index" asp-controller="Shope"><span class="txt">Order Now</span></a>
+									<a class="theme-btn btn-style-two" asp-action="Index" asp-controller="Shope"><span class="txt">@item.RedirectUrl</span></a>
 								</div>
 							</div>
 						</div>
@@ -48,13 +48,13 @@
 	<div class="upper-box">
 		<div class="auto-container">
 			<div class="content">
-				<div class="menu-icon"><img src="~/uploads/aboutsliders/@Model.AboutSlider.ImageUrl" width="250px" height="250px" alt="" /></div>
-				<div class="icon"><img src="~/uploads/aboutsliders/@Model.AboutSlider.IconUrl" width="100px" height="100px" alt="" /></div>
+				@* <div class="menu-icon"><img src="~/uploads/aboutsliders/@Model.AboutSlider.ImageUrl"  alt="" /></div> *@
+				<div class="icon"><img src="~/uploads/aboutsliders/@Model.AboutSlider.IconUrl"  alt="" /></div>
 				<h2>@Model.AboutSlider.Title</h2>
-				<div class="bold-text">@Model.AboutSlider.Text</div>
+				<div class="bold-text">@Model.AboutSlider.Description</div>
 				<div class="text">@Model.AboutSlider.Text</div>
 				<div class="btn-box">
-					<a class="theme-btn btn-style-one" asp-action="Index" asp-controller="About"><span class="txt">@Model.AboutSlider.RedirectUrl</span></a>
+					<a class="theme-btn btn-style-one" asp-action="Index" asp-controller="Shop"><span class="txt">@Model.AboutSlider.RedirectUrl</span></a>
 				</div>
 			</div>
 		</div>
@@ -73,7 +73,7 @@
 							<h3><a href="#">@item.Title</a></h3>
 							<div class="price">@item.Description</div>
 							<div class="image-outer">
-								<div class="menu-price">$ @item.Price</div>
+								<div class="menu-price">@item.Price ₼ </div>
 								<div class="image">
 									<a href="#"><img src="~/uploads/pizzas/@item.ImageUrl" alt="" /></a>
 								</div>
@@ -103,16 +103,16 @@
 		<div class="content">
 			<div class="pattern-layer-one" style="background-image: url(images/background/pattern-2.png)"></div>
 			<div class="pattern-layer-two" style="background-image: url(images/background/pattern-3.png)"></div>
-			<h3>Lenny's Pizza is located in the heart of Sunny Side</h3>
+			<h3>Cyyo Pizza 2014-cü ildən bəri sizin xidmətinizdədir😊</h3>
 			<div class="text">
-				<p>Lenny's Pizza is located in the heart of Sunny Side, Queens and has been serving the community the most delicious food for years!We cater for all sized functions, ideal for your larger functions or an intimate gathering, our team can curate a menu to suit your taste.</p>
-				<p>We cater for all sized functions, ideal for your larger functions or an intimate gathering, our team can curate a menu to suit your taste.</p>
+				<p>Cyyo Pizza 2014- cü ildən bəri Bakı şəhərində failiyyət göstərir və illərdir cəmiyyətə ən ləziz təamları təqdim edir! Müştərilərimizə hər mövzuda yardım edirik və onlar istədiyi halda onlara özəl menyu hazırlamaqla seçilirik!</p>
+				<p>Səndə bizi seç, dad zövqünü bir yerdə kəşf edək!</p>
 			</div>
 			<div class="btn-box">
-				<a class="theme-btn btn-style-three" asp-action="Index" asp-controller="Shop"><span class="txt">Order Now</span></a>
+				<a class="theme-btn btn-style-three" asp-action="Index" asp-controller="Shop"><span class="txt">İndi Al</span></a>
 			</div>
 			<div class="price-box">
-				Start at <br> $2.99
+				Başlayan <br> 2.50 ₼
 			</div>
 		</div>
 	</div>
@@ -140,29 +140,33 @@
 		<div class="row clearfix">
 
 			<!-- Menu Block -->
-			@foreach(var item in Model.Products)
-			{
-				<div class="menu-block col-xl-3 col-lg-6 col-md-6 col-sm-12">
-					<div class="inner-box">
-						<div class="image" style="width:320px; height:300px">
-							<a asp-action="Index" asp-controller="Shop" asp-route-id="@item.Id"><img src="~/uploads/products/@item.ProductImages?.Where(x=>x.IsPoster==true).FirstOrDefault()?.ImageUrl" /></a>
-							<div class="overlay-box">
-								<ul class="btns-list">
-									<li><a asp-action="addtobasket" asp-controller="product" asp-route-returnUrl="@Context.Request.Path.Value" asp-route-productId="@item.Id" class="add-to-basket">Add To Cart</a></li>
-									<li><a asp-action="Detail" asp-controller="Home" asp-route-id="@item.Id">View Product</a></li>
-								</ul>
+			
+				@foreach(var item in Model.Products.Where(x=>x.Id>=1 && x.Id<=6))
+				{
+				
+					<div class="menu-block col-xl-3 col-lg-6 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="image" style="width:320px; height:300px">
+								<a asp-action="Index" asp-controller="Shop" asp-route-id="@item.Id"><img src="~/uploads/products/@item.ProductImages?.Where(x=>x.IsPoster==true).FirstOrDefault()?.ImageUrl" /></a>
+								<div class="overlay-box">
+									<ul class="btns-list">
+										<li><a asp-action="addtobasket" asp-controller="product" asp-route-returnUrl="@Context.Request.Path.Value" asp-route-productId="@item.Id" class="add-to-basket">Add To Cart</a></li>
+										<li><a asp-action="Detail" asp-controller="Home" asp-route-id="@item.Id">View Product</a></li>
+									</ul>
+								</div>
 							</div>
-						</div>
-						<div class="lower-content" style="width:320px; height:150px">
-							<h4><a asp-action="Detail" asp-controller="Home" asp-route-id="@item.Id">@item.Title</a></h4>
-							<div class="Category">
-								<p>@item.Category.Name</p>
+							<div class="lower-content" style="width:320px; height:150px">
+								<h4><a asp-action="Detail" asp-controller="Home" asp-route-id="@item.Id">@item.Title</a></h4>
+								<div class="Category">
+									<p>@item.Category.Name</p>
+								</div>
+								<div class="price">@item.Price ₼</div>
 							</div>
-							<div class="price">$@item.Price</div>
 						</div>
 					</div>
-				</div>
+				
 			}
+			
 
 			<!-- Menu Block -->
 			
@@ -176,18 +180,18 @@
 	<div class="auto-container">
 		<!-- Sec Title -->
 		<div class="sec-title centered">
-			<h3>Our Awesome Team</h3>
-			<div class="text">Lorem ipsum is placeholder text commonly used in the graphic, print, and <br> publishing industries</div>
+			<h3>Bizim İşçi Heyyətimiz</h3>
+			<div class="text">Bütün işçilərimiz işlərinin peşəkarlarıdır.</div>
 		</div>
 		<div class="row clearfix">
 
 			<!-- Team Block -->
-			@foreach(var item in Model.Employees)
+			@foreach(var item in Model.Employees.Where(x=>x.Id>=1 && x.Id<=4))
 			{
 				<div class="team-block col-lg-3 col-md-6 col-sm-12">
 					<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
 						<div class="image">
-							<a asp-action="Team" asp-controller="About"><img src="~/uploads/employees/@item.ImageUrl" alt="" /></a>
+							<img src="~/uploads/employees/@item.ImageUrl" style="width:280px; height:200px" alt="" />
 						</div>
 						<div class="lower-content">
 							<h5><a asp-action="Team" asp-controller="About">@item.FullName</a></h5>
@@ -224,7 +228,7 @@
 							<div class="pack-block">
 								<div class="inner-box">
 									<div class="color-circle"></div>
-									<div class="price">$ @kombo.Price</div>
+									<div class="price">@kombo.Price₼</div>
 									<h4><a asp-action="Index" asp-controller="Shop"> @kombo.Title</a></h4>
 									<div class="text">@kombo.Description</div>
 								</div>

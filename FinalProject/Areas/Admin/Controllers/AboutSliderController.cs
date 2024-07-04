@@ -101,6 +101,7 @@ namespace FinalProject.Areas.Admin.Controllers
 			updateDto.Description = existSlider.Description;
 			updateDto.Title = existSlider.Title;
 			updateDto.RedirectUrl = existSlider.RedirectUrl;
+			updateDto.Text = existSlider.Text;
 
 
 			return View(updateDto);
